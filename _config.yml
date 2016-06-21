@@ -37,16 +37,16 @@ navigation:
 - text: Example Page
   url: example_page/
   internal: true
-- text: DOCter Repo
-  url: https://github.com/cfpb/DOCter
+- text: 2016 Showcase Repo
+  url: https://github.com/taxdesignchallenge/2016-showcase
   internal: false
 
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: DOCter
-  description: Jekyll template for docs
-  url: https://github.com/cfpb/DOCter
+- name: 2016 Showcase
+  description: Repo for 2016 Tax Design Challenge Submissions
+  url: https://github.com/taxdesignchallenge/2016-showcase
 
 # Style Variables
 brand_color: "#2cb34a"

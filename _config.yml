@@ -45,7 +45,7 @@ navigation:
 # List repos that you would like to appear on the homepage here
 repos:
 - name: 2016 Showcase
-  description: Repo for 2016 Tax Design Challenge Submissions
+  description: Submissions Repo
   url: https://github.com/taxdesignchallenge/2016-showcase
 
 # Style Variables

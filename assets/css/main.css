@@ -532,21 +532,23 @@ Tax Challenge Showcase
     background-size: cover;
     height: 50px;
     width: 390px;
-    padding: 0; /* reset */
-    padding-bottom: calc(20% * 3 / 4);
+    padding: 0;
+    /*padding-bottom: calc(20% * 3 / 4);*/
+    height: 38px;
+    width: 250px;
 }
 
     @media screen and (max-width: 767px) {
 
-        .ratio4-3 {
+        /*.ratio4-3 {
             width: 100%;
             background-image: url(../../IRSTaxDesignChallenge.png);
             background-image: url(../../TaxDesignChallengeLogoHorizontal.svg);
             background-size: cover;
             height: 0;
-            padding: 0; /* reset */
+            padding: 0;
             padding-bottom: calc(20% * 3 / 4);
-        }
+        }*/
     }
 
 
@@ -555,7 +557,7 @@ Tax Challenge Showcase
 }
 
 .content-container {
-    margin: 2em 0 2em 0;
+    margin: 1em 0 1em 0;
     display: inline-block;
     width: 100%;
 }
@@ -668,7 +670,7 @@ header {
     position: absolute;
     top: 0; right: 0;
     bottom: 0; left: 0;
-    opacity: 0.95;
+    opacity: 0.93;
     padding: 24px 20px;
     width: 100%;
     height: 100%;

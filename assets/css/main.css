@@ -1,6 +1,3 @@
----
----
-
 /*
 Main.css
 ==================================
@@ -113,26 +110,21 @@ a,
 a:link,
 a:visited {
     color: #0072ce;
-    border-bottom: 1px dotted #0072ce;
     text-decoration: none;
 }
 
 a:hover {
-    border-bottom: 1px solid #7eb8dd;
     color: #7eb8dd;
     text-decoration: none;
 }
 
 a:active {
-    border-bottom: 1px solid #002d72;
     color: #002d72;
     text-decoration: none;
 }
 
 a:focus {
-    border-bottom: 1px solid #0072ce;
     color: #0072ce;
-    outline: thin dotted;
     text-decoration: none;
 }
 
@@ -185,7 +177,7 @@ Navigation
 .sidebar-nav li:active,
 .sidebar-nav .sidebar-nav-active {
   color: #75787b;
-  border-left: 4px solid {{ site.brand_color }};
+  border-left: 4px solid #2cb34a;
   background-color: transparent;
   border-bottom: 1px solid #babbbd;
 }
@@ -249,9 +241,8 @@ section:before {
 
 header {
     width: 100%;
-    border-bottom: 4px solid {{ site.brand_color }};
     background-color: #fff;
-    padding: 2em 0;
+    padding: 2em 0 0 0;
 }
 
 
@@ -526,3 +517,443 @@ Mobile Styles
     }
 
 }
+
+
+
+/*
+Tax Challenge Showcase
+==================================
+*/
+
+.ratio4-3 {
+    width: 100%;
+    background-image: url(../../IRSTaxDesignChallenge.png);
+    background-image: url(../../TaxDesignChallengeLogoHorizontal.svg);
+    background-size: cover;
+    height: 50px;
+    width: 390px;
+    padding: 0; /* reset */
+    padding-bottom: calc(20% * 3 / 4);
+}
+
+    @media screen and (max-width: 767px) {
+
+        .ratio4-3 {
+            width: 100%;
+            background-image: url(../../IRSTaxDesignChallenge.png);
+            background-image: url(../../TaxDesignChallengeLogoHorizontal.svg);
+            background-size: cover;
+            height: 0;
+            padding: 0; /* reset */
+            padding-bottom: calc(20% * 3 / 4);
+        }
+    }
+
+
+.wrapmain {
+    margin-bottom: 4em;
+}
+
+.content-container {
+    margin: 2em 0 2em 0;
+    display: inline-block;
+    width: 100%;
+}
+
+header {
+    padding: 2em 0 1em;
+}
+
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: left;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    padding: 9px 10px;
+    position: relative;
+}
+
+.navbar {
+    border: 0px solid transparent;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background: none;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #275284;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+}
+
+.navbar-nav > li:first-child {
+    border-right: 1px solid #275284;
+}
+
+.navbar-nav > li:last-child > a {
+    padding-right: 0;
+}
+
+.nav > li > a {
+    display: inline;
+}
+
+.gallery-nav a {
+    text-decoration: underline;
+}
+
+.title {
+    color: #275284;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.thumbnail {
+    border-radius: 0;
+    overflow: hidden;
+    height: 230px;
+    border: 1px solid #eee;
+    padding: 0;
+}
+
+    @media screen and (max-width: 40.5em) {
+        .thumbnail {
+            height: 170px;
+        }
+    }
+
+    @media screen and (max-width: 30.5em) {
+        .thumbnail {
+            height: 90px;
+        }
+    }
+
+.thumbnail img {
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-unit {
+    height: 300px;
+    background: #eee;
+    color: #ff8400;
+    background-image: url('/tax_design_challenge_hero.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.hero-inset {
+    position: absolute;
+    padding: 24px 20px;
+    top: 40px;
+    width: 35%;
+    right: 0;
+    font-size: 1.2em;
+    z-index: 2;
+}
+
+.hero-unit .inset-bg {
+    background: #fff;
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    opacity: 0.95;
+    padding: 24px 20px;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    font-size: 1.2em;
+    z-index: -1;
+}
+
+.hero-inset span {
+    color: #838383;
+    font-style: italic;
+}
+
+    @media screen and (max-width: 40.5em) {
+        .hero-inset {
+            position: absolute;
+            top: 40px;
+            width: 90%;
+        }
+
+        .nav > li > a {
+            padding: 0;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .navbar-nav > li:first-child {
+            border-right: 0;
+        }
+
+        #navbar .nav.navbar-nav li {
+            line-height: 2em;
+        }
+    }
+
+a.btn-ghost {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a.btn-ghost.hero-sticky {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.title-strong {
+    font-weight: bold;
+    display: inline;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+
+/* Sidebar */
+.sidebar-container {
+    margin-top: 1.5em;
+    background: #eeeeee;
+    position: relative;;
+}
+
+.sidebar-container .title {
+    margin: 10px 0 35px;
+}
+
+.sidebar-items-container {
+    height: 60px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar-items-container.large {
+    height: 120px;
+}
+
+.sidebar-circle {
+    position:relative;
+    background:#ff8400;
+    width:60px;
+    height:60px;
+    text-align:center;    
+    -webkit-border-radius: 50px;  
+    -moz-border-radius: 50px;  
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+
+.sidebar-circle p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#fff;
+    vertical-align:middle;
+    height:40px; 
+    position: inherit;
+    top:12%;        
+}
+
+.sidebar-rect {
+    position:relative;
+    background:#ff8400;
+    width:60px;
+    height:50px;
+    text-align:center;    
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.sidebar-rect p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#fff;
+    vertical-align:middle;
+    height:40px; 
+    position: inherit;
+    top:5%;        
+}
+
+/* Design Submissions 48 */
+.sidebar-box.sb-1 {
+    padding: 7px 25px 7px 10px;
+}
+.sc-1 {
+    left: 150px;
+    top: -40px;
+}
+
+/* TaxDesignChallenge.com Visitors */
+.sidebar-box.sb-2 {
+    padding: 7px 25px 7px 10px;
+    margin-left: 15px;
+}
+.sc-2 {
+    left: 0px;
+    top: 0px;
+    width: 130px;
+}
+
+/* Challenge.gov Followers 80 */
+.sidebar-box.sb-3 {
+    padding: 7px 25px 7px 10px;
+    top: 0;
+    margin-left: 45px;
+}
+.sc-3 {
+    left: 220px;
+    top: -40px;
+}
+
+/* Prize Categories */
+.sidebar-box.sb-4 {
+    padding: 7px 10px 7px 25px;
+    margin-left: 50px;
+}
+.sc-4 {
+    left: 0px;
+    top: -40px;
+    width: 60px;
+}
+
+/* IRS Judges 5 */
+.sidebar-box.sb-5 {
+    padding: 7px 25px 7px 10px;
+    top: 0;
+    margin-left: 100px;
+}
+.sc-5 {
+    left: 190px;
+    top: -40px;
+}
+
+/* Challenge Winners */
+.sidebar-box.sb-6 {
+    padding: 7px 10px 7px 25px;
+    margin-left: 45px;
+}
+.sc-6 {
+    left: 0px;
+    top: -40px;
+    width: 60px;
+}
+
+
+.sidebar-box {
+    background: #a5a2a2;
+    padding: 8px;
+    color: #fff;
+}
+
+.footer .container {
+    padding: 15px 0 25px 0;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.footer .container a {
+    text-decoration: underline;
+}
+
+.content-container h3 {
+    color: #275284;
+}
+
+/* Submissions */
+
+.content-submission-container {
+    margin: 2em 0;
+}
+
+.content-submission-container .thumbnail-gallery {
+    border: 1px solid #000;
+    height: 100%;
+    width: 100%;
+}
+
+/* Winners */
+
+.content-submissions-container {
+    background: #fff;
+    padding: 0 12px 0 0;
+    border: 1px solid #eee;
+    margin-bottom: 2em;
+    float: left;
+    min-height: 184px;
+}
+
+.preview-container {
+    margin-left: 200px;
+}
+
+.content-submissions-container img {
+    float: left;
+    margin-right: 25px;
+    width: 172px;
+}
+
+    @media screen and (max-width: 40.5em) {
+        .content-submissions-container img {
+            margin-bottom: 1em;
+        }
+
+        .content-submissions-container {
+            padding-right: 0;
+        }
+    }
+
+    @media screen and (max-width: 30.5em) {
+        .content-submissions-container img {
+            float: none;
+        }
+
+        .preview-container {
+            margin-left: 0px;
+        }
+
+        .submission-thumb img {
+            width: 100%;
+        }
+    }
+
+
+.content-submissions-container .header-title,
+.content-submission-container .header-title {
+    margin-top: 12px;
+}
+
+.content-submissions-container .title,
+.content-submission-container .title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    display: inline;
+}
+
+.content-submissions-container a,
+.content-submission-container a {
+    text-decoration: underline;
+}
+
+
+    .other-submissions-container .col-sm-4 {
+        margin-bottom: 10px;
+    }

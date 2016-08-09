@@ -2,36 +2,129 @@
 layout: default
 ---
 
-{% capture index %}{% include index.md %}{% endcapture %}
-{{ index | markdownify }}
+<div class="wrap wrapmain">
 
-{% if site.repos %}
-<section id="repositories">
-  <h2>Repositories</h2>
-  <ul class="repo-list group">
-    <li class="list-icon">
-      <img src="assets/img/octocat.png" width="25px" alt="">
-    </li>
-    {% for repo in site.repos %}
-      <li>
-        <a href="{{ repo.url }}">
-          <h4>{{ repo.name }}</h4>
-          <p>{{ repo.description }}</p>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
+  <div class="row">
+    <div class="container">
+      <div class="hero-unit col-sm-12">
+      
+        <div class="hero-inset">
+          <div class="inset-bg"></div>
+          "Our goal is for taxpayers to have a more complete online experience for their transactions with the IRS"<br /><br /><span> - John Koskinen<br />Commissioner, IRS</span>
+        </div>
 
-<div id="home">
-  <h2>Posts</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="container">
+      <div class="col-md-8">
+        <div class="content-container">
+          <p class="title">About the Tax Design Challenge</p>
+          <p>The goal of this challenge is to reimagine the taxpayer experience and design the taxpayer experience of the future. With over 200 data fields at play, how might we design, organize, and present tax information in a way that makes it easier for taxpayers to manage their taxpayer responsibilities, and to use their own taxpayer data to make informed and effective decisions about their personal finances?</p>
+        </div>
+
+        <div class="content-container">
+          <p class="title">Challenge Criteria</p>
+          <p>Submissions were reviewed based upon the following criteria:</p>
+
+          <p class="title-strong">Overall Appeal</p>
+          <p>How does the entry feel visually?</p>
+
+          <p class="title-strong">Taxpayer Usefulness</p>
+          <p>Does it address the taxpayer’s responsibilities?</p>
+
+          <p class="title-strong">Financial Capability </p>
+          <p>Does it make it easier for the taxpayer to make informed and 
+          effective decisions about their personal finances?</p>
+
+          <p class="title-strong">Visual Hierarchy </p>
+          <p>Can the most important information be easily found?</p>
+
+          <p class="title-strong">Information Density </p>
+          <p>Is it easy to digest the information that is presented?</p>
+
+          <p class="title-strong">Accessibility </p>
+          <p>Can a varied population make use of this document?</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 sidebar-container">
+        <div class="container">
+          <div class="row">
+              <p class="title">Design Challenge Statistics</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="sidebar-items-container">
+                <span class="sidebar-box sb-1">Design Submissions</span>
+                <div class="sidebar-circle sc-1"> 
+                    <p>48</p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="sidebar-items-container large">
+                <div class="sidebar-rect sc-2"> 
+                    <p>15,000+</p>
+                </div>
+                <span class="sidebar-box sb-2">TaxDesignChallenge.com Visitors</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="sidebar-items-container" style="">
+              <span class="sidebar-box sb-3">Challenge.gov Followers</span>
+              <div class="sidebar-circle sc-3"> 
+                  <p>80</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="sidebar-items-container">
+              <span class="sidebar-box sb-4">Prize Categories</span>
+              <div class="sidebar-rect sc-4"> 
+                  <p>6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="sidebar-items-container">
+              <span class="sidebar-box sb-5">IRS Judges</span>
+              <div class="sidebar-circle sc-5"> 
+                  <p>5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="sidebar-items-container">
+              <span class="sidebar-box sb-6">Challenge Winners</span>
+              <div class="sidebar-circle sc-6"> 
+                  <p>4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
+

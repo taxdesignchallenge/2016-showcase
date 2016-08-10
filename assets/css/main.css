@@ -890,7 +890,7 @@ a.btn-ghost.hero-sticky {
 /* Submissions */
 
 .content-submission-container {
-    margin: 2em 0;
+    margin: 0.8em 0 2em 0;
 }
 
 .content-submission-container .thumbnail-gallery {

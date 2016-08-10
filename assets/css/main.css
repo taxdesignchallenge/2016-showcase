@@ -272,6 +272,10 @@ footer .wrap {
   padding-bottom: 2em;
 }
 
+.footer p a {
+    color: #336699;
+}
+
 
 /*
 Helpers

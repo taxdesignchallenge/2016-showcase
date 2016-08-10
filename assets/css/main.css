@@ -956,6 +956,88 @@ a.btn-ghost.hero-sticky {
 }
 
 
-    .other-submissions-container .col-sm-4 {
-        margin-bottom: 10px;
+.other-submissions-container .col-sm-4 {
+    margin-bottom: 10px;
+}
+
+/* Home (Sidebar centering) */
+
+.sidebar-container .container.center {
+    padding-left: 15%;
+}
+
+@media screen and (max-width: 70em) {
+    .sidebar-container .container.center {
+        padding-left: 9%;
     }
+}
+
+@media screen and (max-width: 991px) {
+    .sidebar-container .container.center {
+        padding-left: 35%;
+    }
+
+    .sidebar-container .container.titlecenter {
+        padding-left: 33%;
+    }
+}
+
+@media screen and (max-width: 50em) {
+    .sidebar-container .container.center {
+        padding-left: 31%;
+    }
+
+    .sidebar-container .container.titlecenter {
+        padding-left: 28%;
+    }
+}
+
+@media screen and (max-width: 45em) {
+    .sidebar-container .container.center {
+        padding-left: 29%;
+    }
+
+    .sidebar-container .container.titlecenter {
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width: 40em) {
+    .sidebar-container .container.center {
+        padding-left: 24%;
+    }
+
+    .sidebar-container .container.titlecenter {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 35em) {
+    .sidebar-container .container.center {
+        padding-left: 17%;
+    }
+
+    .sidebar-container .container.titlecenter {
+        padding-left: 13%;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .sidebar-container .container.center {
+        padding-left: 12%;
+    }
+
+    .sidebar-container .container.titlecenter {
+        padding-left: 9%;
+    }
+}
+
+@media screen and (max-width: 25em) {
+    .sidebar-container .container.center {
+        padding-left: 15px;
+    }
+
+    .sidebar-container .container.titlecenter {
+        padding-left: 15px;
+    }
+}

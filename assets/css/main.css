@@ -529,6 +529,10 @@ Tax Challenge Showcase
 ==================================
 */
 
+a, a:link, a:visited {
+    color: #336699 !important;
+}
+
 .ratio4-3 {
     width: 100%;
     background-image: url(../../IRSTaxDesignChallenge.png);

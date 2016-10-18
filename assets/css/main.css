@@ -658,23 +658,22 @@ header {
     height: 300px;
     background: #eee;
     color: #ff8400;
-    background-image: url('../../tax_design_challenge_hero.jpeg');
     background-size: cover;
+    background: #eee url('../../../assets/img/tax_design_challenge_hero-2.jpeg') repeat scroll right center / cover; 
     position: relative;
 }
 
 .hero-inset {
     position: absolute;
     padding: 24px 20px;
-    top: 40px;
-    width: 35%;
-    right: 0;
+    top: 80px;
+    width: 55%;
     font-size: 1.2em;
     z-index: 2;
 }
 
 .hero-unit .inset-bg {
-    background: #fff;
+    background: transparent;
     position: absolute;
     top: 0; right: 0;
     bottom: 0; left: 0;
@@ -687,6 +686,37 @@ header {
     z-index: -1;
 }
 
+.hero-inset .headline {
+    color: #999; 
+    font-size: 20px;
+    margin-bottom: 1.2em;
+}
+
+.hero-inset .title {
+    color: #000;
+    font-size: 38px;
+}
+
+@media screen and (max-width: 55em) {
+    .hero-inset {
+        top: 70px;
+        left: 0;
+    }
+
+    .hero-unit .inset-bg {
+        background: #fff;
+        opacity: 0.93;
+    }
+
+    .hero-inset .headline {
+        font-size: 15px;
+    }
+
+    .hero-inset .title {
+        font-size: 30px;
+    }
+}
+
 .hero-inset span {
     color: #838383;
     font-style: italic;
@@ -695,7 +725,7 @@ header {
     @media screen and (max-width: 40.5em) {
         .hero-inset {
             position: absolute;
-            top: 40px;
+            /*top: 40px;*/
             width: 90%;
         }
 
@@ -713,6 +743,16 @@ header {
             line-height: 2em;
         }
     }
+
+.hero-inset a.btn {
+    background-color: transparent;
+    border-color: #4eaade;
+    border-radius: 0;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #4eaade !important;
+}
 
 a.btn-ghost {
     border: 2px solid #fff;
@@ -968,84 +1008,48 @@ a.btn-ghost.hero-sticky {
     margin-bottom: 10px;
 }
 
-/* Home (Sidebar centering) */
-
-.sidebar-container .container.center {
-    padding-left: 15%;
+.content-container p.title {
+    font-size: 30px;
+    margin: 2em 0 0.5em;
+    color: #363f48;
 }
 
-@media screen and (max-width: 70em) {
-    .sidebar-container .container.center {
-        padding-left: 9%;
-    }
+.content-container p {
+    margin-bottom: 1.5em;
 }
 
-@media screen and (max-width: 991px) {
-    .sidebar-container .container.center {
-        padding-left: 35%;
-    }
+.showcase-header-container {
 
-    .sidebar-container .container.titlecenter {
-        padding-left: 33%;
-    }
 }
 
-@media screen and (max-width: 50em) {
-    .sidebar-container .container.center {
-        padding-left: 31%;
-    }
-
-    .sidebar-container .container.titlecenter {
-        padding-left: 28%;
-    }
+.showcase-header-container p:first-child {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px; text-transform: uppercase; color: #363f48;
 }
 
-@media screen and (max-width: 45em) {
-    .sidebar-container .container.center {
-        padding-left: 29%;
-    }
-
-    .sidebar-container .container.titlecenter {
-        padding-left: 25%;
-    }
+.showcase-header-container p:nth-child(2) {
+    font-size: 15px;
 }
 
-@media screen and (max-width: 40em) {
-    .sidebar-container .container.center {
-        padding-left: 24%;
-    }
-
-    .sidebar-container .container.titlecenter {
-        padding-left: 20%;
-    }
+.showcase-header-container a {
+    text-decoration: underline;
+    margin-bottom: 40px;
+    display: inline-block;
 }
 
-@media screen and (max-width: 35em) {
-    .sidebar-container .container.center {
-        padding-left: 17%;
-    }
-
-    .sidebar-container .container.titlecenter {
-        padding-left: 13%;
-    }
+.winners-group-container {
+    margin-bottom: 2.5em;
 }
 
-@media screen and (max-width: 30em) {
-    .sidebar-container .container.center {
-        padding-left: 12%;
-    }
-
-    .sidebar-container .container.titlecenter {
-        padding-left: 9%;
-    }
+.winners-group-container p.title {
+    margin-top: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 25em) {
-    .sidebar-container .container.center {
-        padding-left: 15px;
-    }
-
-    .sidebar-container .container.titlecenter {
-        padding-left: 15px;
-    }
+.winners-group-container .attrib {
+    margin-bottom: 1em;
 }

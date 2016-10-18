@@ -659,7 +659,7 @@ header {
     background: #eee;
     color: #ff8400;
     background-size: cover;
-    background: #eee url('../../../assets/img/tax_design_challenge_hero-2.jpeg') repeat scroll right center / cover; 
+    background: #eee url('/2016-showcase/assets/img/tax_design_challenge_hero-2.jpeg') repeat scroll right center / cover; 
     position: relative;
 }
 

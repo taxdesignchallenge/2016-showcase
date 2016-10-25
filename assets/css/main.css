@@ -38,6 +38,14 @@ body {
     line-height: 1.466666667;
 }
 
+a, a:link, a:visited {
+    text-decoration: underline !important;
+}
+
+.btn.btn-primary {
+    text-decoration: none !important;
+}
+
 h1,
 h3,
 h4,

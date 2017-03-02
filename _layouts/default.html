@@ -48,7 +48,7 @@
         </div>
       </header>
 
-    <body>
+
 
     {{ content }}
 
@@ -70,7 +70,273 @@
 
 
     <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
     <script src="{{ site.baseurl }}/assets/js/bootstrap-v3.1.0-min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.filterizr.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/filterizr-controls.js"></script>
+
+
+    <!-- Fancybox v2 -->
+    <!--<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/jquery.fancybox.pack.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/jquery.fancybox-media.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/jquery.fancybox-thumbs.js"></script>-->
+
+    <!-- Fancybox v3 -->
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/core.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/fullscreen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/slideshow.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/thumbs.css" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/core.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/fullscreen.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/gestures.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/media.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/slideshow.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      /* Fancybox v2
+       *  Simple image gallery. Uses default settings
+       */
+      $('.fancybox').fancybox();
+      // Change title type, overlay closing speed
+      $(".fancybox-effects-a").fancybox({
+        helpers: {
+          title : {
+            type : 'outside'
+          },
+          overlay : {
+            speedOut : 0
+          }
+        }
+      });
+      // Disable opening and closing animations, change title type
+      $(".fancybox-effects-b").fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        helpers : {
+          title : {
+            type : 'over'
+          }
+        }
+      });
+      // Set custom style, close if clicked, change title type and overlay color
+      $(".fancybox-effects-c").fancybox({
+        wrapCSS    : 'fancybox-custom',
+        closeClick : true,
+        openEffect : 'none',
+        helpers : {
+          title : {
+            type : 'inside'
+          },
+          overlay : {
+            css : {
+              'background' : 'rgba(238,238,238,0.85)'
+            }
+          }
+        }
+      });
+      // Remove padding, set opening and closing animations, close if clicked and disable overlay
+      $(".fancybox-effects-d").fancybox({
+        padding: 0,
+        openEffect : 'elastic',
+        openSpeed  : 150,
+        closeEffect : 'elastic',
+        closeSpeed  : 150,
+        closeClick : true,
+        helpers : {
+          overlay : null
+        }
+      });
+      /*
+       *  Button helper. Disable animations, hide close button, change title type and content
+       */
+      $('.fancybox-buttons').fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        prevEffect : 'none',
+        nextEffect : 'none',
+        closeBtn  : false,
+        helpers : {
+          title : {
+            type : 'inside'
+          },
+          buttons : {}
+        },
+        afterLoad : function() {
+          this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+        }
+      });
+      /*
+       *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+       */
+      $('.fancybox-thumbs').fancybox({
+        prevEffect : 'none',
+        nextEffect : 'none',
+        closeBtn  : false,
+        arrows    : false,
+        nextClick : true,
+        helpers : {
+          thumbs : {
+            width  : 50,
+            height : 50
+          }
+        }
+      });
+      /*
+       *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+      */
+      $('.fancybox-media')
+        .attr('rel', 'media-gallery')
+        .fancybox({
+          openEffect : 'none',
+          closeEffect : 'none',
+          prevEffect : 'none',
+          nextEffect : 'none',
+          arrows : false,
+          helpers : {
+            media : {},
+            buttons : {}
+          }
+        });
+      /*
+       *  Open manually
+       */
+      $("#fancybox-manual-a").click(function() {
+        $.fancybox.open('1_b.jpg');
+      });
+      $("#fancybox-manual-b").click(function() {
+        $.fancybox.open({
+          href : 'iframe.html',
+          type : 'iframe',
+          padding : 5
+        });
+      });
+      $("#fancybox-manual-c").click(function() {
+        $.fancybox.open([
+          {
+            href : '1_b.jpg',
+            title : 'My title'
+          }, {
+            href : '2_b.jpg',
+            title : '2nd title'
+          }, {
+            href : '3_b.jpg'
+          }
+        ], {
+          helpers : {
+            thumbs : {
+              width: 75,
+              height: 50
+            }
+          }
+        });
+      });
+    });
+    </script>
+
+    <script>
+    // Fancybox v3
+    /* Sticky nvigation */
+    var sticky = {
+      $sticky      : $( '.sticky' ),
+      offsets      : [],
+      targets      : [],
+      stickyTop    : null,
+      set : function() {
+        var self = this;
+
+        self.offsets = [];
+        self.targets = [];
+
+        // Get current top position of sticky element
+        self.stickyTop = self.$sticky.css( 'position', 'relative' ).offset().top;
+
+        // Cache all targets and their top positions
+        self.$sticky.find( 'a' ).map(function () {
+          var $el   = $( this ),
+            href  = $el.data('target') || $el.attr( 'href' ),
+            $href = /^#./.test(href) && $( href );
+
+          return $href && $href.length && $href.is( ':visible' ) ? [ [ Math.floor( $href.offset().top - parseInt( $href.css('margin-top') ) ), href ] ] : null;
+        })
+        .sort(function (a, b) { return a[0] - b[0] })
+        .each(function () {
+          self.offsets.push( this[ 0 ] );
+          self.targets.push( this[ 1 ] );
+        });
+      },
+      update : function() {
+        var self = this;
+
+        var windowTop       = Math.floor( $(window).scrollTop() );
+        var $stickyLinks    = self.$sticky.find( 'a' ).removeClass( 'active' );
+        var stickyPosition  = 'fixed';
+        var currentIndex    = 0;
+
+        // Toggle fixed position depending on visibility
+        if ( $(window).width() < 800 || self.stickyTop > windowTop ) {
+          stickyPosition = 'relative';
+        } else {
+          for ( var i = self.offsets.length; i--; ) {
+            if ( windowTop >= self.offsets[ i ] && ( self.offsets[ i + 1 ] === undefined || windowTop <= self.offsets[ i + 1 ]) ) {
+              currentIndex = i;
+              break;
+            }
+          }
+        }
+        self.$sticky.css( 'position', stickyPosition );
+        $stickyLinks.eq( currentIndex ).addClass( 'active' );
+      },
+      init : function() {
+        var self = this;
+        $(window).on('resize', function() {
+          self.set();
+          self.update();
+        });
+        $(window).on('scroll', function() {
+          self.update();
+        });
+        self.set();
+        self.update();
+      }
+    }
+    sticky.init();
+
+    //test
+    jQuery(document).ready(function($) {
+        $(".fancybox").fancybox({
+            autoSize : true,
+            scrolling : 'auto',
+            fitToView : false,
+            width : 'auto',
+            maxWidth : '100%',
+        });
+    });
+    </script>
+
+    <script>
+    // Collapse Innovate menu when item is clicked
+    $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('li') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+            $(this).collapse('hide');
+        }
+    });
+    </script>
+
+    <!-- Kick off Filterizr -->
+    <script type="text/javascript">
+        $(function() {
+            //Initialize filterizr with default options
+            $('.filtr-container').filterizr();
+        });
+    </script>
 
     {% if site.offline_cache == true %}
       <script>

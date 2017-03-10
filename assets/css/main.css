@@ -792,6 +792,10 @@ a.btn-ghost.hero-sticky {
     font-weight: bold;
 }
 
+.uppercase {
+    text-transform: uppercase !important;
+}
+
 
 /* Sidebar */
 .sidebar-container {
@@ -1772,6 +1776,18 @@ select {
 
 .active h4 a {
     background-color: #0072ce !important;
+}
+
+.fancybox-caption {
+    padding: 10px 0 30px !important;
+}
+
+.fancybox-caption-title {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-bottom: 8px;
+    display: inline-block;
 }
 
 .temp-inactive {

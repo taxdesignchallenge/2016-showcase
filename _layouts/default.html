@@ -100,98 +100,10 @@
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
 
     <script type="text/javascript">
-    $(document).ready(function() {
-      /* Fancybox v2
-       *  Simple image gallery. Uses default settings
-       */
+    /*$(document).ready(function() {
+
       $('.fancybox').fancybox();
-      // Change title type, overlay closing speed
-      $(".fancybox-effects-a").fancybox({
-        helpers: {
-          title : {
-            type : 'outside'
-          },
-          overlay : {
-            speedOut : 0
-          }
-        }
-      });
-      // Disable opening and closing animations, change title type
-      $(".fancybox-effects-b").fancybox({
-        openEffect  : 'none',
-        closeEffect : 'none',
-        helpers : {
-          title : {
-            type : 'over'
-          }
-        }
-      });
-      // Set custom style, close if clicked, change title type and overlay color
-      $(".fancybox-effects-c").fancybox({
-        wrapCSS    : 'fancybox-custom',
-        closeClick : true,
-        openEffect : 'none',
-        helpers : {
-          title : {
-            type : 'inside'
-          },
-          overlay : {
-            css : {
-              'background' : 'rgba(238,238,238,0.85)'
-            }
-          }
-        }
-      });
-      // Remove padding, set opening and closing animations, close if clicked and disable overlay
-      $(".fancybox-effects-d").fancybox({
-        padding: 0,
-        openEffect : 'elastic',
-        openSpeed  : 150,
-        closeEffect : 'elastic',
-        closeSpeed  : 150,
-        closeClick : true,
-        helpers : {
-          overlay : null
-        }
-      });
-      /*
-       *  Button helper. Disable animations, hide close button, change title type and content
-       */
-      $('.fancybox-buttons').fancybox({
-        openEffect  : 'none',
-        closeEffect : 'none',
-        prevEffect : 'none',
-        nextEffect : 'none',
-        closeBtn  : false,
-        helpers : {
-          title : {
-            type : 'inside'
-          },
-          buttons : {}
-        },
-        afterLoad : function() {
-          this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
-        }
-      });
-      /*
-       *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
-       */
-      $('.fancybox-thumbs').fancybox({
-        prevEffect : 'none',
-        nextEffect : 'none',
-        closeBtn  : false,
-        arrows    : false,
-        nextClick : true,
-        helpers : {
-          thumbs : {
-            width  : 50,
-            height : 50
-          }
-        }
-      });
-      /*
-       *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
-      */
+
       $('.fancybox-media')
         .attr('rel', 'media-gallery')
         .fancybox({
@@ -202,15 +114,14 @@
           arrows : false,
           helpers : {
             media : {},
-            buttons : {}
+            buttons : false
           }
         });
-      /*
-       *  Open manually
-       */
+
       $("#fancybox-manual-a").click(function() {
         $.fancybox.open('1_b.jpg');
       });
+
       $("#fancybox-manual-b").click(function() {
         $.fancybox.open({
           href : 'iframe.html',
@@ -218,6 +129,7 @@
           padding : 5
         });
       });
+
       $("#fancybox-manual-c").click(function() {
         $.fancybox.open([
           {
@@ -238,103 +150,67 @@
           }
         });
       });
-    });
+    });*/
     </script>
 
-    <script>
-    // Fancybox v3
-    /* Sticky nvigation */
-    var sticky = {
-      $sticky      : $( '.sticky' ),
-      offsets      : [],
-      targets      : [],
-      stickyTop    : null,
-      set : function() {
-        var self = this;
-
-        self.offsets = [];
-        self.targets = [];
-
-        // Get current top position of sticky element
-        self.stickyTop = self.$sticky.css( 'position', 'relative' ).offset().top;
-
-        // Cache all targets and their top positions
-        self.$sticky.find( 'a' ).map(function () {
-          var $el   = $( this ),
-            href  = $el.data('target') || $el.attr( 'href' ),
-            $href = /^#./.test(href) && $( href );
-
-          return $href && $href.length && $href.is( ':visible' ) ? [ [ Math.floor( $href.offset().top - parseInt( $href.css('margin-top') ) ), href ] ] : null;
-        })
-        .sort(function (a, b) { return a[0] - b[0] })
-        .each(function () {
-          self.offsets.push( this[ 0 ] );
-          self.targets.push( this[ 1 ] );
-        });
-      },
-      update : function() {
-        var self = this;
-
-        var windowTop       = Math.floor( $(window).scrollTop() );
-        var $stickyLinks    = self.$sticky.find( 'a' ).removeClass( 'active' );
-        var stickyPosition  = 'fixed';
-        var currentIndex    = 0;
-
-        // Toggle fixed position depending on visibility
-        if ( $(window).width() < 800 || self.stickyTop > windowTop ) {
-          stickyPosition = 'relative';
-        } else {
-          for ( var i = self.offsets.length; i--; ) {
-            if ( windowTop >= self.offsets[ i ] && ( self.offsets[ i + 1 ] === undefined || windowTop <= self.offsets[ i + 1 ]) ) {
-              currentIndex = i;
-              break;
-            }
-          }
-        }
-        self.$sticky.css( 'position', stickyPosition );
-        $stickyLinks.eq( currentIndex ).addClass( 'active' );
-      },
-      init : function() {
-        var self = this;
-        $(window).on('resize', function() {
-          self.set();
-          self.update();
-        });
-        $(window).on('scroll', function() {
-          self.update();
-        });
-        self.set();
-        self.update();
-      }
-    }
-    sticky.init();
-
-    //test
-    jQuery(document).ready(function($) {
-        $(".fancybox").fancybox({
-            autoSize : true,
-            scrolling : 'auto',
-            fitToView : false,
-            width : 'auto',
-            maxWidth : '100%',
-        });
-    });
+    <script type="text/javascript">
+      $("[data-fancybox]").fancybox({
+        // Options will go here
+      });
     </script>
 
     <script>
     // Collapse Innovate menu when item is clicked
-    $(document).on('click','.navbar-collapse.in',function(e) {
-        if( $(e.target).is('li') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+    $(document).on('click','.collapse.in',function(e) {
+        if( $(e.target).is('li') && $(e.target).attr('class') != 'collapsed' ) {
             $(this).collapse('hide');
         }
     });
+
+    // Active class highlight
+    $('#accordion')
+    .on('show.bs.collapse', function(e) {
+      $(e.target).prev('.panel-heading').addClass('active');
+    })
+    .on('hide.bs.collapse', function(e) {
+      $(e.target).prev('.panel-heading').removeClass('active');
+    });
     </script>
+
+  
 
     <!-- Kick off Filterizr -->
     <script type="text/javascript">
         $(function() {
-            //Initialize filterizr with default options
-            $('.filtr-container').filterizr();
+            $('.filtr-container').filterizr(
+              options = {
+                 animationDuration: 0.5,
+                 callbacks: {
+                    onFilteringStart: function() { },
+                    onFilteringEnd: function() { },
+                    onShufflingStart: function() { },
+                    onShufflingEnd: function() { },
+                    onSortingStart: function() { },
+                    onSortingEnd: function() { }
+                 },
+              
+                 delay: 0,
+                 delayMode: 'progressive',
+                 easing: 'ease-out',
+                 filter: 'all',
+                 filterOutCss: {
+                    opacity: 0,
+                    transform: 'scale(0.75)'
+                 },
+                 filterInCss: {
+                    opacity: 1,
+                    transform: 'scale(1)'
+                 },
+                 layout: 'sameSize',
+                 selector: '.filtr-container',
+                 setupControls: true
+              }
+            );
         });
     </script>
 

@@ -81,6 +81,14 @@ h4 {
     margin-top: .727272727em; /* 16/22 */
 }
 
+.nopadding-left {
+    padding-left: 0 !important;
+}
+
+.nopadding-right {
+    padding-right: 0 !important;
+}
+
 /*
 Lists
 --------------------------------
@@ -1175,19 +1183,6 @@ select {
 }
 
 
-.filtr-button {
-    background-color: #0072ce;
-    border: medium none;
-    border-radius: 0.25rem;
-    color: white;
-    font-weight: 400;
-    padding: 0.75rem 1.5rem;
-    text-transform: uppercase;
-    transition: background-color 0.25s ease 0s;
-}
-.filtr-button:hover {
-    background-color: #0072ce;
-}
 
 
 .select-order {
@@ -1236,16 +1231,6 @@ select {
         padding: 0;
     }
 }
-.nav-gallery li:first-of-type {
-    border-top-left-radius: 0.25rem !important;
-    border-top-right-radius: 0.25rem !important;
-}
-@media (min-width: 768px) {
-    .nav-gallery li:first-of-type {
-        border-bottom-left-radius: 0.25rem !important;
-        border-top-right-radius: 0 !important;
-    }
-}
 .nav-gallery li {
     border-bottom: 1px solid #0072ce;
     border-radius: 0 !important;
@@ -1260,15 +1245,10 @@ select {
 }
 .nav-gallery li:last-of-type {
     border-bottom: medium none;
-    border-bottom-left-radius: 0.25rem !important;
-    border-bottom-right-radius: 0.25rem !important;
 }
 @media (min-width: 768px) {
     .nav-gallery li:last-of-type {
-        border-bottom-left-radius: 0 !important;
-        border-bottom-right-radius: 0.25rem !important;
         border-right: medium none;
-        border-top-right-radius: 0.25rem !important;
     }
 }
 .nav-gallery .filtr-active {
@@ -1520,7 +1500,8 @@ select {
 
 
 .filters .filtr-button.filtr {
-    margin: 0 10px 10px 0 !important;
+    /*margin: 0 10px 10px 0 !important;*/
+    width: 100%;
 }
 
 
@@ -1538,6 +1519,9 @@ select {
     background: transparent;
 }
 
+.panel-default > .panel-heading h4 a {
+    /*background-color:#000;*/
+}
 
 /* Hamburger menu styles (Innovate - Filterizr menu) */
 .innovate-menu .navbar-inverse .navbar-toggle {
@@ -1583,6 +1567,7 @@ select {
 
 .innovate-menu .navbar-inverse .navbar-collapse .simplefilter.nav.nav-gallery {
     padding: 0;
+    margin: 0;
 }
 
 .innovate-menu .navbar-collapse {
@@ -1642,4 +1627,153 @@ select {
 /* Fancybox v3 caption */
 .fancybox-caption-wrap .fancybox-caption a {
     color: #fff !important;
+}
+
+
+.fancybox-enabled .fancybox-button::before,
+.fancybox-enabled .fancybox-button::after {
+    visibility: visible !important;
+    display: inline-block !important;
+}
+
+.fancybox-enabled .fancybox-container.fancybox-show-controls .fancybox-controls .fancybox-infobar button.fancybox-button {
+    display: inline-block !important;
+}
+
+
+
+
+/* Image Catalog Sort Buttons */
+
+#accordion {
+    margin-top: 15px;
+}
+
+@media (max-width: 992px) {
+
+    .filtr-container {
+        margin-top: 25px !important;
+    }
+
+}
+
+#accordion.panel-group.simplefilter .panel {
+    background: #fff;
+}
+
+#accordion.panel-group.simplefilter .panel .panel-heading {
+    background: #0072ce;
+    border-radius: 0;
+}
+
+#accordion.panel-group.simplefilter .panel .panel-heading h4 {
+    padding: 0.75rem 1.5rem;
+}
+
+#accordion.panel-group.simplefilter .panel .panel-heading h4.accordion-filtr-button a {
+    /*background: #0072ce;
+    box-shadow: 0 0 5px rgba(26, 29, 25, 0.35) inset;*/
+}
+
+
+#accordion.panel-group.simplefilter .panel .panel-heading h4.accordion-filtr-button a,
+#accordion.panel-group.simplefilter .panel .panel-heading h4.panel-title a {
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    /*background-color: #0072ce;*/
+    border: medium none;
+    color: white;
+    font-weight: 400;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    transition: background-color 0.25s ease 0s;
+    text-align: center;
+}
+
+#accordion.panel-group.simplefilter .panel .panel-heading h4.accordion-filtr-button,
+#accordion.filters .panel .accordion-filtr-nocontent,
+#accordion.panel-group.simplefilter .panel .panel-body ul li,
+#accordion.panel-group.simplefilter .panel .panel-heading h4.panel-title {
+    padding: 0;
+}
+
+
+#accordion.panel-group.simplefilter .panel .panel-body ul li {
+    text-align: left;
+    background: transparent;
+    text-transform: none;
+    border: none;
+    color: #004780;
+}
+
+.accordion-filtr-button .filtr-button {
+}
+
+.filtr-button:hover {
+    background-color: #0072ce;
+}
+
+#accordion .panel .panel-heading h4 {
+    cursor: pointer;
+}
+
+#accordion.panel-group .panel.panel-default {
+    border-radius: 0 !important;
+    border: 0;
+}
+
+#accordion.panel-group .panel.panel-default .panel-heading {
+    padding: 0;
+}
+
+#accordion.panel-group.simplefilter .panel .panel-body ul li:hover,
+#accordion.panel-group.simplefilter .panel .panel-body ul li:visited,
+#accordion.panel-group.simplefilter .panel .panel-body ul li:active,
+#accordion.panel-group.simplefilter .panel .panel-body ul li:focus,
+.simplefilter li.active {
+    color: #0072ce;
+    box-shadow: none;
+}
+
+.accordion-filtr-nocontent + div > div {
+    display: none;
+    visibility: hidden;
+    background: transparent;
+}
+
+#accordion .panel .panel-collapse .panel-body ul {
+    padding-left: 0;
+}
+
+#accordion.nav-gallery {
+    width: 100%;
+}
+
+#accordion .panel-collapse ul {
+    margin-bottom: 0;
+}
+
+#accordion .panel-collapse ul li.filtr-button.filtr {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0.3em 0;
+}
+
+#accordion .panel-collapse ul li.filtr-button.filtr:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+.active h4 a {
+    background-color: #0072ce !important;
+}
+
+.temp-inactive {
+    color: #d1d1d1 !important;
 }

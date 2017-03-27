@@ -1,0 +1,104 @@
+<!-- Profile/Dashboard 2016 -->
+<!-- Holds up to 10 additional inner gallery images -->
+
+{% for gallery-2016 in site.data.gallery-2016 %}
+
+    {% if gallery-2016.cat_slug == 'profile_dashboard' %}
+
+    <div class="element-item profile_dashboard col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="profile_dashboard" data-sort="{{ gallery-2016.name }} - {{ gallery-2016.category_full }}">
+        <a class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ gallery-2016.main_url }}"
+        data-caption="
+        <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+        {{ site.ic_caption_blurb }}">
+
+        <img class="img-responsive" rel="gallery" src="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_thumbs }}/{{ gallery-2016.thumb_url }}" alt=""></a>
+
+        {% if gallery-2016.img_2 %}
+            {% for item in gallery-2016.img_2 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url2 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_3 %}
+            {% for item in gallery-2016.img_3 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url3 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_4 %}
+            {% for item in gallery-2016.img_4 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url4 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_5 %}
+            {% for item in gallery-2016.img_5 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url5 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_6 %}
+            {% for item in gallery-2016.img_6 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url6 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_7 %}
+            {% for item in gallery-2016.img_7 %}
+                <a style="display:none;" class="fancybox" data-fancybox="cards_snapshots" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url7 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_8 %}
+            {% for item in gallery-2016.img_8 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url8 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_9 %}
+            {% for item in gallery-2016.img_9 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url9 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        {% if gallery-2016.img_10 %}
+            {% for item in gallery-2016.img_10 %}
+                <a style="display:none;" class="fancybox" data-fancybox="{{ gallery-2016.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ gallery-2016.cat_slug }}/{{ item.main_url10 }}"
+                data-caption="
+                <span class='fancybox-caption-title'>Category: {{ gallery-2016.top_category }} &mdash; {{ gallery-2016.category_full }}</span><br />
+                {{ site.ic_caption_blurb }}">
+            {% endfor %}
+        {% endif %}
+
+        <!--<img class="img-responsive" rel="gallery" src="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_thumbs }}/{{ gallery-2016.thumb_url }}" alt="">--></a>
+        <span class="item-desc">{{ gallery-2016.name }} - {{ gallery-2016.category_full }}</span>
+    </div>
+
+    {% endif %}
+
+{% endfor %}
+        

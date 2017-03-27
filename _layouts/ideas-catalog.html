@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>2016 Tax Design Challenge Showcase - Ideas Catalog</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
+    
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Bootstrap CSS served from a CDN -->
+    <link href="{{ site.baseurl }}/assets/css/bootstrap-v3.1.0.css"
+    rel="stylesheet">
+
+    <link href='{{ site.baseurl }}/assets/js/google-fonts.js' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
+    <noscript>
+      <style>
+      </style>
+    </noscript>
+  </head>
+
+  <body>
+    <div class="container">
+      <header role="banner">
+        <div class="wrap">
+          <!-- Static navbar -->
+          <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <a href="{{ site.baseurl }}/">
+                  <div class="ratio4-3" title="IRS Tax Design Challenge"></div>
+                </a>
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="{{ site.baseurl }}/">Home</a></li>
+                  <li><a href="{{ site.baseurl }}/winners">2016 Submissions</a></li>
+                </ul>
+              </div>-->
+          </nav>
+        </div>
+      </header>
+
+      {{ content }}
+
+      <div class="wrap footer">
+        <div class="row">
+          <div class="container">
+            <div class="col-md-12">
+              <p><a href="https://www.irs.gov/uac/irs-privacy-policy">Acceptable Use and Privacy Policy</a> |  
+              <a href="https://www.irs.gov/uac/irs-gov-accessibility">Accessibility</a> | 
+              <a href="https://www.irs.gov/">IRS.gov</a> | 
+              <a href="https://www.treasury.gov/Pages/default.aspx">Treasury.gov</a> | 
+              <a href="https://www.usa.gov/">USA.gov</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div> <!-- /.container -->
+
+
+    <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
+    <script src="{{ site.baseurl }}/assets/js/bootstrap-v3.1.0-min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.filterizr.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/filterizr-controls.js"></script>
+
+    <!-- Fancybox v3 -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/core.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/fullscreen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/slideshow.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/thumbs.css" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/core.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/fullscreen.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/gestures.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/media.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/slideshow.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
+
+    <script type="text/javascript">
+      $("[data-fancybox]").fancybox({
+        // Options will go here
+      });
+    </script>
+
+    <script>
+    // Collapse Innovate menu when item is clicked
+    $(window).bind('resize load', function() {
+      if ($(this).width() <= 767) {
+        $(document).on('click','.collapse.in',function(e) {
+            if( $(e.target).is('li') && $(e.target).attr('class') != 'collapsed' ) {
+                $(this).collapse('hide');
+            }
+        });
+      } else {
+        $(document).on('click','.collapse.in',function(e) {
+            if( $(e.target).is('li') && $(e.target).attr('class') != 'collapsed' ) {
+                $(this).collapse('show');
+            }
+        });
+      }
+    });
+
+    // Active class highlight
+    $('#accordion')
+    .on('show.bs.collapse', function(e) {
+      $(e.target).prev('.panel-heading').addClass('active');
+    })
+    .on('hide.bs.collapse', function(e) {
+      $(e.target).prev('.panel-heading').removeClass('active');
+    });
+    </script>
+
+    <!-- Kick off Filterizr -->
+    <script type="text/javascript">
+        // ----------------------------------------------------
+        // TEMPORARILY DISABLING THIS,
+        // TO TEST ISOTOPE
+        // DO NOT DELETE UNLESS WE ARE GOING WITH ISOTOPE
+        //----------------------------------------------------
+        /*$(function() {
+            $('.filtr-container').filterizr(
+              options = {
+                 animationDuration: 0.5,
+                 callbacks: {
+                    onFilteringStart: function() { },
+                    onFilteringEnd: function() { },
+                    onShufflingStart: function() { },
+                    onShufflingEnd: function() { },
+                    onSortingStart: function() { },
+                    onSortingEnd: function() { }
+                 },
+              
+                 delay: 0,
+                 delayMode: 'progressive',
+                 easing: 'ease-out',
+                 filter: '6',
+                 filterOutCss: {
+                    opacity: 0,
+                    transform: 'scale(0.75)'
+                 },
+                 filterInCss: {
+                    opacity: 1,
+                    transform: 'scale(1)'
+                 },
+                 layout: 'packed',
+                 selector: '.filtr-container',
+                 setupControls: true
+              }
+            );
+        });*/
+    </script>
+
+    <!-- ISOTOPE
+    CDN: <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
+    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.pkgd.min.js"></script>
+    <script>
+    // external js: isotope.pkgd.js
+    // init Isotope
+    var $grid = $('.grid').isotope({
+      columnWidth: 500,
+      itemSelector: '.element-item',
+      layoutMode: 'fitRows',
+      /*getSortData: {
+        name: '.name',
+        symbol: '.symbol',
+        number: '.number parseInt',
+        category: '[data-category]',
+        weight: function( itemElem ) {
+          var weight = $( itemElem ).find('.weight').text();
+          return parseFloat( weight.replace( /[\(\)]/g, '') );
+        }
+      },*/
+      animationOptions: {
+         duration: 7500,
+         easing: 'linear',
+         queue: false
+       }
+    });
+
+    // filter functions
+    var filterFns = {
+      // show if number is greater than 50
+      numberGreaterThan50: function() {
+        var number = $(this).find('.number').text();
+        return parseInt( number, 10 ) > 50;
+      },
+      // show if name ends with -ium
+      ium: function() {
+        var name = $(this).find('.name').text();
+        return name.match( /ium$/ );
+      }
+    };
+
+    // bind filter button click
+    $('.filters').on( 'click', 'li.iso-btn', function() {
+      var filterValue = $( this ).attr('data-filter');
+      // use filterFn if matches value
+      filterValue = filterFns[ filterValue ] || filterValue;
+      $grid.isotope({ filter: filterValue });
+    });
+
+    // bind sort button click
+    $('.sorts').on( 'click', 'li.iso-btn', function() {
+      var sortByValue = $(this).attr('data-sort-by');
+      $grid.isotope({ sortBy: sortByValue });
+    });
+
+    // change is-checked class on buttons
+    $('.button-group').each( function( i, buttonGroup ) {
+      var $buttonGroup = $( buttonGroup );
+      $buttonGroup.on( 'click', 'li.iso-btn', function() {
+        $buttonGroup.find('.is-checked').removeClass('is-checked');
+        $( this ).addClass('is-checked');
+      });
+    });
+    </script>
+
+
+
+
+
+
+
+
+
+
+    {% if site.offline_cache == true %}
+      <script>
+        if( 'serviceWorker' in navigator ) {
+          navigator.serviceWorker
+           .register( '{{ site.baseurl }}/sw.js' )
+           .catch(function( err ) {
+             console.log( 'ServiceWorker registration failed: ', err );
+           });
+         }
+      </script>
+    {% endif %}
+
+    </body>
+</html>
+

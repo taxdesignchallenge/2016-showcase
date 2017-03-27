@@ -1,0 +1,463 @@
+# gallery-2016.yml
+#
+# folder structure (main images): /assets/img/ideas_catalog/main/[subcategory_name]/file.png
+# folder structure (thumbnails):  /assets/img/ideas_catalog/thumbs/file.png
+# folders must all be lowercase
+# 
+# name: unformatted name of project
+# category_full: unformatted name of subcategory (meant for pop-up caption)
+# cat_slug: formatted name of subcategory (meant for asset path)
+# 
+
+# =================================================================== #
+# Cards/Snapshots
+# =================================================================== #
+
+- name: IRS 365
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: IRS_365_thumb.png
+  main_url: IRS_365_layout_card_snapshot_1.png
+  img_2:
+    -
+      main_url2: IRS_365_layout_card_snapshot_2.png
+
+- name: My IRS File Friend
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: IRS_File_Friend_thumb.png
+  main_url: IRS_File_Friend_layout_card_snapshot_1.png
+
+- name: IRS My Service
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: IRS_MyService_thumb.png
+  main_url: IRS_MyService_layout_card_snapshot_1.png
+
+- name: My Federal Tax Account
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: My_Federal_Tax_Account_thumb.png
+  main_url: My_Federal_Tax_Account_layout_card_snapshot_1.png
+
+- name: MyTaxOnline
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: MyTaxOnline_thumb.png
+  main_url: MyTaxOnline_layout_card_snapshot_1.png
+
+- name: MyTaxProfile
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: MyTaxProfile_thumb.png
+  main_url: MyTaxProfile_layout_card_snapshot_1.png
+
+- name: My Tax Return Transcript
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: Tax_Return_Transcript_thumb.png
+  main_url: Tax_Return_Transcript_layout_card_snapshot_1.png
+
+- name: Taxes
+  top_category: Layout
+  category_full: Cards/Snapshots
+  cat_slug: cards_snapshots
+  thumb_url: Taxes_thumb.png
+  main_url: Taxes_layout_card_snapshot_1.png
+  img_2:
+    -
+      main_url2: Taxes_layout_card_snapshot_2.png
+
+# =================================================================== #
+# Footer
+# =================================================================== #
+
+- name: MyIRS
+  top_category: Layout
+  category_full: Footer
+  cat_slug: footer
+  thumb_url: MyIRS_thumb.png
+  main_url: MyIRS_layout_footer_1.png
+
+- name: MyTaxProfile
+  top_category: Layout
+  category_full: Footer
+  cat_slug: footer
+  thumb_url: MyTaxProfile_thumb.png
+  main_url: MyTaxProfile_layout_footer_1.png
+
+# =================================================================== #
+# Navigation
+# =================================================================== #
+
+- name: Ask IRS
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: Ask_IRS_thumb.png
+  main_url: Ask_IRS_layout_navigation_1.png
+  img_2:
+    -
+      main_url2: Ask_IRS_layout_navigation_2.png
+  img_3:
+    -
+      main_url3: Ask_IRS_layout_navigation_3.png
+
+- name: Empowered
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: Empowered_thumb.png
+  main_url: Empowered_layout_navigation_1.png
+
+- name: IRS 365
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: IRS_365_thumb.png
+  main_url: IRS_365_layout_navigation_1.png
+  img_2:
+    - 
+      main_url2: IRS_365_layout_navigation_2.png
+  img_3:
+    -
+      main_url3: IRS_365_layout_navigation_3.png
+  img_4:
+    -
+      main_url4: IRS_365_layout_navigation_4.png
+
+- name: IRS efile
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: IRS_efile_thumb.png
+  main_url: IRS_efile_layout_navigation_1.png
+  img_2:
+    - 
+      main_url2: IRS_efile_layout_navigation_2.png
+  img_3:
+    -
+      main_url3: IRS_efile_layout_navigation_3.png
+  img_4:
+    -
+      main_url4: IRS_efile_layout_navigation_4.png
+
+- name: IRS Filr
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: IRS_Filr_thumb.png
+  main_url: IRS_Filr_layout_navigation_1.png
+
+- name: IRS
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: IRS_thumb.png
+  main_url: IRS_layout_navigation_1.png
+
+- name: IRS My Account
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: IRS_My_Account_thumb.png
+  main_url: IRS_My_Account_layout_navigation_1.png
+  img_2:
+    - 
+      main_url2: IRS_My_Account_layout_navigation_2.png
+
+- name: IRS TDC
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: IRS_TDC_thumb.png
+  main_url: IRS_TDC_layout_navigation_1.png
+
+- name: My Federal Tax Account
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: My_Federal_Tax_Account_thumb.png
+  main_url: My_Federal_Tax_Account_layout_navigation_1.png
+
+- name: my IRS Account
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: my_IRS_Account_thumb.png
+  main_url: my_IRS_Account_layout_navigation_1.png
+  img_2:
+    - 
+      main_url2: my_IRS_Account_layout_navigation_2.png
+  img_3:
+    - 
+      main_url3: my_IRS_Account_layout_navigation_3.png
+
+- name: My Tax Data
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: My_Tax_Data_thumb.png
+  main_url: My_Tax_Data_layout_navigation_1.png
+  img_2:
+    - 
+      main_url2: My_Tax_Data_layout_navigation_2.png
+
+- name: MyIRS
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: MyIRS_thumb.png
+  main_url: MyIRS_layout_navigation_1.png
+  img_2:
+    - 
+      main_url2: MyIRS_layout_navigation_2.png
+  img_3:
+    -
+      main_url3: MyIRS_layout_navigation_3.png
+  img_4:
+    -
+      main_url4: MyIRS_layout_navigation_4.png
+
+- name: MyTaxOnline
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: MyTaxOnline_thumb.png
+  main_url: MyTaxOnline_layout_navigation_1.png
+
+- name: MyTaxProfile
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: MyTaxProfile_thumb.png
+  main_url: MyTaxProfile_layout_navigation_1.png
+
+- name: Taxes
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: Taxes_thumb.png
+  main_url: Taxes_layout_navigation_1.png
+
+- name: Taxes Made Simple
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: Taxes_Made_Simple_thumb.png
+  main_url: Taxes_Made_Simple_layout_navigation_1.png
+
+- name: Taxez
+  top_category: Layout
+  category_full: Navigation
+  cat_slug: navigation
+  thumb_url: Taxez_thumb.png
+  main_url: Taxez_layout_navigation_1.png
+
+# =================================================================== #
+# Profile/Dashboard
+# =================================================================== #
+
+- name: Ask IRS
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: Ask_IRS_thumb.png
+  main_url: Ask_IRS_layout_profile_dashboard_1.png
+
+- name: IRS efile
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: IRS_efile_thumb.png
+  main_url: IRS_efile_layout_profile_dashboard_1.png
+
+- name: IRS File Friend
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: IRS_File_Friend_thumb.png
+  main_url: IRS_File_Friend_layout_profile_dashboard_1.png
+  img_2:
+    - 
+      main_url2: IRS_File_Friend_layout_profile_dashboard_2.png
+  img_3:
+    -
+      main_url3: IRS_File_Friend_layout_profile_dashboard_3.png
+
+- name: IRS Filr
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: IRS_Filr_thumb.png
+  main_url: IRS_Filr_layout_profile_dashboard_1.png
+  img_2:
+    - 
+      main_url2: IRS_Filr_layout_profile_dashboard_2.png
+
+- name: IRS My Account
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: IRS_My_Account_thumb.png
+  main_url: IRS_My_Account_layout_navigation_1.png
+
+- name: IRS MyService
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: IRS_MyService_thumb.png
+  main_url: IRS_MyService_layout_profile_dashboard_1.png
+
+- name: IRS TDC
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: IRS_TDC_thumb.png
+  main_url: IRS_TDC_layout_profile_dashboard_1.png
+
+- name: My Federal Tax Account
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: My_Federal_Tax_Account_thumb.png
+  main_url: My_Federal_Tax_Account_layout_navigation_1.png
+
+- name: my IRS Account
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: my_IRS_Account_thumb.png
+  main_url: my_IRS_Account_layout_profile_dashboard_1.png
+  img_2:
+    - 
+      main_url2: my_IRS_Account_layout_profile_dashboard_2.png
+  img_3:
+    -
+      main_url3: my_IRS_Account_layout_profile_dashboard_3.png
+
+- name: My Tax Data
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: My_Tax_Data_thumb.png
+  main_url: My_Tax_Data_layout_profile_dashboard_1.png
+  img_2:
+    - 
+      main_url2: My_Tax_Data_layout_profile_dashboard_2.png
+
+- name: MyTaxProfile
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: MyTaxProfile_thumb.png
+  main_url: MyTaxProfile_layout_profile_dashboard_1.png
+
+- name: Taxes Made Simple
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: Taxes_Made_Simple_thumb.png
+  main_url: Taxes_Made_Simple_layout_profile_dashboard_1.png
+
+- name: Taxez
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: Taxez_thumb.png
+  main_url: Taxez_layout_card_profile_dashboard_1.png
+
+- name: TaxReturn
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: TaxReturn_thumb.png
+  main_url: TaxReturn_layout_profile_dashboard_1.png
+
+- name: Your Tax Summary
+  top_category: Layout
+  category_full: Profile/Dashboard
+  cat_slug: profile_dashboard
+  thumb_url: Your_Tax_Summary_thumb.png
+  main_url: Your_Tax_Summary_layout_profile_dashboard_1.png
+
+# =================================================================== #
+# Sidebar [Gallery]
+# =================================================================== #
+
+- name: IRS efile
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: IRS_efile_thumb.png
+  main_url: IRS_efile_layout_sidebar_1.png
+
+- name: IRS My Account
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: IRS_My_Account_thumb.png
+  main_url: IRS_My_Account_layout_sidebar_1.png
+
+- name: IRS MyService
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: IRS_MyService_thumb.png
+  main_url: IRS_MyService_layout_sidebar_1.png
+
+- name: My Federal Tax Account
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: My_Federal_Tax_Account_thumb.png
+  main_url: My_Federal_Tax_Account_layout_sidebar_1.png
+
+- name: my IRS Account
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: my_IRS_Account_thumb.png
+  main_url: my_IRS_Account_layout_sidebar_1.png
+  img_2:
+    - 
+      main_url2: my_IRS_Account_layout_sidebar_2.png
+
+- name: MyTaxOnline
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: MyTaxOnline_thumb.png
+  main_url: MyTaxOnline_layout_sidebar_1.png
+
+- name: MyTaxProfile
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: MyTaxProfile_thumb.png
+  main_url: MyTaxProfile_layout_sidebar_1.png
+
+- name: Taxes
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: Taxes_thumb.png
+  main_url: Taxes_layout_sidebar_1.png
+
+- name: Taxez
+  top_category: Layout
+  category_full: Sidebar
+  cat_slug: sidebar
+  thumb_url: Taxez_thumb.png
+  main_url: Taxez_layout_sidebar_1.png
+
+# =================================================================== #
+# 
+# =================================================================== #

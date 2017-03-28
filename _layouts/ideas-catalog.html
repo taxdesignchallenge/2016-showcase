@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -125,50 +125,14 @@
     });
     </script>
 
-    <!-- Kick off Filterizr -->
-    <script type="text/javascript">
-        // ----------------------------------------------------
-        // TEMPORARILY DISABLING THIS,
-        // TO TEST ISOTOPE
-        // DO NOT DELETE UNLESS WE ARE GOING WITH ISOTOPE
-        //----------------------------------------------------
-        /*$(function() {
-            $('.filtr-container').filterizr(
-              options = {
-                 animationDuration: 0.5,
-                 callbacks: {
-                    onFilteringStart: function() { },
-                    onFilteringEnd: function() { },
-                    onShufflingStart: function() { },
-                    onShufflingEnd: function() { },
-                    onSortingStart: function() { },
-                    onSortingEnd: function() { }
-                 },
-              
-                 delay: 0,
-                 delayMode: 'progressive',
-                 easing: 'ease-out',
-                 filter: '6',
-                 filterOutCss: {
-                    opacity: 0,
-                    transform: 'scale(0.75)'
-                 },
-                 filterInCss: {
-                    opacity: 1,
-                    transform: 'scale(1)'
-                 },
-                 layout: 'packed',
-                 selector: '.filtr-container',
-                 setupControls: true
-              }
-            );
-        });*/
-    </script>
-
-    <!-- ISOTOPE
-    CDN: <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
+    <!-- ISOTOPE / MASONRY
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
     <script src="{{ site.baseurl }}/assets/js/isotope/isotope.pkgd.min.js"></script>
     <script>
+
+    // Fixes Safari bug
+    $(window).load(function(){ $('.grid').masonry(); });
+
     // external js: isotope.pkgd.js
     // init Isotope
     var $grid = $('.grid').isotope({
@@ -185,6 +149,7 @@
           return parseFloat( weight.replace( /[\(\)]/g, '') );
         }
       },*/
+      filter: '.submissions_2016',
       animationOptions: {
          duration: 7500,
          easing: 'linear',
@@ -230,12 +195,15 @@
     });
     </script>
 
-
-
-
-
-
-
+    <script>
+    // Add class to collapse.in
+    /*jQuery('.panel-heading a').click(function() {
+        $('.panel-heading').removeClass('actives');
+        $(this).parents('.panel-heading').addClass('actives');
+    });*/
+    jQuery('.panel-heading a').click(function() {
+    });
+    </script>
 
 
 

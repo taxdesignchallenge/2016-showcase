@@ -14,8 +14,8 @@ layout: ideas-catalog
         </div>
 
         <div class="content-submission-container">
-            <p class="title">Search by content</p>
-            <p>Are you a designer or developer? Looking for some inspiration for the next challenge or project? Sort through submissions by user interface elements.</p>
+            <p class="title">One idea. Big impact.</p>
+            <p>That's all it takes. Just one big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. Check out the ideas catalog below. You can search by submission or design element.</p>
         </div>
 
     </div>
@@ -42,7 +42,7 @@ layout: ideas-catalog
                       <div class="panel-group simplefilter nav nav-gallery filters" id="accordion">
 
                         <div class="panel panel-default">
-                          <div class="panel-heading" data-toggle="collapse" data-target="#collapseAll">
+                          <div class="panel-heading active" data-toggle="collapse" data-target="#collapseAll">
                             <h4 class="panel-title">
                               <a class="accordion-toggle">By Submission</a>
                             </h4>
@@ -50,7 +50,7 @@ layout: ideas-catalog
                           <div id="collapseAll" class="panel-collapse collapse">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter="*">[???]</li>
+                                  <li class="iso-btn actives" data-filter=".submissions_2016">2016 Submissions</li>
                               </ul>
                             </div>
                           </div>
@@ -177,6 +177,9 @@ layout: ideas-catalog
         <!-- Catalog Items -->
         <div class="col-sm-12 col-md-9 col-lg-9">
             <div class="grid">
+
+                {% include submissions-2016.html %}
+
                 {% include cards_snapshots.html %}
 
                 {% include footer.html %}

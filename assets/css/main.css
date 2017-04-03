@@ -1312,12 +1312,6 @@ Innovate
 
 
 
-
-
-/*.actives {
-    background: red !important;
-}*/
-
 /* --- */
 
 .container div.wrap.wrapmain div.row div.container nav#top-menu.col-md-3.navbar.navbar-inverse div#navbarCollapse.collapse.navbar-collapse {
@@ -1381,7 +1375,6 @@ Innovate
 #accordion .panel > .panel-heading { border-bottom: 1px solid #5c5c5c !important; }
 
 #accordion .panel > .panel-heading.active {
-    border-bottom: none !important;
     -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
     -moz-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
     box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);

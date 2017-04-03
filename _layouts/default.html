@@ -99,59 +99,6 @@
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/slideshow.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
 
-    <script type="text/javascript">
-    /*$(document).ready(function() {
-
-      $('.fancybox').fancybox();
-
-      $('.fancybox-media')
-        .attr('rel', 'media-gallery')
-        .fancybox({
-          openEffect : 'none',
-          closeEffect : 'none',
-          prevEffect : 'none',
-          nextEffect : 'none',
-          arrows : false,
-          helpers : {
-            media : {},
-            buttons : false
-          }
-        });
-
-      $("#fancybox-manual-a").click(function() {
-        $.fancybox.open('1_b.jpg');
-      });
-
-      $("#fancybox-manual-b").click(function() {
-        $.fancybox.open({
-          href : 'iframe.html',
-          type : 'iframe',
-          padding : 5
-        });
-      });
-
-      $("#fancybox-manual-c").click(function() {
-        $.fancybox.open([
-          {
-            href : '1_b.jpg',
-            title : 'My title'
-          }, {
-            href : '2_b.jpg',
-            title : '2nd title'
-          }, {
-            href : '3_b.jpg'
-          }
-        ], {
-          helpers : {
-            thumbs : {
-              width: 75,
-              height: 50
-            }
-          }
-        });
-      });
-    });*/
-    </script>
 
     <script type="text/javascript">
       $("[data-fancybox]").fancybox({
@@ -160,12 +107,6 @@
     </script>
 
     <script>
-    // Collapse Innovate menu when item is clicked
-    $(document).on('click','.collapse.in',function(e) {
-        if( $(e.target).is('li') && $(e.target).attr('class') != 'collapsed' ) {
-            $(this).collapse('hide');
-        }
-    });
 
     // Active class highlight
     $('#accordion')
@@ -177,7 +118,7 @@
     });
     </script>
 
-  
+
 
     <!-- Kick off Filterizr -->
     <script type="text/javascript">

@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <title>2016 Tax Design Challenge Showcase - Ideas Catalog</title>
+    <title>Ideas Catalog - 2016 Tax Design Challenge Showcase</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
     
@@ -24,6 +24,12 @@
       <style>
       </style>
     </noscript>
+
+    <style type="text/css">
+      .element-item a:not(:first-child) {
+        display: none;
+      }
+    </style>
   </head>
 
   <body>
@@ -194,18 +200,6 @@
       });
     });
     </script>
-
-    <script>
-    // Add class to collapse.in
-    /*jQuery('.panel-heading a').click(function() {
-        $('.panel-heading').removeClass('actives');
-        $(this).parents('.panel-heading').addClass('actives');
-    });*/
-    jQuery('.panel-heading a').click(function() {
-    });
-    </script>
-
-
 
     {% if site.offline_cache == true %}
       <script>

@@ -1,0 +1,60 @@
+<!-- Catalog 2016 -->
+{% for item in site.data.catalog-2016 %}
+
+    {% for project in item.project %}
+
+        {% if project.cat_slug != 'submissions_2016' %}
+
+            <div class="element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.cat_slug }}" data-sort="{{ project.name }} - {{ project.category_full }}">
+
+            {% for main in project.main %}
+
+              {% assign main = site.data.catalog-2016[0].project[0].main[0] %}
+              {% assign data = main.image|split:"," %}
+
+                <a class="fancybox" data-fancybox="{{ project.cat_slug }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png"
+                data-caption="<span class='fancybox-caption-title'>
+                Category: {{ project.top_category }} &mdash; 
+                {{ project.category_full }} ({{ forloop.index }} of {{ forloop.length }})
+                </span><br />
+                {{ site.ic_caption_blurb }}" title="{{ data[1] }}">
+
+                <img class="img-responsive" rel="catalog" src="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ data[1] }}"></a>
+                    
+            {% endfor %}
+
+                <span class="item-desc">{{ project.name }} &mdash; {{ project.category_full }}</span>
+
+            </div>
+
+        {% endif %}
+
+        {% if project.cat_slug == 'submissions_2016' %}
+
+            <div class="element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
+
+            {% for main in project.main %}
+
+              {% assign main = site.data.catalog-2016[0].project[0].main[0] %}
+              {% assign data = main.image|split:"," %}
+
+                <a class="fancybox" data-fancybox="{{ project.name }}" href="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png"
+                data-caption="<span class='fancybox-caption-title'>
+                Category: {{ project.top_category }} &mdash; 
+                {{ data[3] | strip }} ({{ forloop.index }} of {{ forloop.length }})
+                </span><br />
+                {{ site.ic_caption_blurb }}" title="{{ data[1] }}">
+
+                <img class="img-responsive" rel="catalog" src="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ data[1] }}"></a>
+                    
+            {% endfor %}
+
+                <span class="item-desc">{{ project.name }} &mdash; {{ project.category_full }}</span>
+
+            </div>
+
+        {% endif %}
+
+    {% endfor %}
+    
+{% endfor %}

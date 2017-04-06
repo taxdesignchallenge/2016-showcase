@@ -3,58 +3,37 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <title>Ideas Catalog - 2016 Tax Design Challenge Showcase</title>
-    <meta name="viewport" content="width=device-width">
+    <title>Ideas Catalog 2016 - Tax Design Challenge Showcase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
-    
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap-v3.1.0.css" rel="stylesheet">
+    <link href='{{ site.baseurl }}/assets/js/google-fonts.js' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
+    <!-- Fancybox v3 -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/core.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/fullscreen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/slideshow.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/thumbs.css" type="text/css" media="screen" />
+
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Bootstrap CSS served from a CDN -->
-    <link href="{{ site.baseurl }}/assets/css/bootstrap-v3.1.0.css"
-    rel="stylesheet">
-
-    <link href='{{ site.baseurl }}/assets/js/google-fonts.js' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-
-    <noscript>
-      <style>
-      </style>
-    </noscript>
-
-    <style type="text/css">
-      .element-item a:not(:first-child) {
-        display: none;
-      }
-    </style>
   </head>
 
   <body>
     <div class="container">
       <header role="banner">
         <div class="wrap">
-          <!-- Static navbar -->
           <nav class="navbar navbar-default">
               <div class="navbar-header">
                 <a href="{{ site.baseurl }}/">
                   <div class="ratio4-3" title="IRS Tax Design Challenge"></div>
                 </a>
-                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
               </div>
-              <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="{{ site.baseurl }}/">Home</a></li>
-                  <li><a href="{{ site.baseurl }}/winners">2016 Submissions</a></li>
-                </ul>
-              </div>-->
           </nav>
         </div>
       </header>
@@ -77,18 +56,8 @@
       
     </div> <!-- /.container -->
 
-
     <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
     <script src="{{ site.baseurl }}/assets/js/bootstrap-v3.1.0-min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/jquery.filterizr.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/filterizr-controls.js"></script>
-
-    <!-- Fancybox v3 -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/core.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/fullscreen.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/slideshow.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/thumbs.css" type="text/css" media="screen" />
 
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/core.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/fullscreen.js"></script>
@@ -96,6 +65,9 @@
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/media.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/slideshow.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
+
+    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.pkgd.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.js"></script>
 
     <script type="text/javascript">
       $("[data-fancybox]").fancybox({
@@ -105,22 +77,24 @@
 
     <script>
     // Collapse Innovate menu when item is clicked
-    $(window).bind('resize load', function() {
-      if ($(this).width() <= 767) {
-        $(document).on('click','.collapse.in',function(e) {
-            if( $(e.target).is('li') && $(e.target).attr('class') != 'collapsed' ) {
-                $(this).collapse('hide');
-            }
-        });
-      } else {
-        $(document).on('click','.collapse.in',function(e) {
-            if( $(e.target).is('li') && $(e.target).attr('class') != 'collapsed' ) {
-                $(this).collapse('show');
-            }
-        });
-      }
+    $('.nav.nav-gallery .panel .panel-collapse.collapse .panel-body ul li').on('click', function(){
+        $('.btn-navbar').click(); //bootstrap 2.x
+        $('.navbar-toggle').click() //bootstrap 3.x by Richard
     });
+    </script>
 
+<script>
+// Test for one column Masonry bug
+/*$('.grid').isotope({
+  itemSelector: '.element-item',
+  percentPosition: true,
+  masonry: {
+    columnWidth: '.grid-sizer'
+  }
+});*/
+</script>
+
+    <script>
     // Active class highlight
     $('#accordion')
     .on('show.bs.collapse', function(e) {
@@ -131,75 +105,11 @@
     });
     </script>
 
-    <!-- ISOTOPE / MASONRY
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
-    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.pkgd.min.js"></script>
     <script>
-
     // Fixes Safari bug
     $(window).load(function(){ $('.grid').masonry(); });
-
-    // external js: isotope.pkgd.js
-    // init Isotope
-    var $grid = $('.grid').isotope({
-      columnWidth: 500,
-      itemSelector: '.element-item',
-      layoutMode: 'fitRows',
-      /*getSortData: {
-        name: '.name',
-        symbol: '.symbol',
-        number: '.number parseInt',
-        category: '[data-category]',
-        weight: function( itemElem ) {
-          var weight = $( itemElem ).find('.weight').text();
-          return parseFloat( weight.replace( /[\(\)]/g, '') );
-        }
-      },*/
-      filter: '.submissions_2016',
-      animationOptions: {
-         duration: 7500,
-         easing: 'linear',
-         queue: false
-       }
-    });
-
-    // filter functions
-    var filterFns = {
-      // show if number is greater than 50
-      numberGreaterThan50: function() {
-        var number = $(this).find('.number').text();
-        return parseInt( number, 10 ) > 50;
-      },
-      // show if name ends with -ium
-      ium: function() {
-        var name = $(this).find('.name').text();
-        return name.match( /ium$/ );
-      }
-    };
-
-    // bind filter button click
-    $('.filters').on( 'click', 'li.iso-btn', function() {
-      var filterValue = $( this ).attr('data-filter');
-      // use filterFn if matches value
-      filterValue = filterFns[ filterValue ] || filterValue;
-      $grid.isotope({ filter: filterValue });
-    });
-
-    // bind sort button click
-    $('.sorts').on( 'click', 'li.iso-btn', function() {
-      var sortByValue = $(this).attr('data-sort-by');
-      $grid.isotope({ sortBy: sortByValue });
-    });
-
-    // change is-checked class on buttons
-    $('.button-group').each( function( i, buttonGroup ) {
-      var $buttonGroup = $( buttonGroup );
-      $buttonGroup.on( 'click', 'li.iso-btn', function() {
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-        $( this ).addClass('is-checked');
-      });
-    });
     </script>
+
 
     {% if site.offline_cache == true %}
       <script>

@@ -17,7 +17,7 @@
                 Category: {{ project.top_category }} &mdash; 
                 {{ project.category_full }} ({{ forloop.index }} of {{ forloop.length }})
                 </span><br />
-                {{ site.ic_caption_blurb }}" title="{{ data[1] }}">
+                {{ site.ic_caption_blurb }}" title="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png">
 
                 <img class="img-responsive" rel="catalog" src="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ data[1] }}"></a>
                     
@@ -43,7 +43,7 @@
                 Category: {{ project.top_category }} &mdash; 
                 {{ data[3] | strip }} ({{ forloop.index }} of {{ forloop.length }})
                 </span><br />
-                {{ site.ic_caption_blurb }}" title="{{ data[1] }}">
+                {{ site.ic_caption_blurb }}" title="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png">
 
                 <img class="img-responsive" rel="catalog" src="{{ site.baseurl }}/{{ site.ic_assets_path }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ data[1] }}"></a>
                     

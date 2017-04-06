@@ -55,9 +55,11 @@ brand_color: "#2cb34a"
 offline_cache: false
 cache_name: DOCter-v1.1
 
-# Ideas Catalog (ic) Gallery
+# Ideas Catalog
 ic_caption_blurb: This is a sample of the submission.
 ic_download_blurb: Download the complete design (PDF)
-ic_assets_path: assets/img/ideas_catalog
 ic_assets_path_main: main
 ic_assets_path_thumbs: thumbs
+
+# Ideas Catalog Gallery (2016)
+ic_assets_path: assets/img/ideas_catalog/2016

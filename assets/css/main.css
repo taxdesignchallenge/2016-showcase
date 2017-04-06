@@ -1075,17 +1075,85 @@ a.btn-ghost.hero-sticky {
 }
 
 
-/*
-Innovate
-==================================
-*/
+/* ==============================================================
+   Ideas Catalog
+   ============================================================== */
 
-/* Filterizr (thumb captions) */
-
-.filtr-item {
-    padding: 1rem;
+.temp-inactive {
+    color: #d1d1d1 !important;
 }
 
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer {
+  width: 0.1%;
+}
+
+.grid .element-item {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .catalog-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* ------------ Hide inner gallery images */
+.element-item a:not(:first-child) {
+    display: none;
+}
+
+/* ------------ Isotope */
+.grid .element-item {
+    padding: 0 3px 6px 3px;
+    margin: 0;
+}
+
+/* ------------ Navigation */
+#accordion {
+    margin-top: 0;
+    float: left;
+    padding-right: 62px !important;
+}
+
+    @media screen and (max-width: 991px) {
+        #accordion {
+            padding-right: 0 !important;
+        }
+    }
+
+#accordion .panel {
+    background: #fff;
+    border-radius: 0 !important;
+    border: 0;
+}
+
+.accordion-filtr-nocontent + div > div {
+    display: none;
+    visibility: hidden;
+    background: transparent;
+}
+
+#accordion.nav-gallery {
+    width: 100%;
+}
+
+#accordion .panel + .panel {
+    margin-top: 0px;
+}
+
+#accordion .panel .accordion-filtr-nocontent {
+    padding: 0;
+}
+
+/* ------------ Thumb captions (hide) */
 .item-desc {
     display: none;
     background-color: rgba(0,0,0,0.5);
@@ -1100,63 +1168,8 @@ Innovate
     right: 1rem;
 }
 
-
-
-
-
-
-
-
-.absolute-center {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.dropdown-menu {
-    margin-top: 0.1rem !important;
-    padding: 0 !important;
-}
-.dropdown-menu a:link, .dropdown-menu a:hover, .dropdown-menu a:active, .dropdown-menu a:focus, .dropdown-menu a:visited {
-    background-color: #1a1d19 !important;
-    padding-top: 0.75rem !important;
-}
-
-
-
-
-
-
-
-
-
-#top-menu.navbar #navbarCollapse {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-}
-
-.innovate-menu .navbar-inverse {
-    background: transparent;
-}
-
-.panel-default > .panel-heading h4 a {
-    /*background-color:#000;*/
-}
-
-/* Hamburger menu styles (Innovate - Filterizr menu) */
+/* ------------ Hamburger nav styles */
 .innovate-menu .navbar-inverse .navbar-toggle {
-    /*border-color: #0072ce;
-    background-color: #0072ce;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    float: left;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-top: 20px;
-    padding: 9px 10px;
-    position: relative;*/
     border-color: #0072ce;
     background-color: #0072ce;
     background-image: none;
@@ -1195,7 +1208,28 @@ Innovate
     overflow-x: hidden;
 }
 
-/* Dropdown submenu */
+/* ------------ Navbar collapse */
+#top-menu.navbar #navbarCollapse {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.innovate-menu .navbar-inverse {
+    background: transparent;
+}
+
+.innovate-menu .navbar-collapse {
+    max-height: none;
+    margin-bottom: 1em;
+}
+
+    @media screen and (min-width: 767px) {
+        #navbarCollapse {
+            height: auto !important;
+        }
+    }
+
+/* ------------ Dropdown submenu */
 .dropdown-submenu {
     position: relative;
 }
@@ -1244,12 +1278,20 @@ Innovate
     border-radius: 6px 0 6px 6px;
 }
 
+.dropdown-menu {
+    margin-top: 0.1rem !important;
+    padding: 0 !important;
+}
 
-/* Fancybox v3 caption */
+.dropdown-menu a:link, .dropdown-menu a:hover, .dropdown-menu a:active, .dropdown-menu a:focus, .dropdown-menu a:visited {
+    background-color: #1a1d19 !important;
+    padding-top: 0.75rem !important;
+}
+
+/* ------------ Fancybox 3 */
 .fancybox-caption-wrap .fancybox-caption a {
     color: #fff !important;
 }
-
 
 .fancybox-enabled .fancybox-button::before,
 .fancybox-enabled .fancybox-button::after {
@@ -1260,17 +1302,6 @@ Innovate
 .fancybox-enabled .fancybox-container.fancybox-show-controls .fancybox-controls .fancybox-infobar button.fancybox-button {
     display: inline-block !important;
 }
-
-
-
-
-/* Image Catalog Sort Buttons */
-
-
-
-
-
-
 
 .fancybox-caption {
     padding: 10px 0 30px !important;
@@ -1283,14 +1314,6 @@ Innovate
     margin-bottom: 8px;
     display: inline-block;
 }
-
-.temp-inactive {
-    color: #d1d1d1 !important;
-}
-
-
-
-/* Thumbs */
 
 .fancybox img {
     filter: none;
@@ -1310,69 +1333,22 @@ Innovate
     -o-filter:      grayscale(0%);
 }
 
-
-
-/* --- */
-
-.container div.wrap.wrapmain div.row div.container nav#top-menu.col-md-3.navbar.navbar-inverse div#navbarCollapse.collapse.navbar-collapse {
-    display: inline-block !important;
-}
-
-.navbar-collapse {
-    max-height: none;
-    margin-bottom: 1em;
-}
-
-/* Isotope */
-
-.grid .element-item {
-    padding: 0 3px 6px 3px;
-    margin: 0;
-}
-
-
-
-/* -- Ideas Catalog Navigation */
-
-#accordion {
-    margin-top: 0;
-    float: left;
-    padding-right: 62px !important;
-}
-
-    @media screen and (max-width: 991px) {
-        #accordion {
-            padding-right: 0 !important;
+    @media screen and (max-width: 767px) {
+        .catalog-wrapper .grid .element-item a.fancybox img.img-responsive {
+            width: 100%;
         }
     }
 
-#accordion .panel {
-    background: #fff;
-    border-radius: 0 !important;
-    border: 0;
-}
-
-.accordion-filtr-nocontent + div > div {
-    display: none;
-    visibility: hidden;
-    background: transparent;
-}
-
-#accordion.nav-gallery { width: 100%; }
-
-#accordion .panel + .panel { margin-top: 0px; }
-
-#accordion .panel .accordion-filtr-nocontent { padding: 0; }
-
-/* Category */
-
+/* ------------ Category */
 #accordion .panel .panel-heading {
     background: transparent;
     border-radius: 0;
     padding: 0; 
 }
 
-#accordion .panel > .panel-heading { border-bottom: 1px solid #5c5c5c !important; }
+#accordion .panel > .panel-heading {
+    border-bottom: 1px solid #5c5c5c !important;
+}
 
 #accordion .panel > .panel-heading.active {
     -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
@@ -1380,16 +1356,22 @@ Innovate
     box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
 }
 
-#accordion .panel > .panel-heading.active + div { border-bottom: 1px solid #5c5c5c; }
+#accordion .panel > .panel-heading.active + div {
+    border-bottom: 1px solid #5c5c5c;
+}
 
-#accordion .panel > .panel-heading + .panel-collapse .panel-body { border-top: none; }
+#accordion .panel > .panel-heading + .panel-collapse .panel-body {
+    border-top: none;
+}
 
 #accordion .panel .panel-heading h4 {
     padding: 0.75rem 1.5rem;
     cursor: pointer;
 }
 
-#accordion .panel .panel-heading h4.panel-title { padding: 0; }
+#accordion .panel .panel-heading h4.panel-title {
+    padding: 0;
+}
 
 #accordion .panel .panel-heading h4.panel-title a {
     color: #5c5c5c !important;
@@ -1405,7 +1387,9 @@ Innovate
     transition: background-color 0.25s ease 0s;
 }
 
-#accordion .panel .panel-heading.active h4 a { font-weight: 500; }
+#accordion .panel .panel-heading.active h4 a {
+    font-weight: 500;
+}
 
 #accordion .panel .panel-heading h4 > a:hover {
     -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
@@ -1422,9 +1406,10 @@ Innovate
     background: #d8d8d8;
 }
 
-/* Subcategory (list) */
-
-#accordion ul { list-style: none; }
+/* ------------ Subcategory (list) */
+#accordion ul {
+    list-style: none;
+}
 
 #accordion ul li {
     font-size: 1.1em;
@@ -1446,18 +1431,26 @@ Innovate
     box-shadow: none;
 }
 
-#accordion .panel-body ul li.iso-btn:last-child { margin-bottom: 0; }
+#accordion .panel-body ul li.iso-btn:last-child {
+    margin-bottom: 0;
+}
 
-#accordion .panel .panel-body { padding: 0; }
+#accordion .panel .panel-body {
+    padding: 0;
+}
 
-#accordion .panel .panel-collapse .panel-body ul li.iso-btn { padding: 7px 15px; }
+#accordion .panel .panel-collapse .panel-body ul li.iso-btn {
+    padding: 7px 15px;
+}
 
 #accordion .panel .panel-collapse .panel-body ul li.iso-btn:hover {
     background: transparent;
     text-decoration: underline;
 }
 
-#accordion .panel .panel-collapse.collapse.in .panel-body ul li.iso-btn.active { background: #d8d8d8; }
+#accordion .panel .panel-collapse.collapse.in .panel-body ul li.iso-btn.active {
+    background: #d8d8d8;
+}
 
 #accordion .panel .panel-collapse .panel-body ul li.iso-btn.active:hover {
     background: #d8d8d8;
@@ -1466,19 +1459,15 @@ Innovate
     box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
 }
 
-#accordion .panel .panel-collapse .panel-body ul { padding-left: 0; }
-#accordion .panel-collapse ul { margin-bottom: 0; }
+#accordion .panel .panel-collapse .panel-body ul {
+    padding-left: 0;
+}
+
+#accordion .panel-collapse ul {
+    margin-bottom: 0;
+}
 
 #accordion .panel .panel-collapse.collapse.in ul li.iso-btn.active {
     box-shadow: none;
 }
-
-
-
-
-
-
-
-
-
 

@@ -832,5 +832,239 @@
       - image: Taxez_layout_sidebar, alt
 
 # =================================================================== #
+# Authorizations
+# =================================================================== #
+
+- project:
+  -
+    name: IRS 365
+    top_category: Security
+    category_full: Authorizations
+    cat_slug: authorizations
+    thumb_url: IRS_365_thumb.png
+    main:
+      - image: IRS_365_security_authorizations, alt
+
+- project:
+  -
+    name: my IRS Account
+    top_category: Security
+    category_full: Authorizations
+    cat_slug: authorizations
+    thumb_url: my_IRS_Account_thumb.png
+    main:
+      - image: my_IRS_Account_security_authorizations, alt
+      - image: my_IRS_Account_security_authorizations, alt
+      - image: my_IRS_Account_security_authorizations, alt
+      - image: my_IRS_Account_security_authorizations, alt
+
+- project:
+  -
+    name: Tax Transcripts On Demand
+    top_category: Security
+    category_full: Authorizations
+    cat_slug: authorizations
+    thumb_url: Tax_Transcripts_On_Demand_thumb.png
+    main:
+      - image: Tax_Transcripts_On_Demand_security_authorizations, alt
+      - image: Tax_Transcripts_On_Demand_security_authorizations, alt
+
+# =================================================================== #
+# Identity Security
+# =================================================================== #
+
+- project:
+  -
+    name: Empowered
+    top_category: Security
+    category_full: Identity/Security
+    cat_slug: identity_security
+    thumb_url: Empowered_thumb.png
+    main:
+      - image: Empowered_security_identity_security, alt
+      - image: Empowered_security_identity_security, alt
+
+- project:
+  -
+    name: IRS 365
+    top_category: Security
+    category_full: Identity/Security
+    cat_slug: identity_security
+    thumb_url: IRS_365_thumb.png
+    main:
+      - image: IRS_365_security_identity_security, alt
+
+- project:
+  -
+    name: IRS Filr
+    top_category: Security
+    category_full: Identity/Security
+    cat_slug: identity_security
+    thumb_url: IRS_Filr_thumb.png
+    main:
+      - image: IRS_Filr_security_identity_security, alt
+
+- project:
+  -
+    name: MyTaxProfile
+    top_category: Security
+    category_full: Identity/Security
+    cat_slug: identity_security
+    thumb_url: MyTaxProfile_thumb.png
+    main:
+      - image: MyTaxProfile_security_identity_security, alt
+      - image: MyTaxProfile_security_identity_security, alt
+
+- project:
+  -
+    name: Tax Transcripts On Demand
+    top_category: Security
+    category_full: Identity/Security
+    cat_slug: identity_security
+    thumb_url: Tax_Transcripts_On_Demand_thumb.png
+    main:
+      - image: Tax_Transcripts_On_Demand_security_identity_security, alt
+      - image: Tax_Transcripts_On_Demand_security_identity_security, alt
+
+- project:
+  -
+    name: Taxes Made Simple
+    top_category: Security
+    category_full: Identity/Security
+    cat_slug: identity_security
+    thumb_url: Taxes_Made_Simple_thumb.png
+    main:
+      - image: Taxes_Made_Simple_security_identity_security, alt
+
+# =================================================================== #
+# Sign Up Log In
+# =================================================================== #
+
+- project:
+  -
+    name: Empowered
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: Empowered_thumb.png
+    main:
+      - image: Empowered_security_sign_up, alt
+      - image: Empowered_security_sign_up, alt
+
+- project:
+  -
+    name: IRS efile
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: IRS_efile_thumb.png
+    main:
+      - image: IRS_efile_security_sign_up, alt
+
+- project:
+  -
+    name: IRS File Friend
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: IRS_File_Friend_thumb.png
+    main:
+      - image: IRS_File_Friend_security_sign_up, alt
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_security_sign_up, alt
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: IRS_MyService_thumb.png
+    main:
+      - image: IRS_MyService_security_sign_up, alt
+
+- project:
+  -
+    name: My Tax Data
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: My_Tax_Data_thumb.png
+    main:
+      - image: My_Tax_Data_security_sign_up, alt
+      - image: My_Tax_Data_security_sign_up, alt
+
+- project:
+  -
+    name: MyIRS
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_security_sign_up, alt
+      - image: MyIRS_security_sign_up, alt
+
+- project:
+  -
+    name: MyTaxProfile
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: MyTaxProfile_thumb.png
+    main:
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+      - image: MyTaxProfile_security_sign_up, alt
+
+- project:
+  -
+    name: Tax Transcripts On Demand
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: Tax_Transcripts_On_Demand_thumb.png
+    main:
+      - image: Tax_Transcripts_On_Demand_security_sign_up, alt
+      - image: Tax_Transcripts_On_Demand_security_sign_up, alt
+      - image: Tax_Transcripts_On_Demand_security_sign_up, alt
+
+- project:
+  -
+    name: Taxes Made Simple
+    top_category: Security
+    category_full: Sign Up/Log In
+    cat_slug: sign_up_log_in
+    thumb_url: Taxes_Made_Simple_thumb.png
+    main:
+      - image: Taxes_Made_Simple_security_sign_up, alt
+
+# =================================================================== #
 # 
 # =================================================================== #

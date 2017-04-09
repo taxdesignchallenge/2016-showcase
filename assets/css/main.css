@@ -1505,7 +1505,7 @@ a.btn-ghost.hero-sticky {
 }
 
 .catalog-header-container .header-bg {
-    background: rgba(0, 0, 0, 0) url("/assets/img/Ideas_Catalog_Header_Image.svg") no-repeat scroll 0 0 / 960px 190px;
+    background: rgba(0, 0, 0, 0) url("../img/Ideas_Catalog_Header_Image.svg") no-repeat scroll 0 0 / 960px 190px;
     display: block;
     height: 200px;
     text-indent: -9999px;
@@ -1539,7 +1539,7 @@ a.btn-ghost.hero-sticky {
 
     @media screen and (max-width: 767px) {
         .catalog-header-container .header-bg {
-            background: rgba(0, 0, 0, 0) url("/assets/img/Ideas_Catalog_Header_Image.svg") no-repeat scroll -90px 0 / 960px 190px;
+            background: rgba(0, 0, 0, 0) url("../img/Ideas_Catalog_Header_Image.svg") no-repeat scroll -90px 0 / 960px 190px;
             display: block;
             height: 200px;
             text-indent: -9999px;
@@ -1576,7 +1576,7 @@ a.btn-ghost.hero-sticky {
     @media only screen and (max-width : 385px) {
 
         .catalog-header-container .header-bg {
-            background: rgba(0, 0, 0, 0) url("/assets/img/Ideas_Catalog_Header_Image.svg") no-repeat scroll -110px 0 / 960px 190px;
+            background: rgba(0, 0, 0, 0) url("../img/Ideas_Catalog_Header_Image.svg") no-repeat scroll -110px 0 / 960px 190px;
         }
     }
 

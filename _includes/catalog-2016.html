@@ -5,7 +5,9 @@
 
         {% if project.cat_slug != 'submissions_2016' %}
 
-            <div class="element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.cat_slug }}" data-sort="{{ project.name }} - {{ project.category_full }}">
+        <div class="grid-sizer"></div>
+
+            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.cat_slug }}" data-sort="{{ project.name }} - {{ project.category_full }}">
 
             {% for main in project.main %}
 
@@ -31,7 +33,9 @@
 
         {% if project.cat_slug == 'submissions_2016' %}
 
-            <div class="element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
+        <div class="grid-sizer"></div>
+
+            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
 
             {% for main in project.main %}
 

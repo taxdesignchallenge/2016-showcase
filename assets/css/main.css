@@ -274,14 +274,14 @@ Footer
     width: 100%;
 }
 
-footer {
-    display: table-row; /* for sticky footer */
-    height: 1px; /* for sticky footer */
+/*footer {
+    display: table-row;
+    height: 1px;
     border-top: 2px solid #babbbd;
     background: #f1f2f2;
     width: 100%;
     font-size: 0.875em;
-}
+}*/
 
 footer .wrap {
   padding-top: 2em;
@@ -920,12 +920,12 @@ a.btn-ghost.hero-sticky {
     padding: 7px 10px 7px 25px;
     margin-left: 45px;
 }
+
 .sc-6 {
     left: 0px;
     top: -40px;
     width: 60px;
 }
-
 
 .sidebar-box {
     background: #a5a2a2;
@@ -1089,21 +1089,37 @@ a.btn-ghost.hero-sticky {
   clear: both;
 }
 
-.grid-sizer {
-  width: 0.1%;
-}
-
 .grid .element-item {
     margin: 0;
     padding: 0;
 }
 
-@media screen and (max-width: 767px) {
-    .catalog-wrapper {
-        padding-left: 0;
-        padding-right: 0;
-    }
+.grid-sizer {
+    width: 33.33333333333333%;
+    width: 25%;
+    background: white;
 }
+
+    @media only screen and (max-width : 1200px) {
+        .grid-sizer {
+            width: 33.3333%;
+        }
+
+    }
+
+    @media only screen and (max-width : 768px) {
+        .grid-sizer {
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .catalog-wrapper {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
 
 /* ------------ Hide inner gallery images */
 .element-item a:not(:first-child) {
@@ -1471,3 +1487,19 @@ a.btn-ghost.hero-sticky {
     box-shadow: none;
 }
 
+
+
+
+
+    
+
+
+
+
+/*footer.footer {
+    background-color: #f5f5f5;
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}*/

@@ -26,21 +26,26 @@
 
   <body>
     <div class="container">
+
+      <div class="row">
       <header role="banner">
         <div class="wrap">
-          <nav class="navbar navbar-default">
+          <div class="navbar navbar-default">
               <div class="navbar-header">
                 <a href="{{ site.baseurl }}/">
                   <div class="ratio4-3" title="IRS Tax Design Challenge"></div>
                 </a>
               </div>
-          </nav>
+          </div>
         </div>
       </header>
+      </div>
 
+      <main class="row">
       {{ content }}
+      </main>
 
-      <div class="wrap footer">
+      <footer class="wrap footer">
         <div class="row">
           <div class="container">
             <div class="col-md-12">
@@ -52,9 +57,11 @@
             </div>
           </div>
         </div>
-      </div>
-      
+      </footer>
+
     </div> <!-- /.container -->
+
+
 
     <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/bootstrap-v3.1.0-min.js"></script>
@@ -83,17 +90,6 @@
     });
     </script>
 
-<script>
-// Test for one column Masonry bug
-/*$('.grid').isotope({
-  itemSelector: '.element-item',
-  percentPosition: true,
-  masonry: {
-    columnWidth: '.grid-sizer'
-  }
-});*/
-</script>
-
     <script>
     // Active class highlight
     $('#accordion')
@@ -103,13 +99,20 @@
     .on('hide.bs.collapse', function(e) {
       $(e.target).prev('.panel-heading').removeClass('active');
     });
+
+    $(document).ready(function() {
+        var selector = '.panel .panel-collapse ul li.iso-btn';
+        $(selector).on('click', function(){
+            $(selector).removeClass('active');
+            $(this).addClass('active');
+        });
+    });
     </script>
 
     <script>
     // Fixes Safari bug
     $(window).load(function(){ $('.grid').masonry(); });
     </script>
-
 
     {% if site.offline_cache == true %}
       <script>

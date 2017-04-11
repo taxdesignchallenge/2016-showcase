@@ -549,6 +549,10 @@ a, a:link, a:visited {
     color: #336699 !important;
 }
 
+.row.border {
+     border-top: 1px solid #d2d6db;
+}
+
 .ratio4-3 {
     width: 100%;
     background-image: url(../../IRSTaxDesignChallenge.png);
@@ -1531,7 +1535,7 @@ a.btn-ghost.hero-sticky {
 
 .content-submission-container {
     left: 410px;
-    top: 45px;
+    top: 50px;
     right: 0;
     position: absolute;
     width: auto;

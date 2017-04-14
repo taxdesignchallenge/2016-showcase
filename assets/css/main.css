@@ -1088,6 +1088,7 @@ a.btn-ghost.hero-sticky {
 }
 
 /* 508 indicator */
+
 .catalog-wrapper *:focus {
     outline: 1px solid blue !important;
 }

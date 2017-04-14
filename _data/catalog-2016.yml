@@ -1066,5 +1066,791 @@
       - image: Taxes_Made_Simple_security_sign_up, alt
 
 # =================================================================== #
-# 
+# Calculator
 # =================================================================== #
+
+- project:
+  -
+    name: IRS
+    top_category: Self-Help
+    category_full: Calculator
+    cat_slug: calculator
+    thumb_url: IRS_thumb.png
+    main:
+      - image: IRS_self_help_calculator, alt
+
+- project:
+  -
+    name: My Tax Data
+    top_category: Self-Help
+    category_full: Calculator
+    cat_slug: calculator
+    thumb_url: My_Tax_Data_thumb.png
+    main:
+      - image: My_Tax_Data_self_help_calculator, alt
+      - image: My_Tax_Data_self_help_calculator, alt
+      - image: My_Tax_Data_self_help_calculator, alt
+
+- project:
+  -
+    name: Tazes
+    top_category: Self-Help
+    category_full: Calculator
+    cat_slug: calculator
+    thumb_url: Taxez_thumb.png
+    main:
+      - image: Taxez_self_help_calculator, alt
+
+# =================================================================== #
+# Help
+# =================================================================== #
+
+- project:
+  -
+    name: alternatives
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: alternatives_TDC_thumb.png
+    main:
+      - image: alternatives_TDC_self_help_help, alt
+
+- project:
+  -
+    name: Ask IRS
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: Ask_IRS_thumb.png
+    main:
+      - image: Ask_IRS_self_help_help, alt
+
+- project:
+  -
+    name: IRS 365
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: IRS_365_thumb.png
+    main:
+      - image: IRS_365_self_help_help, alt
+
+- project:
+  -
+    name: IRS efile
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: IRS_efile_thumb.png
+    main:
+      - image: IRS_efile_self_help_help, alt
+
+- project:
+  -
+    name: IRS File Friend
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: IRS_File_Friend_thumb.png
+    main:
+      - image: IRS_File_Friend_self_help_help, alt
+
+- project:
+  -
+    name: IRS Filr
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: IRS_Filr_thumb.png
+    main:
+      - image: IRS_Filr_self_help_help, alt
+      - image: IRS_Filr_self_help_help, alt
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_self_help_help, alt
+      - image: IRS_My_Account_self_help_help, alt
+
+- project:
+  -
+    name: IRS TDC
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: IRS_TDC_thumb.png
+    main:
+      - image: IRS_TDC_self_help_help, alt
+
+- project:
+  -
+    name: MyIRS
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_self_help_help, alt
+
+- project:
+  -
+    name: MyTaxOnline
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: MyTaxOnline_thumb.png
+    main:
+      - image: MyTaxOnline_self_help_help, alt
+
+- project:
+  -
+    name: Taxes
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: Taxes_thumb.png
+    main:
+      - image: Taxes_self_help_help, alt
+
+- project:
+  -
+    name: Taxez
+    top_category: Self-Help
+    category_full: Help
+    cat_slug: help
+    thumb_url: Taxez_thumb.png
+    main:
+      - image: Taxez_self_help_help, alt
+      - image: Taxez_self_help_help, alt
+
+# =================================================================== #
+# Search
+# =================================================================== #
+
+- project:
+  -
+    name: Ask IRS
+    top_category: Self-Help
+    category_full: Search
+    cat_slug: search
+    thumb_url: Ask_IRS_thumb.png
+    main:
+      - image: Ask_IRS_self_help_search, alt
+      - image: Ask_IRS_self_help_search, alt
+
+- project:
+  -
+    name: IRS efile
+    top_category: Self-Help
+    category_full: Search
+    cat_slug: search
+    thumb_url: IRS_efile_thumb.png
+    main:
+      - image: IRS_efile_self_help_search, alt
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Self-Help
+    category_full: Search
+    cat_slug: search
+    thumb_url: IRS_MyService_thumb.png
+    main:
+      - image: IRS_MyService_self_help_search, alt
+      - image: IRS_MyService_self_help_search, alt
+
+- project:
+  -
+    name: MyIRS
+    top_category: Self-Help
+    category_full: Search
+    cat_slug: search
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_self_help_search, alt
+
+- project:
+  -
+    name: MyTaxOnline
+    top_category: Self-Help
+    category_full: Search
+    cat_slug: search
+    thumb_url: MyTaxOnline_thumb.png
+    main:
+      - image: MyTaxOnline_self_help_search, alt
+
+- project:
+  -
+    name: Taxez
+    top_category: Self-Help
+    category_full: Search
+    cat_slug: search
+    thumb_url: Taxez_thumb.png
+    main:
+      - image: Taxez_self_help_search, alt
+
+- project:
+  -
+    name: TaxReturn
+    top_category: Self-Help
+    category_full: Search
+    cat_slug: search
+    thumb_url: TaxReturn_thumb.png
+    main:
+      - image: TaxReturn_self_help_search, alt
+
+# =================================================================== #
+# Settings
+# =================================================================== #
+
+- project:
+  -
+    name: IRS 365
+    top_category: Self-Help
+    category_full: Settings
+    cat_slug: settings
+    thumb_url: IRS_365_thumb.png
+    main:
+      - image: IRS_365_self_help_settings, alt
+
+- project:
+  -
+    name: IRS efile
+    top_category: Self-Help
+    category_full: Settings
+    cat_slug: settings
+    thumb_url: IRS_efile_thumb.png
+    main:
+      - image: IRS_efile_self_help_settings, alt
+
+- project:
+  -
+    name: Taxez
+    top_category: Self-Help
+    category_full: Settings
+    cat_slug: settings
+    thumb_url: Taxez_thumb.png
+    main:
+      - image: Taxez_self_help_settings, alt
+
+- project:
+  -
+    name: TaxReturn
+    top_category: Self-Help
+    category_full: Settings
+    cat_slug: settings
+    thumb_url: TaxReturn_thumb.png
+    main:
+      - image: TaxReturn_self_help_settings, alt
+
+# =================================================================== #
+# Tooltips
+# =================================================================== #
+
+- project:
+  -
+    name: IRS efile
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: IRS_efile_thumb.png
+    main:
+      - image: IRS_efile_self_help_tooltips, alt
+      - image: IRS_efile_self_help_tooltips, alt
+
+- project:
+  -
+    name: IRS File Friend
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: IRS_File_Friend_thumb.png
+    main:
+      - image: IRS_File_Friend_self_help_tooltips, alt
+      - image: IRS_File_Friend_self_help_tooltips, alt
+      - image: IRS_File_Friend_self_help_tooltips, alt
+      - image: IRS_File_Friend_self_help_tooltips, alt
+      - image: IRS_File_Friend_self_help_tooltips, alt
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_self_help_tooltips, alt
+      - image: IRS_My_Account_self_help_tooltips, alt
+      - image: IRS_My_Account_self_help_tooltips, alt
+      - image: IRS_My_Account_self_help_tooltips, alt
+
+- project:
+  -
+    name: IRS
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: IRS_thumb.png
+    main:
+      - image: IRS_self_help_tooltips, alt
+      - image: IRS_self_help_tooltips, alt
+      - image: IRS_self_help_tooltips, alt
+      - image: IRS_self_help_tooltips, alt
+
+- project:
+  -
+    name: My Federal Tax Account
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: My_Federal_Tax_Account_thumb.png
+    main:
+      - image: My_Federal_Tax_Account_self_help_tooltips, alt
+      - image: My_Federal_Tax_Account_self_help_tooltips, alt
+
+- project:
+  -
+    name: My Tax Data
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: My_Tax_Data_thumb.png
+    main:
+      - image: My_Tax_Data_self_help_tooltips, alt
+      - image: My_Tax_Data_self_help_tooltips, alt
+      - image: My_Tax_Data_self_help_tooltips, alt
+
+- project:
+  -
+    name: MyTaxOnline
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: MyTaxOnline_thumb.png
+    main:
+      - image: MyTaxOnline_self_help_tooltips, alt
+      - image: MyTaxOnline_self_help_tooltips, alt
+      - image: MyTaxOnline_self_help_tooltips, alt
+
+- project:
+  -
+    name: Taxez
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: Taxez_thumb.png
+    main:
+      - image: Taxez_self_help_tooltips, alt
+
+- project:
+  -
+    name: Your Tax Summary
+    top_category: Self-Help
+    category_full: Tooltips
+    cat_slug: tooltips
+    thumb_url: Your_Tax_Summary_thumb.png
+    main:
+      - image: Your_Tax_Summary_self_help_tooltips, alt
+      - image: Your_Tax_Summary_self_help_tooltips, alt
+
+# =================================================================== #
+# Form Fields
+# =================================================================== #
+
+- project:
+  -
+    name: Empowered
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: Empowered_thumb.png
+    main:
+      - image: Empowered_forms_form_fields, alt
+
+- project:
+  -
+    name: IRS 365
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: IRS_365_thumb.png
+    main:
+      - image: IRS_365_forms_form_fields, alt
+
+- project:
+  -
+    name: IRS efile
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: IRS_efile_thumb.png
+    main:
+      - image: IRS_efile_forms_form_fields, alt
+
+- project:
+  -
+    name: IRS File Friend
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: IRS_File_Friend_thumb.png
+    main:
+      - image: IRS_File_Friend_forms_form_fields, alt
+      - image: IRS_File_Friend_forms_form_fields, alt
+      - image: IRS_File_Friend_forms_form_fields, alt
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_forms_form_fields, alt
+      - image: IRS_My_Account_forms_form_fields, alt
+      - image: IRS_My_Account_forms_form_fields, alt
+
+- project:
+  -
+    name: My Federal Tax Account
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: My_Federal_Tax_Account_thumb.png
+    main:
+      - image: My_Federal_Tax_Account_forms_form_fields, alt
+      - image: My_Federal_Tax_Account_forms_form_fields, alt
+      - image: My_Federal_Tax_Account_forms_form_fields, alt
+      - image: My_Federal_Tax_Account_forms_form_fields, alt
+
+- project:
+  -
+    name: my IRS Account
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: my_IRS_Account_thumb.png
+    main:
+      - image: my_IRS_Account_forms_form_fields, alt
+      - image: my_IRS_Account_forms_form_fields, alt
+      - image: my_IRS_Account_forms_form_fields, alt
+
+- project:
+  -
+    name: MyIRS
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_forms_form_fields, alt
+      - image: MyIRS_forms_form_fields, alt
+
+- project:
+  -
+    name: MyTaxProfile
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: MyTaxProfile_thumb.png
+    main:
+      - image: MyTaxProfile_forms_form_fields, alt
+      - image: MyTaxProfile_forms_form_fields, alt
+      - image: MyTaxProfile_forms_form_fields, alt
+      - image: MyTaxProfile_forms_form_fields, alt
+      - image: MyTaxProfile_forms_form_fields, alt
+      - image: MyTaxProfile_forms_form_fields, alt
+      - image: MyTaxProfile_forms_form_fields, alt
+
+- project:
+  -
+    name: Tax Return Transcript
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: Tax_Return_Transcript_thumb.png
+    main:
+      - image: Tax_Return_Transcript_forms_form_fields, alt
+
+- project:
+  -
+    name: Taxes Made Simple
+    top_category: Forms
+    category_full: Form Fields
+    cat_slug: form_fields
+    thumb_url: Taxes_Made_Simple_thumb.png
+    main:
+      - image: Taxes_Made_Simple_forms_form_fields, alt
+
+# =================================================================== #
+# IRS Forms
+# =================================================================== #
+
+- project:
+  -
+    name: Ask IRS
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: Ask_IRS_thumb.png
+    main:
+      - image: Ask_IRS_forms_IRS_forms, alt
+
+- project:
+  -
+    name: IRS efile
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: IRS_efile_thumb.png
+    main:
+      - image: IRS_efile_forms_IRS_forms, alt
+
+- project:
+  -
+    name: IRS
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: IRS_thumb.png
+    main:
+      - image: IRS_forms_IRS_forms, alt
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_forms_IRS_forms, alt
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: IRS_MyService_thumb.png
+    main:
+      - image: IRS_MyService_forms_IRS_forms, alt
+      - image: IRS_MyService_forms_IRS_forms, alt
+
+- project:
+  -
+    name: IRS TDC
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: IRS_TDC_thumb.png
+    main:
+      - image: IRS_TDC_forms_IRS_forms, alt
+      - image: IRS_TDC_forms_IRS_forms, alt
+
+- project:
+  -
+    name: my IRS Account
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: my_IRS_Account_thumb.png
+    main:
+      - image: my_IRS_Account_forms_IRS_forms, alt
+      - image: my_IRS_Account_forms_IRS_forms, alt
+      - image: my_IRS_Account_forms_IRS_forms, alt
+
+- project:
+  -
+    name: MyIRS
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_forms_IRS_forms, alt
+      - image: MyIRS_forms_IRS_forms, alt
+
+- project:
+  -
+    name: Taxes Made Simple
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: Taxes_Made_Simple_thumb.png
+    main:
+      - image: Taxes_Made_Simple_forms_IRS_forms, alt
+
+- project:
+  -
+    name: Taxez
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: Taxez_thumb.png
+    main:
+      - image: Taxez_forms_IRS_forms, alt
+
+- project:
+  -
+    name: TaxReturn
+    top_category: Forms
+    category_full: IRS Forms
+    cat_slug: irs_forms
+    thumb_url: TaxReturn_thumb.png
+    main:
+      - image: TaxReturn_forms_IRS_forms, alt
+
+# =================================================================== #
+# Accordions
+# =================================================================== #
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_page_elements_accordions, alt
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: IRS_MyService_thumb.png
+    main:
+      - image: IRS_MyService_page_elements_accordions, alt
+
+- project:
+  -
+    name: IRS
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: IRS_thumb.png
+    main:
+      - image: IRS_page_elements_accordions, alt
+      - image: IRS_page_elements_accordions, alt
+
+- project:
+  -
+    name: my IRS Account
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: my_IRS_Account_thumb.png
+    main:
+      - image: my_IRS_Account_page_elements_accordions, alt
+
+- project:
+  -
+    name: My Tax Data
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: My_Tax_Data_thumb.png
+    main:
+      - image: My_Tax_Data_page_elements_accordions, alt
+      - image: My_Tax_Data_page_elements_accordions, alt
+      - image: My_Tax_Data_page_elements_accordions, alt
+
+- project:
+  -
+    name: TaxReturn
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: TaxReturn_thumb.png
+    main:
+      - image: TaxReturn_page_elements_accordions, alt
+      - image: TaxReturn_page_elements_accordions, alt
+
+- project:
+  -
+    name: Your_Tax_Summary
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: Your_Tax_Summary_thumb.png
+    main:
+      - image: Your_Tax_Summary_page_elements_accordions, alt
+
+# =================================================================== #
+# Calendars/Dates
+# =================================================================== #
+
+- project:
+  -
+    name: alternatives TDC
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: alternatives_TDC_thumb.png
+    main:
+      - image: alternatives_TDC_page_elements_dates, alt
+
+- project:
+  -
+    name: Ask IRS
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: Ask_IRS_thumb.png
+    main:
+      - image: Ask_IRS_page_elements_dates, alt
+
+- project:
+  -
+    name: IRS 365
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: IRS_365_thumb.png
+    main:
+      - image: IRS_365_page_elements_dates, alt
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_page_elements_dates, alt
+      - image: IRS_My_Account_page_elements_dates, alt
+      - image: IRS_My_Account_page_elements_dates, alt
+      - image: IRS_My_Account_page_elements_dates, alt
+
+- project:
+  -
+    name: My Federal Tax Account
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: My_Federal_Tax_Account_thumb.png
+    main:
+      - image: My_Federal_Tax_Account_page_elements_dates, alt
+      - image: My_Federal_Tax_Account_page_elements_dates, alt
+
+- project:
+  -
+    name: MyIRS
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_page_elements_dates, alt
+

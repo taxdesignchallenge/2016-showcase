@@ -4,17 +4,15 @@ layout: catalog
 <div class="wrap wrapmain">
 
   <div class="container">
-    <div class="row catalog-header-container">
-
+    <div class="row catalog-header-container" role="banner">
       <div class="header-bg"></div>
       <div class="content-container">
-        <p class="title">Ideas Catalog</p>
-        <div class="col-lg-7 col-sm-12 col-xs-12 content-submission-container">
-            <h6>One idea. Big impact.</h6>
+        <h1 class="title">Ideas Catalog</h1>
+        <div class="col-lg-7 col-sm-12 col-xs-12 main">
+            <h2>One idea. Big impact.</h2>
             <p>That's all it takes. Just one big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. Check out the ideas catalog below. You can search by submission or design element.</p>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -34,145 +32,160 @@ layout: catalog
 
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="nopadding-left">
-                      <div class="panel-group simplefilter nav nav-gallery filters" id="accordion">
+                    <div class="simplefilter nav nav-gallery filters" id="accordion">
 
+                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading active" data-toggle="collapse" data-target="#collapseAll">
                             <h4 class="panel-title">
-                              <a class="accordion-toggle">By Submission</a>
+                              <button class="accordion-toggle" tabindex="1">By Submission</button>
                             </h4>
                           </div>
                           <div id="collapseAll" class="panel-collapse collapse in">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn active" data-filter=".submissions_2016">2016 Submissions</li>
+                              <li class="iso-btn active" data-filter=".submissions_2016"><a href="#" tabindex="2">2016 Submissions</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
+                      </div>
 
+                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading" data-toggle="collapse" data-target="#collapseTwo">
                             <h4 class="panel-title">
-                              <a class="accordion-toggle">Display</a>
+                              <button class="accordion-toggle" tabindex="3">Display</button>
                             </h4>
                           </div>
                           <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn temp-inactive" data-filter=".desktop">Desktop</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".mobile">Mobile</li>
+                                  <li class="iso-btn" data-filter=".desktop"><a href="#" tabindex="4">Desktop</a></li>
+                                  <li class="iso-btn" data-filter=".mobile"><a href="#" tabindex="5">Mobile</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
+                      </div>
 
+                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseThree">
-                              <a class="accordion-toggle">Forms</a>
+                              <button class="accordion-toggle" tabindex="5">Forms</button>
                             </h4>
                           </div>
                           <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn temp-inactive" data-filter=".form-fields">Form Fields</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".irs-forms">IRS Forms</li>
+                                  <li class="iso-btn" data-filter=".form_fields"><a href="#" tabindex="6">Form Fields</a></li>
+                                  <li class="iso-btn" data-filter=".irs_forms"><a href="#" tabindex="7">IRS Forms</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
+                      </div>
 
+                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFour">
-                              <a class="accordion-toggle">Layout</a>
+                              <button class="accordion-toggle" tabindex="8">Layout</button>
                             </h4>
                           </div>
                           <div id="collapseFour" class="panel-collapse collapse">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".cards_snapshots">Cards/Snapshots</li>
-                                  <li class="iso-btn" data-filter=".footer">Footer</li>
-                                  <li class="iso-btn" data-filter=".navigation">Navigation</li>
-                                  <li class="iso-btn" data-filter=".profile_dashboard">Profile/Dashboard</li>
-                                  <li class="iso-btn" data-filter=".sidebar">Sidebar</li>
+                                  <li class="iso-btn" data-filter=".cards_snapshots"><a href="#" tabindex="9">Cards/Snapshots</a></li>
+                                  <li class="iso-btn" data-filter=".footer"><a href="#" tabindex="10">Footer</a></li>
+                                  <li class="iso-btn" data-filter=".navigation"><a href="#" tabindex="11">Navigation</a></li>
+                                  <li class="iso-btn" data-filter=".profile_dashboard"><a href="#" tabindex="12">Profile/Dashboard</a></li>
+                                  <li class="iso-btn" data-filter=".sidebar"><a href="#" tabindex="13">Sidebar</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
+                      </div>
 
+                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFive">
-                              <a class="accordion-toggle">Page Elements</a>
+                              <button class="accordion-toggle" tabindex="14">Page Elements</button>
                             </h4>
                           </div>
                           <div id="collapseFive" class="panel-collapse collapse">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn temp-inactive" data-filter=".accordions">Accordions</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".calendars_dates">Calendars/Dates</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".diagrams_graphs_tables">Diagrams/Graphs/Tables</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".hero_header">Hero Header</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".icons">Icons</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".messengers">Messengers</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".notifications_alerts">Notifications/Alerts</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".pop_ups">Pop-Ups</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".progress_bars">Progress Bars</li>
+                                  <li class="iso-btn" data-filter=".accordions"><a href="#" tabindex="15">Accordions</a></li>
+                                  <li class="iso-btn" data-filter=".calendars_dates"><a href="#" tabindex="16">Calendars/Dates</a></li>
+                                  <li class="iso-btn temp-inactive" data-filter=".diagrams_graphs_tables"><a href="#" tabindex="17">Diagrams/Graphs/Tables</a></li>
+                                  <li class="iso-btn temp-inactive" data-filter=".hero_header"><a href="#" tabindex="18">Hero Header</a></li>
+                                  <li class="iso-btn temp-inactive" data-filter=".icons"><a href="#" tabindex="19">Icons</a></li>
+                                  <li class="iso-btn temp-inactive" data-filter=".messengers"><a href="#" tabindex="20">Messengers</a></li>
+                                  <li class="iso-btn temp-inactive" data-filter=".notifications_alerts"><a href="#" tabindex="21">Notifications/Alerts</a></li>
+                                  <li class="iso-btn temp-inactive" data-filter=".pop_ups"><a href="#" tabindex="22">Pop-Ups</a></li>
+                                  <li class="iso-btn temp-inactive" data-filter=".progress_bars"><a href="#" tabindex="23">Progress Bars</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
+                      </div>
 
+                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSix">
-                              <a class="accordion-toggle">Security</a>
+                              <button class="accordion-toggle" tabindex="24">Security</button>
                             </h4>
                           </div>
                           <div id="collapseSix" class="panel-collapse collapse">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".authorizations">Authorizations</li>
-                                  <li class="iso-btn" data-filter=".identity_security">Identity/Security</li>
-                                  <li class="iso-btn" data-filter=".sign_up_log_in">Sign Up/Log In</li>
+                                  <li class="iso-btn" data-filter=".authorizations"><a href="#" tabindex="25">Authorizations</a></li>
+                                  <li class="iso-btn" data-filter=".identity_security"><a href="#" tabindex="26">Identity/Security</a></li>
+                                  <li class="iso-btn" data-filter=".sign_up_log_in"><a href="#" tabindex="27">Sign Up/Log In</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
+                      </div>
 
+                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSeven">
-                              <a class="accordion-toggle">Self Help</a>
+                              <button class="accordion-toggle" tabindex="28">Self Help</button>
                             </h4>
                           </div>
                           <div id="collapseSeven" class="panel-collapse collapse">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn temp-inactive" data-filter=".calculator">Calculator</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".help">Help</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".search">Search</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".settings">Settings</li>
-                                  <li class="iso-btn temp-inactive" data-filter=".tooltips">Tooltips</li>
+                                  <li class="iso-btn" data-filter=".calculator"><a href="#" tabindex="29">Calculator</a></li>
+                                  <li class="iso-btn" data-filter=".help"><a href="#" tabindex="30">Help</a></li>
+                                  <li class="iso-btn" data-filter=".search"><a href="#" tabindex="31">Search</a></li>
+                                  <li class="iso-btn" data-filter=".settings"><a href="#" tabindex="32">Settings</a></li>
+                                  <li class="iso-btn" data-filter=".tooltips"><a href="#" tabindex="33">Tooltips</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
-
                       </div>
-                  </div>
-              </div>
-          </nav>
-      </div>
 
-      <!-- Catalog Items -->
-      <div class="catalog-wrapper container-fluid col-sm-9 col-md-9 col-lg-9">
-          <div class="grid">
-              {% include catalog-2016.html %}
-          </div>
-      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+      
+        <div class="catalog-wrapper container-fluid col-sm-9 col-md-9 col-lg-9">
+          <main role="main" class="grid">
+            {% include catalog-2016.html %}
+          </main>
+        </div>
+      
 
     </div>
   </div>

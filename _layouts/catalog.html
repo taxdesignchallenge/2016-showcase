@@ -61,8 +61,6 @@
 
     </div> <!-- /.container -->
 
-
-
     <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/bootstrap-v3.1.0-min.js"></script>
 
@@ -78,7 +76,7 @@
 
     <script type="text/javascript">
       $("[data-fancybox]").fancybox({
-        // Options will go here
+        // Options
       });
     </script>
 
@@ -112,6 +110,59 @@
     <script>
     // Fixes Safari bug
     $(window).load(function(){ $('.grid').masonry(); });
+    </script>
+
+    <script type="text/javascript">
+    // lazy load: https://github.com/paypal/bootstrap-accessibility-plugin/blob/master/demo.html
+    var lazyLoad=function(jsWithPath, callback) {
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      if (typeof callback != 'undefined') {
+        if (script.readyState) {
+          script.onreadystatechange = function() {
+            if (script.readyState == 'loaded' || script.readyState == 'complete') {
+              callback();
+            }
+          }
+        } else {
+          script.onload = function() {
+          callback();
+          }
+        }
+      }
+      script.src = jsWithPath;
+      document.getElementsByTagName('head')[0].appendChild(script);
+    }
+    var btn = document.getElementById('allyBtn');
+    var scriptLoaded=false;
+    var loadPlugin = function(){
+      if(scriptLoaded ===true)  {
+        location.reload(false);
+        return false;
+      };
+      var lin=document.createElement('link');
+      lin.setAttribute('rel','stylesheet');
+      lin.setAttribute('type','text/css');
+      lin.setAttribute('href', 'plugins/css/bootstrap-accessibility.css');
+      document.getElementsByTagName('head')[0].appendChild(lin);
+      var script = document.createElement('script');
+      script.src = 'plugins/js/bootstrap-accessibility.min.js';
+      document.getElementsByTagName('head')[0].appendChild(script);
+      btn.innerHTML = "unload bootstrap accessibility plugin features";
+      scriptLoaded = true;
+    }
+   
+    if (window.addEventListener){
+      btn.addEventListener("click", function(){
+         loadPlugin();
+         return false;
+      }, false);
+    }else if (window.attachEvent) {
+      btn.attachEvent("onload", function(){
+         loadPlugin();
+         return false;
+      });
+    }
     </script>
 
     {% if site.offline_cache == true %}

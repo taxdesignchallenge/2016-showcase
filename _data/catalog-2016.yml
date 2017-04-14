@@ -1708,4 +1708,149 @@
     main:
       - image: TaxReturn_forms_IRS_forms, alt
 
+# =================================================================== #
+# Accordions
+# =================================================================== #
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_page_elements_accordions, alt
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: IRS_MyService_thumb.png
+    main:
+      - image: IRS_MyService_page_elements_accordions, alt
+
+- project:
+  -
+    name: IRS
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: IRS_thumb.png
+    main:
+      - image: IRS_page_elements_accordions, alt
+      - image: IRS_page_elements_accordions, alt
+
+- project:
+  -
+    name: my IRS Account
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: my_IRS_Account_thumb.png
+    main:
+      - image: my_IRS_Account_page_elements_accordions, alt
+
+- project:
+  -
+    name: My Tax Data
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: My_Tax_Data_thumb.png
+    main:
+      - image: My_Tax_Data_page_elements_accordions, alt
+      - image: My_Tax_Data_page_elements_accordions, alt
+      - image: My_Tax_Data_page_elements_accordions, alt
+
+- project:
+  -
+    name: TaxReturn
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: TaxReturn_thumb.png
+    main:
+      - image: TaxReturn_page_elements_accordions, alt
+      - image: TaxReturn_page_elements_accordions, alt
+
+- project:
+  -
+    name: Your_Tax_Summary
+    top_category: Page Elements
+    category_full: Accordions
+    cat_slug: accordions
+    thumb_url: Your_Tax_Summary_thumb.png
+    main:
+      - image: Your_Tax_Summary_page_elements_accordions, alt
+
+# =================================================================== #
+# Calendars/Dates
+# =================================================================== #
+
+- project:
+  -
+    name: alternatives TDC
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: alternatives_TDC_thumb.png
+    main:
+      - image: alternatives_TDC_page_elements_dates, alt
+
+- project:
+  -
+    name: Ask IRS
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: Ask_IRS_thumb.png
+    main:
+      - image: Ask_IRS_page_elements_dates, alt
+
+- project:
+  -
+    name: IRS 365
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: IRS_365_thumb.png
+    main:
+      - image: IRS_365_page_elements_dates, alt
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_page_elements_dates, alt
+      - image: IRS_My_Account_page_elements_dates, alt
+      - image: IRS_My_Account_page_elements_dates, alt
+      - image: IRS_My_Account_page_elements_dates, alt
+
+- project:
+  -
+    name: My Federal Tax Account
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: My_Federal_Tax_Account_thumb.png
+    main:
+      - image: My_Federal_Tax_Account_page_elements_dates, alt
+      - image: My_Federal_Tax_Account_page_elements_dates, alt
+
+- project:
+  -
+    name: MyIRS
+    top_category: Page Elements
+    category_full: Calendars/Dates
+    cat_slug: calendars_dates
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_page_elements_dates, alt
 

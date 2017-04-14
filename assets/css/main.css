@@ -1032,7 +1032,7 @@ a.btn-ghost.hero-sticky {
     margin-bottom: 10px;
 }
 
-.content-container p.title {
+.content-container h1.title {
     font-size: 30px;
     margin: 2em 0 0.5em;
     color: #363f48;
@@ -1087,6 +1087,17 @@ a.btn-ghost.hero-sticky {
     color: #d1d1d1 !important;
 }
 
+/* 508 indicator */
+*:focus {
+    outline: 1px solid blue !important;
+}
+
+.content-container .main h2 {
+    margin: 25px 0 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
 .grid:after {
   content: '';
   display: block;
@@ -1123,7 +1134,6 @@ a.btn-ghost.hero-sticky {
             padding-right: 0;
         }
     }
-
 
 /* ------------ Hide inner gallery images */
 .element-item a:not(:first-child) {
@@ -1491,9 +1501,7 @@ a.btn-ghost.hero-sticky {
     box-shadow: none;
 }
 
-
-
-/* Header */
+/* ------------ Header */
 .catalog-header-container {
     position: relative;
     margin-bottom: 25px;
@@ -1533,8 +1541,8 @@ a.btn-ghost.hero-sticky {
     font-size: 2.5em;
 }
 
-.content-submission-container {
-    left: 410px;
+.content-container .main {
+    left: 412px;
     top: 50px;
     right: 0;
     position: absolute;
@@ -1555,7 +1563,7 @@ a.btn-ghost.hero-sticky {
             background-size: cover;
         }
 
-        .content-submission-container {
+        .content-container .main {
             position: static;
             margin: 0;
         }
@@ -1584,6 +1592,44 @@ a.btn-ghost.hero-sticky {
         }
     }
 
-.content-submission-container h6 {
+.content-container .main h6 {
     font-size: 1.1em;
 }
+
+
+
+
+
+
+
+
+#accordion .panel-group {
+    margin: 0;
+}
+
+#accordion .panel .panel-heading h4.panel-title button.accordion-toggle {
+    border: 0;
+    text-align: left;
+    background: transparent;
+    border: medium none;
+    border-radius: 0;
+    color: #5c5c5c !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    padding: 1rem 1.5rem;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: background-color 0.25s ease 0s;
+    width: 100%;
+}
+
+#accordion .panel .panel-heading.active h4.panel-title button.accordion-toggle {
+    box-shadow: 8px 0 0 -3px rgb(92, 92, 92) inset;
+}
+
+#accordion .panel .panel-body ul li.iso-btn a {
+    text-decoration: none !important;
+    color: #5c5c5c !important;
+}
+

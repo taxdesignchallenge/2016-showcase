@@ -23,11 +23,12 @@
     category_full: 2016 Submissions
     cat_slug: submissions_2016
     thumb_url: Ask_IRS_thumb.png
+    thumb_alt: thumbalt
     main:
-      - image: Ask_IRS_layout_navigation_1, alt, navigation, Navigation
-      - image: Ask_IRS_layout_navigation_2, alt, navigation, Navigation
-      - image: Ask_IRS_layout_navigation_3, alt, navigation, Navigation
-      - image: Ask_IRS_layout_profile_dashboard_1, alt, profile_dashboard, Profile/Dashboard
+      - image: Ask_IRS_layout_navigation_1, alt1, navigation, Navigation
+      - image: Ask_IRS_layout_navigation_2, alt2, navigation, Navigation
+      - image: Ask_IRS_layout_navigation_3, alt3, navigation, Navigation
+      - image: Ask_IRS_layout_profile_dashboard_1, alt4, profile_dashboard, Profile/Dashboard
 
 - project:
   -
@@ -36,8 +37,9 @@
     category_full: 2016 Submissions
     cat_slug: submissions_2016
     thumb_url: Empowered_thumb.png
+    thumb_alt: thumbalt
     main:
-      - image: Empowered_layout_navigation_1, alt, navigation, Navigation
+      - image: Empowered_layout_navigation_1, alt1, navigation, Navigation
 
 - project:
   -
@@ -47,12 +49,12 @@
     cat_slug: submissions_2016
     thumb_url: IRS_365_thumb.png
     main:
-      - image: IRS_365_layout_card_snapshot_1, alt, cards_snapshots, Cards/Snapshots
-      - image: IRS_365_layout_card_snapshot_2, alt, cards_snapshots, Cards/Snapshots
-      - image: IRS_365_layout_navigation_1, alt, navigation, Navigation
-      - image: IRS_365_layout_navigation_2, alt, navigation, Navigation
-      - image: IRS_365_layout_navigation_3, alt, navigation, Navigation
-      - image: IRS_365_layout_navigation_4, alt, navigation, Navigation
+      - image: IRS_365_layout_card_snapshot_1, alt1, cards_snapshots, Cards/Snapshots
+      - image: IRS_365_layout_card_snapshot_2, alt2, cards_snapshots, Cards/Snapshots
+      - image: IRS_365_layout_navigation_1, alt3, navigation, Navigation
+      - image: IRS_365_layout_navigation_2, alt4, navigation, Navigation
+      - image: IRS_365_layout_navigation_3, alt5, navigation, Navigation
+      - image: IRS_365_layout_navigation_4, alt6, navigation, Navigation
 
 - project:
   -

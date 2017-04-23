@@ -1,3 +1,13 @@
+// ==================================================
+// fancyBox v3.0.47
+//
+// Licensed GPLv3 for open source use
+// or fancyBox Commercial License for commercial use
+//
+// http://fancyapps.com/fancybox/
+// Copyright 2017 fancyApps
+//
+// ==================================================
 ;(function (window, document, $, undefined) {
     'use strict';
 
@@ -94,7 +104,7 @@
         slideClass : '',
 
         // Base template for layout
-        baseTpl	: '<div class="fancybox-container" role="dialog" tabindex="-1">' +
+        baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
                 '<div class="fancybox-bg"></div>' +
                 '<div class="fancybox-controls">' +
                     '<div class="fancybox-infobar">' +
@@ -120,7 +130,8 @@
         // Error message template
         errorTpl : '<div class="fancybox-error"><p>The requested content cannot be loaded. <br /> Please try again later.<p></div>',
 
-        closeTpl : '<button data-fancybox-close class="fancybox-close-small">×</button>',
+        // This will be appended to html content, if "smallBtn" option is not set to false
+        closeTpl : '<button data-fancybox-close class="fancybox-close-small"></button>',
 
         // Container is injected into this element
         parentEl : 'body',
@@ -138,15 +149,15 @@
         closeClickOutside : true,
 
         // Callbacks
-        beforeLoad	 : $.noop,
+        beforeLoad   : $.noop,
         afterLoad    : $.noop,
-        beforeMove 	 : $.noop,
+        beforeMove   : $.noop,
         afterMove    : $.noop,
-        onComplete	 : $.noop,
+        onComplete   : $.noop,
 
         onInit       : $.noop,
-        beforeClose	 : $.noop,
-        afterClose	 : $.noop,
+        beforeClose  : $.noop,
+        afterClose   : $.noop,
         onActivate   : $.noop,
         onDeactivate : $.noop
 
@@ -188,8 +199,7 @@
 
         rect = el.getBoundingClientRect();
 
-        return rect.bottom > 0 &&
-                rect.right > 0 &&
+        return rect.bottom > 0 && rect.right > 0 &&
                 rect.left < (window.innerWidth || document.documentElement.clientWidth)  &&
                 rect.top < (window.innerHeight || document.documentElement.clientHeight);
     };
@@ -223,9 +233,6 @@
         // Save last active element and current scroll position
         self.$lastFocus = $(document.activeElement).blur();
 
-        // Collection of interface DOM elements
-        self.elems = {};
-
         // Collection of gallery objects
         self.slides = {};
 
@@ -241,26 +248,49 @@
         init : function() {
             var self = this;
 
+            var galleryHasHtml = false;
+
             var testWidth;
             var $container;
 
-            self.scrollTop  = $W.scrollTop();
-            self.scrollLeft = $W.scrollLeft();
+            self.scrollTop  = $D.scrollTop();
+            self.scrollLeft = $D.scrollLeft();
 
-            // Disable compensating on touch-enabled devices as they probably do not have scrollbars anyway
-            // and therefore we avoid of unnecessary layout reflow
-            if ( !$.fancybox.isTouch && !$( 'html' ).hasClass( 'fancybox-enabled' ) ) {
+            if ( !$.fancybox.getInstance() ) {
                 testWidth = $( 'body' ).width();
 
                 $( 'html' ).addClass( 'fancybox-enabled' );
 
-                testWidth = $( 'body' ).width() - testWidth;
+                if ( $.fancybox.isTouch ) {
 
-                // Body width has increased - compensate missing scrollbars
-                if ( testWidth > 1 ) {
-                    $( '<style id="fancybox-noscroll" type="text/css">' ).html( '.compensate-for-scrollbar, .fancybox-enabled body { margin-right: ' + testWidth + 'px; }' ).appendTo( 'head' );
+                    // Ugly workaround for iOS page shifting issue (when inputs get focus)
+                    // Do not apply for images, otherwise top/bottom bars will appear
+                    $.each( self.group, function( key, item ) {
+                        if ( item.type !== 'image' && item.type !== 'iframe' ) {
+                            galleryHasHtml = true;
+                            return false;
+                        }
+                    });
+
+                    if ( galleryHasHtml ) {
+                        $('body').css({
+                            position : 'fixed',
+                            width    : testWidth,
+                            top      : self.scrollTop * -1
+                        });
+                    }
+
+                } else {
+
+                    // Compare page width after adding "overflow:hidden"
+                    testWidth = $( 'body' ).width() - testWidth;
+
+                    // Width has changed - compensate missing scrollbars
+                    if ( testWidth > 1 ) {
+                        $( '<style id="fancybox-noscroll" type="text/css">' ).html( '.compensate-for-scrollbar, .fancybox-enabled body { margin-right: ' + testWidth + 'px; }' ).appendTo( 'head' );
+                    }
+
                 }
-
             }
 
             $container = $( self.opts.baseTpl )
@@ -449,12 +479,12 @@
                 if ( obj.opts.modal ) {
 
                     $.extend(true, obj.opts, {
-                        infobar		: 0,
-                        buttons		: 0,
-                        keyboard	: 0,
-                        slideShow	: 0,
-                        fullScreen	: 0,
-                        closeClickOutside	: 0
+                        infobar     : 0,
+                        buttons     : 0,
+                        keyboard    : 0,
+                        slideShow   : 0,
+                        fullScreen  : 0,
+                        closeClickOutside   : 0
                     });
 
                 }
@@ -476,18 +506,7 @@
         addEvents : function() {
             var self = this;
 
-            var runUpdate = function () {
-
-                $W.scrollTop( self.scrollTop ).scrollLeft( self.scrollLeft );
-
-                self.$refs.slider_wrap.show();
-
-                self.update();
-
-            };
-
             self.removeEvents();
-
 
             // Make navigation elements clickable
 
@@ -516,42 +535,43 @@
             $( window ).on('orientationchange.fb resize.fb', function(e) {
                 requestAFrame(function() {
 
-                    if ( e && e.originalEvent && e.originalEvent.type == "orientationchange" ) {
-                        self.$refs.slider_wrap.hide();
-
-                        requestAFrame( runUpdate );
+                    if ( e && e.originalEvent && e.originalEvent.type === "resize" ) {
+                        self.update();
 
                     } else {
+                        self.$refs.slider_wrap.hide();
 
-                        runUpdate();
+                        requestAFrame(function () {
+                            self.$refs.slider_wrap.show();
+
+                            self.update();
+                        });
+
                     }
 
                 });
-
             });
 
 
             // Trap focus
 
             $D.on('focusin.fb', function(e) {
-                var instance;
+                var instance = $.fancybox ? $.fancybox.getInstance() : null;
 
-                if ( $.fancybox ) {
-                    instance = $.fancybox.getInstance();
+                if ( instance && !$( e.target ).hasClass( 'fancybox-container' ) && !$.contains( instance.$refs.container[0], e.target ) ) {
+                    e.stopPropagation();
 
-                    if ( instance && !$( e.target ).hasClass( 'fancybox-container' ) && !$.contains( instance.$refs.container[0], e.target ) ) {
-                        e.stopPropagation();
+                    instance.focus();
 
-                        instance.focus();
-                    }
+                    // Sometimes page gets scrolled, set it back
+                    $W.scrollTop( self.scrollTop ).scrollLeft( self.scrollLeft );
                 }
 
             });
 
-
             // Enable keyboard navigation
 
-            $( document ).on('keydown.fb', function (e) {
+            $D.on('keydown.fb', function (e) {
                 var current = self.current,
                     keycode = e.keyCode || e.which;
 
@@ -567,7 +587,7 @@
                 if ( keycode === 8 || keycode === 27 ) {
                     e.preventDefault();
 
-                    self.close();
+                    self.close( e );
 
                     return;
                 }
@@ -593,37 +613,37 @@
                     break;
 
                     case 80: // "P"
-					case 32: // Spacebar
+                    case 32: // Spacebar
 
-						e.preventDefault();
+                        e.preventDefault();
 
-						if ( self.SlideShow ) {
-							e.preventDefault();
+                        if ( self.SlideShow ) {
+                            e.preventDefault();
 
-							self.SlideShow.toggle();
-						}
+                            self.SlideShow.toggle();
+                        }
 
-					break;
+                    break;
 
                     case 70: // "F"
 
-						if ( self.FullScreen ) {
-							e.preventDefault();
+                        if ( self.FullScreen ) {
+                            e.preventDefault();
 
-							self.FullScreen.toggle();
-						}
+                            self.FullScreen.toggle();
+                        }
 
-					break;
+                    break;
 
                     case 71: // "G"
 
-						if ( self.Thumbs ) {
-							e.preventDefault();
+                        if ( self.Thumbs ) {
+                            e.preventDefault();
 
-							self.Thumbs.toggle();
-						}
+                            self.Thumbs.toggle();
+                        }
 
-					break;
+                    break;
                 }
             });
 
@@ -647,9 +667,7 @@
         // ==================
 
         previous : function( duration ) {
-
             this.jumpTo( this.currIndex - 1, duration );
-
         },
 
 
@@ -657,9 +675,7 @@
         // ===================
 
         next : function( duration ) {
-
             this.jumpTo( this.currIndex + 1, duration );
-
         },
 
 
@@ -911,35 +927,31 @@
 
             self.trigger( 'beforeZoom' + type );
 
-            requestAFrame(function() {
+            $what.css( 'transition', 'all ' + duration + 'ms' );
 
-                $what.css( 'transition', 'all ' + duration + 'ms' );
+            $.fancybox.setTranslate( $what, end );
 
-                $.fancybox.setTranslate( $what, end );
+            setTimeout(function() {
+                var reset;
 
-                setTimeout(function() {
-                    requestAFrame(function() {
-                        var reset;
+                $what.css( 'transition', 'none' );
 
-                        $what.css( 'transition', 'none' );
+                reset = $.fancybox.getTranslate( $what );
 
-                        reset = $.fancybox.getTranslate( $what );
+                reset.scaleX = 1;
+                reset.scaleY = 1;
 
-                        reset.scaleX = 1;
-                        reset.scaleY = 1;
+                // Reset scalex/scaleY values; this helps for perfomance
+                $.fancybox.setTranslate( $what, reset );
 
-                        // Reset scalex/scaleY values; this helps for perfomance
-                        $.fancybox.setTranslate( $what, reset );
+                self.trigger( 'afterZoom' + type );
 
-                        self.trigger( 'afterZoom' + type );
+                callback.apply( self );
 
-                        callback.apply( self );
+                self.isAnimating = false;
 
-                        self.isAnimating = false;
-                    });
-                }, duration);
+            }, duration);
 
-            });
 
             return true;
 
@@ -1157,14 +1169,14 @@
         update : function( andSlides, andContent, duration, callback ) {
 
             var self = this;
+            var leftValue;
 
-            var leftValue = ( self.current.pos * Math.floor( self.current.$slide.width() ) * -1 ) - ( self.current.pos * self.current.opts.gutter ) ;
-
-            if ( self.isAnimating === true ) {
+            if ( self.isAnimating === true || !self.current ) {
                 return;
             }
 
-            duration = parseInt( duration, 10 ) || 0;
+            leftValue = ( self.current.pos * Math.floor( self.current.$slide.width() ) * -1 ) - ( self.current.pos * self.current.opts.gutter );
+            duration  = parseInt( duration, 10 ) || 0;
 
             $.fancybox.stop( self.$refs.slider );
 
@@ -1347,7 +1359,6 @@
 
                             if ( textStatus === 'success' ) {
                                 self.setContent( slide, data );
-
                             }
 
                         },
@@ -1356,7 +1367,6 @@
 
                             if ( jqXHR && textStatus !== 'abort' ) {
                                 self.setError( slide );
-
                             }
 
                         }
@@ -1406,24 +1416,24 @@
                 windowWidth = window.innerWidth  * pxRatio;
 
                 temp = srcset.split(',').map(function (el) {
-            		var ret = {};
+                    var ret = {};
 
-            		el.trim().split(/\s+/).forEach(function (el, i) {
+                    el.trim().split(/\s+/).forEach(function (el, i) {
                         var value = parseInt(el.substring(0, el.length - 1), 10);
 
-            			if ( i === 0 ) {
-            				return (ret.url = el);
-            			}
+                        if ( i === 0 ) {
+                            return (ret.url = el);
+                        }
 
                         if ( value ) {
                             ret.value   = value;
                             ret.postfix = el[el.length - 1];
                         }
 
-            		});
+                    });
 
-            		return ret;
-            	});
+                    return ret;
+                });
 
                 // Sort by value
                 temp.sort(function (a, b) {
@@ -1516,6 +1526,7 @@
 
                     // Clear timeout that checks if loading icon needs to be displayed
                     clearTimeout( slide.timouts );
+
                     slide.timouts = null;
 
                     if ( self.isClosing ) {
@@ -1614,9 +1625,9 @@
         // ==========================================
 
         setIframe : function( slide ) {
-            var self	= this,
+            var self    = this,
                 opts    = slide.opts.iframe,
-                $slide	= slide.$slide,
+                $slide  = slide.$slide,
                 $iframe;
 
             slide.$content = $('<div class="fancybox-content"></div>')
@@ -1673,8 +1684,8 @@
 
                         scrollWidth = $iframe[0].contentWindow.document.documentElement.scrollWidth;
 
-                        frameWidth	= Math.ceil( $body.outerWidth(true) + ( $wrap.width() - scrollWidth ) );
-                        frameHeight	= Math.ceil( $body.outerHeight(true) );
+                        frameWidth  = Math.ceil( $body.outerWidth(true) + ( $wrap.width() - scrollWidth ) );
+                        frameHeight = Math.ceil( $body.outerHeight(true) );
 
                         // Resize wrapper to fit iframe content
 
@@ -1919,7 +1930,7 @@
                 self.trigger( 'onComplete' );
 
                 // Try to focus on the first focusable element, skip for images and iframes
-                if ( current.opts.focus && ( current.type === 'image' || current.type === 'iframe' )  ) {
+                if ( current.opts.focus && !( current.type === 'image' || current.type === 'iframe' ) ) {
                     self.focus();
                 }
 
@@ -1957,7 +1968,6 @@
         // ====================================================
 
         focus : function() {
-
             var current = this.current;
             var $el;
 
@@ -1965,7 +1975,6 @@
 
             if ( !$el || !$el.length ) {
                 $el = this.$refs.container;
-
             }
 
             $el.focus();
@@ -1977,6 +1986,7 @@
             if ( current ) {
                 current.$slide.scrollTop(0);
             }
+
         },
 
 
@@ -2036,6 +2046,17 @@
                 return false;
             }
 
+            // If beforeClose callback prevents closing, make sure content is centered
+            if ( self.trigger( 'beforeClose', e ) === false ) {
+                $.fancybox.stop( self.$refs.slider );
+
+                requestAFrame(function() {
+                    self.update( true, true, 150 );
+                });
+
+                return;
+            }
+
             self.isClosing = true;
 
             if ( current.timouts ) {
@@ -2073,8 +2094,6 @@
 
             self.updateCursor();
 
-            self.trigger( 'beforeClose', current, e );
-
             self.$refs.bg.css('transition-duration', duration + 'ms');
 
             this.$refs.container.removeClass( 'fancybox-container--ready' );
@@ -2100,12 +2119,11 @@
 
             self.$refs.container.empty().remove();
 
+            self.trigger( 'afterClose', e );
+
             self.current = null;
 
-            self.trigger( 'afterClose', e);
-
             // Check if there are other instances
-
             instance = $.fancybox.getInstance();
 
             if ( instance ) {
@@ -2114,6 +2132,9 @@
             } else {
 
                 $( 'html' ).removeClass( 'fancybox-enabled' );
+                $( 'body' ).removeAttr( 'style' );
+
+                $W.scrollTop( self.scrollTop ).scrollLeft( self.scrollLeft );
 
                 $( '#fancybox-noscroll' ).remove();
 
@@ -2124,8 +2145,6 @@
                 self.$lastFocus.focus();
             }
 
-            $W.scrollTop( self.scrollTop ).scrollLeft( self.scrollLeft );
-
         },
 
 
@@ -2135,7 +2154,8 @@
         trigger : function( name, slide ) {
             var args  = Array.prototype.slice.call(arguments, 1),
                 self  = this,
-                obj   = slide && slide.opts ? slide : self.current;
+                obj   = slide && slide.opts ? slide : self.current,
+                rez;
 
             if ( obj ) {
                 args.unshift( obj );
@@ -2147,10 +2167,19 @@
             args.unshift( self );
 
             if ( $.isFunction( obj.opts[ name ] ) ) {
-                obj.opts[ name ].apply( obj, args );
+                rez = obj.opts[ name ].apply( obj, args );
             }
 
-            self.$refs.container.trigger( name + '.fb', args);
+            if ( rez === false ) {
+                return rez;
+            }
+
+            if ( name === 'afterClose' ) {
+                $( document ).trigger( name + '.fb', args );
+
+            } else {
+                self.$refs.container.trigger( name + '.fb', args );
+            }
 
         },
 
@@ -2208,9 +2237,8 @@
 
             this.isHiddenControls = false;
 
-            self.$refs.container.addClass('fancybox-show-controls');
-
             $container
+                .addClass('fancybox-show-controls')
                 .toggleClass('fancybox-show-infobar', !!opts.infobar && self.group.length > 1)
                 .toggleClass('fancybox-show-buttons', !!opts.buttons )
                 .toggleClass('fancybox-is-modal',     !!opts.modal );
@@ -2243,7 +2271,6 @@
 
             } else {
                 this.$refs.container.removeClass( 'fancybox-show-caption' );
-
             }
 
         }
@@ -2253,7 +2280,7 @@
 
     $.fancybox = {
 
-        version  : "{fancybox-version}",
+        version  : "3.0.47",
         defaults : defaults,
 
 
@@ -2483,6 +2510,20 @@
             var diff;
             var id;
 
+            var finish = function() {
+                if ( to.scaleX !== undefined && to.scaleY !== undefined && from && from.width !== undefined && from.height !== undefined ) {
+                    to.width  = from.width  * to.scaleX;
+                    to.height = from.height * to.scaleY;
+
+                    to.scaleX = 1;
+                    to.scaleY = 1;
+                }
+
+                self.setTranslate( $el, to );
+
+                done();
+            };
+
             var frame = function ( timestamp ) {
                 curr = [];
                 diff = 0;
@@ -2504,17 +2545,7 @@
                 // Are we done?
                 if ( animTime >= duration ) {
 
-                    if ( to.scaleX !== undefined && to.scaleY !== undefined && from.width !== undefined && from.height !== undefined ) {
-                        to.width  = from.width  * to.scaleX;
-                        to.height = from.height * to.scaleY;
-
-                        to.scaleX = 1;
-                        to.scaleY = 1;
-                    }
-
-                    self.setTranslate( $el, to );
-
-                    done();
+                    finish();
 
                     return;
                 }
@@ -2553,14 +2584,6 @@
 
             done = done || $.noop;
 
-            if ( !duration ) {
-                this.setTranslate( $el, to );
-
-                done();
-
-                return;
-            }
-
             if ( from ) {
                 this.setTranslate( $el, from );
 
@@ -2570,9 +2593,15 @@
                 from = this.getTranslate( $el );
             }
 
-            $el.show();
+            if ( duration ) {
+                $el.show();
 
-            requestAFrame( frame );
+                requestAFrame( frame );
+
+            } else {
+                finish();
+            }
+
         }
 
     };
@@ -2582,11 +2611,11 @@
     // ===================================================
 
     function _run( e ) {
-        var target	= e.currentTarget,
-            opts	= e.data ? e.data.options : {},
-            items	= e.data ? e.data.items : [],
-            value	= '',
-            index	= 0;
+        var target  = e.currentTarget,
+            opts    = e.data ? e.data.options : {},
+            items   = e.data ? e.data.items : [],
+            value   = '',
+            index   = 0;
 
         e.preventDefault();
         e.stopPropagation();
@@ -2630,3 +2659,1688 @@
     $(document).on('click.fb-start', '[data-fancybox]', _run);
 
 }(window, document, window.jQuery));
+
+// ==========================================================================
+//
+// Media
+// Adds additional media type support
+//
+// ==========================================================================
+;(function ($) {
+
+    'use strict';
+
+    // Formats matching url to final form
+
+    var format = function (url, rez, params) {
+        if ( !url ) {
+            return;
+        }
+
+        params = params || '';
+
+        if ( $.type(params) === "object" ) {
+            params = $.param(params, true);
+        }
+
+        $.each(rez, function (key, value) {
+            url = url.replace('$' + key, value || '');
+        });
+
+        if (params.length) {
+            url += (url.indexOf('?') > 0 ? '&' : '?') + params;
+        }
+
+        return url;
+    };
+
+    // Object containing properties for each media type
+
+    var media = {
+        youtube: {
+            matcher: /(youtube\.com|youtu\.be|youtube\-nocookie\.com)\/(watch\?(.*&)?v=|v\/|u\/|embed\/?)?(videoseries\?list=(.*)|[\w-]{11}|\?listType=(.*)&list=(.*))(.*)/i,
+            params: {
+                autoplay: 1,
+                autohide: 1,
+                fs: 1,
+                rel: 0,
+                hd: 1,
+                wmode: 'transparent',
+                enablejsapi: 1,
+                html5: 1
+            },
+            paramPlace : 8,
+            type: 'iframe',
+            url: '//www.youtube.com/embed/$4',
+            thumb: '//img.youtube.com/vi/$4/hqdefault.jpg'
+        },
+
+        vimeo: {
+            matcher: /^.+vimeo.com\/(.*\/)?([\d]+)(.*)?/,
+            params: {
+                autoplay: 1,
+                hd: 1,
+                show_title: 1,
+                show_byline: 1,
+                show_portrait: 0,
+                fullscreen: 1,
+                api: 1
+            },
+            paramPlace : 3,
+            type: 'iframe',
+            url: '//player.vimeo.com/video/$2'
+        },
+
+        metacafe: {
+            matcher: /metacafe.com\/watch\/(\d+)\/(.*)?/,
+            type: 'iframe',
+            url: '//www.metacafe.com/embed/$1/?ap=1'
+        },
+
+        dailymotion: {
+            matcher: /dailymotion.com\/video\/(.*)\/?(.*)/,
+            params: {
+                additionalInfos: 0,
+                autoStart: 1
+            },
+            type: 'iframe',
+            url: '//www.dailymotion.com/embed/video/$1'
+        },
+
+        vine: {
+            matcher: /vine.co\/v\/([a-zA-Z0-9\?\=\-]+)/,
+            type: 'iframe',
+            url: '//vine.co/v/$1/embed/simple'
+        },
+
+        instagram: {
+            matcher: /(instagr\.am|instagram\.com)\/p\/([a-zA-Z0-9_\-]+)\/?/i,
+            type: 'image',
+            url: '//$1/p/$2/media/?size=l'
+        },
+
+        // Examples:
+        // http://maps.google.com/?ll=48.857995,2.294297&spn=0.007666,0.021136&t=m&z=16
+        // http://maps.google.com/?ll=48.857995,2.294297&spn=0.007666,0.021136&t=m&z=16
+        // https://www.google.lv/maps/place/Googleplex/@37.4220041,-122.0833494,17z/data=!4m5!3m4!1s0x0:0x6c296c66619367e0!8m2!3d37.4219998!4d-122.0840572
+        google_maps: {
+            matcher: /(maps\.)?google\.([a-z]{2,3}(\.[a-z]{2})?)\/(((maps\/(place\/(.*)\/)?\@(.*),(\d+.?\d+?)z))|(\?ll=))(.*)?/i,
+            type: 'iframe',
+            url: function (rez) {
+                return '//maps.google.' + rez[2] + '/?ll=' + ( rez[9] ? rez[9] + '&z=' + Math.floor(  rez[10]  ) + ( rez[12] ? rez[12].replace(/^\//, "&") : '' )  : rez[12] ) + '&output=' + ( rez[12] && rez[12].indexOf('layer=c') > 0 ? 'svembed' : 'embed' );
+            }
+        }
+    };
+
+    $(document).on('onInit.fb', function (e, instance) {
+
+        $.each(instance.group, function( i, item ) {
+
+            var url  = item.src || '',
+                type = false,
+                thumb,
+                rez,
+                params,
+                urlParams,
+                o,
+                provider;
+
+            // Skip items that already have content type
+            if ( item.type ) {
+                return;
+            }
+
+            // Look for any matching media type
+
+            $.each(media, function ( n, el ) {
+                rez = url.match(el.matcher);
+                o   = {};
+                provider = n;
+
+                if (!rez) {
+                    return;
+                }
+
+                type = el.type;
+
+                if ( el.paramPlace && rez[ el.paramPlace ] ) {
+                    urlParams = rez[ el.paramPlace ];
+
+                    if ( urlParams[ 0 ] == '?' ) {
+                        urlParams = urlParams.substring(1);
+                    }
+
+                    urlParams = urlParams.split('&');
+
+                    for ( var m = 0; m < urlParams.length; ++m ) {
+                        var p = urlParams[ m ].split('=', 2);
+
+                        if ( p.length == 2 ) {
+                            o[ p[0] ] = decodeURIComponent( p[1].replace(/\+/g, " ") );
+                        }
+                    }
+                }
+
+                params = $.extend( true, {}, el.params, item.opts[ n ], o );
+
+                url   = $.type(el.url) === "function" ? el.url.call(this, rez, params, item) : format(el.url, rez, params);
+                thumb = $.type(el.thumb) === "function" ? el.thumb.call(this, rez, params, item) : format(el.thumb, rez);
+
+                if ( provider === 'vimeo' ) {
+                    url = url.replace('&%23', '#');
+                }
+
+                return false;
+            });
+
+            // If it is found, then change content type and update the url
+
+            if ( type ) {
+                item.src  = url;
+                item.type = type;
+
+                if ( !item.opts.thumb && !(item.opts.$thumb && item.opts.$thumb.length ) ) {
+                    item.opts.thumb = thumb;
+                }
+
+                if ( type === 'iframe' ) {
+                    $.extend(true, item.opts, {
+                        iframe : {
+                            preload   : false,
+                            scrolling : "no"
+                        },
+                        smallBtn   : false,
+                        closeBtn   : true,
+                        fullScreen : false,
+                        slideShow  : false
+                    });
+
+                    item.opts.slideClass += ' fancybox-slide--video';
+                }
+
+            } else {
+
+                // If no content type is found, then set it to `iframe` as fallback
+                item.type = 'iframe';
+
+            }
+
+        });
+
+    });
+
+}(window.jQuery));
+
+// ==========================================================================
+//
+// Guestures
+// Adds touch guestures, handles click and tap events
+//
+// ==========================================================================
+;(function (window, document, $) {
+    'use strict';
+
+    var requestAFrame = (function() {
+        return  window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                function( callback ) {
+                    window.setTimeout(callback, 1000 / 60); };
+                })();
+
+
+    var pointers = function( e ) {
+        var result = [];
+
+        e = e.originalEvent || e || window.e;
+        e = e.touches && e.touches.length ? e.touches : ( e.changedTouches && e.changedTouches.length ? e.changedTouches : [ e ] );
+
+        for ( var key in e ) {
+
+            if ( e[ key ].pageX ) {
+                result.push( { x : e[ key ].pageX, y : e[ key ].pageY } );
+
+            } else if ( e[ key ].clientX ) {
+                result.push( { x : e[ key ].clientX, y : e[ key ].clientY } );
+            }
+        }
+
+        return result;
+    };
+
+    var distance = function( point2, point1, what ) {
+
+        if ( !point1 || !point2 ) {
+            return 0;
+        }
+
+        if ( what === 'x' ) {
+            return point2.x - point1.x;
+
+        } else if ( what === 'y' ) {
+            return point2.y - point1.y;
+        }
+
+        return Math.sqrt( Math.pow( point2.x - point1.x, 2 ) + Math.pow( point2.y - point1.y, 2 ) );
+
+    };
+
+    var isClickable = function( $el ) {
+
+        return $el.is('a') || $el.is('button') || $el.is('input') || $el.is('select') || $el.is('textarea') || $.isFunction( $el.get(0).onclick );
+
+    };
+
+    var hasScrollbars = function( el ) {
+        var overflowY = window.getComputedStyle( el )['overflow-y'];
+        var overflowX = window.getComputedStyle( el )['overflow-x'];
+
+        var vertical   = (overflowY === 'scroll' || overflowY === 'auto') && el.scrollHeight > el.clientHeight;
+        var horizontal = (overflowX === 'scroll' || overflowX === 'auto') && el.scrollWidth > el.clientWidth;
+
+        return vertical || horizontal;
+    };
+
+    var isScrollable = function ( $el ) {
+
+        var rez = false;
+
+        while ( true ) {
+            rez = hasScrollbars( $el.get(0) );
+
+            if ( rez ) {
+                break;
+            }
+
+            $el = $el.parent();
+
+            if ( !$el.length || $el.hasClass('fancybox-slider') || $el.is('body') ) {
+                break;
+            }
+
+        }
+
+        return rez;
+
+    };
+
+
+    var Guestures = function ( instance ) {
+
+        var self = this;
+
+        self.instance = instance;
+
+        self.$wrap       = instance.$refs.slider_wrap;
+        self.$slider     = instance.$refs.slider;
+        self.$container  = instance.$refs.container;
+
+        self.destroy();
+
+        self.$wrap.on('touchstart.fb mousedown.fb', $.proxy(self, "ontouchstart"));
+
+    };
+
+    Guestures.prototype.destroy = function() {
+
+        this.$wrap.off('touchstart.fb mousedown.fb touchmove.fb mousemove.fb touchend.fb touchcancel.fb mouseup.fb mouseleave.fb');
+
+    };
+
+    Guestures.prototype.ontouchstart = function( e ) {
+
+        var self = this;
+
+        var $target  = $( e.target );
+        var instance = self.instance;
+        var current  = instance.current;
+        var $content = current.$content || current.$placeholder;
+
+        self.startPoints = pointers( e );
+
+        self.$target  = $target;
+        self.$content = $content;
+
+        self.canvasWidth  = Math.round( current.$slide[0].clientWidth );
+        self.canvasHeight = Math.round( current.$slide[0].clientHeight );
+
+        self.startEvent = e;
+
+        // Skip if clicked on the scrollbar
+        if ( e.originalEvent.clientX > self.canvasWidth + current.$slide.offset().left ) {
+            return true;
+        }
+
+        // Ignore taping on links, buttons and scrollable items
+        if ( isClickable( $target ) || isClickable( $target.parent() ) || ( isScrollable( $target ) ) ) {
+            return;
+        }
+
+        // If "touch" is disabled, then handle click event
+        if ( !current.opts.touch ) {
+            self.endPoints = self.startPoints;
+
+            return self.ontap();
+        }
+
+        // Ignore right click
+        if ( e.originalEvent && e.originalEvent.button == 2 ) {
+            return;
+        }
+
+        e.stopPropagation();
+        e.preventDefault();
+
+        if ( !current || self.instance.isAnimating || self.instance.isClosing ) {
+            return;
+        }
+
+        // Prevent zooming if already swiping
+        if ( !self.startPoints || ( self.startPoints.length > 1 && !current.isMoved ) ) {
+            return;
+        }
+
+        self.$wrap.off('touchmove.fb mousemove.fb',  $.proxy(self, "ontouchmove"));
+        self.$wrap.off('touchend.fb touchcancel.fb mouseup.fb mouseleave.fb',  $.proxy(self, "ontouchend"));
+
+        self.$wrap.on('touchend.fb touchcancel.fb mouseup.fb mouseleave.fb',  $.proxy(self, "ontouchend"));
+        self.$wrap.on('touchmove.fb mousemove.fb',  $.proxy(self, "ontouchmove"));
+
+        self.startTime = new Date().getTime();
+        self.distanceX = self.distanceY = self.distance = 0;
+
+        self.canTap    = false;
+        self.isPanning = false;
+        self.isSwiping = false;
+        self.isZooming = false;
+
+        self.sliderStartPos = $.fancybox.getTranslate( self.$slider );
+
+        self.contentStartPos = $.fancybox.getTranslate( self.$content );
+        self.contentLastPos  = null;
+
+        if ( self.startPoints.length === 1 && !self.isZooming ) {
+            self.canTap = current.isMoved;
+
+            if ( current.type === 'image' && ( self.contentStartPos.width > self.canvasWidth + 1 || self.contentStartPos.height > self.canvasHeight + 1 ) ) {
+
+                $.fancybox.stop( self.$content );
+
+                self.isPanning = true;
+
+            } else {
+
+                $.fancybox.stop( self.$slider );
+
+                self.isSwiping = true;
+            }
+
+            self.$container.addClass('fancybox-controls--isGrabbing');
+
+        }
+
+        if ( self.startPoints.length === 2 && current.isMoved  && !current.hasError && current.type === 'image' && ( current.isLoaded || current.$ghost ) ) {
+
+            self.isZooming = true;
+
+            self.isSwiping = false;
+            self.isPanning = false;
+
+            $.fancybox.stop( self.$content );
+
+            self.centerPointStartX = ( ( self.startPoints[0].x + self.startPoints[1].x ) * 0.5 ) - $(window).scrollLeft();
+            self.centerPointStartY = ( ( self.startPoints[0].y + self.startPoints[1].y ) * 0.5 ) - $(window).scrollTop();
+
+            self.percentageOfImageAtPinchPointX = ( self.centerPointStartX - self.contentStartPos.left ) / self.contentStartPos.width;
+            self.percentageOfImageAtPinchPointY = ( self.centerPointStartY - self.contentStartPos.top  ) / self.contentStartPos.height;
+
+            self.startDistanceBetweenFingers = distance( self.startPoints[0], self.startPoints[1] );
+        }
+
+    };
+
+    Guestures.prototype.ontouchmove = function( e ) {
+
+        var self = this;
+
+        e.preventDefault();
+
+        self.newPoints = pointers( e );
+
+        if ( !self.newPoints || !self.newPoints.length ) {
+            return;
+        }
+
+        self.distanceX = distance( self.newPoints[0], self.startPoints[0], 'x' );
+        self.distanceY = distance( self.newPoints[0], self.startPoints[0], 'y' );
+
+        self.distance = distance( self.newPoints[0], self.startPoints[0] );
+
+        // Skip false ontouchmove events (Chrome)
+        if ( self.distance > 0 ) {
+
+            if ( self.isSwiping ) {
+                self.onSwipe();
+
+            } else if ( self.isPanning ) {
+                self.onPan();
+
+            } else if ( self.isZooming ) {
+                self.onZoom();
+            }
+
+        }
+
+    };
+
+    Guestures.prototype.onSwipe = function() {
+
+        var self = this;
+
+        var swiping = self.isSwiping;
+        var left    = self.sliderStartPos.left;
+        var angle;
+
+        if ( swiping === true ) {
+
+            if ( Math.abs( self.distance ) > 10 )  {
+
+                if ( self.instance.group.length < 2 ) {
+                    self.isSwiping  = 'y';
+
+                } else if ( !self.instance.current.isMoved || self.instance.opts.touch.vertical === false || ( self.instance.opts.touch.vertical === 'auto' && $( window ).width() > 800 ) ) {
+                    self.isSwiping  = 'x';
+
+                } else {
+                    angle = Math.abs( Math.atan2( self.distanceY, self.distanceX ) * 180 / Math.PI );
+
+                    self.isSwiping = ( angle > 45 && angle < 135 ) ? 'y' : 'x';
+                }
+
+                self.canTap  = false;
+
+                self.instance.current.isMoved = false;
+
+                // Reset points to avoid jumping, because we dropped first swipes to calculate the angle
+                self.startPoints = self.newPoints;
+            }
+
+        } else {
+
+            if ( swiping == 'x' ) {
+
+                // Sticky edges
+                if ( !self.instance.current.opts.loop && self.instance.current.index === 0  && self.distanceX > 0 ) {
+                    left = left + Math.pow( self.distanceX, 0.8 );
+
+                } else if ( !self.instance.current.opts.loop &&self.instance.current.index === self.instance.group.length - 1 && self.distanceX < 0 ) {
+                    left = left - Math.pow( -self.distanceX, 0.8 );
+
+                } else {
+                    left = left + self.distanceX;
+                }
+
+            }
+
+            self.sliderLastPos = {
+                top  : swiping == 'x' ? 0 : self.sliderStartPos.top + self.distanceY,
+                left : left
+            };
+
+            requestAFrame(function() {
+                $.fancybox.setTranslate( self.$slider, self.sliderLastPos );
+            });
+        }
+
+    };
+
+    Guestures.prototype.onPan = function() {
+
+        var self = this;
+
+        var newOffsetX, newOffsetY, newPos;
+
+        self.canTap = false;
+
+        if ( self.contentStartPos.width > self.canvasWidth ) {
+            newOffsetX = self.contentStartPos.left + self.distanceX;
+
+        } else {
+            newOffsetX = self.contentStartPos.left;
+        }
+
+        newOffsetY = self.contentStartPos.top + self.distanceY;
+
+        newPos = self.limitMovement( newOffsetX, newOffsetY, self.contentStartPos.width, self.contentStartPos.height );
+
+        newPos.scaleX = self.contentStartPos.scaleX;
+        newPos.scaleY = self.contentStartPos.scaleY;
+
+        self.contentLastPos = newPos;
+
+        requestAFrame(function() {
+            $.fancybox.setTranslate( self.$content, self.contentLastPos );
+        });
+    };
+
+    // Make panning sticky to the edges
+    Guestures.prototype.limitMovement = function( newOffsetX, newOffsetY, newWidth, newHeight ) {
+
+        var self = this;
+
+        var minTranslateX, minTranslateY, maxTranslateX, maxTranslateY;
+
+        var canvasWidth  = self.canvasWidth;
+        var canvasHeight = self.canvasHeight;
+
+        var currentOffsetX = self.contentStartPos.left;
+        var currentOffsetY = self.contentStartPos.top;
+
+        var distanceX = self.distanceX;
+        var distanceY = self.distanceY;
+
+        // Slow down proportionally to traveled distance
+
+        minTranslateX = Math.max(0, canvasWidth  * 0.5 - newWidth  * 0.5 );
+        minTranslateY = Math.max(0, canvasHeight * 0.5 - newHeight * 0.5 );
+
+        maxTranslateX = Math.min( canvasWidth  - newWidth,  canvasWidth  * 0.5 - newWidth  * 0.5 );
+        maxTranslateY = Math.min( canvasHeight - newHeight, canvasHeight * 0.5 - newHeight * 0.5 );
+
+        if ( newWidth > canvasWidth ) {
+
+            //   ->
+            if ( distanceX > 0 && newOffsetX > minTranslateX ) {
+                newOffsetX = minTranslateX - 1 + Math.pow( -minTranslateX + currentOffsetX + distanceX, 0.8 ) || 0;
+            }
+
+            //    <-
+            if ( distanceX  < 0 && newOffsetX < maxTranslateX ) {
+                newOffsetX = maxTranslateX + 1 - Math.pow( maxTranslateX - currentOffsetX - distanceX, 0.8 ) || 0;
+            }
+
+        }
+
+        if ( newHeight > canvasHeight ) {
+
+            //   \/
+            if ( distanceY > 0 && newOffsetY > minTranslateY ) {
+                newOffsetY = minTranslateY - 1 + Math.pow(-minTranslateY + currentOffsetY + distanceY, 0.8 ) || 0;
+            }
+
+            //   /\
+            if ( distanceY < 0 && newOffsetY < maxTranslateY ) {
+                newOffsetY = maxTranslateY + 1 - Math.pow ( maxTranslateY - currentOffsetY - distanceY, 0.8 ) || 0;
+            }
+
+        }
+
+        return {
+            top  : newOffsetY,
+            left : newOffsetX
+        };
+
+    };
+
+
+    Guestures.prototype.limitPosition = function( newOffsetX, newOffsetY, newWidth, newHeight ) {
+
+        var self = this;
+
+        var canvasWidth  = self.canvasWidth;
+        var canvasHeight = self.canvasHeight;
+
+        if ( newWidth > canvasWidth ) {
+            newOffsetX = newOffsetX > 0 ? 0 : newOffsetX;
+            newOffsetX = newOffsetX < canvasWidth - newWidth ? canvasWidth - newWidth : newOffsetX;
+
+        } else {
+
+            // Center horizontally
+            newOffsetX = Math.max( 0, canvasWidth / 2 - newWidth / 2 );
+
+        }
+
+        if ( newHeight > canvasHeight ) {
+            newOffsetY = newOffsetY > 0 ? 0 : newOffsetY;
+            newOffsetY = newOffsetY < canvasHeight - newHeight ? canvasHeight - newHeight : newOffsetY;
+
+        } else {
+
+            // Center vertically
+            newOffsetY = Math.max( 0, canvasHeight / 2 - newHeight / 2 );
+
+        }
+
+        return {
+            top  : newOffsetY,
+            left : newOffsetX
+        };
+
+    };
+
+    Guestures.prototype.onZoom = function() {
+
+        var self = this;
+
+        // Calculate current distance between points to get pinch ratio and new width and height
+
+        var currentWidth  = self.contentStartPos.width;
+        var currentHeight = self.contentStartPos.height;
+
+        var currentOffsetX = self.contentStartPos.left;
+        var currentOffsetY = self.contentStartPos.top;
+
+        var endDistanceBetweenFingers = distance( self.newPoints[0], self.newPoints[1] );
+
+        var pinchRatio = endDistanceBetweenFingers / self.startDistanceBetweenFingers;
+
+        var newWidth  = Math.floor( currentWidth  * pinchRatio );
+        var newHeight = Math.floor( currentHeight * pinchRatio );
+
+        // This is the translation due to pinch-zooming
+        var translateFromZoomingX = (currentWidth  - newWidth)  * self.percentageOfImageAtPinchPointX;
+        var translateFromZoomingY = (currentHeight - newHeight) * self.percentageOfImageAtPinchPointY;
+
+        //Point between the two touches
+
+        var centerPointEndX = ((self.newPoints[0].x + self.newPoints[1].x) / 2) - $(window).scrollLeft();
+        var centerPointEndY = ((self.newPoints[0].y + self.newPoints[1].y) / 2) - $(window).scrollTop();
+
+        // And this is the translation due to translation of the centerpoint
+        // between the two fingers
+
+        var translateFromTranslatingX = centerPointEndX - self.centerPointStartX;
+        var translateFromTranslatingY = centerPointEndY - self.centerPointStartY;
+
+        // The new offset is the old/current one plus the total translation
+
+        var newOffsetX = currentOffsetX + ( translateFromZoomingX + translateFromTranslatingX );
+        var newOffsetY = currentOffsetY + ( translateFromZoomingY + translateFromTranslatingY );
+
+        var newPos = {
+            top    : newOffsetY,
+            left   : newOffsetX,
+            scaleX : self.contentStartPos.scaleX * pinchRatio,
+            scaleY : self.contentStartPos.scaleY * pinchRatio
+        };
+
+        self.canTap = false;
+
+        self.newWidth  = newWidth;
+        self.newHeight = newHeight;
+
+        self.contentLastPos = newPos;
+
+        requestAFrame(function() {
+            $.fancybox.setTranslate( self.$content, self.contentLastPos );
+        });
+
+    };
+
+    Guestures.prototype.ontouchend = function( e ) {
+
+        var self = this;
+
+        var current = self.instance.current;
+
+        var dMs = Math.max( (new Date().getTime() ) - self.startTime, 1);
+
+        var swiping = self.isSwiping;
+        var panning = self.isPanning;
+        var zooming = self.isZooming;
+
+        self.endPoints = pointers( e );
+
+        self.$container.removeClass('fancybox-controls--isGrabbing');
+
+        self.$wrap.off('touchmove.fb mousemove.fb',  $.proxy(this, "ontouchmove"));
+        self.$wrap.off('touchend.fb touchcancel.fb mouseup.fb mouseleave.fb',  $.proxy(this, "ontouchend"));
+
+        self.isSwiping = false;
+        self.isPanning = false;
+        self.isZooming = false;
+
+        if ( self.canTap )  {
+            return self.ontap();
+        }
+
+        // Speed in px/ms
+        self.velocityX = self.distanceX / dMs * 0.5;
+        self.velocityY = self.distanceY / dMs * 0.5;
+
+        self.speed = current.opts.speed || 330;
+
+        self.speedX = Math.max( self.speed * 0.75, Math.min( self.speed * 1.5, ( 1 / Math.abs( self.velocityX ) ) * self.speed ) );
+        self.speedY = Math.max( self.speed * 0.75, Math.min( self.speed * 1.5, ( 1 / Math.abs( self.velocityY ) ) * self.speed ) );
+
+        if ( panning ) {
+            self.endPanning();
+
+        } else if ( zooming ) {
+            self.endZooming();
+
+        } else {
+            self.endSwiping( swiping );
+        }
+
+        return;
+    };
+
+    Guestures.prototype.endSwiping = function( swiping ) {
+
+        var self = this;
+
+        // Close if swiped vertically / navigate if horizontally
+
+        if ( swiping == 'y' && Math.abs( self.distanceY ) > 50 ) {
+
+            // Continue vertical movement
+
+            $.fancybox.animate( self.$slider, null, {
+                top     : self.sliderStartPos.top + self.distanceY + self.velocityY * 150,
+                left    : self.sliderStartPos.left,
+                opacity : 0
+            }, self.speedY );
+
+            self.instance.close( true );
+
+        } else if ( swiping == 'x' && self.distanceX > 50 ) {
+            self.instance.previous( self.speedX );
+
+        } else if ( swiping == 'x' && self.distanceX < -50 ) {
+            self.instance.next( self.speedX );
+
+        } else {
+
+            // Move back to center
+            self.instance.update( false, true, 150 );
+
+        }
+
+    };
+
+    Guestures.prototype.endPanning = function() {
+
+        var self = this;
+        var newOffsetX, newOffsetY, newPos;
+
+        if ( !self.contentLastPos ) {
+            return;
+        }
+
+        newOffsetX = self.contentLastPos.left + ( self.velocityX * self.speed * 2 );
+        newOffsetY = self.contentLastPos.top  + ( self.velocityY * self.speed * 2 );
+
+        newPos = self.limitPosition( newOffsetX, newOffsetY, self.contentStartPos.width, self.contentStartPos.height );
+
+         newPos.width  = self.contentStartPos.width;
+         newPos.height = self.contentStartPos.height;
+
+        $.fancybox.animate( self.$content, null, newPos, self.speed, "easeOutSine" );
+
+    };
+
+
+    Guestures.prototype.endZooming = function() {
+
+        var self = this;
+
+        var current = self.instance.current;
+
+        var newOffsetX, newOffsetY, newPos, reset;
+
+        var newWidth  = self.newWidth;
+        var newHeight = self.newHeight;
+
+        if ( !self.contentLastPos ) {
+            return;
+        }
+
+        newOffsetX = self.contentLastPos.left;
+        newOffsetY = self.contentLastPos.top;
+
+        reset = {
+            top    : newOffsetY,
+            left   : newOffsetX,
+            width  : newWidth,
+            height : newHeight,
+            scaleX : 1,
+            scaleY : 1
+       };
+
+       // Reset scalex/scaleY values; this helps for perfomance and does not break animation
+       $.fancybox.setTranslate( self.$content, reset );
+
+        if ( newWidth < self.canvasWidth && newHeight < self.canvasHeight ) {
+            self.instance.scaleToFit( 150 );
+
+        } else if ( newWidth > current.width || newHeight > current.height ) {
+            self.instance.scaleToActual( self.centerPointStartX, self.centerPointStartY, 150 );
+
+        } else {
+
+            newPos = self.limitPosition( newOffsetX, newOffsetY, newWidth, newHeight );
+
+            $.fancybox.animate( self.$content, null, newPos, self.speed, "easeOutSine" );
+
+        }
+
+    };
+
+    Guestures.prototype.ontap = function() {
+
+        var self = this;
+
+        var instance = self.instance;
+        var current  = instance.current;
+
+        var x = self.endPoints[0].x;
+        var y = self.endPoints[0].y;
+
+        x = x - self.$wrap.offset().left;
+        y = y - self.$wrap.offset().top;
+
+        // Stop slideshow
+        if ( instance.SlideShow && instance.SlideShow.isActive ) {
+            instance.SlideShow.stop();
+        }
+
+        if ( !$.fancybox.isTouch ) {
+
+            if ( current.opts.closeClickOutside && self.$target.is('.fancybox-slide') ) {
+                instance.close( self.startEvent );
+
+                return;
+            }
+
+            if ( current.type == 'image' && current.isMoved ) {
+
+                if ( instance.canPan() ) {
+                    instance.scaleToFit();
+
+                } else if ( instance.isScaledDown() ) {
+                    instance.scaleToActual( x, y );
+
+                } else if ( instance.group.length < 2 ) {
+                    instance.close( self.startEvent );
+                }
+
+            }
+
+            return;
+        }
+
+
+        // Double tap
+        if ( self.tapped ) {
+
+            clearTimeout( self.tapped );
+
+            self.tapped = null;
+
+            if ( Math.abs( x - self.x ) > 50 || Math.abs( y - self.y ) > 50 || !current.isMoved ) {
+                return this;
+            }
+
+            if ( current.type == 'image' && ( current.isLoaded || current.$ghost ) ) {
+
+                if ( instance.canPan() ) {
+                    instance.scaleToFit();
+
+                } else if ( instance.isScaledDown() ) {
+                    instance.scaleToActual( x, y );
+
+                }
+
+            }
+
+        } else {
+
+            // Single tap
+
+            self.x = x;
+            self.y = y;
+
+            self.tapped = setTimeout(function() {
+                self.tapped = null;
+
+                instance.toggleControls( true );
+
+            }, 300);
+        }
+
+        return this;
+    };
+
+    $(document).on('onActivate.fb', function (e, instance) {
+
+        if ( instance && !instance.Guestures ) {
+            instance.Guestures = new Guestures( instance );
+        }
+
+    });
+
+    $(document).on('beforeClose.fb', function (e, instance) {
+
+        if ( instance && instance.Guestures ) {
+            instance.Guestures.destroy();
+        }
+
+    });
+
+
+}(window, document, window.jQuery));
+
+// ==========================================================================
+//
+// SlideShow
+// Enables slideshow functionality
+//
+// Example of usage:
+// $.fancybox.getInstance().slideShow.start()
+//
+// ==========================================================================
+;(function (document, $) {
+    'use strict';
+
+    var SlideShow = function( instance ) {
+
+        this.instance = instance;
+
+        this.init();
+
+    };
+
+    $.extend( SlideShow.prototype, {
+        timer    : null,
+        isActive : false,
+        $button  : null,
+        speed    : 3000,
+
+        init : function() {
+            var self = this;
+
+            self.$button = $('<button data-fancybox-play class="fancybox-button fancybox-button--play" title="Slideshow (P)"></button>')
+                .appendTo( self.instance.$refs.buttons );
+
+            self.instance.$refs.container.on('click', '[data-fancybox-play]', function() {
+                self.toggle();
+            });
+
+        },
+
+        set : function() {
+            var self = this;
+
+            // Check if reached last element
+            if ( self.instance && self.instance.current && (self.instance.current.opts.loop || self.instance.currIndex < self.instance.group.length - 1 )) {
+
+                self.timer = setTimeout(function() {
+                    self.instance.next();
+
+                }, self.instance.current.opts.slideShow.speed || self.speed);
+
+            } else {
+                self.stop();
+            }
+        },
+
+        clear : function() {
+            var self = this;
+
+            clearTimeout( self.timer );
+
+            self.timer = null;
+        },
+
+        start : function() {
+            var self = this;
+
+            self.stop();
+
+            if ( self.instance && self.instance.current && ( self.instance.current.opts.loop || self.instance.currIndex < self.instance.group.length - 1 )) {
+
+                self.instance.$refs.container.on({
+                    'beforeLoad.fb.player'  : $.proxy(self, "clear"),
+                    'onComplete.fb.player'  : $.proxy(self, "set"),
+                });
+
+                self.isActive = true;
+
+                if ( self.instance.current.isComplete ) {
+                    self.set();
+                }
+
+                self.instance.$refs.container.trigger('onPlayStart');
+
+                self.$button.addClass('fancybox-button--pause');
+            }
+
+        },
+
+        stop: function() {
+            var self = this;
+
+            self.clear();
+
+            self.instance.$refs.container
+                .trigger('onPlayEnd')
+                .off('.player');
+
+            self.$button.removeClass('fancybox-button--pause');
+
+            self.isActive = false;
+        },
+
+        toggle : function() {
+            var self = this;
+
+            if ( self.isActive ) {
+                self.stop();
+
+            } else {
+                self.start();
+            }
+        }
+
+    });
+
+    $(document).on('onInit.fb', function(e, instance) {
+
+        if ( instance && instance.group.length > 1 && !!instance.opts.slideShow && !instance.SlideShow ) {
+            instance.SlideShow = new SlideShow( instance );
+        }
+
+    });
+
+    $(document).on('beforeClose.fb onDeactivate.fb', function(e, instance) {
+
+        if ( instance && instance.SlideShow ) {
+            instance.SlideShow.stop();
+        }
+
+    });
+
+}(document, window.jQuery));
+
+// ==========================================================================
+//
+// FullScreen
+// Adds fullscreen functionality
+//
+// ==========================================================================
+;(function (document, $) {
+    'use strict';
+
+    // Collection of methods supported by user browser
+    var fn = (function () {
+
+        var fnMap = [
+            [
+                'requestFullscreen',
+                'exitFullscreen',
+                'fullscreenElement',
+                'fullscreenEnabled',
+                'fullscreenchange',
+                'fullscreenerror'
+            ],
+            // new WebKit
+            [
+                'webkitRequestFullscreen',
+                'webkitExitFullscreen',
+                'webkitFullscreenElement',
+                'webkitFullscreenEnabled',
+                'webkitfullscreenchange',
+                'webkitfullscreenerror'
+
+            ],
+            // old WebKit (Safari 5.1)
+            [
+                'webkitRequestFullScreen',
+                'webkitCancelFullScreen',
+                'webkitCurrentFullScreenElement',
+                'webkitCancelFullScreen',
+                'webkitfullscreenchange',
+                'webkitfullscreenerror'
+
+            ],
+            [
+                'mozRequestFullScreen',
+                'mozCancelFullScreen',
+                'mozFullScreenElement',
+                'mozFullScreenEnabled',
+                'mozfullscreenchange',
+                'mozfullscreenerror'
+            ],
+            [
+                'msRequestFullscreen',
+                'msExitFullscreen',
+                'msFullscreenElement',
+                'msFullscreenEnabled',
+                'MSFullscreenChange',
+                'MSFullscreenError'
+            ]
+        ];
+
+        var val;
+        var ret = {};
+        var i, j;
+
+        for ( i = 0; i < fnMap.length; i++ ) {
+            val = fnMap[ i ];
+
+            if ( val && val[ 1 ] in document ) {
+                for ( j = 0; j < val.length; j++ ) {
+                    ret[ fnMap[ 0 ][ j ] ] = val[ j ];
+                }
+
+                return ret;
+            }
+        }
+
+        return false;
+    })();
+
+    if ( !fn ) {
+        return;
+    }
+
+    var FullScreen = {
+        request : function ( elem ) {
+
+            elem = elem || document.documentElement;
+
+            elem[ fn.requestFullscreen ]( elem.ALLOW_KEYBOARD_INPUT );
+
+        },
+        exit : function () {
+            document[ fn.exitFullscreen ]();
+        },
+        toggle : function ( elem ) {
+
+            if ( this.isFullscreen() ) {
+                this.exit();
+            } else {
+                this.request( elem );
+            }
+
+        },
+        isFullscreen : function()  {
+            return Boolean( document[ fn.fullscreenElement ] );
+        },
+        enabled : function()  {
+            return Boolean( document[ fn.fullscreenEnabled ] );
+        }
+    };
+
+    $(document).on({
+        'onInit.fb' : function(e, instance) {
+            var $container;
+
+            if ( instance && !!instance.opts.fullScreen && !instance.FullScreen) {
+                $container = instance.$refs.container;
+
+                instance.$refs.button_fs = $('<button data-fancybox-fullscreen class="fancybox-button fancybox-button--fullscreen" title="Full screen (F)"></button>')
+                    .appendTo( instance.$refs.buttons );
+
+                $container.on('click.fb-fullscreen', '[data-fancybox-fullscreen]', function(e) {
+
+                    e.stopPropagation();
+                    e.preventDefault();
+
+                    FullScreen.toggle( $container[ 0 ] );
+
+                });
+
+                if ( instance.opts.fullScreen.requestOnStart === true ) {
+                    FullScreen.request( $container[ 0 ] );
+                }
+
+            }
+
+        }, 'beforeMove.fb' : function(e, instance) {
+
+            if ( instance && instance.$refs.button_fs ) {
+                instance.$refs.button_fs.toggle( !!instance.current.opts.fullScreen );
+            }
+
+        }, 'beforeClose.fb':  function() {
+            FullScreen.exit();
+        }
+    });
+
+    $(document).on(fn.fullscreenchange, function() {
+        var instance = $.fancybox.getInstance();
+        var  $what   = instance ? instance.current.$placeholder : null;
+
+        if ( $what ) {
+
+            // If image is zooming, then this will force it to stop and reposition properly
+            $what.css( 'transition', 'none' );
+
+            instance.isAnimating = false;
+
+            instance.update( true, true, 0 );
+        }
+
+    });
+
+}(document, window.jQuery));
+
+// ==========================================================================
+//
+// Thumbs
+// Displays thumbnails in a grid
+//
+// ==========================================================================
+;(function (document, $) {
+    'use strict';
+
+    var FancyThumbs = function( instance ) {
+
+        this.instance = instance;
+
+        this.init();
+
+    };
+
+    $.extend( FancyThumbs.prototype, {
+
+        $button     : null,
+        $grid       : null,
+        $list       : null,
+        isVisible   : false,
+
+        init : function() {
+            var self = this;
+
+            self.$button = $('<button data-fancybox-thumbs class="fancybox-button fancybox-button--thumbs" title="Thumbnails (G)"></button>')
+                .appendTo( this.instance.$refs.buttons )
+                .on('touchend click', function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+
+                    self.toggle();
+                });
+
+        },
+
+        create : function() {
+            var instance = this.instance,
+                list,
+                src;
+
+            this.$grid = $('<div class="fancybox-thumbs"></div>').appendTo( instance.$refs.container );
+
+            list = '<ul>';
+
+            $.each(instance.group, function( i, item ) {
+
+                src = item.opts.thumb || ( item.opts.$thumb ? item.opts.$thumb.attr('src') : null );
+
+                if ( !src && item.type === 'image' ) {
+                    src = item.src;
+                }
+
+                if ( src && src.length ) {
+                    list += '<li data-index="' + i + '"  tabindex="0" class="fancybox-thumbs-loading"><img data-src="' + src + '" /></li>';
+                }
+
+            });
+
+            list += '</ul>';
+
+            this.$list = $( list ).appendTo( this.$grid ).on('click touchstart', 'li', function() {
+
+                instance.jumpTo( $(this).data('index') );
+
+            });
+
+            this.$list.find('img').hide().one('load', function() {
+
+                var $parent     = $(this).parent().removeClass('fancybox-thumbs-loading'),
+                    thumbWidth  = $parent.outerWidth(),
+                    thumbHeight = $parent.outerHeight(),
+                    width,
+                    height,
+                    widthRatio,
+                    heightRatio;
+
+                width  = this.naturalWidth  || this.width;
+                height = this.naturalHeight || this.height;
+
+                //Calculate thumbnail width/height and center it
+
+                widthRatio  = width  / thumbWidth;
+                heightRatio = height / thumbHeight;
+
+                if (widthRatio >= 1 && heightRatio >= 1) {
+                    if (widthRatio > heightRatio) {
+                        width  = width / heightRatio;
+                        height = thumbHeight;
+
+                    } else {
+                        width  = thumbWidth;
+                        height = height / widthRatio;
+                    }
+                }
+
+                $(this).css({
+                    width         : Math.floor(width),
+                    height        : Math.floor(height),
+                    'margin-top'  : Math.min( 0, Math.floor(thumbHeight * 0.3 - height * 0.3 ) ),
+                    'margin-left' : Math.min( 0, Math.floor(thumbWidth  * 0.5 - width  * 0.5 ) )
+                }).show();
+
+            })
+            .each(function() {
+                this.src = $( this ).data( 'src' );
+            });
+
+        },
+
+        focus : function() {
+
+            if ( this.instance.current ) {
+                this.$list
+                    .children()
+                    .removeClass('fancybox-thumbs-active')
+                    .filter('[data-index="' + this.instance.current.index  + '"]')
+                    .addClass('fancybox-thumbs-active')
+                    .focus();
+            }
+
+        },
+
+        close : function() {
+
+            this.$grid.hide();
+
+        },
+
+        update : function() {
+
+            this.instance.$refs.container.toggleClass('fancybox-container--thumbs', this.isVisible);
+
+            if ( this.isVisible ) {
+
+                if ( !this.$grid ) {
+                    this.create();
+                }
+
+                this.$grid.show();
+
+                this.focus();
+
+            } else if ( this.$grid ) {
+                this.$grid.hide();
+            }
+
+            this.instance.update();
+
+        },
+
+        hide : function() {
+
+            this.isVisible = false;
+
+            this.update();
+
+        },
+
+        show : function() {
+
+            this.isVisible = true;
+
+            this.update();
+
+        },
+
+        toggle : function() {
+
+            if ( this.isVisible ) {
+                this.hide();
+
+            } else {
+                this.show();
+            }
+        }
+
+    });
+
+    $(document).on('onInit.fb', function(e, instance) {
+        var first  = instance.group[0],
+            second = instance.group[1];
+
+        if ( !!instance.opts.thumbs && !instance.Thumbs && instance.group.length > 1 && (
+                    ( first.type == 'image'  || first.opts.thumb  || first.opts.$thumb ) &&
+                    ( second.type == 'image' || second.opts.thumb || second.opts.$thumb )
+                )
+           ) {
+
+            instance.Thumbs = new FancyThumbs( instance );
+        }
+
+    });
+
+    $(document).on('beforeMove.fb', function(e, instance, item) {
+        var self = instance && instance.Thumbs;
+
+        if ( !self ) {
+            return;
+        }
+
+        if ( item.modal ) {
+
+            self.$button.hide();
+
+            self.hide();
+
+        } else {
+
+            if ( instance.opts.thumbs.showOnStart === true && instance.firstRun ) {
+                self.show();
+
+            }
+
+            self.$button.show();
+
+            if ( self.isVisible ) {
+                self.focus();
+            }
+
+        }
+
+    });
+
+    $(document).on('beforeClose.fb', function(e, instance) {
+
+        if ( instance && instance.Thumbs) {
+            if ( instance.Thumbs.isVisible && instance.opts.thumbs.hideOnClosing !== false ) {
+                instance.Thumbs.close();
+            }
+
+            instance.Thumbs = null;
+        }
+
+    });
+
+}(document, window.jQuery));
+
+// ==========================================================================
+//
+// Hash
+// Enables linking to each modal
+//
+// ==========================================================================
+;(function (document, window, $) {
+    'use strict';
+
+    // Simple $.escapeSelector polyfill (for jQuery prior v3)
+    if ( !$.escapeSelector ) {
+        $.escapeSelector = function( sel ) {
+            var rcssescape = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\x80-\uFFFF\w-]/g;
+            var fcssescape = function( ch, asCodePoint ) {
+                if ( asCodePoint ) {
+                    // U+0000 NULL becomes U+FFFD REPLACEMENT CHARACTER
+                    if ( ch === "\0" ) {
+                        return "\uFFFD";
+                    }
+
+                    // Control characters and (dependent upon position) numbers get escaped as code points
+                    return ch.slice( 0, -1 ) + "\\" + ch.charCodeAt( ch.length - 1 ).toString( 16 ) + " ";
+                }
+
+                // Other potentially-special ASCII characters get backslash-escaped
+                return "\\" + ch;
+            };
+
+            return ( sel + "" ).replace( rcssescape, fcssescape );
+        };
+    }
+
+    // Variable containing last hash value set by fancyBox
+    // It will be used to determine if fancyBox needs to close after hash change is detected
+    var currentHash = null;
+
+    // Get info about gallery name and current index from url
+    function parseUrl() {
+        var hash    = window.location.hash.substr( 1 );
+        var rez     = hash.split( '-' );
+        var index   = rez.length > 1 && /^\+?\d+$/.test( rez[ rez.length - 1 ] ) ? parseInt( rez.pop( -1 ), 10 ) || 1 : 1;
+        var gallery = rez.join( '-' );
+
+        // Index is starting from 1
+        if ( index < 1 ) {
+            index = 1;
+        }
+
+        return {
+            hash    : hash,
+            index   : index,
+            gallery : gallery
+        };
+    }
+
+    // Trigger click evnt on links to open new fancyBox instance
+    function triggerFromUrl( url ) {
+        var $el;
+
+        if ( url.gallery !== '' ) {
+
+            // If we can find element matching 'data-fancybox' atribute, then trigger click event for that ..
+            $el = $( "[data-fancybox='" + $.escapeSelector( url.gallery ) + "']" ).eq( url.index - 1 );
+
+            if ( $el.length ) {
+                $el.trigger( 'click' );
+
+            } else {
+
+                // .. if not, try finding element by ID
+                $( "#" + $.escapeSelector( url.gallery ) + "" ).trigger( 'click' );
+
+            }
+
+        }
+    }
+
+    // Get gallery name from current instance
+    function getGallery( instance ) {
+        var opts;
+
+        if ( !instance ) {
+            return false;
+        }
+
+        opts = instance.current ? instance.current.opts : instance.opts;
+
+        return opts.$orig ? opts.$orig.data( 'fancybox' ) : ( opts.hash || '' );
+    }
+
+    // Star when DOM becomes ready
+    $(function() {
+
+        // Small delay is used to allow other scripts to process "dom ready" event
+        setTimeout(function() {
+
+            // Check if this module is not disabled
+            if ( $.fancybox.defaults.hash === false ) {
+                return;
+            }
+
+            // Check if need to close after url has changed
+            $(window).on('hashchange.fb', function() {
+                var url = parseUrl();
+
+                if ( $.fancybox.getInstance() ) {
+                    if ( currentHash && currentHash !== url.gallery + '-' + url.index )  {
+                        currentHash = null;
+
+                        $.fancybox.close();
+                    }
+
+                } else if ( url.gallery !== '' ) {
+                    triggerFromUrl( url );
+                }
+
+            });
+
+            // Update hash when opening/closing fancyBox
+            $(document).on({
+                'onInit.fb' : function( e, instance ) {
+                    var url     = parseUrl();
+                    var gallery = getGallery( instance );
+
+                    // Make sure gallery start index matches index from hash
+                    if ( gallery && url.gallery && gallery == url.gallery ) {
+                        instance.currIndex = url.index - 1;
+                    }
+
+                }, 'beforeMove.fb' : function( e, instance, current ) {
+                    var gallery = getGallery( instance );
+
+                    // Update window hash
+                    if ( gallery && gallery !== '' ) {
+
+                        if ( window.location.hash.indexOf( gallery ) < 0 ) {
+                            instance.opts.origHash = window.location.hash;
+                        }
+
+                        currentHash = gallery + ( instance.group.length > 1 ? '-' + ( current.index + 1 ) : '' );
+
+                        if ( "pushState" in history ) {
+                            history.pushState( '', document.title, window.location.pathname + window.location.search + '#' +  currentHash );
+
+                        } else {
+                            window.location.hash = currentHash;
+                        }
+
+                    }
+
+                }, 'beforeClose.fb' : function( e, instance, current ) {
+                    var gallery  = getGallery( instance );
+                    var origHash = instance && instance.opts.origHash ? instance.opts.origHash : '';
+
+                    // Remove hash from location bar
+                    if ( gallery && gallery !== '' ) {
+                        if ( "pushState" in history ) {
+                            history.pushState( '', document.title, window.location.pathname + window.location.search + origHash );
+
+                        } else {
+                            window.location.hash = origHash;
+                        }
+                    }
+
+                    currentHash = null;
+                }
+            });
+
+            // Check current hash and trigger click event on matching element to start fancyBox, if needed
+            triggerFromUrl( parseUrl() );
+
+        }, 50);
+    });
+
+
+}(document, window, window.jQuery));

@@ -1521,8 +1521,7 @@ a.btn-ghost.hero-sticky {
     display: block;
     height: 200px;
     text-indent: -9999px;
-    width: 100%;
-    width: 630px;
+    width: 1000px;
     position: absolute;
     left: 0;
     background-size: 100% auto;
@@ -1556,6 +1555,7 @@ a.btn-ghost.hero-sticky {
             height: 200px;
             text-indent: -9999px;
             width: 100%;
+            width: 1000px;
             position: absolute;
             left: 0;
             background-size: 100% auto;
@@ -1633,3 +1633,10 @@ a.btn-ghost.hero-sticky {
     color: #5c5c5c !important;
 }
 
+
+
+#accordion button, input[type="color"]:-moz-system-metric(color-picker-available),
+#accordion input[type="reset"], input[type="button"],
+#accordion input[type="submit"] {
+    border: none !important;
+}

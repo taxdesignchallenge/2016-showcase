@@ -28,7 +28,7 @@
     <div class="container">
 
       <div class="row">
-      <header role="banner">
+      <header>
         <div class="wrap">
           <div class="navbar navbar-default">
               <div class="navbar-header">
@@ -71,14 +71,18 @@
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/slideshow.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
 
+    <script>
+    jQuery(document).ready(function() {
+      $("[data-fancybox]").fancybox({
+        onComplete: function (instance, slide) {
+           $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
+        }
+      });
+    });
+    </script>
+
     <script src="{{ site.baseurl }}/assets/js/isotope/isotope.pkgd.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/isotope/isotope.js"></script>
-
-    <script type="text/javascript">
-      $("[data-fancybox]").fancybox({
-        // Options
-      });
-    </script>
 
     <script>
     // Collapse Innovate menu when item is clicked
@@ -164,6 +168,11 @@
       });
     }
     </script>
+
+
+
+
+
 
     {% if site.offline_cache == true %}
       <script>

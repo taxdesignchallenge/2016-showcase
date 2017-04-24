@@ -18,6 +18,7 @@ layout: catalog
 
   <div class="container">
     <div class="row">
+
       <!-- Nav Menu -->
       <div class="innovate-menu nopadding-left nopadding-right col-md-3 col-sm-3">
           <nav class="navbar navbar-inverse" id="top-menu" role="navigation">
@@ -34,17 +35,17 @@ layout: catalog
                 <div class="nopadding-left">
                     <div class="simplefilter nav nav-gallery filters" id="accordion">
 
-                      <div class="panel-group">
+                      <div class="panel-group" role="tablist">
                         <div class="panel panel-default">
-                          <div class="panel-heading active" data-toggle="collapse" data-target="#collapseAll">
+                          <div class="panel-heading active">
                             <h4 class="panel-title">
-                              <button class="accordion-toggle" type="button" role="button" aria-pressed="true" tabindex="1">By Submission</button>
+                              <button id="tab-1" class="accordion-toggle" type="button" role="tab" aria-selected="true" data-toggle="collapse" data-target="#collapseAll" aria-expanded="true" aria-controls="collapseAll">By Submission</button>
                             </h4>
                           </div>
-                          <div id="collapseAll" class="panel-collapse collapse in">
+                          <div class="panel-collapse collapse in" id="collapseAll" role="tabpanel" aria-labelledby="tab-1">
                             <div class="panel-body">
                               <ul>
-                              <li class="iso-btn active" data-filter=".submissions_2016"><a href="#" tabindex="2">2016 Submissions</a></li>
+                                <li class="iso-btn active" data-filter=".submissions_2016"><a href="#">2016 Submissions</a></li>
                               </ul>
                             </div>
                           </div>
@@ -53,16 +54,16 @@ layout: catalog
 
                       <div class="panel-group">
                         <div class="panel panel-default">
-                          <div class="panel-heading" data-toggle="collapse" data-target="#collapseTwo">
+                          <div class="panel-heading">
                             <h4 class="panel-title">
-                              <button class="accordion-toggle" type="button" role="button" aria-pressed="false" tabindex="3">Display</button>
+                              <button id="tab-2" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Display</button>
                             </h4>
                           </div>
-                          <div id="collapseTwo" class="panel-collapse collapse">
+                          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-2">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".desktop"><a href="#" tabindex="4">Desktop</a></li>
-                                  <li class="iso-btn" data-filter=".mobile"><a href="#" tabindex="5">Mobile</a></li>
+                                  <li class="iso-btn" data-filter=".desktop"><a href="#">Desktop</a></li>
+                                  <li class="iso-btn" data-filter=".mobile"><a href="#">Mobile</a></li>
                               </ul>
                             </div>
                           </div>
@@ -71,16 +72,16 @@ layout: catalog
 
                       <div class="panel-group">
                         <div class="panel panel-default">
-                          <div class="panel-heading" data-toggle="collapse" data-target="#collapseThree">
+                          <div class="panel-heading">
                             <h4 class="panel-title">
-                              <button class="accordion-toggle" type="button" role="button" tabindex="5">Forms</button>
+                              <button id="tab-3" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Forms</button>
                             </h4>
                           </div>
-                          <div id="collapseThree" class="panel-collapse collapse">
+                          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-3">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".form_fields"><a href="#" tabindex="6">Form Fields</a></li>
-                                  <li class="iso-btn" data-filter=".irs_forms"><a href="#" tabindex="7">IRS Forms</a></li>
+                                  <li class="iso-btn" data-filter=".form_fields"><a href="#">Form Fields</a></li>
+                                  <li class="iso-btn" data-filter=".irs_forms"><a href="#">IRS Forms</a></li>
                               </ul>
                             </div>
                           </div>
@@ -89,19 +90,19 @@ layout: catalog
 
                       <div class="panel-group">
                         <div class="panel panel-default">
-                          <div class="panel-heading" data-toggle="collapse" data-target="#collapseFour">
+                          <div class="panel-heading">
                             <h4 class="panel-title">
-                              <button class="accordion-toggle" type="button" tabindex="8">Layout</button>
+                              <button id="tab-4" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Layout</button>
                             </h4>
                           </div>
-                          <div id="collapseFour" class="panel-collapse collapse">
+                          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-4">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".cards_snapshots"><a href="#" tabindex="9">Cards/Snapshots</a></li>
-                                  <li class="iso-btn" data-filter=".footer"><a href="#" tabindex="10">Footer</a></li>
-                                  <li class="iso-btn" data-filter=".navigation"><a href="#" tabindex="11">Navigation</a></li>
-                                  <li class="iso-btn" data-filter=".profile_dashboard"><a href="#" tabindex="12">Profile/Dashboard</a></li>
-                                  <li class="iso-btn" data-filter=".sidebar"><a href="#" tabindex="13">Sidebar</a></li>
+                                  <li class="iso-btn" data-filter=".cards_snapshots"><a href="#">Cards/Snapshots</a></li>
+                                  <li class="iso-btn" data-filter=".footer"><a href="#">Footer</a></li>
+                                  <li class="iso-btn" data-filter=".navigation"><a href="#">Navigation</a></li>
+                                  <li class="iso-btn" data-filter=".profile_dashboard"><a href="#">Profile/Dashboard</a></li>
+                                  <li class="iso-btn" data-filter=".sidebar"><a href="#">Sidebar</a></li>
                               </ul>
                             </div>
                           </div>
@@ -110,23 +111,23 @@ layout: catalog
 
                       <div class="panel-group">
                         <div class="panel panel-default">
-                          <div class="panel-heading" data-toggle="collapse" data-target="#collapseFive">
+                          <div class="panel-heading">
                             <h4 class="panel-title">
-                              <button class="accordion-toggle" type="button" role="button" tabindex="14">Page Elements</button>
+                              <button id="tab-5" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Page Elements</button>
                             </h4>
                           </div>
-                          <div id="collapseFive" class="panel-collapse collapse">
+                          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-5">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".accordions"><a href="#" tabindex="15">Accordions</a></li>
-                                  <li class="iso-btn" data-filter=".calendars_dates"><a href="#" tabindex="16">Calendars/Dates</a></li>
-                                  <li class="iso-btn" data-filter=".diagrams"><a href="#" tabindex="17">Diagrams/Graphs/Tables</a></li>
-                                  <li class="iso-btn" data-filter=".hero_header"><a href="#" tabindex="18">Hero Header</a></li>
-                                  <li class="iso-btn" data-filter=".icons"><a href="#" tabindex="19">Icons</a></li>
-                                  <li class="iso-btn" data-filter=".messengers"><a href="#" tabindex="20">Messengers</a></li>
-                                  <li class="iso-btn" data-filter=".notifications"><a href="#" tabindex="21">Notifications/Alerts</a></li>
-                                  <li class="iso-btn" data-filter=".pop_ups"><a href="#" tabindex="22">Pop-Ups</a></li>
-                                  <li class="iso-btn" data-filter=".progress_bars"><a href="#" tabindex="23">Progress Bars</a></li>
+                                  <li class="iso-btn" data-filter=".accordions"><a href="#">Accordions</a></li>
+                                  <li class="iso-btn" data-filter=".calendars_dates"><a href="#">Calendars/Dates</a></li>
+                                  <li class="iso-btn" data-filter=".diagrams"><a href="#">Diagrams/Graphs/Tables</a></li>
+                                  <li class="iso-btn" data-filter=".hero_header"><a href="#">Hero Header</a></li>
+                                  <li class="iso-btn" data-filter=".icons"><a href="#">Icons</a></li>
+                                  <li class="iso-btn" data-filter=".messengers"><a href="#">Messengers</a></li>
+                                  <li class="iso-btn" data-filter=".notifications"><a href="#">Notifications/Alerts</a></li>
+                                  <li class="iso-btn" data-filter=".pop_ups"><a href="#">Pop-Ups</a></li>
+                                  <li class="iso-btn" data-filter=".progress_bars"><a href="#">Progress Bars</a></li>
                               </ul>
                             </div>
                           </div>
@@ -135,17 +136,17 @@ layout: catalog
 
                       <div class="panel-group">
                         <div class="panel panel-default">
-                          <div class="panel-heading" data-toggle="collapse" data-target="#collapseSix">
+                          <div class="panel-heading">
                             <h4 class="panel-title">
-                              <button class="accordion-toggle" type="button" role="button" tabindex="24">Security</button>
+                              <button id="tab-6" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Security</button>
                             </h4>
                           </div>
-                          <div id="collapseSix" class="panel-collapse collapse">
+                          <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-6">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".authorizations"><a href="#" tabindex="25">Authorizations</a></li>
-                                  <li class="iso-btn" data-filter=".identity_security"><a href="#" tabindex="26">Identity/Security</a></li>
-                                  <li class="iso-btn" data-filter=".sign_up_log_in"><a href="#" tabindex="27">Sign Up/Log In</a></li>
+                                  <li class="iso-btn" data-filter=".authorizations"><a href="#">Authorizations</a></li>
+                                  <li class="iso-btn" data-filter=".identity_security"><a href="#">Identity/Security</a></li>
+                                  <li class="iso-btn" data-filter=".sign_up_log_in"><a href="#">Sign Up/Log In</a></li>
                               </ul>
                             </div>
                           </div>
@@ -154,19 +155,19 @@ layout: catalog
 
                       <div class="panel-group">
                         <div class="panel panel-default">
-                          <div class="panel-heading" data-toggle="collapse" data-target="#collapseSeven">
+                          <div class="panel-heading">
                             <h4 class="panel-title">
-                              <button class="accordion-toggle" type="button" role="button" tabindex="28">Self Help</button>
+                              <button id="tab-7" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Self Help</button>
                             </h4>
                           </div>
-                          <div id="collapseSeven" class="panel-collapse collapse">
+                          <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-7">
                             <div class="panel-body">
                               <ul>
-                                  <li class="iso-btn" data-filter=".calculator"><a href="#" tabindex="29">Calculator</a></li>
-                                  <li class="iso-btn" data-filter=".help"><a href="#" tabindex="30">Help</a></li>
-                                  <li class="iso-btn" data-filter=".search"><a href="#" tabindex="31">Search</a></li>
-                                  <li class="iso-btn" data-filter=".settings"><a href="#" tabindex="32">Settings</a></li>
-                                  <li class="iso-btn" data-filter=".tooltips"><a href="#" tabindex="33">Tooltips</a></li>
+                                  <li class="iso-btn" data-filter=".calculator"><a href="#">Calculator</a></li>
+                                  <li class="iso-btn" data-filter=".help"><a href="#">Help</a></li>
+                                  <li class="iso-btn" data-filter=".search"><a href="#">Search</a></li>
+                                  <li class="iso-btn" data-filter=".settings"><a href="#">Settings</a></li>
+                                  <li class="iso-btn" data-filter=".tooltips"><a href="#">Tooltips</a></li>
                               </ul>
                             </div>
                           </div>

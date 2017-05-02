@@ -24,6 +24,7 @@
     cat_slug: submissions_2016
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: thumbalt
+    winner: winner
     main:
       - image: Ask_IRS_layout_navigation_1, alt1, navigation, Navigation
       - image: Ask_IRS_layout_navigation_2, alt2, navigation, Navigation
@@ -38,6 +39,7 @@
     cat_slug: submissions_2016
     thumb_url: Empowered_thumb.png
     thumb_alt: thumbalt
+    winner: winner
     main:
       - image: Empowered_layout_navigation_1, alt1, navigation, Navigation
 
@@ -1079,7 +1081,7 @@
     cat_slug: calculator
     thumb_url: IRS_thumb.png
     main:
-      - image: IRS_self_help_calculator, alt
+      - image: IRS_self_help_calculator, A Tax Design Challenge design submission’s use of a calculator to help users understand how taxes are calculated. This calculator shows the breakdown of adjusted gross income, taxable income, and remaining balance.
 
 - project:
   -
@@ -1089,9 +1091,9 @@
     cat_slug: calculator
     thumb_url: My_Tax_Data_thumb.png
     main:
-      - image: My_Tax_Data_self_help_calculator, alt
-      - image: My_Tax_Data_self_help_calculator, alt
-      - image: My_Tax_Data_self_help_calculator, alt
+      - image: My_Tax_Data_self_help_calculator, A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the user choses what they want to do. In this case "borrow" is selected.
+      - image: My_Tax_Data_self_help_calculator, A Tax Design Challenge design submission’s use of a calculator to help a user budget and plan for financial goals. On this screen, the user has filled out form fields to borrow money for a house such as total cost, down payment, and length of loan.
+      - image: My_Tax_Data_self_help_calculator, A Tax Design Challenge design submission’s use of a calculator to help a user budget and plan for financial goals. On this screen, the calculator estimates the user could pay $754 per month at a 4.5% interest.
 
 - project:
   -
@@ -1101,7 +1103,7 @@
     cat_slug: calculator
     thumb_url: Taxez_thumb.png
     main:
-      - image: Taxez_self_help_calculator, alt
+      - image: Taxez_self_help_calculator, A Tax Design Challenge design submission’s use of a calculator to help determine the monthly payments on a loan. This screen shows a loan amount of $90,000, a term of 360 months, at a 4.5% interest rate and a calculated monthly payment of $456.02
 
 # =================================================================== #
 # Help
@@ -1115,7 +1117,7 @@
     cat_slug: help
     thumb_url: alternatives_TDC_thumb.png
     main:
-      - image: alternatives_TDC_self_help_help, alt
+      - image: alternatives_TDC_self_help_help, A Tax Design Challenge design submission’s use of a help feature. This submission has a "Here to Help" link in the site’s top navigation as well as an app "IRiS&#58; Here to Help" which features the ability to search tax tips, videos and other resources.
 
 - project:
   -
@@ -1125,7 +1127,7 @@
     cat_slug: help
     thumb_url: Ask_IRS_thumb.png
     main:
-      - image: Ask_IRS_self_help_help, alt
+      - image: Ask_IRS_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has a "Frequently Asked Questions" link directly below the main search bar.
 
 - project:
   -
@@ -1135,7 +1137,7 @@
     cat_slug: help
     thumb_url: IRS_365_thumb.png
     main:
-      - image: IRS_365_self_help_help, alt
+      - image: IRS_365_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has multiple features in their application&#58; quick links to return tools, articles, videos, and an IRS call back request to help solve problems.
 
 - project:
   -
@@ -1145,7 +1147,7 @@
     cat_slug: help
     thumb_url: IRS_efile_thumb.png
     main:
-      - image: IRS_efile_self_help_help, alt
+      - image: IRS_efile_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission links to a chat feature and an informational section in the bottom right section of the site.
 
 - project:
   -
@@ -1155,7 +1157,7 @@
     cat_slug: help
     thumb_url: IRS_File_Friend_thumb.png
     main:
-      - image: IRS_File_Friend_self_help_help, alt
+      - image: IRS_File_Friend_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has a frequently asked questions section related to filing in a specific or current tax year.
 
 - project:
   -
@@ -1165,8 +1167,8 @@
     cat_slug: help
     thumb_url: IRS_Filr_thumb.png
     main:
-      - image: IRS_Filr_self_help_help, alt
-      - image: IRS_Filr_self_help_help, alt
+      - image: IRS_Filr_self_help_help, A Tax Design Challenge design submission's use of a help feature. A help link is featured prominently in the lower right corner of the phone app design.
+      - image: IRS_Filr_self_help_help, A Tax Design Challenge design submission's use of a help feature. Within a pop-up window, a “Need Help?” section directs users to the irs.gov site for full details.
 
 - project:
   -
@@ -1176,8 +1178,8 @@
     cat_slug: help
     thumb_url: IRS_My_Account_thumb.png
     main:
-      - image: IRS_My_Account_self_help_help, alt
-      - image: IRS_My_Account_self_help_help, alt
+      - image: IRS_My_Account_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top navigation, a question mark icon links to a questions page.
+      - image: IRS_My_Account_self_help_help, A Tax Design Challenge design submission's use of a help feature. Within a section detailing Plans for the 2016 tax year, there is an information section with quick facts to help the user understand the content.
 
 - project:
   -
@@ -1187,7 +1189,7 @@
     cat_slug: help
     thumb_url: IRS_TDC_thumb.png
     main:
-      - image: IRS_TDC_self_help_help, alt
+      - image: IRS_TDC_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top navigation, a "Help" link is included alongside a navigation to various tax years and a link to the IRS home page.
 
 - project:
   -
@@ -1197,7 +1199,7 @@
     cat_slug: help
     thumb_url: MyIRS_thumb.png
     main:
-      - image: MyIRS_self_help_help, alt
+      - image: MyIRS_self_help_help, A Tax Design Challenge design submission's use of a help feature. An entire section is devoted to "Help &amp; Resources. Within this section are two buttons to a "Contact Us" page and a "Frequently Asked Questions".
 
 - project:
   -
@@ -1207,7 +1209,7 @@
     cat_slug: help
     thumb_url: MyTaxOnline_thumb.png
     main:
-      - image: MyTaxOnline_self_help_help, alt
+      - image: MyTaxOnline_self_help_help, A Tax Design Challenge design submission's use of a help feature. The feature is a search bar in which the user is encouraged to type in order to find something or ask a question.
 
 - project:
   -
@@ -1217,7 +1219,7 @@
     cat_slug: help
     thumb_url: Taxes_thumb.png
     main:
-      - image: Taxes_self_help_help, alt
+      - image: Taxes_self_help_help, A Tax Design Challenge design submission's use of a help feature. There are four main navigation sections across the top of this design&#58; plan, file, news and help.
 
 - project:
   -
@@ -1227,8 +1229,8 @@
     cat_slug: help
     thumb_url: Taxez_thumb.png
     main:
-      - image: Taxez_self_help_help, alt
-      - image: Taxez_self_help_help, alt
+      - image: Taxez_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top right, there is a help drop down.
+      - image: Taxez_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top right, the help drop down is clicked and links to a Tour, FAQs &amp; Mythbusters, Taxpayer Dictionary, Forum and a Live Chat.
 
 # =================================================================== #
 # Search
@@ -1242,8 +1244,8 @@
     cat_slug: search
     thumb_url: Ask_IRS_thumb.png
     main:
-      - image: Ask_IRS_self_help_search, alt
-      - image: Ask_IRS_self_help_search, alt
+      - image: Ask_IRS_self_help_search, A Tax Design Challenge design submission's use of a search feature. Center in this design is a search bar featuring the tooltip "Ask IRS..."
+      - image: Ask_IRS_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top right with a magnifying glass icon as the activate button.
 
 - project:
   -
@@ -1253,7 +1255,7 @@
     cat_slug: search
     thumb_url: IRS_efile_thumb.png
     main:
-      - image: IRS_efile_self_help_search, alt
+      - image: IRS_efile_self_help_search, A Tax Design Challenge design submission's use of a search feature. Here the search bar allows the user to search for their employer by name. A "search" button is used to activate the search.
 
 - project:
   -
@@ -1263,8 +1265,8 @@
     cat_slug: search
     thumb_url: IRS_MyService_thumb.png
     main:
-      - image: IRS_MyService_self_help_search, alt
-      - image: IRS_MyService_self_help_search, alt
+      - image: IRS_MyService_self_help_search, A Tax Design Challenge design submission's use of a search feature. The search bar is featured in the top right. Within the bar is a magnifying glass icon and the tool tip, "Search for documents, definition, etc...".
+      - image: IRS_MyService_self_help_search, A Tax Design Challenge design submission's use of a search feature. The search bar also includes a smart search that helps define tax terminology in plain language. The current smart search features a definition of tax deductions and similar terms.
 
 - project:
   -
@@ -1274,7 +1276,7 @@
     cat_slug: search
     thumb_url: MyIRS_thumb.png
     main:
-      - image: MyIRS_self_help_search, alt
+      - image: MyIRS_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top center with a magnifying glass icon as the activate button.
 
 - project:
   -
@@ -1284,7 +1286,7 @@
     cat_slug: search
     thumb_url: MyTaxOnline_thumb.png
     main:
-      - image: MyTaxOnline_self_help_search, alt
+      - image: MyTaxOnline_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is in the top center with a "Go" button that activates the search. The bar contains the tool tip "Find something or ask a question".
 
 - project:
   -
@@ -1294,7 +1296,7 @@
     cat_slug: search
     thumb_url: Taxez_thumb.png
     main:
-      - image: Taxez_self_help_search, alt
+      - image: Taxez_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top center with a magnifying glass to the right. The bar contains the tool tip "Search".
 
 - project:
   -
@@ -1304,7 +1306,7 @@
     cat_slug: search
     thumb_url: TaxReturn_thumb.png
     main:
-      - image: TaxReturn_self_help_search, alt
+      - image: TaxReturn_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar sits in the tax returns section and asks whether the user is searching for something specific. A google search bar sits at the top right of the mobile app design.
 
 # =================================================================== #
 # Settings
@@ -1318,7 +1320,7 @@
     cat_slug: settings
     thumb_url: IRS_365_thumb.png
     main:
-      - image: IRS_365_self_help_settings, alt
+      - image: IRS_365_self_help_settings, A Tax Design Challenge design submission's use of settings. In this design, the user can see their connections and invitations and who has access to their information.
 
 - project:
   -
@@ -1328,7 +1330,7 @@
     cat_slug: settings
     thumb_url: IRS_efile_thumb.png
     main:
-      - image: IRS_efile_self_help_settings, alt
+      - image: IRS_efile_self_help_settings, A Tax Design Challenge design submission's use of settings. In this design, the user can set their preferred accessibility settings based on their need&#58; visual, hearing, text, mouse/keyboard, or speech.
 
 - project:
   -
@@ -1338,7 +1340,7 @@
     cat_slug: settings
     thumb_url: Taxez_thumb.png
     main:
-      - image: Taxez_self_help_settings, alt
+      - image: Taxez_self_help_settings, A Tax Design Challenge design submission's use of settings. Here the user can see in their current profile their filing status and dependents (their relationship, SSN, date of birth, and age of each) as well as their address and tax exemptions.
 
 - project:
   -
@@ -1348,7 +1350,7 @@
     cat_slug: settings
     thumb_url: TaxReturn_thumb.png
     main:
-      - image: TaxReturn_self_help_settings, alt
+      - image: TaxReturn_self_help_settings, A Tax Design Challenge design submission's use of settings. A link to settings and the users profile are shown. 
 
 # =================================================================== #
 # Tooltips
@@ -1362,8 +1364,8 @@
     cat_slug: tooltips
     thumb_url: IRS_efile_thumb.png
     main:
-      - image: IRS_efile_self_help_tooltips, alt
-      - image: IRS_efile_self_help_tooltips, alt
+      - image: IRS_efile_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. As a user hovers over the "Upload" button, a "What's this?" tooltip appears describing the action as "upload W-2 to automatically import data in appropriate fields."
+      - image: IRS_efile_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. By hovering over a question mark icon next to the word Assets, a "What's this?" tooltip appears describing the term as a "resource of value that an individual or business owns, such as a cash, property or equipment."
 
 - project:
   -
@@ -1373,11 +1375,11 @@
     cat_slug: tooltips
     thumb_url: IRS_File_Friend_thumb.png
     main:
-      - image: IRS_File_Friend_self_help_tooltips, alt
-      - image: IRS_File_Friend_self_help_tooltips, alt
-      - image: IRS_File_Friend_self_help_tooltips, alt
-      - image: IRS_File_Friend_self_help_tooltips, alt
-      - image: IRS_File_Friend_self_help_tooltips, alt
+      - image: IRS_File_Friend_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A "Tell me More" button at the bottom of the 2015 tax return page directs a user to pages win in-depth information such as information on types of income.
+      - image: IRS_File_Friend_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. A "What's This?" button sits below “Head of Household” on a page describing how the user filed on their last year’s return.
+      - image: IRS_File_Friend_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. After clicking "What's This?", a user is directed to a definition of "Head of Household". The user can then proceed or return to the main menu.
+      - image: IRS_File_Friend_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A "What's This?" button appears next to all the needed documents lists to report income (W-2, 1098-T, 1099-MISC, and 1099-R).
+      - image: IRS_File_Friend_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A "What's This?" button appears next to "Earned Income Tax Credit" and "Child Tax Credit." The user is encouraged to tap these buttons to learn more about these tax credits.
 
 - project:
   -
@@ -1387,10 +1389,10 @@
     cat_slug: tooltips
     thumb_url: IRS_My_Account_thumb.png
     main:
-      - image: IRS_My_Account_self_help_tooltips, alt
-      - image: IRS_My_Account_self_help_tooltips, alt
-      - image: IRS_My_Account_self_help_tooltips, alt
-      - image: IRS_My_Account_self_help_tooltips, alt
+      - image: IRS_My_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A Tax Tip button is featured next to "Check your W-4 withholdings" and "Plan your retirement contributions."
+      - image: IRS_My_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A Tax Tip button is featured next to "Quarterly taxes due" for January 15, 2016. 
+      - image: IRS_My_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. In the upcoming tax timeline, a tax tip points to the average Roth IRA contribution couples make. User tips provide possible deductions and filing statuses. 
+      - image: IRS_My_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. Links to FAQs helps keep the user informed. Here the user receives tips about possible savings by filing jointly and reducing self-employment taxable income by contributing to retirement.
 
 - project:
   -
@@ -1400,10 +1402,10 @@
     cat_slug: tooltips
     thumb_url: IRS_thumb.png
     main:
-      - image: IRS_self_help_tooltips, alt
-      - image: IRS_self_help_tooltips, alt
-      - image: IRS_self_help_tooltips, alt
-      - image: IRS_self_help_tooltips, alt
+      - image: IRS_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. This site includes a "Tax Tips" section within the navigation. The page also includes a breakdown of total Income and a button to see more information on how tax is calculated.
+      - image: IRS_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. As a user hovers over each timeline item, tooltips appear to give more information. For example, when hovering on "File 2015 Taxes" a tooltip states when taxes were filed and the receipt number.
+      - image: IRS_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. In the "Tool Tips" section of the website, tips are given by tax year. Some examples include "Calculate Withholding Amount," "Top 10 Tips for Filing Taxes," and "Find a Tax Preparer."
+      - image: IRS_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. Within the tool that shows how taxes are calculated each element is a link to more information. Below each item is also a brief description of each number.
 
 - project:
   -
@@ -1413,8 +1415,8 @@
     cat_slug: tooltips
     thumb_url: My_Federal_Tax_Account_thumb.png
     main:
-      - image: My_Federal_Tax_Account_self_help_tooltips, alt
-      - image: My_Federal_Tax_Account_self_help_tooltips, alt
+      - image: My_Federal_Tax_Account_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. The site provides tips on how a tax return can help a user with various types of aid, loans, health insurance, buying a home, and state and local tax. 
+      - image: My_Federal_Tax_Account_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. The site provides a helpful graph of tips based on tax year and residency status to help a user determine if they have a filing obligation for a specific state.
 
 - project:
   -
@@ -1424,9 +1426,9 @@
     cat_slug: tooltips
     thumb_url: My_Tax_Data_thumb.png
     main:
-      - image: My_Tax_Data_self_help_tooltips, alt
-      - image: My_Tax_Data_self_help_tooltips, alt
-      - image: My_Tax_Data_self_help_tooltips, alt
+      - image: My_Tax_Data_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. A question mark icon for more information appears next to Investment Income for the 2015 tax year. 
+      - image: My_Tax_Data_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. A question mark icon for more information appears next to Married Filing Jointly for the 2015 tax year.
+      - image: My_Tax_Data_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. A question mark icon is selected next to Married Filing Jointly for the 2015 tax year. A dropdown appears explaining the standard deduction associated with this filing status.
 
 - project:
   -
@@ -1436,9 +1438,9 @@
     cat_slug: tooltips
     thumb_url: MyTaxOnline_thumb.png
     main:
-      - image: MyTaxOnline_self_help_tooltips, alt
-      - image: MyTaxOnline_self_help_tooltips, alt
-      - image: MyTaxOnline_self_help_tooltips, alt
+      - image: MyTaxOnline_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. A “Did you know?” section appears before specific tax year information. For example, included here are links to help save for retirement, pay for college, get a mortgage. 
+      - image: MyTaxOnline_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. A user has hovered over linked text “Total IRA Distributions.” A pop-up appears defining the tax advantages and pointing out where this item is found on Form 1040.
+      - image: MyTaxOnline_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. Right below a statement about past filing status is more information about “married filing jointly.”
 
 - project:
   -
@@ -1448,7 +1450,7 @@
     cat_slug: tooltips
     thumb_url: Taxez_thumb.png
     main:
-      - image: Taxez_self_help_tooltips, alt
+      - image: Taxez_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. Things to Consider and a Taxpayer Tip of the Day are featured content. These tips educate and prompt the user to action. In this case, to save for retirement.
 
 - project:
   -
@@ -1458,8 +1460,8 @@
     cat_slug: tooltips
     thumb_url: Your_Tax_Summary_thumb.png
     main:
-      - image: Your_Tax_Summary_self_help_tooltips, alt
-      - image: Your_Tax_Summary_self_help_tooltips, alt
+      - image: Your_Tax_Summary_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. By clicking “What’s this?” next to exemptions, a definition appears. A link is also included to an Interactive Tax Assistant to help determine eligible dependents.
+      - image: Your_Tax_Summary_self_help_tooltips, A Tax Design Challenge design submission’s use of tooltips. By clicking “What’s this?” next to Earned Income Credit, a definition appears. When clicking “Did you know?” next to Child 2 explains qualifications and possible refund credits. 
 
 # =================================================================== #
 # Form Fields

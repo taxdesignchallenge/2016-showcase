@@ -9,8 +9,10 @@ layout: catalog
       <div class="content-container">
         <h1 class="title">Ideas Catalog</h1>
         <div class="col-lg-7 col-sm-12 col-xs-12 main">
-            <h2>One idea. Big impact.</h2>
-            <p>That's all it takes. Just one big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. Check out the ideas catalog below. You can search by submission or design element.</p>
+            <h2>Get Inspired by Past Submissions</h2>
+            <p>One big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. What’s your idea?</p>
+            <!--<h2>One idea. Big impact.</h2>
+            <p>That's all it takes. Just one big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. Check out the ideas catalog below. You can search by submission or design element.</p>-->
         </div>
       </div>
     </div>
@@ -19,8 +21,9 @@ layout: catalog
   <div class="container">
     <div class="row">
 
+
       <!-- Nav Menu -->
-      <div class="innovate-menu nopadding-left nopadding-right col-md-3 col-sm-3">
+      <div class="innovate-menu col-md-3 col-sm-3">
           <nav class="navbar navbar-inverse" id="top-menu" role="navigation">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
@@ -39,20 +42,19 @@ layout: catalog
                         <div class="panel panel-default">
                           <div class="panel-heading active">
                             <h4 class="panel-title">
-                              <button id="tab-1" class="accordion-toggle" type="button" role="tab" aria-selected="true" data-toggle="collapse" data-target="#collapseAll" aria-expanded="true" aria-controls="collapseAll">By Submission</button>
+                              <button id="tab-1" class="accordion-toggle" type="button" role="tab" aria-selected="true" data-toggle="collapse" data-target="#collapseAll" aria-expanded="true" aria-controls="collapseAll">All Submissions</button>
                             </h4>
                           </div>
                           <div class="panel-collapse collapse in" id="collapseAll" role="tabpanel" aria-labelledby="tab-1">
                             <div class="panel-body">
                               <ul>
                                 <li class="iso-btn active" data-filter=".submissions_2016"><a href="#">2016 Submissions</a></li>
+                                <li class="iso-btn" data-filter=".winners_2016"><a href="#">2016 Winners</a></li>
                               </ul>
                             </div>
                           </div>
                         </div>
-                      </div>
 
-                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title">
@@ -68,9 +70,7 @@ layout: catalog
                             </div>
                           </div>
                         </div>
-                      </div>
 
-                      <div class="panel-group">
                         <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title">
@@ -85,11 +85,7 @@ layout: catalog
                               </ul>
                             </div>
                           </div>
-                        </div>
-                      </div>
 
-                      <div class="panel-group">
-                        <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <button id="tab-4" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Layout</button>
@@ -106,11 +102,7 @@ layout: catalog
                               </ul>
                             </div>
                           </div>
-                        </div>
-                      </div>
 
-                      <div class="panel-group">
-                        <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <button id="tab-5" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Page Elements</button>
@@ -131,11 +123,7 @@ layout: catalog
                               </ul>
                             </div>
                           </div>
-                        </div>
-                      </div>
 
-                      <div class="panel-group">
-                        <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <button id="tab-6" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Security</button>
@@ -150,11 +138,7 @@ layout: catalog
                               </ul>
                             </div>
                           </div>
-                        </div>
-                      </div>
 
-                      <div class="panel-group">
-                        <div class="panel panel-default">
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <button id="tab-7" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Self Help</button>
@@ -180,8 +164,9 @@ layout: catalog
         </nav>
     </div>
 
+
       
-        <div class="catalog-wrapper container-fluid col-sm-9 col-md-9 col-lg-9">
+        <div class="container-fluid col-sm-9 col-md-9 col-lg-9">
           <main role="main" class="grid">
             {% include catalog-2016.html %}
           </main>

@@ -18,10 +18,20 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/slideshow.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/thumbs.css" type="text/css" media="screen" />
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css" type="text/css" media="screen" />
+
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+    // Accordion chevrons
+    $(document).ready(function(){
+        $(".panel-heading").addClass("collapsed");
+    });
+    </script>
   </head>
 
   <body>
@@ -55,6 +65,11 @@
               <a href="https://www.treasury.gov/Pages/default.aspx">Treasury.gov</a> | 
               <a href="https://www.usa.gov/">USA.gov</a></p>
             </div>
+
+            <div class="col-md-10 col-md-offset-1">
+              <h3>Note for Tax Design Challenge Submissions:</h3>
+              <p>PDFs may not be accessible to Assistive Technology users. Participant information has been removed from some PDFs and samples. Please <a href="mailto:michael.lin@irs.gov?subject=I'd like to get involved with or learn more about open innovation at the IRS.">email</a> for further information or to receive a submission in an accessible format.</p>
+            </div>
           </div>
         </div>
       </footer>
@@ -74,9 +89,11 @@
     <script>
     jQuery(document).ready(function() {
       $("[data-fancybox]").fancybox({
+        margin : [90, 0],
         onComplete: function (instance, slide) {
            $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
         }
+
       });
     });
     </script>
@@ -115,62 +132,6 @@
     // Fixes Safari bug
     $(window).load(function(){ $('.grid').masonry(); });
     </script>
-
-    <script type="text/javascript">
-    // lazy load: https://github.com/paypal/bootstrap-accessibility-plugin/blob/master/demo.html
-    var lazyLoad=function(jsWithPath, callback) {
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      if (typeof callback != 'undefined') {
-        if (script.readyState) {
-          script.onreadystatechange = function() {
-            if (script.readyState == 'loaded' || script.readyState == 'complete') {
-              callback();
-            }
-          }
-        } else {
-          script.onload = function() {
-          callback();
-          }
-        }
-      }
-      script.src = jsWithPath;
-      document.getElementsByTagName('head')[0].appendChild(script);
-    }
-    var btn = document.getElementById('allyBtn');
-    var scriptLoaded=false;
-    var loadPlugin = function(){
-      if(scriptLoaded ===true)  {
-        location.reload(false);
-        return false;
-      };
-      var lin=document.createElement('link');
-      lin.setAttribute('rel','stylesheet');
-      lin.setAttribute('type','text/css');
-      lin.setAttribute('href', 'plugins/css/bootstrap-accessibility.css');
-      document.getElementsByTagName('head')[0].appendChild(lin);
-      var script = document.createElement('script');
-      script.src = 'plugins/js/bootstrap-accessibility.min.js';
-      document.getElementsByTagName('head')[0].appendChild(script);
-      btn.innerHTML = "unload bootstrap accessibility plugin features";
-      scriptLoaded = true;
-    }
-   
-    if (window.addEventListener){
-      btn.addEventListener("click", function(){
-         loadPlugin();
-         return false;
-      }, false);
-    }else if (window.attachEvent) {
-      btn.attachEvent("onload", function(){
-         loadPlugin();
-         return false;
-      });
-    }
-    </script>
-
-
-
 
 
 

@@ -93,8 +93,47 @@
         // Custom CSS class for slide element
         slideClass : '',
 
-        // Base template for layout
         baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
+                      '<div class="fancybox-bg"></div>' +
+
+
+                      '<div class="fancybox-caption-wrap" style="top:0;padding-top:15px;background:none;"><div class="fancybox-caption" style="border:0;"></div></div>' +
+
+
+                      '<button data-fancybox-previous class="fancybox-button fancybox-button--left" title="Previous" style="top:45%;left:0 !important;z-index:9999999;"></button>' +
+
+
+
+                      '<div class="fancybox-controls" style="bottom:0;top:auto;">' +
+
+                          '<div class="fancybox-infobar" style="width:100%;">' +
+                        
+                              '<div class="fancybox-infobar__body" style="background:transparent;">' +
+                                  '<span class="js-fancybox-index"></span>&nbsp;/&nbsp;<span class="js-fancybox-count"></span>' +
+                              '</div>' +
+                        
+                          '</div>' +
+
+                      '</div>' +
+
+
+                '<div class="fancybox-controls">' +
+                    
+                    '<div class="fancybox-buttons">' +
+                        '<button data-fancybox-close class="fancybox-button fancybox-button--close" title="Close (Esc)"></button>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="fancybox-slider-wrap">' +
+                    '<div class="fancybox-slider"></div>' +
+                '</div>' +
+
+
+                '<button data-fancybox-next class="fancybox-button fancybox-button--right" title="Next" style="top:45%;right:0 !important;z-index:9999999;position:fixed;"></button>' +
+                
+            '</div>',
+
+        // Base template for layout
+        /*baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
                 '<div class="fancybox-bg"></div>' +
                 '<div class="fancybox-controls">' +
                     '<div class="fancybox-infobar">' +
@@ -112,7 +151,7 @@
                     '<div class="fancybox-slider"></div>' +
                 '</div>' +
                 '<div class="fancybox-caption-wrap"><div class="fancybox-caption"></div></div>' +
-            '</div>',
+            '</div>',*/
 
         // Loading indicator template
         spinnerTpl : '<div class="fancybox-loading"></div>',

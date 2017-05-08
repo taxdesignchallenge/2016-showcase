@@ -712,7 +712,7 @@ header {
 }
 
 .hero-inset .headline {
-    color: #999; 
+    color: #747474; 
     font-size: 20px;
     margin-bottom: 1.2em;
 }
@@ -771,12 +771,17 @@ header {
 
 .hero-inset a.btn {
     background-color: transparent;
-    border-color: #4eaade;
+    border-color: #366797;
     border-radius: 0;
     padding: 15px 35px;
     text-transform: uppercase;
     font-size: 0.9em;
-    color: #4eaade !important;
+    color: #366797 !important;
+}
+
+.hero-inset a.btn:hover {
+    background-color: #366797;
+    color: #fff !important;
 }
 
 a.btn-ghost {

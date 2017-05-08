@@ -292,6 +292,11 @@ footer .wrap {
     color: #336699;
 }
 
+.footer h3 {
+    font-size: 1em;
+    margin-bottom: 0.4em;
+}
+
 
 /*
 Helpers
@@ -1094,8 +1099,12 @@ a.btn-ghost.hero-sticky {
 
 .content-container .main h2 {
     margin: 25px 0 10px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 500;
+}
+
+.content-container .main p {
+    font-size: 1.1em;
 }
 
 .grid:after {
@@ -1136,13 +1145,19 @@ a.btn-ghost.hero-sticky {
     }
 
 /* ------------ Hide inner gallery images */
-.element-item a:not(:first-child) {
+
+.element-item a.fancybox:nth-child(n+2) div.thumbnail-wrapper div,
+.element-item a.fancybox:nth-child(n+2) div.thumbnail-wrapper img {
     display: none;
 }
 
+/*.element-item a:not(:first-child) {
+    display: none;
+}*/
+
 /* ------------ Isotope */
 .grid .element-item {
-    padding: 0 3px 6px 3px;
+    padding: 10px 10px;
     margin: 0;
 }
 
@@ -1150,7 +1165,7 @@ a.btn-ghost.hero-sticky {
 #accordion {
     margin-top: 0;
     float: left;
-    padding-right: 62px !important;
+    padding-right: 42px !important;
 }
 
     @media screen and (max-width: 991px) {
@@ -1338,11 +1353,30 @@ a.btn-ghost.hero-sticky {
 }
 
 .fancybox-caption-title {
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 1em;
-    margin-bottom: 8px;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-bottom: 0px;
     display: inline-block;
+}
+
+.caption-blurb {
+    font-weight: 100;
+}
+
+.fancybox-button--right {
+    position: absolute;
+    right: 0;
+    border-bottom-right-radius: 0px !important;
+}
+
+.fancybox-button--left {
+    position: absolute;
+    left: 0;
+    border-bottom-left-radius: 0px !important;
+}
+
+.grid-item a.fancybox:first-of-type .thumbnail-wrapper {
+    border: 1px solid gray;
 }
 
 .fancybox img {
@@ -1555,12 +1589,18 @@ a.btn-ghost.hero-sticky {
             height: 200px;
             text-indent: -9999px;
             width: 100%;
-            width: 1000px;
             position: absolute;
             left: 0;
             background-size: 100% auto;
             background-size: contain;
             background-size: cover;
+        }
+
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+             /* IE10+ CSS styles go here */
+             .catalog-header-container .header-bg {
+                width: 1000px;
+            }
         }
 
         .content-container .main {
@@ -1596,13 +1636,23 @@ a.btn-ghost.hero-sticky {
     font-size: 1.1em;
 }
 
+/* Winner thumbs */
+.winner-wrapper {
+    position: relative;
+}
 
+.winner {
+    background: rgba(0, 0, 0, 0) url("../img/winner-banner-2016.svg") no-repeat scroll 0 0;
+    height: 127px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 123px;
+    z-index: 2;
+    background-size: 123px;
+}
 
-
-
-
-
-
+/* Accordion Panels */
 #accordion .panel-group {
     margin: 0;
 }
@@ -1633,10 +1683,64 @@ a.btn-ghost.hero-sticky {
     color: #5c5c5c !important;
 }
 
-
-
 #accordion button, input[type="color"]:-moz-system-metric(color-picker-available),
 #accordion input[type="reset"], input[type="button"],
 #accordion input[type="submit"] {
     border: none !important;
+}
+
+/* Gallery Thumbnails */
+
+.thumbnail-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+ 
+.thumbnail-wrapper .caption {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    padding-top: 25%;
+    background: #34679a;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff !important;
+    z-index: 2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+.thumbnail-wrapper .caption p {
+    font-size: 1.4em;
+    margin: auto;
+    width: 70%;
+    border: 2px solid #fff;
+    background: #284964;
+    padding: 10px 20px;
+}
+
+.thumbnail-wrapper:hover .caption {
+    top: 0%;
+    opacity: 0.75;
+}
+
+
+/* Accordions */
+/* CSS Method for adding Font Awesome Chevron Icons */
+ .accessibility-container .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:'FontAwesome';
+    content:"\f077";
+    float: right;
+    color: inherit;
+}
+.accessibility-container .panel-heading.collapsed .accordion-toggle:after {
+    /* symbol for "collapsed" panels */
+    content:"\f078";
 }

@@ -1408,6 +1408,16 @@ a.btn-ghost.hero-sticky {
         }
     }
 
+.fancybox-caption {
+    font-size: 17px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .fancybox-caption {
+        font-size: 14px !important;
+    }
+}
+
 /* ------------ Category */
 #accordion .panel .panel-heading {
     background: transparent;
@@ -1696,6 +1706,20 @@ a.btn-ghost.hero-sticky {
 
 /* Gallery Thumbnails */
 
+.thumbnail-wrapper .caption {
+    position: relative;
+  height: 14rem;
+  border: 1px solid;
+}
+
+.thumbnail-wrapper .caption p {
+    position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 1px dashed deeppink;
+}
+
 .thumbnail-wrapper {
     position: relative;
     overflow: hidden;
@@ -1722,10 +1746,10 @@ a.btn-ghost.hero-sticky {
 }
 
 .thumbnail-wrapper .caption p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: auto;
     width: 70%;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     background: #284964;
     padding: 10px 20px;
 }
@@ -1733,6 +1757,12 @@ a.btn-ghost.hero-sticky {
 .thumbnail-wrapper:hover .caption {
     top: 0%;
     opacity: 0.75;
+}
+
+@media (max-width : 768px) {
+    .thumbnail-wrapper .caption {
+        color: red;
+    }
 }
 
 

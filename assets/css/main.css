@@ -1220,8 +1220,8 @@ a.btn-ghost.hero-sticky {
 
 /* ------------ Hamburger nav styles */
 .innovate-menu .navbar-inverse .navbar-toggle {
-    border-color: #0072ce;
-    background-color: #0072ce;
+    border-color: #366797;
+    background-color: #366797;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -1382,6 +1382,10 @@ a.btn-ghost.hero-sticky {
 
 .grid-item a.fancybox:first-of-type .thumbnail-wrapper {
     border: 1px solid gray;
+}
+
+.grid-item a.fancybox:first-of-type .thumbnail-wrapper:hover {
+    border: 1px solid blue;
 }
 
 .fancybox img {
@@ -1707,13 +1711,12 @@ a.btn-ghost.hero-sticky {
 /* Gallery Thumbnails */
 
 .thumbnail-wrapper .caption {
-    position: relative;
+  position: relative;
   height: 14rem;
-  border: 1px solid;
 }
 
 .thumbnail-wrapper .caption p {
-    position: absolute;
+  position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);

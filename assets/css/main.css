@@ -712,7 +712,7 @@ header {
 }
 
 .hero-inset .headline {
-    color: #999; 
+    color: #747474; 
     font-size: 20px;
     margin-bottom: 1.2em;
 }
@@ -771,12 +771,17 @@ header {
 
 .hero-inset a.btn {
     background-color: transparent;
-    border-color: #4eaade;
+    border-color: #366797;
     border-radius: 0;
     padding: 15px 35px;
     text-transform: uppercase;
     font-size: 0.9em;
-    color: #4eaade !important;
+    color: #366797 !important;
+}
+
+.hero-inset a.btn:hover {
+    background-color: #366797;
+    color: #fff !important;
 }
 
 a.btn-ghost {
@@ -1215,8 +1220,8 @@ a.btn-ghost.hero-sticky {
 
 /* ------------ Hamburger nav styles */
 .innovate-menu .navbar-inverse .navbar-toggle {
-    border-color: #0072ce;
-    background-color: #0072ce;
+    border-color: #366797;
+    background-color: #366797;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -1379,12 +1384,16 @@ a.btn-ghost.hero-sticky {
     border: 1px solid gray;
 }
 
+.grid-item a.fancybox:first-of-type .thumbnail-wrapper:hover {
+    border: 1px solid blue;
+}
+
 .fancybox img {
-    filter: none;
+    /*filter: none;
     -webkit-filter: grayscale(60%);
     -moz-filter:    grayscale(60%);
     -ms-filter:     grayscale(60%);
-    -o-filter:      grayscale(60%);
+    -o-filter:      grayscale(60%);*/
     cursor: pointer;
     transition: all 300ms ease;
 }
@@ -1402,6 +1411,16 @@ a.btn-ghost.hero-sticky {
             width: 100%;
         }
     }
+
+.fancybox-caption {
+    font-size: 17px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .fancybox-caption {
+        font-size: 14px !important;
+    }
+}
 
 /* ------------ Category */
 #accordion .panel .panel-heading {
@@ -1691,6 +1710,19 @@ a.btn-ghost.hero-sticky {
 
 /* Gallery Thumbnails */
 
+.thumbnail-wrapper .caption {
+  position: relative;
+  height: 14rem;
+}
+
+.thumbnail-wrapper .caption p {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 1px dashed deeppink;
+}
+
 .thumbnail-wrapper {
     position: relative;
     overflow: hidden;
@@ -1717,10 +1749,10 @@ a.btn-ghost.hero-sticky {
 }
 
 .thumbnail-wrapper .caption p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: auto;
     width: 70%;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     background: #284964;
     padding: 10px 20px;
 }
@@ -1728,6 +1760,12 @@ a.btn-ghost.hero-sticky {
 .thumbnail-wrapper:hover .caption {
     top: 0%;
     opacity: 0.75;
+}
+
+@media (max-width : 768px) {
+    .thumbnail-wrapper .caption {
+        color: red;
+    }
 }
 
 

@@ -16,7 +16,7 @@
             <g id="2016_Banner_Orange" transform="translate(135.291293, -29.571579)">
                 <g id="Rectangle-2" transform="translate(96.871562, 97.356843) rotate(-45.000000) translate(-96.871562, -97.356843) ">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use fill="#C65523" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="#BA4C1B" fill-rule="evenodd" xlink:href="#path-1"></use>
                 </g>
                 <text id="2016-Winner" transform="translate(97.052144, 96.558079) rotate(45.000000) translate(-97.052144, -96.558079) " font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" fill="#FFFFFF">
                     <tspan x="29.9095663" y="105.558079">2016 Winner</tspan>

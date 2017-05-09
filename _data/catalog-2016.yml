@@ -2263,7 +2263,28 @@
     cat_slug: hero_header
     thumb_url: alternatives_TDC_thumb.png
     main:
-      - image: alternatives_TDC_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. The image is cyan, with a vector illustration of a woman. The text on the page introduces IRiS, the taxpayer assistance center.
+      - image: alternatives_TDC_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. The image is cyan blue with a vector illustration of a woman. The text on the page introduces IRiS, the taxpayer assistance center.
+
+- project:
+  -
+    name: IRS My Account
+    top_category: Page Elements
+    category_full: Hero Header
+    cat_slug: hero_header
+    thumb_url: IRS_My_Account_thumb.png
+    main:
+      - image: IRS_My_Account_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. This header scrolls through images. An image of notebooks, pens, and paper is the background for the text "Help our Future You."
+      - image: IRS_My_Account_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. This header includes introductory text for "My 2016 Tax Timeline." Data is changeable within the main introduction body by text input fields.
+
+- project:
+  -
+    name: IRS
+    top_category: Page Elements
+    category_full: Hero Header
+    cat_slug: hero_header
+    thumb_url: IRS_thumb.png
+    main:
+      - image: IRS_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son, mother, and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces.
 
 - project:
   -
@@ -2274,6 +2295,37 @@
     thumb_url: My_Tax_Data_thumb.png
     main:
       - image: My_Tax_Data_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. This header includes three images of current users and a quote from each. Additional text gives a quick summary of the My Tax Data online tool.
+
+- project:
+  -
+    name: MyIRS
+    top_category: Page Elements
+    category_full: Hero Header
+    cat_slug: hero_header
+    thumb_url: MyIRS_thumb.png
+    main:
+      - image: MyIRS_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A dark blue background and even darker rectangles sits below the main navigation. This hero header includes a search bar, a sign-up and key links to actions a user may want to take.
+
+- project:
+  -
+    name: MyTaxProfile
+    top_category: Page Elements
+    category_full: Hero Header
+    cat_slug: hero_header
+    thumb_url: MyTaxProfile_thumb.png
+    main:
+      - image: MyTaxProfile_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. The header congratulates the user on setting up their MyTaxProfile. It includes rotating images to provide a tour of the features found within this online tool.
+
+- project:
+  -
+    name: Taxes Made Simple
+    top_category: Page Elements
+    category_full: Hero Header
+    cat_slug: hero_header
+    thumb_url: Taxes_Made_Simple_thumb.png
+    main:
+      - image: Taxes_Made_Simple_page_elements_hero_header, A Tax Design Challenge design submission’s use of a hero header. The header introduces the phone app. A hand holds a phone and to the right is bold text stating&#58; "Revolutionizing the IRS Tax Experience."
+      - image: Taxes_Made_Simple_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A header image with the user’s headshot sits at the top of the mobile app as a user looks at his profile information.
 
 # =================================================================== #
 # Icons

@@ -21,34 +21,34 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css" type="text/css" media="screen" />
 
+    <!-- Glyphicons -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
     <![endif]-->
 
-    <script>
-    // Accordion chevrons
-    $(document).ready(function(){
-        $(".panel-heading").addClass("collapsed");
-    });
-    </script>
+    
   </head>
 
   <body>
     <div class="container">
 
       <div class="row">
-      <header>
-        <div class="wrap">
-          <div class="navbar navbar-default">
-              <div class="navbar-header">
-                <a href="{{ site.baseurl }}/">
-                  <div class="ratio4-3" title="IRS Tax Design Challenge"></div>
-                </a>
+        <div class="col-md-12">
+          <header>
+            <div class="wrap">
+              <div class="navbar navbar-default">
+                  <div class="navbar-header">
+                    <a href="{{ site.baseurl }}/">
+                      <div class="ratio4-3" title="IRS Tax Design Challenge"></div>
+                    </a>
+                  </div>
               </div>
-          </div>
+            </div>
+          </header>
         </div>
-      </header>
       </div>
 
       <main class="row border">
@@ -133,6 +133,20 @@
     $(window).load(function(){ $('.grid').masonry(); });
     </script>
 
+
+    <script>
+    // Accordion chevrons
+    $(document).ready(function(){
+    function toggleChevron(e) {
+        $(e.target)
+            .prev('.panel-heading')
+            .find('i.indicator')
+            .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+    }
+    $('#accessibility-accordion, #accessibility-accordion2').on('hidden.bs.collapse', toggleChevron);
+    $('#accessibility-accordion, #accessibility-accordion2').on('shown.bs.collapse', toggleChevron);
+    });
+    </script>
 
 
     {% if site.offline_cache == true %}

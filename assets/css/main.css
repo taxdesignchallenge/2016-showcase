@@ -1817,3 +1817,7 @@ caption {
 .submissions-other-container .thumb {
     margin-bottom: 30px;
 }
+
+.winners-group-container .thumb a.thumbnail {
+    border-color: transparent;
+}

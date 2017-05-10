@@ -1859,3 +1859,9 @@ caption {
 #accessibility-accordion .panel-heading.collapsed:before {
     content: "\2b";
 }*/
+
+
+
+.submissions-other-container .thumb a.thumbnail {
+    border-color: transparent;
+}

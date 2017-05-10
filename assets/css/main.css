@@ -4,6 +4,8 @@ Main.css
 Begin with generic 'mobile first' styles
 */
 
+
+
 /*
 Normalize the box model
 ==================================
@@ -1720,7 +1722,6 @@ a.btn-ghost.hero-sticky {
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
-  border: 1px dashed deeppink;
 }
 
 .thumbnail-wrapper {
@@ -1768,17 +1769,45 @@ a.btn-ghost.hero-sticky {
     }
 }
 
+/* Tables */
 
-/* Accordions */
-/* CSS Method for adding Font Awesome Chevron Icons */
- .accessibility-container .accordion-toggle:after {
-    /* symbol for "opening" panels */
-    font-family:'FontAwesome';
-    content:"\f077";
-    float: right;
-    color: inherit;
+caption {
+    margin: 0 0 1.2em 0;
+    font-weight: bold;
 }
-.accessibility-container .panel-heading.collapsed .accordion-toggle:after {
-    /* symbol for "collapsed" panels */
-    content:"\f078";
+
+
+/* Accessibility */
+
+.glyphicon-chevron-up::before {
+    content: "";
+}
+
+.accessibility-container {
+    margin-top: 1.5em !important;
+    width: 100% !important;
+}
+
+#accessibility-accordion thead,
+#accessibility-accordion2 thead {
+    background: gray;
+    color: #fff;
+}
+
+#accessibility-accordion.accessibility-container,
+#accessibility-accordion2.accessibility-container {
+}
+
+#accessibility-accordion.accessibility-container .panel,
+#accessibility-accordion2.accessibility-container .panel {
+    border-radius: 0px !important;
+}
+
+#accessibility-accordion.accessibility-container .panel .panel-heading,
+#accessibility-accordion2.accessibility-container .panel .panel-heading {
+    cursor: pointer;
+}
+
+#accessibility-accordion.accessibility-container .panel .panel-heading h4.panel-title,
+#accessibility-accordion2.accessibility-container .panel .panel-heading h4.panel-title {
 }

@@ -1811,3 +1811,9 @@ caption {
 #accessibility-accordion.accessibility-container .panel .panel-heading h4.panel-title,
 #accessibility-accordion2.accessibility-container .panel .panel-heading h4.panel-title {
 }
+
+/* TDC */
+
+.submissions-other-container .thumb {
+    margin-bottom: 30px;
+}

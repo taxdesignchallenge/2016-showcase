@@ -1687,6 +1687,10 @@ a.btn-ghost.hero-sticky {
     margin: 0;
 }
 
+.accordion-toggle {
+    text-decoration: none !important;
+}
+
 #accordion .panel .panel-heading h4.panel-title button.accordion-toggle {
     border: 0;
     text-align: left;

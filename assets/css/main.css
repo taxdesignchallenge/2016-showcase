@@ -84,6 +84,14 @@ h4 {
     margin-top: .727272727em; /* 16/22 */
 }
 
+.content-title {
+    color: #363f48;
+    margin: 1em 0 0.5em;
+    font-family: "Roboto",sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+
 .nopadding-left {
     padding-left: 0 !important;
 }
@@ -1713,6 +1721,11 @@ a.btn-ghost.hero-sticky {
 
 /* Gallery Thumbnails */
 
+.thumbnail-wrapper img {
+    background-size: 100% auto !important;
+
+}
+
 .thumbnail-wrapper .caption {
   position: relative;
   height: 14rem;
@@ -1817,6 +1830,10 @@ caption {
 
 .submissions-other-container .thumb {
     margin-bottom: 30px;
+}
+
+.submissions-other-container .thumbnail {
+    height: auto !important;
 }
 
 .winners-group-container .thumb a.thumbnail {

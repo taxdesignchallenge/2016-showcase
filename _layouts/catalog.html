@@ -141,7 +141,8 @@
         $(e.target)
             .prev('.panel-heading')
             .find('i.indicator')
-            .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+            //.toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+            .toggleClass('glyphicon-minus glyphicon-plus');
     }
     $('#accessibility-accordion, #accessibility-accordion2').on('hidden.bs.collapse', toggleChevron);
     $('#accessibility-accordion, #accessibility-accordion2').on('shown.bs.collapse', toggleChevron);

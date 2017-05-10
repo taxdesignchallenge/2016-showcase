@@ -1861,7 +1861,7 @@ caption {
 }*/
 
 
-
+.submissions-other-container .thumb,
 .submissions-other-container .thumb a.thumbnail {
-    border-color: transparent;
+    border-color: transparent !important;
 }

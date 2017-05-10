@@ -27,27 +27,27 @@
     pdf_size: 3.1 MB
     pdf_link: link.html
     main:
-      - image: IRS_MyService_display_desktop_1, IRS MyService submissions2016 firstone, desktop, Desktop
-      - image: IRS_MyService_display_desktop_2, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_3, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_4, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_5, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_6, alt, desktop, Desktop
-      - image: IRS_MyService_display_mobile_1, alt, mobile, Mobile
-      - image: IRS_MyService_forms_IRS_forms_1, alt, irs_forms, IRS Forms
-      - image: IRS_MyService_forms_IRS_forms_2, alt, irs_forms, IRS Forms
-      - image: IRS_MyService_layout_card_snapshot_1, alt1, cards_snapshots, Cards/Snapshots
-      - image: IRS_MyService_layout_profile_dashboard_1, alt1, profile_dashboard, Profile/Dashboard
-      - image: IRS_MyService_layout_sidebar_1, alt1, sidebar, Sidebar
-      - image: IRS_MyService_page_elements_accordions_1, alt1, accordions, Accordions
-      - image: IRS_MyService_page_elements_diagrams_1, alt1, diagrams, Diagrams
-      - image: IRS_MyService_page_elements_notifications_1, alt1, notifications, Notifications
-      - image: IRS_MyService_page_elements_notifications_2, alt1, notifications, Notifications
-      - image: IRS_MyService_page_elements_popups_1, alt1, pop_ups, Pop-Ups
-      - image: IRS_MyService_page_elements_popups_2, alt1, pop_ups, Pop-Ups
-      - image: IRS_MyService_security_sign_up_1, alt1, sign_up_log_in, Sign Up/Log In
-      - image: IRS_MyService_self_help_search_1, alt1, search, Search
-      - image: IRS_MyService_self_help_search_2, alt1, search, Search
+      - image: IRS_MyService_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return&#44; get a refund status and pay taxes as seen being viewed on a laptop., desktop, Desktop
+      - image: IRS_MyService_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop., desktop, Desktop
+      - image: IRS_MyService_display_desktop_3, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a page within the taxpayer's IRS account that shows the refunds and payment amounts for each tax year., desktop, Desktop
+      - image: IRS_MyService_display_desktop_4, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account., desktop, Desktop
+      - image: IRS_MyService_display_desktop_5, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights a link to download an earned income credit form., desktop, Desktop
+      - image: IRS_MyService_display_desktop_6, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights annual incomes in a graphics display., desktop, Desktop
+      - image: IRS_MyService_display_mobile_1, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a photo of a handheld mobile device displaying profile links of dependents., mobile, Mobile
+      - image: IRS_MyService_forms_IRS_forms_1, A Tax Design Challenge design submission's use of IRS forms. The back of a summary tax year card gives the user quick links to print or download their tax return&#44; amend their return&#44; or download all forms and worksheets., irs_forms, IRS Forms
+      - image: IRS_MyService_forms_IRS_forms_2, A Tax Design Challenge design submission's use of IRS forms. Within each row of tax data there is a link to the associated form that provided that data to the IRS., irs_forms, IRS Forms
+      - image: IRS_MyService_layout_card_snapshot_1, A Tax Design Challenge design submission's use of cards to feature a taxpayer's record by year. Each card shows the tax year&#44; amount owed or refunded&#44; date the filed taxes were accepted&#44; dollar totals&#44; and a print button., cards_snapshots, Cards/Snapshots
+      - image: IRS_MyService_layout_profile_dashboard_1, A Tax Design Challenge design submission's use of a dashboard and profile section. The dashboard includes cards that show a quick overview by tax year. Profile information appears on the left and includes name&#44; contact information&#44; spouse&#44; and dependents., profile_dashboard, Profile/Dashboard
+      - image: IRS_MyService_layout_sidebar_1, A Tax Design Challenge design submission's use of a sidebar. This sidebar contains the user's profile and tax information. The bottoms also has a taxpayer tools section with links to each IRS tool., sidebar, Sidebar
+      - image: IRS_MyService_page_elements_accordions_1, A Tax Design Challenge design submission's use of an accordion. Tax returns are shown by year. Here&#44; Earned Income is expanded to show various itemized details. Wages&#44; Salaries&#44; Tips&#44; etc. are expanded to show a histogram comparing tax years., accordions, Accordions
+      - image: IRS_MyService_page_elements_diagrams_1, A Tax Design Challenge design submission's use of diagrams&#44; graphs&#44; and tables to show details by tax year. A table shows all the information for each qualifying dependent for an earned income credits. A histogram illustrates income trends by year., diagrams, Diagrams
+      - image: IRS_MyService_page_elements_notifications_1, A Tax Design Challenge design submission's use of notifications. Orange circles with numbers inside indicate notifications in layout and a total number in the top navigation. Profile information triggers notifications and calls to action., notifications, Notifications
+      - image: IRS_MyService_page_elements_notifications_2, A Tax Design Challenge design submission's use of notifications. A detailed view of the notifications page on a mobile screen. Each notification also includes a call to action button., notifications, Notifications
+      - image: IRS_MyService_page_elements_popups_1, A Tax Design Challenge design submission's use of pop-ups. The contribute to myRA pop-up allows a user to specify an amount to be taken from their refund. An "X" in the top right closes the window. A "Submit" and "Cancel" button appear bottom center., pop_ups, Pop-Ups
+      - image: IRS_MyService_page_elements_popups_2, A Tax Design Challenge design submission's use of pop-ups. The start a new FAFSA pop-up allows a user to begin a new application. An "X" in the top right closes the window. A "Submit" and "Cancel" button appear bottom center., pop_ups, Pop-Ups
+      - image: IRS_MyService_security_sign_up_1, A Tax Design Challenge design submission's sign up or log in. Taxpayers can sign up from a redesigned IRS homepage., sign_up_log_in, Sign Up/Log In
+      - image: IRS_MyService_self_help_search_1, A Tax Design Challenge design submission's use of a search feature. The search bar is featured in the top right. Within the bar is a magnifying glass icon and the tool tip&#44; "Search for documents&#44; definition&#44; etc..."., search, Search
+      - image: IRS_MyService_self_help_search_2, A Tax Design Challenge design submission's use of a search feature. The search bar also includes a smart search that helps define tax terminology in plain language. The current smart search features a definition of tax deductions and similar terms., search, Search
 
 - project:
   -
@@ -61,33 +61,33 @@
     pdf_size: 3.1 MB
     pdf_link: link.html
     main:
-      - image: IRS_365_display_mobile_1, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_2, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_3, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_4, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_5, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_6, alt1, mobile, Mobile
-      - image: IRS_365_forms_form_fields_1, alt1, form_fields, Form Fields
-      - image: IRS_365_layout_card_snapshot_1, alt1, cards_snapshots, Cards/Snapshots
-      - image: IRS_365_layout_card_snapshot_2, alt1, cards_snapshots, Cards/Snapshots
-      - image: IRS_365_layout_navigation_1, alt3, navigation, Navigation
-      - image: IRS_365_layout_navigation_2, alt3, navigation, Navigation
-      - image: IRS_365_layout_navigation_3, alt3, navigation, Navigation
-      - image: IRS_365_layout_navigation_4, alt3, navigation, Navigation
-      - image: IRS_365_page_elements_dates_1, alt3, calendars_dates, Calendars/Dates
-      - image: IRS_365_page_elements_icons_1, alt3, icons, Icons
-      - image: IRS_365_page_elements_icons_2, alt3, icons, Icons
-      - image: IRS_365_page_elements_messengers_1, alt3, messengers, Messengers
-      - image: IRS_365_page_elements_messengers_2, alt3, messengers, Messengers
-      - image: IRS_365_page_elements_messengers_3, alt3, messengers, Messengers
-      - image: IRS_365_page_elements_notifications_1, alt3, notifications, Notifications
-      - image: IRS_365_page_elements_notifications_2, alt3, notifications, Notifications
-      - image: IRS_365_page_elements_notifications_3, alt3, notifications, Notifications
-      - image: IRS_365_page_elements_progress_bars_1, alt3, progress_bars, Progress Bars
-      - image: IRS_365_security_authorizations_1, alt3, authorizations, Authorizations
-      - image: IRS_365_security_identity_security_1, alt3, identity_security, Identity/Security
-      - image: IRS_365_self_help_help_1, alt3, help, Help
-      - image: IRS_365_self_help_settings_1, alt3, settings, Settings
+      - image: IRS_365_display_mobile_1, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of life event queries that might modify tax responsibilities., mobile, Mobile
+      - image: IRS_365_display_mobile_2, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays for managing who has access to personal tax information., mobile, Mobile
+      - image: IRS_365_display_mobile_3, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of time reminders&#44; receipt tracking&#44; add and update links., mobile, Mobile
+      - image: IRS_365_display_mobile_4, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays of help information examples., mobile, Mobile
+      - image: IRS_365_display_mobile_5, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of projected tax information based on previous year's filing., mobile, Mobile
+      - image: IRS_365_display_mobile_6, A Tax Design Challenge design submission's use of a snapshot of splash screen for taxpayer's mobile IRS account showing a photo background of tax dollars at work in communities., mobile, Mobile
+      - image: IRS_365_forms_form_fields_1, A Tax Design Challenge design submission's use of form fields. Here form answers are provided by answering a question per screen. Answers are selected by choosing between various buttons., form_fields, Form Fields
+      - image: IRS_365_layout_card_snapshot_1, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's 2014 tax refund. The main body of the snapshot shows a summary of the taxpayer's joint filing&#44; dates&#44; and refund amount., cards_snapshots, Cards/Snapshots
+      - image: IRS_365_layout_card_snapshot_2, A Tax Design Challenge design submission's use of cards to feature a taxpayer's Yearly Tax Record. Each card shows the tax year&#44; amount owed or refunded&#44; adjusted gross income&#44; and date the taxes were filed., cards_snapshots, Cards/Snapshots
+      - image: IRS_365_layout_navigation_1, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on "Help"., navigation, Navigation
+      - image: IRS_365_layout_navigation_2, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Save and shows an additional navigation to flip between pages., navigation, Navigation
+      - image: IRS_365_layout_navigation_3, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Records. The user can also return to a previous screen at top., navigation, Navigation
+      - image: IRS_365_layout_navigation_4, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Current. , navigation, Navigation
+      - image: IRS_365_page_elements_dates_1, A Tax Design Challenge design submission's use of dates to describe upcoming due dates. A countdown describes how many weeks are left before the due date., calendars_dates, Calendars/Dates
+      - image: IRS_365_page_elements_icons_1, A Tax Design Challenge design submission's use of icons. Two icons are used. A hand holding a money bag is in the "Save money with new opportunities" section. A pile of cash is in the "Track receipts to make filing easy" section., icons, Icons
+      - image: IRS_365_page_elements_icons_2, A Tax Design Challenge design submission's use of icons. Icons are used in the navigation bar. A dollar sign and house is used for "Current&#44;" a document for "records"&#44; a hand and money bag for "Save&#44;" and a question mark and speech bubble for "Help.", icons, Icons
+      - image: IRS_365_page_elements_messengers_1, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section., messengers, Messengers
+      - image: IRS_365_page_elements_messengers_2, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section. A user can either choose from frequently asked questions&#44; or write their own message for complex issues., messengers, Messengers
+      - image: IRS_365_page_elements_messengers_3, A Tax Design Challenge design submission's use of a messenger. The chat bot provides answers in a familiar format&#44; similar to texting on a phone. Two questions are represented here&#58; "What can we help you with?" and "How can we help with your refund?", messengers, Messengers
+      - image: IRS_365_page_elements_notifications_1, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions., notifications, Notifications
+      - image: IRS_365_page_elements_notifications_2, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions. A user can view opportunities that they may have missed., notifications, Notifications
+      - image: IRS_365_page_elements_notifications_3, A Tax Design Challenge design submission's use of notifications. A countdown is used to indicate how much time a user has before they need to file taxes. Buttons at the bottom of the screen serve as reminders to make updates and add information., notifications, Notifications
+      - image: IRS_365_page_elements_progress_bars_1, A Tax Design Challenge design submission's use of a progress bar. A progress bar charting each step in a process appears at the bottom of the design clearly stating the user is at 1 of 20., progress_bars, Progress Bars
+      - image: IRS_365_security_authorizations_1, A Tax Design Challenge design submission's use of authorizations. A taxpayer sees who has access to their records and what type of access. They can remove access or report possible fraud or ID theft., authorizations, Authorizations
+      - image: IRS_365_security_identity_security_1, A Tax Design Challenge design submission's use of identity and security measures. A quick link to reporting possible fraud or ID theft is included in the phone application., identity_security, Identity/Security
+      - image: IRS_365_self_help_help_1, A Tax Design Challenge design submission's use of a help feature. This submission has multiple features in their application&#58; quick links to return tools&#44; articles&#44; videos&#44; and an IRS call back request to help solve problems., help, Help
+      - image: IRS_365_self_help_settings_1, A Tax Design Challenge design submission's use of settings. In this design&#44; the user can see their connections and invitations and who has access to their information., settings, Settings
 
 - project:
   -
@@ -101,25 +101,25 @@
     pdf_size: 3.1 MB
     pdf_link: link.html
     main:
-      - image: Taxez_display_desktop_1, alt, desktop, Desktop
-      - image: Taxez_display_desktop_2, alt, desktop, Desktop
-      - image: Taxez_display_desktop_3, alt, desktop, Desktop
-      - image: Taxez_forms_IRS_forms_1, alt, irs_forms, IRS Forms
-      - image: Taxez_layout_card_profile_dashboard_1, alt1, profile_dashboard, Profile/Dashboard
-      - image: Taxez_layout_navigation_1, alt3, navigation, Navigation
-      - image: Taxez_layout_sidebar_1, alt1, sidebar, Sidebar
-      - image: Taxez_page_elements_diagrams_1, alt1, diagrams, Diagrams
-      - image: Taxez_page_elements_icons_1, alt3, icons, Icons
-      - image: Taxez_page_elements_popups_1, alt1, pop_ups, Pop-Ups
-      - image: Taxez_page_elements_popups_2, alt1, pop_ups, Pop-Ups
-      - image: Taxez_page_elements_popups_3, alt1, pop_ups, Pop-Ups
-      - image: Taxez_page_elements_popups_4, alt1, pop_ups, Pop-Ups
-      - image: Taxez_self_help_calculator_1, alt1, calculator, Calculator
-      - image: Taxez_self_help_help_1, alt1, help, Help
-      - image: Taxez_self_help_help_2, alt1, help, Help
-      - image: Taxez_self_help_search_1, alt1, search, Search
-      - image: Taxez_self_help_settings_1, alt1, settings, Settings
-      - image: Taxez_self_help_tooltips_1, alt, tooltips, Tooltips
+      - image: Taxez_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account showing a summary of tax data for one of a number of years selected with pictures and information about dependents in a row across the top., desktop, Desktop
+      - image: Taxez_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account displaying a selection of forms&#44; links to download and related information beneath a row of pictures and information about dependents., desktop, Desktop
+      - image: Taxez_display_desktop_3, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring taxpayer's IRS account showing information about various types of loans including car loans&#44; mortgages&#44; small business loans&#44; student loans&#44; personal loans and more., desktop, Desktop
+      - image: Taxez_forms_IRS_forms_1, A Tax Design Challenge design submission's use of IRS forms. Links are provided to easily access each year's tax form in PDF format. Alternatively&#44; the user can download all in one batch., irs_forms, IRS Forms
+      - image: Taxez_layout_card_profile_dashboard_1, A Tax Design Challenge design submission's use of a dashboard and profile. Page navigation is on the left. The body of the page has visual of the user's tax profile&#44; with tabbed navigation to tax return data&#44; forms &amp; notices&#44; and key updates below., profile_dashboard, Profile/Dashboard
+      - image: Taxez_layout_navigation_1, A Tax Design Challenge design submission's use of navigation. This navigation across the bottom of the design. One navigation is a progress bar during account setup. The standard navigation includes My Profile&#44; Uploads&#44; Financial Goals&#44; Payments&#44; and More., navigation, Navigation
+      - image: Taxez_layout_sidebar_1, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. Each section has an icon and label. The active page has a pink background and white text., sidebar, Sidebar
+      - image: Taxez_page_elements_diagrams_1, A Tax Design Challenge design submission's use of diagrams&#44; graphs&#44; and tables. A table shows tax return data by year. Line items include income&#44; adjustments&#44; AGI&#44; deductions&#44; exemption amount&#44; taxable income&#44; tax&#44; payments and credits&#44; and refund., diagrams, Diagrams
+      - image: Taxez_page_elements_icons_1, A Tax Design Challenge design submission's use of icons. Icons are used to align with the left-hand navigation as well as navigation found within the body of the webpage., icons, Icons
+      - image: Taxez_page_elements_popups_1, A Tax Design Challenge design submission's use of pop-ups. One of four windows in a series of scrolling pop-ups introducing taxez. Here taxez is described as "One home for all your taxpayer needs.", pop_ups, Pop-Ups
+      - image: Taxez_page_elements_popups_2, A Tax Design Challenge design submission's use of pop-ups. Two of four windows in a series of scrolling pop-ups introducing taxez. "Painlessly view and share your tax return data" is the key description provided., pop_ups, Pop-Ups
+      - image: Taxez_page_elements_popups_3, A Tax Design Challenge design submission's use of pop-ups. Three of four windows in a series of scrolling pop-ups introducing taxez. "Take stock of your financial future" is the key description provided., pop_ups, Pop-Ups
+      - image: Taxez_page_elements_popups_4, A Tax Design Challenge design submission's use of pop-ups. Three of four windows in a series of scrolling pop-ups introducing taxez. "Save money on potentially missed opportunities" is the key description provided., pop_ups, Pop-Ups
+      - image: Taxez_self_help_calculator_1, A Tax Design Challenge design submission's use of a calculator to help determine the monthly payments on a loan. This screen shows a loan amount of $90&#44;000&#44; a term of 360 months&#44; at a 4.5% interest rate and a calculated monthly payment of $456.02., calculator, Calculator
+      - image: Taxez_self_help_help_1, A Tax Design Challenge design submission's use of a help feature. In the top right&#44; there is a help drop down., help, Help
+      - image: Taxez_self_help_help_2, A Tax Design Challenge design submission's use of a help feature. In the top right&#44; the help drop down is clicked and links to a Tour&#44; FAQs &amp; Mythbusters&#44; Taxpayer Dictionary&#44; Forum and a Live Chat., help, Help
+      - image: Taxez_self_help_search_1, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top center with a magnifying glass to the right. The bar contains the tool tip "Search"., search, Search
+      - image: Taxez_self_help_settings_1, A Tax Design Challenge design submission's use of settings. Here the user can see in their current profile their filing status and dependents (their relationship&#44; SSN&#44; date of birth&#44; and age of each) as well as their address and tax exemptions., settings, Settings
+      - image: Taxez_self_help_tooltips_1, A Tax Design Challenge design submission's use of tooltips. Things to Consider and a Taxpayer Tip of the Day are featured content. These tips educate and prompt the user to action. In this case&#44; to save for retirement., tooltips, Tooltips
 
 - project:
   -
@@ -133,19 +133,19 @@
     pdf_size: 3.1 MB
     pdf_link: link.html
     main:
-      - image: MyTaxOnline_display_desktop_1, alt, desktop, Desktop
-      - image: MyTaxOnline_display_desktop_2, alt, desktop, Desktop
-      - image: MyTaxOnline_display_desktop_3, alt, desktop, Desktop
-      - image: MyTaxOnline_display_desktop_4, alt, desktop, Desktop
-      - image: MyTaxOnline_layout_card_snapshot_1, alt, cards_snapshots, Cards/Snapshots
-      - image: MyTaxOnline_layout_navigation_1, alt, navigation, Navigation
-      - image: MyTaxOnline_layout_sidebar_1, alt1, sidebar, Sidebar
-      - image: MyTaxOnline_page_elements_diagrams_1, alt1, diagrams, Diagrams
-      - image: MyTaxOnline_self_help_help_1, alt3, help, Help
-      - image: MyTaxOnline_self_help_search_1, alt1, search, Search
-      - image: MyTaxOnline_self_help_tooltips_1, alt, tooltips, Tooltips
-      - image: MyTaxOnline_self_help_tooltips_2, alt, tooltips, Tooltips
-      - image: MyTaxOnline_self_help_tooltips_3, alt, tooltips, Tooltips
+      - image: MyTaxOnline_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that lists ways your tax information can be helpful for you along with links to MyRA&#44; FAFSA&#44; and FHA loan., desktop, Desktop
+      - image: MyTaxOnline_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows how a refund was calculated., desktop, Desktop
+      - image: MyTaxOnline_display_desktop_3, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows a list of incomes and their sources., desktop, Desktop
+      - image: MyTaxOnline_display_desktop_4, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows information about married&#44; filing jointly., desktop, Desktop
+      - image: MyTaxOnline_layout_card_snapshot_1, A Tax Design Challenge design submission's use of cards to feature a taxpayer's record by year. Two cards are highlighted. Each card shows the tax year&#44; for 2014 and 2015&#44; the date the tax file was received and the refund amount., cards_snapshots, Cards/Snapshots
+      - image: MyTaxOnline_layout_navigation_1, A Tax Design Challenge design submission's use of navigation. This site has side navigation and a drop down for tax year. The side navigation choice Income is selected and a sub navigation appears where Investment Income is selected., navigation, Navigation
+      - image: MyTaxOnline_layout_sidebar_1, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. It includes links to My Account&#44; Summary&#44; Personal Information&#44; and other tax related sections., sidebar, Sidebar
+      - image: MyTaxOnline_page_elements_diagrams_1, A Tax Design Challenge design submission's use of diagrams&#44; graphs&#44; and tables to show how the tax refund for 2015 was calculated. Dollar amounts and a five-year trend column chart are shown in each row., diagrams, Diagrams
+      - image: MyTaxOnline_self_help_help_1, A Tax Design Challenge design submission's use of a help feature. The feature is a search bar in which the user is encouraged to type in order to find something or ask a question., help, Help
+      - image: MyTaxOnline_self_help_search_1, A Tax Design Challenge design submission's use of a search feature. A search bar is in the top center with a "Go" button that activates the search. The bar contains the tool tip "Find something or ask a question"., search, Search
+      - image: MyTaxOnline_self_help_tooltips_1, A Tax Design Challenge design submission's use of tooltips. A "Did you know?" section appears before specific tax year information. For example&#44; included here are links to help save for retirement&#44; pay for college&#44; get a mortgage., tooltips, Tooltips
+      - image: MyTaxOnline_self_help_tooltips_2, A Tax Design Challenge design submission's use of tooltips. A user has hovered over linked text "Total IRA Distributions." A pop-up appears defining the tax advantages and pointing out where this item is found on Form 1040., tooltips, Tooltips
+      - image: MyTaxOnline_self_help_tooltips_3, A Tax Design Challenge design submission's use of tooltips. Right below a statement about past filing status is more information about "married filing jointly.", tooltips, Tooltips
 
 - project:
   -
@@ -692,29 +692,32 @@
     category_full: 2016 Winners
     cat_slug: winners_2016
     thumb_url: IRS_MyService_thumb.png
+    thumb_alt: thumbalt
     winner: winner
+    pdf_size: 3.1 MB
+    pdf_link: link.html
     main:
-      - image: IRS_MyService_display_desktop_1, IRS MyService winners2016 first one, desktop, Desktop
-      - image: IRS_MyService_display_desktop_2, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_3, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_4, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_5, alt, desktop, Desktop
-      - image: IRS_MyService_display_desktop_6, alt, desktop, Desktop
-      - image: IRS_MyService_display_mobile_1, alt, mobile, Mobile
-      - image: IRS_MyService_forms_IRS_forms_1, alt, irs_forms, IRS Forms
-      - image: IRS_MyService_forms_IRS_forms_2, alt, irs_forms, IRS Forms
-      - image: IRS_MyService_layout_card_snapshot_1, alt1, cards_snapshots, Cards/Snapshots
-      - image: IRS_MyService_layout_profile_dashboard_1, alt1, profile_dashboard, Profile/Dashboard
-      - image: IRS_MyService_layout_sidebar_1, alt1, sidebar, Sidebar
-      - image: IRS_MyService_page_elements_accordions_1, alt1, accordions, Accordions
-      - image: IRS_MyService_page_elements_diagrams_1, alt1, diagrams, Diagrams
-      - image: IRS_MyService_page_elements_notifications_1, alt1, notifications, Notifications
-      - image: IRS_MyService_page_elements_notifications_2, alt1, notifications, Notifications
-      - image: IRS_MyService_page_elements_popups_1, alt1, pop_ups, Pop-Ups
-      - image: IRS_MyService_page_elements_popups_2, alt1, pop_ups, Pop-Ups
-      - image: IRS_MyService_security_sign_up_1, alt1, sign_up_log_in, Sign Up/Log In
-      - image: IRS_MyService_self_help_search_1, alt1, search, Search
-      - image: IRS_MyService_self_help_search_2, alt1, search, Search
+      - image: IRS_MyService_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return&#44; get a refund status and pay taxes as seen being viewed on a laptop., desktop, Desktop
+      - image: IRS_MyService_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop., desktop, Desktop
+      - image: IRS_MyService_display_desktop_3, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a page within the taxpayer's IRS account that shows the refunds and payment amounts for each tax year., desktop, Desktop
+      - image: IRS_MyService_display_desktop_4, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account., desktop, Desktop
+      - image: IRS_MyService_display_desktop_5, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights a link to download an earned income credit form., desktop, Desktop
+      - image: IRS_MyService_display_desktop_6, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights annual incomes in a graphics display., desktop, Desktop
+      - image: IRS_MyService_display_mobile_1, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a photo of a handheld mobile device displaying profile links of dependents., mobile, Mobile
+      - image: IRS_MyService_forms_IRS_forms_1, A Tax Design Challenge design submission's use of IRS forms. The back of a summary tax year card gives the user quick links to print or download their tax return&#44; amend their return&#44; or download all forms and worksheets., irs_forms, IRS Forms
+      - image: IRS_MyService_forms_IRS_forms_2, A Tax Design Challenge design submission's use of IRS forms. Within each row of tax data there is a link to the associated form that provided that data to the IRS., irs_forms, IRS Forms
+      - image: IRS_MyService_layout_card_snapshot_1, A Tax Design Challenge design submission's use of cards to feature a taxpayer's record by year. Each card shows the tax year&#44; amount owed or refunded&#44; date the filed taxes were accepted&#44; dollar totals&#44; and a print button., cards_snapshots, Cards/Snapshots
+      - image: IRS_MyService_layout_profile_dashboard_1, A Tax Design Challenge design submission's use of a dashboard and profile section. The dashboard includes cards that show a quick overview by tax year. Profile information appears on the left and includes name&#44; contact information&#44; spouse&#44; and dependents., profile_dashboard, Profile/Dashboard
+      - image: IRS_MyService_layout_sidebar_1, A Tax Design Challenge design submission's use of a sidebar. This sidebar contains the user's profile and tax information. The bottoms also has a taxpayer tools section with links to each IRS tool., sidebar, Sidebar
+      - image: IRS_MyService_page_elements_accordions_1, A Tax Design Challenge design submission's use of an accordion. Tax returns are shown by year. Here&#44; Earned Income is expanded to show various itemized details. Wages&#44; Salaries&#44; Tips&#44; etc. are expanded to show a histogram comparing tax years., accordions, Accordions
+      - image: IRS_MyService_page_elements_diagrams_1, A Tax Design Challenge design submission's use of diagrams&#44; graphs&#44; and tables to show details by tax year. A table shows all the information for each qualifying dependent for an earned income credits. A histogram illustrates income trends by year., diagrams, Diagrams
+      - image: IRS_MyService_page_elements_notifications_1, A Tax Design Challenge design submission's use of notifications. Orange circles with numbers inside indicate notifications in layout and a total number in the top navigation. Profile information triggers notifications and calls to action., notifications, Notifications
+      - image: IRS_MyService_page_elements_notifications_2, A Tax Design Challenge design submission's use of notifications. A detailed view of the notifications page on a mobile screen. Each notification also includes a call to action button., notifications, Notifications
+      - image: IRS_MyService_page_elements_popups_1, A Tax Design Challenge design submission's use of pop-ups. The contribute to myRA pop-up allows a user to specify an amount to be taken from their refund. An "X" in the top right closes the window. A "Submit" and "Cancel" button appear bottom center., pop_ups, Pop-Ups
+      - image: IRS_MyService_page_elements_popups_2, A Tax Design Challenge design submission's use of pop-ups. The start a new FAFSA pop-up allows a user to begin a new application. An "X" in the top right closes the window. A "Submit" and "Cancel" button appear bottom center., pop_ups, Pop-Ups
+      - image: IRS_MyService_security_sign_up_1, A Tax Design Challenge design submission's sign up or log in. Taxpayers can sign up from a redesigned IRS homepage., sign_up_log_in, Sign Up/Log In
+      - image: IRS_MyService_self_help_search_1, A Tax Design Challenge design submission's use of a search feature. The search bar is featured in the top right. Within the bar is a magnifying glass icon and the tool tip&#44; "Search for documents&#44; definition&#44; etc..."., search, Search
+      - image: IRS_MyService_self_help_search_2, A Tax Design Challenge design submission's use of a search feature. The search bar also includes a smart search that helps define tax terminology in plain language. The current smart search features a definition of tax deductions and similar terms., search, Search
 
 - project:
   -
@@ -723,36 +726,38 @@
     category_full: 2016 Winners
     cat_slug: winners_2016
     thumb_url: IRS_365_thumb.png
-    thumb_alt: thumbalt
+    thumb_alt: alt
     winner: winner
+    pdf_size: 3.1 MB
+    pdf_link: link.html
     main:
-      - image: IRS_365_display_mobile_1, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_2, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_3, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_4, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_5, alt1, mobile, Mobile
-      - image: IRS_365_display_mobile_6, alt1, mobile, Mobile
-      - image: IRS_365_forms_form_fields_1, alt1, form_fields, Form Fields
-      - image: IRS_365_layout_card_snapshot_1, alt1, cards_snapshots, Cards/Snapshots
-      - image: IRS_365_layout_card_snapshot_2, alt1, cards_snapshots, Cards/Snapshots
-      - image: IRS_365_layout_navigation_1, alt3, navigation, Navigation
-      - image: IRS_365_layout_navigation_2, alt3, navigation, Navigation
-      - image: IRS_365_layout_navigation_3, alt3, navigation, Navigation
-      - image: IRS_365_layout_navigation_4, alt3, navigation, Navigation
-      - image: IRS_365_page_elements_dates_1, alt3, calendars_dates, Calendars/Dates
-      - image: IRS_365_page_elements_icons_1, alt3, icons, Icons
-      - image: IRS_365_page_elements_icons_2, alt3, icons, Icons
-      - image: IRS_365_page_elements_messengers_1, alt3, messengers, Messengers
-      - image: IRS_365_page_elements_messengers_2, alt3, messengers, Messengers
-      - image: IRS_365_page_elements_messengers_3, alt3, messengers, Messengers
-      - image: IRS_365_page_elements_notifications_1, alt3, notifications, Notifications
-      - image: IRS_365_page_elements_notifications_2, alt3, notifications, Notifications
-      - image: IRS_365_page_elements_notifications_3, alt3, notifications, Notifications
-      - image: IRS_365_page_elements_progress_bars_1, alt3, progress_bars, Progress Bars
-      - image: IRS_365_security_authorizations_1, alt3, authorizations, Authorizations
-      - image: IRS_365_security_identity_security_1, alt3, identity_security, Identity/Security
-      - image: IRS_365_self_help_help_1, alt3, help, Help
-      - image: IRS_365_self_help_settings_1, alt3, settings, Settings
+      - image: IRS_365_display_mobile_1, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of life event queries that might modify tax responsibilities., mobile, Mobile
+      - image: IRS_365_display_mobile_2, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays for managing who has access to personal tax information., mobile, Mobile
+      - image: IRS_365_display_mobile_3, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of time reminders&#44; receipt tracking&#44; add and update links., mobile, Mobile
+      - image: IRS_365_display_mobile_4, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays of help information examples., mobile, Mobile
+      - image: IRS_365_display_mobile_5, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of projected tax information based on previous year's filing., mobile, Mobile
+      - image: IRS_365_display_mobile_6, A Tax Design Challenge design submission's use of a snapshot of splash screen for taxpayer's mobile IRS account showing a photo background of tax dollars at work in communities., mobile, Mobile
+      - image: IRS_365_forms_form_fields_1, A Tax Design Challenge design submission's use of form fields. Here form answers are provided by answering a question per screen. Answers are selected by choosing between various buttons., form_fields, Form Fields
+      - image: IRS_365_layout_card_snapshot_1, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's 2014 tax refund. The main body of the snapshot shows a summary of the taxpayer's joint filing&#44; dates&#44; and refund amount., cards_snapshots, Cards/Snapshots
+      - image: IRS_365_layout_card_snapshot_2, A Tax Design Challenge design submission's use of cards to feature a taxpayer's Yearly Tax Record. Each card shows the tax year&#44; amount owed or refunded&#44; adjusted gross income&#44; and date the taxes were filed., cards_snapshots, Cards/Snapshots
+      - image: IRS_365_layout_navigation_1, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on "Help"., navigation, Navigation
+      - image: IRS_365_layout_navigation_2, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Save and shows an additional navigation to flip between pages., navigation, Navigation
+      - image: IRS_365_layout_navigation_3, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Records. The user can also return to a previous screen at top., navigation, Navigation
+      - image: IRS_365_layout_navigation_4, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Current. , navigation, Navigation
+      - image: IRS_365_page_elements_dates_1, A Tax Design Challenge design submission's use of dates to describe upcoming due dates. A countdown describes how many weeks are left before the due date., calendars_dates, Calendars/Dates
+      - image: IRS_365_page_elements_icons_1, A Tax Design Challenge design submission's use of icons. Two icons are used. A hand holding a money bag is in the "Save money with new opportunities" section. A pile of cash is in the "Track receipts to make filing easy" section., icons, Icons
+      - image: IRS_365_page_elements_icons_2, A Tax Design Challenge design submission's use of icons. Icons are used in the navigation bar. A dollar sign and house is used for "Current&#44;" a document for "records"&#44; a hand and money bag for "Save&#44;" and a question mark and speech bubble for "Help.", icons, Icons
+      - image: IRS_365_page_elements_messengers_1, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section., messengers, Messengers
+      - image: IRS_365_page_elements_messengers_2, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section. A user can either choose from frequently asked questions&#44; or write their own message for complex issues., messengers, Messengers
+      - image: IRS_365_page_elements_messengers_3, A Tax Design Challenge design submission's use of a messenger. The chat bot provides answers in a familiar format&#44; similar to texting on a phone. Two questions are represented here&#58; "What can we help you with?" and "How can we help with your refund?", messengers, Messengers
+      - image: IRS_365_page_elements_notifications_1, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions., notifications, Notifications
+      - image: IRS_365_page_elements_notifications_2, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions. A user can view opportunities that they may have missed., notifications, Notifications
+      - image: IRS_365_page_elements_notifications_3, A Tax Design Challenge design submission's use of notifications. A countdown is used to indicate how much time a user has before they need to file taxes. Buttons at the bottom of the screen serve as reminders to make updates and add information., notifications, Notifications
+      - image: IRS_365_page_elements_progress_bars_1, A Tax Design Challenge design submission's use of a progress bar. A progress bar charting each step in a process appears at the bottom of the design clearly stating the user is at 1 of 20., progress_bars, Progress Bars
+      - image: IRS_365_security_authorizations_1, A Tax Design Challenge design submission's use of authorizations. A taxpayer sees who has access to their records and what type of access. They can remove access or report possible fraud or ID theft., authorizations, Authorizations
+      - image: IRS_365_security_identity_security_1, A Tax Design Challenge design submission's use of identity and security measures. A quick link to reporting possible fraud or ID theft is included in the phone application., identity_security, Identity/Security
+      - image: IRS_365_self_help_help_1, A Tax Design Challenge design submission's use of a help feature. This submission has multiple features in their application&#58; quick links to return tools&#44; articles&#44; videos&#44; and an IRS call back request to help solve problems., help, Help
+      - image: IRS_365_self_help_settings_1, A Tax Design Challenge design submission's use of settings. In this design&#44; the user can see their connections and invitations and who has access to their information., settings, Settings
 
 - project:
   -
@@ -763,26 +768,28 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: thumbalt
     winner: winner
+    pdf_size: 3.1 MB
+    pdf_link: link.html
     main:
-      - image: Taxez_display_desktop_1, alt, desktop, Desktop
-      - image: Taxez_display_desktop_2, alt, desktop, Desktop
-      - image: Taxez_display_desktop_3, alt, desktop, Desktop
-      - image: Taxez_forms_IRS_forms_1, alt, irs_forms, IRS Forms
-      - image: Taxez_layout_card_profile_dashboard_1, alt1, profile_dashboard, Profile/Dashboard
-      - image: Taxez_layout_navigation_1, alt3, navigation, Navigation
-      - image: Taxez_layout_sidebar_1, alt1, sidebar, Sidebar
-      - image: Taxez_page_elements_diagrams_1, alt1, diagrams, Diagrams
-      - image: Taxez_page_elements_icons_1, alt3, icons, Icons
-      - image: Taxez_page_elements_popups_1, alt1, pop_ups, Pop-Ups
-      - image: Taxez_page_elements_popups_2, alt1, pop_ups, Pop-Ups
-      - image: Taxez_page_elements_popups_3, alt1, pop_ups, Pop-Ups
-      - image: Taxez_page_elements_popups_4, alt1, pop_ups, Pop-Ups
-      - image: Taxez_self_help_calculator_1, alt1, calculator, Calculator
-      - image: Taxez_self_help_help_1, alt1, help, Help
-      - image: Taxez_self_help_help_2, alt1, help, Help
-      - image: Taxez_self_help_search_1, alt1, search, Search
-      - image: Taxez_self_help_settings_1, alt1, settings, Settings
-      - image: Taxez_self_help_tooltips_1, alt, tooltips, Tooltips
+      - image: Taxez_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account showing a summary of tax data for one of a number of years selected with pictures and information about dependents in a row across the top., desktop, Desktop
+      - image: Taxez_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account displaying a selection of forms&#44; links to download and related information beneath a row of pictures and information about dependents., desktop, Desktop
+      - image: Taxez_display_desktop_3, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring taxpayer's IRS account showing information about various types of loans including car loans&#44; mortgages&#44; small business loans&#44; student loans&#44; personal loans and more., desktop, Desktop
+      - image: Taxez_forms_IRS_forms_1, A Tax Design Challenge design submission's use of IRS forms. Links are provided to easily access each year's tax form in PDF format. Alternatively&#44; the user can download all in one batch., irs_forms, IRS Forms
+      - image: Taxez_layout_card_profile_dashboard_1, A Tax Design Challenge design submission's use of a dashboard and profile. Page navigation is on the left. The body of the page has visual of the user's tax profile&#44; with tabbed navigation to tax return data&#44; forms &amp; notices&#44; and key updates below., profile_dashboard, Profile/Dashboard
+      - image: Taxez_layout_navigation_1, A Tax Design Challenge design submission's use of navigation. This navigation across the bottom of the design. One navigation is a progress bar during account setup. The standard navigation includes My Profile&#44; Uploads&#44; Financial Goals&#44; Payments&#44; and More., navigation, Navigation
+      - image: Taxez_layout_sidebar_1, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. Each section has an icon and label. The active page has a pink background and white text., sidebar, Sidebar
+      - image: Taxez_page_elements_diagrams_1, A Tax Design Challenge design submission's use of diagrams&#44; graphs&#44; and tables. A table shows tax return data by year. Line items include income&#44; adjustments&#44; AGI&#44; deductions&#44; exemption amount&#44; taxable income&#44; tax&#44; payments and credits&#44; and refund., diagrams, Diagrams
+      - image: Taxez_page_elements_icons_1, A Tax Design Challenge design submission's use of icons. Icons are used to align with the left-hand navigation as well as navigation found within the body of the webpage., icons, Icons
+      - image: Taxez_page_elements_popups_1, A Tax Design Challenge design submission's use of pop-ups. One of four windows in a series of scrolling pop-ups introducing taxez. Here taxez is described as "One home for all your taxpayer needs.", pop_ups, Pop-Ups
+      - image: Taxez_page_elements_popups_2, A Tax Design Challenge design submission's use of pop-ups. Two of four windows in a series of scrolling pop-ups introducing taxez. "Painlessly view and share your tax return data" is the key description provided., pop_ups, Pop-Ups
+      - image: Taxez_page_elements_popups_3, A Tax Design Challenge design submission's use of pop-ups. Three of four windows in a series of scrolling pop-ups introducing taxez. "Take stock of your financial future" is the key description provided., pop_ups, Pop-Ups
+      - image: Taxez_page_elements_popups_4, A Tax Design Challenge design submission's use of pop-ups. Three of four windows in a series of scrolling pop-ups introducing taxez. "Save money on potentially missed opportunities" is the key description provided., pop_ups, Pop-Ups
+      - image: Taxez_self_help_calculator_1, A Tax Design Challenge design submission's use of a calculator to help determine the monthly payments on a loan. This screen shows a loan amount of $90&#44;000&#44; a term of 360 months&#44; at a 4.5% interest rate and a calculated monthly payment of $456.02., calculator, Calculator
+      - image: Taxez_self_help_help_1, A Tax Design Challenge design submission's use of a help feature. In the top right&#44; there is a help drop down., help, Help
+      - image: Taxez_self_help_help_2, A Tax Design Challenge design submission's use of a help feature. In the top right&#44; the help drop down is clicked and links to a Tour&#44; FAQs &amp; Mythbusters&#44; Taxpayer Dictionary&#44; Forum and a Live Chat., help, Help
+      - image: Taxez_self_help_search_1, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top center with a magnifying glass to the right. The bar contains the tool tip "Search"., search, Search
+      - image: Taxez_self_help_settings_1, A Tax Design Challenge design submission's use of settings. Here the user can see in their current profile their filing status and dependents (their relationship&#44; SSN&#44; date of birth&#44; and age of each) as well as their address and tax exemptions., settings, Settings
+      - image: Taxez_self_help_tooltips_1, A Tax Design Challenge design submission's use of tooltips. Things to Consider and a Taxpayer Tip of the Day are featured content. These tips educate and prompt the user to action. In this case&#44; to save for retirement., tooltips, Tooltips
 
 - project:
   -
@@ -791,21 +798,24 @@
     category_full: 2016 Winners
     cat_slug: winners_2016
     thumb_url: MyTaxOnline_thumb.png
+    thumb_alt: thumbalt
     winner: winner
+    pdf_size: 3.1 MB
+    pdf_link: link.html
     main:
-      - image: MyTaxOnline_display_desktop_1, alt, desktop, Desktop
-      - image: MyTaxOnline_display_desktop_2, alt, desktop, Desktop
-      - image: MyTaxOnline_display_desktop_3, alt, desktop, Desktop
-      - image: MyTaxOnline_display_desktop_4, alt, desktop, Desktop
-      - image: MyTaxOnline_layout_card_snapshot_1, alt, cards_snapshots, Cards/Snapshots
-      - image: MyTaxOnline_layout_navigation_1, alt, navigation, Navigation
-      - image: MyTaxOnline_layout_sidebar_1, alt1, sidebar, Sidebar
-      - image: MyTaxOnline_page_elements_diagrams_1, alt1, diagrams, Diagrams
-      - image: MyTaxOnline_self_help_help_1, alt3, help, Help
-      - image: MyTaxOnline_self_help_search_1, alt1, search, Search
-      - image: MyTaxOnline_self_help_tooltips_1, alt, tooltips, Tooltips
-      - image: MyTaxOnline_self_help_tooltips_2, alt, tooltips, Tooltips
-      - image: MyTaxOnline_self_help_tooltips_3, alt, tooltips, Tooltips
+      - image: MyTaxOnline_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that lists ways your tax information can be helpful for you along with links to MyRA&#44; FAFSA&#44; and FHA loan., desktop, Desktop
+      - image: MyTaxOnline_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows how a refund was calculated., desktop, Desktop
+      - image: MyTaxOnline_display_desktop_3, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows a list of incomes and their sources., desktop, Desktop
+      - image: MyTaxOnline_display_desktop_4, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows information about married&#44; filing jointly., desktop, Desktop
+      - image: MyTaxOnline_layout_card_snapshot_1, A Tax Design Challenge design submission's use of cards to feature a taxpayer's record by year. Two cards are highlighted. Each card shows the tax year&#44; for 2014 and 2015&#44; the date the tax file was received and the refund amount., cards_snapshots, Cards/Snapshots
+      - image: MyTaxOnline_layout_navigation_1, A Tax Design Challenge design submission's use of navigation. This site has side navigation and a drop down for tax year. The side navigation choice Income is selected and a sub navigation appears where Investment Income is selected., navigation, Navigation
+      - image: MyTaxOnline_layout_sidebar_1, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. It includes links to My Account&#44; Summary&#44; Personal Information&#44; and other tax related sections., sidebar, Sidebar
+      - image: MyTaxOnline_page_elements_diagrams_1, A Tax Design Challenge design submission's use of diagrams&#44; graphs&#44; and tables to show how the tax refund for 2015 was calculated. Dollar amounts and a five-year trend column chart are shown in each row., diagrams, Diagrams
+      - image: MyTaxOnline_self_help_help_1, A Tax Design Challenge design submission's use of a help feature. The feature is a search bar in which the user is encouraged to type in order to find something or ask a question., help, Help
+      - image: MyTaxOnline_self_help_search_1, A Tax Design Challenge design submission's use of a search feature. A search bar is in the top center with a "Go" button that activates the search. The bar contains the tool tip "Find something or ask a question"., search, Search
+      - image: MyTaxOnline_self_help_tooltips_1, A Tax Design Challenge design submission's use of tooltips. A "Did you know?" section appears before specific tax year information. For example&#44; included here are links to help save for retirement&#44; pay for college&#44; get a mortgage., tooltips, Tooltips
+      - image: MyTaxOnline_self_help_tooltips_2, A Tax Design Challenge design submission's use of tooltips. A user has hovered over linked text "Total IRA Distributions." A pop-up appears defining the tax advantages and pointing out where this item is found on Form 1040., tooltips, Tooltips
+      - image: MyTaxOnline_self_help_tooltips_3, A Tax Design Challenge design submission's use of tooltips. Right below a statement about past filing status is more information about "married filing jointly.", tooltips, Tooltips
 
 # =================================================================== #
 # Desktop
@@ -821,9 +831,9 @@
     winner: winner
     main:
       - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return, get a refund status and pay taxes as seen being viewed on a laptop.
-      - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayers account as seen being viewed on a laptop.
+      - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop.
       - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a page within the taxpayer's IRS account that shows the refunds and payment amounts for each tax year.
-      - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayers account.
+      - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account.
       - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights a link to download an earned income credit form.
       - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights annual incomes in a graphics display.
 

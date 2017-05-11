@@ -1723,6 +1723,21 @@ a.btn-ghost.hero-sticky {
     border: none !important;
 }
 
+#accessibility-accordion .panel .panel-heading h4.panel-title a.accordion-toggle,
+#accessibility-accordion2 .panel .panel-heading h4.panel-title a.accordion-toggle {
+    color: #000 !important;
+    text-transform: none;
+}
+
+#accessibility-accordion .panel .panel-heading,
+#accessibility-accordion2 .panel .panel-heading {
+    border-color: transparent !important;
+    background: #E0E0E0;
+    border-radius: 0px !important;
+    padding: 15px;
+}
+
+
 /* Gallery Thumbnails */
 
 .thumbnail-wrapper img {

@@ -1737,12 +1737,16 @@ a.btn-ghost.hero-sticky {
     padding: 15px;
 }
 
+#accessibility-accordion .panel .panel-heading:hover,
+#accessibility-accordion2 .panel .panel-heading:hover {
+    background: #adadad;
+}
+
 
 /* Gallery Thumbnails */
 
 .thumbnail-wrapper img {
     background-size: 100% auto !important;
-
 }
 
 .thumbnail-wrapper .caption {

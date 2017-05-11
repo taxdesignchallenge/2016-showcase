@@ -1806,6 +1806,11 @@ caption {
     width: 100% !important;
 }
 
+#accessibility-accordion table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
 #accessibility-accordion thead,
 #accessibility-accordion2 thead {
     background: gray;
@@ -1865,3 +1870,5 @@ caption {
 .submissions-other-container .thumb a.thumbnail {
     border-color: transparent !important;
 }
+
+

@@ -149,6 +149,14 @@
     });
     </script>
 
+    <script>
+    // tabindex for gallery images
+    // change first child (a) tabindex to 0
+    $(document).ready(function(){
+      $(".grid-item a:first-of-type").attr("tabindex", "0");
+    });
+    </script>
+
 
     {% if site.offline_cache == true %}
       <script>

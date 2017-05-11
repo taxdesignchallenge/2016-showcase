@@ -30,17 +30,20 @@ layout: catalog
             <div class="container">
               <div class="row">
 
-                <div class="panel-group col-lg-12 col-md-12 col-sm-12 nopadding-left nopadding-right accessibility-container" id="accessibility-accordion">
+                <div class="panel-group col-lg-12 col-md-12 col-sm-12 nopadding-left nopadding-right accessibility-container" id="accessibility-accordion" role="tablist">
+
+
+
 
                   <div class="panel panel-default">
                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                       <h4 class="panel-title">
-                        <a class="accordion-toggle">
+                        <button class="accordion-toggle" role="tab">
                           Screen Readers
-                        </a><i class="indicator glyphicon glyphicon-plus pull-right"></i>
+                        </button><i class="indicator glyphicon glyphicon-plus pull-right"></i>
                       </h4>
                     </div>
-                    <div id="collapseOne" class="panel-collapse collapse in">
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
                       <div class="panel-body">
                         <p>Here is some standard guidance for using the JAWS screen reader or VoiceOver. For other screen readers, please refer to the manufacturers guide for basic commands.</p>
 
@@ -240,9 +243,9 @@ layout: catalog
                   <div class="panel panel-default">
                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                       <h4 class="panel-title">
-                        <a class="accordion-toggle">
+                        <button class="accordion-toggle">
                           Screen Magnifiers
-                        </a><i class="indicator glyphicon glyphicon-minus pull-right"></i>
+                        </button><i class="indicator glyphicon glyphicon-minus pull-right"></i>
                       </h4>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse">
@@ -295,9 +298,9 @@ layout: catalog
                   <div class="panel panel-default">
                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                       <h4 class="panel-title">
-                        <a class="accordion-toggle">
+                        <button class="accordion-toggle">
                           Voice Command
-                        </a><i class="indicator glyphicon glyphicon-minus pull-right"></i>
+                        </button><i class="indicator glyphicon glyphicon-minus pull-right"></i>
                       </h4>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
@@ -375,9 +378,9 @@ layout: catalog
                   <div class="panel panel-default">
                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
                       <h4 class="panel-title">
-                        <a class="accordion-toggle">
+                        <button class="accordion-toggle">
                           Android
-                        </a><i class="indicator glyphicon glyphicon-minus pull-right"></i>
+                        </button><i class="indicator glyphicon glyphicon-minus pull-right"></i>
                       </h4>
                     </div>
                     <div id="collapseSix" class="panel-collapse collapse">
@@ -531,14 +534,14 @@ layout: catalog
                   <div class="panel panel-default">
                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
                       <h4 class="panel-title">
-                        <a class="accordion-toggle">
+                        <button class="accordion-toggle">
                           iOS
-                        </a><i class="indicator glyphicon glyphicon-minus pull-right"></i>
+                        </button><i class="indicator glyphicon glyphicon-minus pull-right"></i>
                       </h4>
                     </div>
                     <div id="collapseSeven" class="panel-collapse collapse">
                       <div class="panel-body">
-                        [...]
+                        No special instructions.
                       </div>
                     </div>
                   </div>
@@ -546,16 +549,14 @@ layout: catalog
                   <div class="panel panel-default">
                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
                       <h4 class="panel-title">
-                        <a class="accordion-toggle">
+                        <button class="accordion-toggle">
                           Rotor
-                        </a><i class="indicator glyphicon glyphicon-minus pull-right"></i>
+                        </button><i class="indicator glyphicon glyphicon-minus pull-right"></i>
                       </h4>
                     </div>
                     <div id="collapseEight" class="panel-collapse collapse">
                       <div class="panel-body">
                         <p>The Rotor allows the user to choose from a list of navigation options, including Containers, Headings, Landmarks, Same item, Vertical Navigation, Static text, Links, Tables, Lists, Buttons, Form Controls, Text fields, Search Fields, and Images.** </p>
-
-                        <p>Twist two fingers in a circle to choose a setting on the rotor. Left and Right swipes go to the next element on the page, Up and Down swipes go the next element of type selected in the rotor.</p>
 
                         <table class="table">
                           <caption>Rotor Actions and Commands</caption>

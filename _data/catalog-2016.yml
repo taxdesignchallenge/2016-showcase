@@ -24,8 +24,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
-    pdf_size: 3.1 MB
-    pdf_link: link.html
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return&#44; get a refund status and pay taxes as seen being viewed on a laptop., desktop, Desktop
       - image: IRS_MyService_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop., desktop, Desktop
@@ -58,8 +58,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
-    pdf_size: 3.1 MB
-    pdf_link: link.html
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_display_mobile_1, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of life event queries that might modify tax responsibilities., mobile, Mobile
       - image: IRS_365_display_mobile_2, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays for managing who has access to personal tax information., mobile, Mobile
@@ -98,8 +98,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
-    pdf_size: 3.1 MB
-    pdf_link: link.html
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account showing a summary of tax data for one of a number of years selected with pictures and information about dependents in a row across the top., desktop, Desktop
       - image: Taxez_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account displaying a selection of forms&#44; links to download and related information beneath a row of pictures and information about dependents., desktop, Desktop
@@ -130,8 +130,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
-    pdf_size: 3.1 MB
-    pdf_link: link.html
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that lists ways your tax information can be helpful for you along with links to MyRA&#44; FAFSA&#44; and FHA loan., desktop, Desktop
       - image: MyTaxOnline_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows how a refund was calculated., desktop, Desktop

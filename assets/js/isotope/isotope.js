@@ -10,7 +10,7 @@ $(window).load(function(){
 			gutter: 0,
 			percentPosition: true
 		},
-		filter: '.submissions_2016',
+		filter: '.winners_2016',
 			animationOptions: {
 			duration: 7500,
 			easing: 'linear',

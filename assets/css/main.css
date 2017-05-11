@@ -1777,13 +1777,13 @@ a.btn-ghost.hero-sticky {
     text-align: center;
     color: #fff !important;
     z-index: 2;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
     transition: opacity .2s ease-out;
     -moz-transition: opacity .2s ease-out;
     -webkit-transition: opacity .2s ease-out;
-    -o-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;*/
 }
 
 .thumbnail-wrapper .caption p {
@@ -1797,9 +1797,8 @@ a.btn-ghost.hero-sticky {
 
 .thumbnail-wrapper:hover .caption {
     top: 0%;
-    opacity: 0.75;
+    opacity: 0.85;
 }
-
 @media (max-width : 768px) {
     .thumbnail-wrapper .caption {
         color: red;

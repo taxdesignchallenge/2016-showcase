@@ -1862,6 +1862,12 @@ caption {
 #accessibility-accordion2.accessibility-container .panel .panel-heading h4.panel-title {
 }
 
+#accessibility-accordion button.accordion-toggle,
+#accessibility-accordion2 button.accordion-toggle {
+    border: 0px !important;
+    background: transparent !important;
+}
+
 /* TDC */
 
 .submissions-other-container .thumb {

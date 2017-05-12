@@ -18,7 +18,7 @@
                 data-caption="<span class='fancybox-caption-title'>
                 Category: {{ project.top_category }} &mdash; 
                 {{ project.category_full }}</span><br />
-                <span class='caption-blurb'>
+            <span class='caption-blurb'>
                 {% if project.name == 'IRS MyService' %}2016 Winner &mdash; First Place, Best Overall Design and Taxpayer Usefulness<br />{% endif %}
 
                 {% if project.name == 'IRS 365' %}2016 Winner &mdash; Second Place, Best Taxpayer Usefulness<br />{% endif %}
@@ -27,8 +27,7 @@
 
                 {% if project.name == 'MyTaxOnline' %}2016 Winner &mdash; Second Place, Best Financial Capability<br />{% endif %}
 
-
-This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png" aria-label="">
 
                 <div class="thumbnail-wrapper">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
@@ -67,16 +66,16 @@ This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <
                 data-caption="<span class='fancybox-caption-title'>
                 Category: {{ project.top_category }} &mdash; 
                 {{ data[3] | strip }}</span><br />
-<span class='caption-blurb'>
-                {% if project.name == 'IRS MyService' %}2016 Winner &mdash; First Place, Best Overall Design and Taxpayer Usefulness<br />{% endif %}
+            <span class='caption-blurb'>
+                {% if project.name == 'IRS MyService' %}<span>2016 Winner &mdash; First Place, Best Overall Design and Taxpayer Usefulness</span><br />{% endif %}
 
-                {% if project.name == 'IRS 365' %}2016 Winner &mdash; Second Place, Best Taxpayer Usefulness<br />{% endif %}
+                {% if project.name == 'IRS 365' %}<span>2016 Winner &mdash; Second Place, Best Taxpayer Usefulness</span><br />{% endif %}
 
-                {% if project.name == 'taxez' %}2016 Winner &mdash; First Place, Best Financial Capability<br />{% endif %}
+                {% if project.name == 'taxez' %}<span>2016 Winner &mdash; First Place, Best Financial Capability</span><br />{% endif %}
 
-                {% if project.name == 'MyTaxOnline' %}2016 Winner &mdash; Second Place, Best Financial Capability<br />{% endif %}
+                {% if project.name == 'MyTaxOnline' %}<span>2016 Winner &mdash; Second Place, Best Financial Capability</span><br />{% endif %}
 
-                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png" aria-label="">
 
                 <div class="thumbnail-wrapper">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}

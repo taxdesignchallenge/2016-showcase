@@ -1059,8 +1059,12 @@ a.btn-ghost.hero-sticky {
     color: #363f48;
 }
 
+.content-container h3 {
+    margin-bottom: 1em;
+}
+
 .content-container p {
-    margin-bottom: 1.5em;
+    margin-bottom: 2.5em;
 }
 
 .showcase-header-container {

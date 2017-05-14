@@ -699,7 +699,7 @@ a, a:link, a:visited {
 
 .hero-inset {
     position: absolute;
-    padding: 24px 20px;
+    /*padding: 24px 20px;*/
     top: 80px;
     width: 55%;
     font-size: 1.2em;
@@ -1250,6 +1250,29 @@ a.btn-ghost.hero-sticky {
 }
 
 /* ------------ Fancybox 3 */
+
+.fancybox-controls .fancybox-buttons button.fancybox-button:focus,
+.fancybox-container--ready.fancybox-controls--canzoomIn button.fancybox-button.fancybox-button--left:focus,
+.fancybox-container--ready.fancybox-controls--canzoomIn button.fancybox-button.fancybox-button--right:focus {
+    outline: 1px dotted #212121;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+}
+
+.fancybox-controls .fancybox-buttons button.fancybox-button:focus, .fancybox-container--ready.fancybox-controls--canzoomIn button.fancybox-button.fancybox-button--left:focus, .fancybox-container--ready.fancybox-controls--canzoomIn button.fancybox-button.fancybox-button--right:focus {
+    outline: 1px dotted #212121;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline:none; 
+    border:1px solid #4D90FE;
+    -webkit-box-shadow: 0px 0px 5px  #4D90FE;
+    box-shadow: 0px 0px 5px  #4D90FE;
+}
+
+#main .grid-item a.fancybox {
+    display: block;
+}
+
 .fancybox-caption-wrap .fancybox-caption a {
     color: #fff !important;
 }
@@ -1345,8 +1368,11 @@ a.btn-ghost.hero-sticky {
 /* ------------ Catalog Accordion Nav */
 
 #accordion .panel-group .panel {
-    margin-bottom: 0;
-    border-radius: 0;
+    margin: 0px 0px -1px 0px;
+    border-radius: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: #5c5c5c;
 }
 
 #accordion .panel-group .panel .panel-heading {
@@ -1365,6 +1391,12 @@ a.btn-ghost.hero-sticky {
     background: #fff;
     border: #fff;
     padding: 7px 15px;
+    text-transform: uppercase;
+    color: #5c5c5c;
+}
+
+#accordion .panel-group .panel .panel-heading.active button {
+    border-bottom: 1px solid #5c5c5c !important;
 }
 
 #accordion .panel-group .panel .panel-heading.active button,
@@ -1426,8 +1458,8 @@ a.btn-ghost.hero-sticky {
 }
 
 .panel-default > .panel-heading {
-    color: #333;
-    border-color: #ddd;
+    color: #5c5c5c;
+    border-color: #fff;
 }
 
 

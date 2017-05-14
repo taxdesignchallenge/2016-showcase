@@ -3,18 +3,8 @@
 
     {% for project in item.project %}
 
-
-
-
-
-
-
-
-
         {% if project.cat_slug != 'submissions_2016' and project.cat_slug != 'winners_2016' %}
-
-        <div class="grid-sizer"></div>
-
+            <div class="grid-sizer"></div>
             <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.cat_slug }}" data-sort="{{ project.name }} - {{ project.category_full }}">
 
             {% for main in project.main %}
@@ -26,8 +16,7 @@
                 data-caption="<span class='fancybox-caption-title'>
                 Category: {{ project.top_category }} &mdash; 
                 {{ project.category_full }}</span><br />
-            <span class='caption-blurb'>
-
+                <span class='caption-blurb'>
                 {% case project.name  %}
                   {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
                      <span>2016 Winner &mdash; 
@@ -43,41 +32,25 @@
                     </span><br />
                   {% else %}
                 {% endcase %}
-
-                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png" aria-label="{{ project.aria_label }}">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png" aria-label="{{ data[2] | strip }}">
 
                 <div class="thumbnail-wrapper">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
-
                     <div class="caption">
                         <p>View Design Samples</p>
                     </div>
-
                     <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" />
-
                 {% if project.winner == 'winner' %}</div>{% endif %}
                 </div>
 
                 </a>
-                    
             {% endfor %}
-
                 <span class="item-desc">{{ project.name }} &mdash; {{ project.category_full }}</span>
-
             </div>
-
         {% endif %}
 
-
-
-
-
-        
-
         {% if project.cat_slug == 'submissions_2016' %}
-
-        <div class="grid-sizer"></div>
-
+            <div class="grid-sizer"></div>
             <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
 
             {% for main in project.main %}
@@ -90,7 +63,6 @@
                 Category: {{ project.top_category }} &mdash; 
                 {{ data[3] | strip }}</span><br />
                 <span class='caption-blurb'>
-
                 {% case project.name  %}
                   {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
                      <span>2016 Winner &mdash; 
@@ -106,53 +78,25 @@
                     </span><br />
                   {% else %}
                 {% endcase %}
-
-                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png" aria-label="{{ project.aria_label }}">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png" aria-label="{{ data[4] | strip }}">
 
                 <div class="thumbnail-wrapper">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
-
-                            <div class="caption">
-                                <p>View Design Samples</p>
-                            </div>
-
-                        <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" />
-
+                    <div class="caption">
+                        <p>View Design Samples</p>
+                    </div>
+                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" />
                 {% if project.winner == 'winner' %}</div>{% endif %}
                 </div>
 
                 </a>
-                    
             {% endfor %}
-
                 <span class="item-desc">{{ project.name }} &mdash; {{ project.category_full }}</span>
-
             </div>
-
         {% endif %}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {% if project.cat_slug == 'winners_2016' %}
-
-        <div class="grid-sizer"></div>
-
+            <div class="grid-sizer"></div>
             <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
 
             {% for main in project.main %}
@@ -165,7 +109,6 @@
                 Category: {{ project.top_category }} &mdash; 
                 {{ data[3] | strip }}</span><br />
                 <span class='caption-blurb'>
-
                 {% case project.name  %}
                   {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
                      <span>2016 Winner &mdash; 
@@ -181,39 +124,22 @@
                     </span><br />
                   {% else %}
                 {% endcase %}
-
-                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png" aria-label="{{ project.aria_label }}">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png" aria-label="{{ data[4] | strip }}">
 
                 <div class="thumbnail-wrapper">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
-
-                            <div class="caption">
-                                <p>View Design Samples</p>
-                            </div>
-
-                        <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" />
-
+                    <div class="caption">
+                        <p>View Design Samples</p>
+                    </div>
+                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" />
                 {% if project.winner == 'winner' %}</div>{% endif %}
                 </div>
 
                 </a>
-                    
             {% endfor %}
-
                 <span class="item-desc">{{ project.name }} &mdash; {{ project.category_full }}</span>
-
             </div>
-
         {% endif %}
-
-
-
-
-
-
-
-
-
 
     {% endfor %}
     

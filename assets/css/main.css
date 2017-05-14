@@ -181,6 +181,26 @@ a.skip-link:focus {
     border-bottom: none;
 }
 
+.skip {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+a.skip:active, 
+a.skip:focus, 
+a.skip:hover {
+    left: 0; 
+    top: 0;
+    width: auto; 
+    height: auto; 
+    overflow: visible; 
+}
+
 
 /*
 Navigation
@@ -242,6 +262,19 @@ Layout
 ==================================
 */
 
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    padding: 2em 0 0 0;
+}
+
 .logo {
     display: block;
 }
@@ -259,40 +292,10 @@ section:before {
     margin: -60px 0 0;
 }
 
-.wrap {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-header {
-    width: 100%;
-    background-color: #fff;
-    padding: 2em 0 0 0;
-}
-
-
 /*
 Footer
 ==================================
 */
-
-/* for sticky footer */
-.container {
-    display: table;
-    height: 100%;
-    width: 100%;
-}
-
-/*footer {
-    display: table-row;
-    height: 1px;
-    border-top: 2px solid #babbbd;
-    background: #f1f2f2;
-    width: 100%;
-    font-size: 0.875em;
-}*/
 
 footer .wrap {
   padding-top: 2em;
@@ -453,6 +456,26 @@ Desktop Styles
     ==============================
     */
 
+    .title {
+        color: #275284;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.8em;
+    }
+
+    .title-strong {
+        font-weight: bold;
+        display: inline;
+    }
+
+    .strong {
+        font-weight: bold;
+    }
+
+    .uppercase {
+        text-transform: uppercase !important;
+    }
+
     /*
     Layout
     ==============================
@@ -554,12 +577,23 @@ Mobile Styles
 
 }
 
+/* ==============================================================
+   Tax Design Challenge
+   ============================================================== */
 
+.wrapmain {
+    margin-bottom: 4em;
+}
 
-/*
-Tax Challenge Showcase
-==================================
-*/
+.content-container {
+    margin: 1em 0 1em 0;
+    display: inline-block;
+    width: 100%;
+}
+
+header {
+    padding: 2em 0 1em;
+}
 
 a, a:link, a:visited {
     color: #336699 !important;
@@ -579,21 +613,6 @@ a, a:link, a:visited {
     padding: 0;
     height: 38px;
     width: 250px;
-}
-
-
-.wrapmain {
-    margin-bottom: 4em;
-}
-
-.content-container {
-    margin: 1em 0 1em 0;
-    display: inline-block;
-    width: 100%;
-}
-
-header {
-    padding: 2em 0 1em;
 }
 
 .navbar-toggle {
@@ -642,13 +661,6 @@ header {
 
 .gallery-nav a {
     text-decoration: underline;
-}
-
-.title {
-    color: #275284;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 1.8em;
 }
 
 .thumbnail {
@@ -794,24 +806,38 @@ a.btn-ghost.hero-sticky {
     right: 40px;
 }
 
-.title-strong {
-    font-weight: bold;
-    display: inline;
+.submissions-other-container .thumb {
+    margin: 0 !important;
+    padding: 10px !important;
 }
 
-.strong {
-    font-weight: bold;
+.submissions-other-container .thumbnail {
+    height: auto !important;
 }
 
-.uppercase {
-    text-transform: uppercase !important;
+.submissions-other-container > div {
+    background-color: #f1f1f1;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
+
+.submissions-other-container .thumb,
+.submissions-other-container .thumb a.thumbnail {
+    border-color: transparent !important;
+}
+
+.winners-group-container .thumb a.thumbnail {
+    border-color: transparent;
+}
+
 
 
 /* Sidebar */
+
 .sidebar-container {
     margin-top: 1.5em;
     background: #eeeeee;
+    background: red;
     position: relative;;
 }
 
@@ -871,71 +897,6 @@ a.btn-ghost.hero-sticky {
     height:40px; 
     position: inherit;
     top:5%;        
-}
-
-/* Design Submissions 48 */
-.sidebar-box.sb-1 {
-    padding: 7px 25px 7px 10px;
-}
-.sc-1 {
-    left: 150px;
-    top: -40px;
-}
-
-/* TaxDesignChallenge.com Visitors */
-.sidebar-box.sb-2 {
-    padding: 7px 25px 7px 10px;
-    margin-left: 15px;
-}
-.sc-2 {
-    left: 0px;
-    top: 0px;
-    width: 130px;
-}
-
-/* Challenge.gov Followers 80 */
-.sidebar-box.sb-3 {
-    padding: 7px 25px 7px 10px;
-    top: 0;
-    margin-left: 45px;
-}
-.sc-3 {
-    left: 220px;
-    top: -40px;
-}
-
-/* Prize Categories */
-.sidebar-box.sb-4 {
-    padding: 7px 10px 7px 25px;
-    margin-left: 50px;
-}
-.sc-4 {
-    left: 0px;
-    top: -40px;
-    width: 60px;
-}
-
-/* IRS Judges 5 */
-.sidebar-box.sb-5 {
-    padding: 7px 25px 7px 10px;
-    top: 0;
-    margin-left: 100px;
-}
-.sc-5 {
-    left: 190px;
-    top: -40px;
-}
-
-/* Challenge Winners */
-.sidebar-box.sb-6 {
-    padding: 7px 10px 7px 25px;
-    margin-left: 45px;
-}
-
-.sc-6 {
-    left: 0px;
-    top: -40px;
-    width: 60px;
 }
 
 .sidebar-box {
@@ -1033,7 +994,6 @@ a.btn-ghost.hero-sticky {
 .content-submission-container a {
     text-decoration: underline;
 }
-
 
 .other-submissions-container .col-sm-4 {
     margin-bottom: 10px;
@@ -1153,42 +1113,6 @@ a.btn-ghost.hero-sticky {
     margin: 0;
 }
 
-/* ------------ Navigation */
-#accordion {
-    margin-top: 0;
-    float: left;
-    padding-right: 42px !important;
-}
-
-    @media screen and (max-width: 991px) {
-        #accordion {
-            padding-right: 0 !important;
-        }
-    }
-
-#accordion .panel {
-    background: #fff;
-    border-radius: 0 !important;
-    border: 0;
-}
-
-.accordion-filtr-nocontent + div > div {
-    display: none;
-    visibility: hidden;
-    background: transparent;
-}
-
-#accordion.nav-gallery {
-    width: 100%;
-}
-
-#accordion .panel + .panel {
-    margin-top: 0px;
-}
-
-#accordion .panel .accordion-filtr-nocontent {
-    padding: 0;
-}
 
 /* ------------ Thumb captions (hide) */
 .item-desc {
@@ -1418,137 +1342,96 @@ a.btn-ghost.hero-sticky {
     }
 }
 
-/* ------------ Category */
-#accordion .panel .panel-heading {
-    background: transparent;
-    border-radius: 0;
-    padding: 0;
-}
+/* ------------ Catalog Accordion Nav */
 
-#accordion .panel > .panel-heading {
-    border-bottom: 1px solid #5c5c5c !important;
-}
-
-#accordion .panel > .panel-heading.active {
-    -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    -moz-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-}
-
-#accordion .panel > .panel-heading.active + div {
-    border-bottom: 1px solid #5c5c5c;
-}
-
-#accordion .panel > .panel-heading + .panel-collapse .panel-body {
-    border-top: none;
-}
-
-#accordion .panel .panel-heading h4 {
-    padding: 0.75rem 1.5rem;
-    cursor: pointer;
-}
-
-#accordion .panel .panel-heading h4.panel-title {
-    padding: 0;
-}
-
-#accordion .panel .panel-heading h4.panel-title a {
-    color: #5c5c5c !important;
-    text-decoration: none !important;
-    border-radius: 0;
-    cursor: pointer;
-    display: inline-block;
-    width: 100%;
-    border: medium none;
-    font-weight: 400;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-    transition: background-color 0.25s ease 0s;
-}
-
-#accordion .panel .panel-heading.active h4 a {
-    font-weight: 500;
-}
-
-#accordion .panel .panel-heading h4 > a:hover {
-    -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    -moz-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    background: #d8d8d8;
-}
-
-#accordion .panel .panel-heading h4 a:active,
-#accordion .panel .panel-heading h4 a:focus {
-    -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    -moz-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
-    background: #d8d8d8;
-}
-
-/* ------------ Subcategory (list) */
-#accordion ul {
-    list-style: none;
-}
-
-#accordion ul li {
-    font-size: 1.1em;
-    cursor: pointer;
-    padding: 0;
-    text-align: left;
-    background: transparent;
-    text-transform: none;
-    border: none;
-    color: #5c5c5c;
-}
-
-#accordion .panel .panel-body ul li:hover,
-#accordion .panel .panel-body ul li:visited,
-#accordion .panel .panel-body ul li:active,
-#accordion .panel .panel-body ul li:focus,
-.simplefilter li.active {
-    color: #5c5c5c;
-    box-shadow: none;
-}
-
-#accordion .panel-body ul li.iso-btn:last-child {
+#accordion .panel-group .panel {
     margin-bottom: 0;
+    border-radius: 0;
 }
 
-#accordion .panel .panel-body {
+#accordion .panel-group .panel .panel-heading {
     padding: 0;
 }
 
-#accordion .panel .panel-collapse .panel-body ul li.iso-btn {
+#accordion .panel-group .panel .panel-body {
+    padding: 0;
+}
+
+#accordion .panel-group .panel .panel-heading button {
+    font-size: 16px;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border: #fff;
     padding: 7px 15px;
 }
 
-#accordion .panel .panel-collapse .panel-body ul li.iso-btn:hover {
-    background: transparent;
-    text-decoration: underline;
-}
+#accordion .panel-group .panel .panel-heading.active button,
+#accordion .panel-group .panel .panel-heading button:hover,
+#accordion .panel-group .panel .panel-heading button:focus {
+    font-size: 16px;
+    text-align: left;
+    height: 100%;
+    width: 100%;
 
-#accordion .panel .panel-collapse.collapse.in .panel-body ul li.iso-btn.active {
-    background: #d8d8d8;
-}
-
-#accordion .panel .panel-collapse .panel-body ul li.iso-btn.active:hover {
-    background: #d8d8d8;
     -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
     -moz-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
     box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
 }
 
-#accordion .panel .panel-collapse .panel-body ul {
+#accordion ul {
+    list-style: outside none none;
+    margin: 0;
     padding-left: 0;
 }
 
-#accordion .panel-collapse ul {
-    margin-bottom: 0;
+#accordion ul li {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #5c5c5c;
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 0;
+    text-align: left;
+    text-transform: none;
 }
 
-#accordion .panel .panel-collapse.collapse.in ul li.iso-btn.active {
-    box-shadow: none;
+#accordion .panel .panel-body ul li.iso-btn {
+    background: #fff;
+    border: #fff;
+    padding: 7px 15px;
+
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #5c5c5c;
+    cursor: pointer;
+    font-size: 1.1em;
+    text-align: left;
+    text-transform: none;
 }
+
+#accordion .panel .panel-body ul li.iso-btn a {
+    color: #5c5c5c !important;
+    text-decoration: none !important;
+}
+
+#accordion .panel .panel-collapse.collapse.in .panel-body ul li.active {
+    background: #d8d8d8 none repeat scroll 0 0;
+}
+
+#accordion .panel-group .panel .panel-collapse.collapse.in {
+    border-radius: 0px !important;
+    padding: 0;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    border-color: #ddd;
+}
+
+
+
 
 /* ------------ Header */
 .catalog-header-container {
@@ -1667,69 +1550,9 @@ a.btn-ghost.hero-sticky {
     background-size: 123px;
 }
 
-/* Accordion Panels */
-#accordion .panel-group {
-    margin: 0;
-}
-
-.accordion-toggle {
-    text-decoration: none !important;
-}
-
-#accordion .panel .panel-heading h4.panel-title button.accordion-toggle {
-    border: 0;
-    text-align: left;
-    background: transparent;
-    border: medium none;
-    border-radius: 0;
-    color: #5c5c5c !important;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    padding: 1rem 1.5rem;
-    text-decoration: none !important;
-    text-transform: uppercase;
-    transition: background-color 0.25s ease 0s;
-    width: 100%;
-}
-
-#accordion .panel .panel-heading.active h4.panel-title button.accordion-toggle {
-    box-shadow: 8px 0 0 -3px rgb(92, 92, 92) inset;
-}
-
-#accordion .panel .panel-body ul li.iso-btn a {
-    text-decoration: none !important;
-    color: #5c5c5c !important;
-}
-
-#accordion button, input[type="color"]:-moz-system-metric(color-picker-available),
-#accordion input[type="reset"], input[type="button"],
-#accordion input[type="submit"] {
-    border: none !important;
-}
-
-#accessibility-accordion .panel .panel-heading h4.panel-title a.accordion-toggle,
-#accessibility-accordion2 .panel .panel-heading h4.panel-title a.accordion-toggle {
-    color: #000 !important;
-    text-transform: none;
-}
-
-#accessibility-accordion .panel .panel-heading,
-#accessibility-accordion2 .panel .panel-heading {
-    border-color: transparent !important;
-    background: #E0E0E0;
-    border-radius: 0px !important;
-    padding: 15px;
-}
-
-#accessibility-accordion .panel .panel-heading:hover,
-#accessibility-accordion2 .panel .panel-heading:hover {
-    background: #adadad;
-}
 
 
 /* Gallery Thumbnails */
-
 .thumbnail-wrapper img {
     background-size: 100% auto !important;
 }
@@ -1791,15 +1614,13 @@ a.btn-ghost.hero-sticky {
 }
 
 /* Tables */
-
 caption {
     margin: 0 0 1.2em 0;
     font-weight: bold;
 }
 
 
-/* Accessibility */
-
+/* Accessibility page */
 .glyphicon-chevron-up::before {
     content: "";
 }
@@ -1844,42 +1665,6 @@ caption {
     background: transparent !important;
 }
 
-/* TDC */
-
-.submissions-other-container .thumb {
-    margin-bottom: 10px;
-}
-
-.submissions-other-container .thumbnail {
-    height: auto !important;
-}
-
-.winners-group-container .thumb a.thumbnail {
-    border-color: transparent;
-}
-
-
-
-
-
-/*#accessibility-accordion .panel-heading:before {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    font-family: 'Glyphicons Halflings';
-    content: "\2212";
-    color: #336699;
-}
-#accessibility-accordion .panel-heading.collapsed:before {
-    content: "\2b";
-}*/
-
-
-.submissions-other-container .thumb,
-.submissions-other-container .thumb a.thumbnail {
-    border-color: transparent !important;
-}
-
 
 
 
@@ -1887,6 +1672,12 @@ caption {
     visibility: visible !important;
 }
 
+
+
+
+.thumbnail {
+    margin-bottom: 0 !important;
+}
 
 
 
@@ -1933,13 +1724,3 @@ a:focus {
               0 3px 1px -2px rgba(0, 0, 0, .2),
               0 1px 5px 0 rgba(0, 0, 0, .12);
 }*/
-    
-
-.thumbnail {
-    margin-bottom: 0 !important;
-}
-
-.submissions-other-container .thumb {
-    margin: 0 !important;
-    padding: 10px !important;
-}

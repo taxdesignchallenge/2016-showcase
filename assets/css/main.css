@@ -449,8 +449,6 @@ Desktop Styles
 ==================================
 */
 
-@media screen and (min-width: 45em) and (min-height: 32.5em) {
-
     /*
     Typography
     ==============================
@@ -475,6 +473,8 @@ Desktop Styles
     .uppercase {
         text-transform: uppercase !important;
     }
+
+@media screen and (min-width: 45em) and (min-height: 32.5em) {
 
     /*
     Layout
@@ -667,7 +667,7 @@ a, a:link, a:visited {
     border-radius: 0;
     overflow: hidden;
     height: 230px;
-    border: 1px solid #eee;
+    border: none !important;
     padding: 0;
 }
 
@@ -806,30 +806,20 @@ a.btn-ghost.hero-sticky {
     right: 40px;
 }
 
-.submissions-other-container .thumb {
+.submissions-other-container > div {
     margin: 0 !important;
     padding: 10px !important;
+    background-color: #f1f1f1;
 }
 
 .submissions-other-container .thumbnail {
     height: auto !important;
 }
-
-.submissions-other-container > div {
-    background-color: #f1f1f1;
-    padding-bottom: 2em;
-    margin-bottom: 2em;
-}
-
-.submissions-other-container .thumb,
-.submissions-other-container .thumb a.thumbnail {
+.submissions-other-container div,
+.submissions-other-container div a.thumbnail,
+.winners-group-container div a.thumbnail {
     border-color: transparent !important;
 }
-
-.winners-group-container .thumb a.thumbnail {
-    border-color: transparent;
-}
-
 
 
 /* Sidebar */
@@ -1367,6 +1357,29 @@ a.btn-ghost.hero-sticky {
 
 /* ------------ Catalog Accordion Nav */
 
+#accordion {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    #accordion {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    #accordion {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    #accordion {
+        padding-right: 20px;
+    }
+}
+
 #accordion .panel-group .panel {
     margin: 0px 0px -1px 0px;
     border-radius: 0px;
@@ -1375,10 +1388,11 @@ a.btn-ghost.hero-sticky {
     border-color: #5c5c5c;
 }
 
-#accordion .panel-group .panel .panel-heading {
-    padding: 0;
+#accordion .panel-group > .panel:first-of-type {
+    border-top: 0px;
 }
 
+#accordion .panel-group .panel .panel-heading,
 #accordion .panel-group .panel .panel-body {
     padding: 0;
 }
@@ -1390,7 +1404,7 @@ a.btn-ghost.hero-sticky {
     width: 100%;
     background: #fff;
     border: #fff;
-    padding: 7px 15px;
+    padding: 10px 15px;
     text-transform: uppercase;
     color: #5c5c5c;
 }
@@ -1433,7 +1447,6 @@ a.btn-ghost.hero-sticky {
     background: #fff;
     border: #fff;
     padding: 7px 15px;
-
     background: transparent none repeat scroll 0 0;
     border: medium none;
     color: #5c5c5c;
@@ -1441,6 +1454,10 @@ a.btn-ghost.hero-sticky {
     font-size: 1.1em;
     text-align: left;
     text-transform: none;
+}
+
+#accordion .panel .panel-body ul li.iso-btn:hover {
+    background: #d8d8d8;
 }
 
 #accordion .panel .panel-body ul li.iso-btn a {
@@ -1567,6 +1584,18 @@ a.btn-ghost.hero-sticky {
 }
 
 /* Winner thumbs */
+.main-winner-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .main-winner-wrapper .winner-wrapper .winner {
+        background: rgba(0, 0, 0, 0) url("../img/winner-banner-2016.svg") no-repeat scroll 28px 0 / 95px auto;
+    }
+}
+
 .winner-wrapper {
     position: relative;
 }

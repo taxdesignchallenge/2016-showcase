@@ -29,63 +29,24 @@
   </head>
 
   <body>
-    <div class="container">
-
+    <div class="container-fluid">
       <div class="row">
+
         <div class="col-md-12">
-          <header>
-            <div class="wrap">
-              <div class="navbar navbar-default">
-                  <div class="navbar-header">
-                    <a href="{{ site.baseurl }}/">
-                      <div class="ratio4-3" title="IRS Tax Design Challenge"></div>
-                    </a>
-                  </div>
-              </div>
-            </div>
-          </header>
+          {% include top-header.html %}
         </div>
+
       </div>
 
       <main class="row border">
       {{ content }}
       </main>
 
-      <footer id="footer" class="wrap footer">
-        <div class="row">
-          <div class="container">
-            <div class="col-md-12">
-              <p><a href="https://www.irs.gov/uac/irs-privacy-policy">Acceptable Use and Privacy Policy</a> |  
-              <a href="{{ site.baseurl }}/accessibility">Accessibility</a> | 
-              <a href="https://www.irs.gov/">IRS.gov</a> | 
-              <a href="https://www.treasury.gov/Pages/default.aspx">Treasury.gov</a> | 
-              <a href="https://www.usa.gov/">USA.gov</a></p>
-            </div>
+      {% include footer.html %}
 
-            <div class="col-md-10 col-md-offset-1">
-              <h3>Note for Tax Design Challenge Submissions:</h3>
-              <p>PDFs may not be accessible to Assistive Technology users. Participant information has been removed from some PDFs and samples. Please <a href="mailto:michael.lin@irs.gov?subject=I'd like to get involved with or learn more about open innovation at the IRS." data-rel="external">email</a> for further information or to receive a submission in an accessible format.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+    </div>
 
-    </div> <!-- /.container -->
-
-    <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/bootstrap-v3.1.0-min.js"></script>
-
-    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.pkgd.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.js"></script>
-
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/core.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/fullscreen.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/gestures.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/media.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/slideshow.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
-
-    <!--<script src="{{ site.baseurl }}/assets/js/a11y.js"></script>-->
+    {% include scripts.html %}
 
     <script>
     jQuery(document).ready(function() {
@@ -251,9 +212,6 @@
     });
     </script>
 
-
-
-
     {% if site.offline_cache == true %}
       <script>
         if( 'serviceWorker' in navigator ) {
@@ -266,6 +224,6 @@
       </script>
     {% endif %}
 
-    </body>
+  </body>
 </html>
 

@@ -4,102 +4,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <title>Ideas Catalog 2016 - Tax Design Challenge Showcase</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Glyphicons -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-
+    <link href="{{ site.baseurl }}/assets/css/bootstrap-v3.1.0.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
-    <link href="{{ site.baseurl }}/assets/css/bootstrap-v3.1.0.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href='{{ site.baseurl }}/assets/js/google-fonts.js' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
     <!-- Fancybox v3 -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/core.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/fullscreen.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/slideshow.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fancybox/thumbs.css" type="text/css" media="screen" />
-
-    <!-- FontAwesome
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css" type="text/css" media="screen" /> -->
+    
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
     <![endif]-->
-
-    
   </head>
 
   <body>
-    <div class="container">
-
+    <div class="container-fluid">
       <div class="row">
+
         <div class="col-md-12">
-          <header>
-            <div class="wrap">
-              <div class="navbar navbar-default">
-                  <div class="navbar-header">
-                    <a href="{{ site.baseurl }}/">
-                      <div class="ratio4-3" title="IRS Tax Design Challenge"></div>
-                    </a>
-                  </div>
-              </div>
-            </div>
-          </header>
+          {% include top-header.html %}
         </div>
+
       </div>
 
       <main class="row border">
       {{ content }}
       </main>
 
-      <footer class="wrap footer">
-        <div class="row">
-          <div class="container">
-            <div class="col-md-12">
-              <p><a href="https://www.irs.gov/uac/irs-privacy-policy">Acceptable Use and Privacy Policy</a> |  
-              <a href="{{ site.baseurl }}/accessibility">Accessibility</a> | 
-              <a href="https://www.irs.gov/">IRS.gov</a> | 
-              <a href="https://www.treasury.gov/Pages/default.aspx">Treasury.gov</a> | 
-              <a href="https://www.usa.gov/">USA.gov</a></p>
-            </div>
+      {% include footer.html %}
 
-            <div class="col-md-10 col-md-offset-1">
-              <h3>Note for Tax Design Challenge Submissions:</h3>
-              <p>PDFs may not be accessible to Assistive Technology users. Participant information has been removed from some PDFs and samples. Please <a href="mailto:michael.lin@irs.gov?subject=I'd like to get involved with or learn more about open innovation at the IRS.">email</a> for further information or to receive a submission in an accessible format.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+    </div>
 
-    </div> <!-- /.container -->
-
-    <script src="{{ site.baseurl }}/assets/js/jquery-1.10.2.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/bootstrap-v3.1.0-min.js"></script>
-
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/core.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/fullscreen.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/gestures.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/media.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/slideshow.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/fancybox/thumbs.js"></script>
+    {% include scripts.html %}
 
     <script>
     jQuery(document).ready(function() {
       $("[data-fancybox]").fancybox({
         margin : [110, 0],
+        baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
+                    '<div class="fancybox-bg"></div>' +
+                    '<div class="fancybox-caption-wrap" style="top:0;padding-top:15px;background:none;">' +
+                      '<div class="fancybox-caption" style="border:0;"></div>' +
+                    '</div><button class="fancybox-button fancybox-button--left" data-fancybox-previous="" style="top:45%;left:0 !important;z-index:9999999;" title="Previous"></button>' +
+                    '<div class="fancybox-controls" style="bottom:0;top:auto;">' +
+                      '<div class="fancybox-infobar" style="width:100%;">' +
+                        '<div class="fancybox-infobar__body" style="background:transparent;">' +
+                          '<span class="js-fancybox-index"></span>&nbsp;/&nbsp;<span class="js-fancybox-count"></span>' +
+                        '</div>' +
+                      '</div>' +
+                    '</div>' +
+                    '<div class="fancybox-controls">' +
+                      '<div class="fancybox-buttons">' +
+                        '<button class="fancybox-button fancybox-button--close" data-fancybox-close="" title="Close (Esc)"></button>' +
+                      '</div>' +
+                    '</div>' +
+                    '<div class="fancybox-slider-wrap">' +
+                      '<div class="fancybox-slider"></div>' +
+                    '</div><button class="fancybox-button fancybox-button--right" data-fancybox-next="" style="top:45%;right:0 !important;z-index:9999999;position:fixed;" title="Next"></button>' +
+                  '</div>',
         onComplete: function (instance, slide) {
            $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
         }
-
+      });
+      $(".fancybox-winners").fancybox({
+        margin : [110, 0],
+        baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
+                    '<div class="fancybox-bg"></div>' +
+                    '<div class="fancybox-caption-wrap" style="top:0;padding-top:15px;background:none;">' +
+                      '<div class="fancybox-caption" style="border:0;"></div>' +
+                    '</div><button class="fancybox-button fancybox-button--left" data-fancybox-previous="" style="top:45%;left:0 !important;z-index:9999999;" title="Previous"></button>' +
+                    '<div class="fancybox-controls" style="bottom:0;top:auto;">' +
+                      '<div class="fancybox-infobar" style="width:100%;">' +
+                        '<div class="fancybox-infobar__body" style="background:transparent;">' +
+                          '<span class="js-fancybox-index"></span>&nbsp;/&nbsp;<span class="js-fancybox-count"></span>' +
+                        '</div>' +
+                      '</div>' +
+                    '</div>' +
+                    '<div class="fancybox-controls">' +
+                      '<div class="fancybox-buttons">' +
+                        '<button class="fancybox-button fancybox-button--close" data-fancybox-close="" title="Close (Esc)"></button>' +
+                      '</div>' +
+                    '</div>' +
+                    '<div class="fancybox-slider-wrap">' +
+                      '<div class="fancybox-slider"></div>' +
+                    '</div><button class="fancybox-button fancybox-button--right" data-fancybox-next="" style="top:45%;right:0 !important;z-index:9999999;position:fixed;" title="Next"></button>' +
+                  '</div>',
+        onComplete: function (instance, slide) {
+           $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
+        }
+      });
+      $(".fancybox-submissions").fancybox({
+        margin : [110, 0],
+        baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
+                    '<div class="fancybox-bg"></div>' +
+                    '<div class="fancybox-caption-wrap" style="top:0;padding-top:15px;background:none;">' +
+                      '<div class="fancybox-caption" style="border:0;"></div>' +
+                    '</div><button class="fancybox-button fancybox-button--left" data-fancybox-previous="" style="top:45%;left:0 !important;z-index:9999999;" title="Previous"></button>' +
+                    '<div class="fancybox-controls" style="bottom:0;top:auto;">' +
+                      '<div class="fancybox-infobar" style="width:100%;">' +
+                        '<div class="fancybox-infobar__body" style="background:transparent;">' +
+                          '<span class="js-fancybox-index"></span>&nbsp;/&nbsp;<span class="js-fancybox-count"></span>' +
+                        '</div>' +
+                      '</div>' +
+                    '</div>' +
+                    '<div class="fancybox-controls">' +
+                      '<div class="fancybox-buttons">' +
+                        '<button class="fancybox-button fancybox-button--close" data-fancybox-close="" title="Close (Esc)"></button>' +
+                      '</div>' +
+                    '</div>' +
+                    '<div class="fancybox-slider-wrap">' +
+                      '<div class="fancybox-slider"></div>' +
+                    '</div><button class="fancybox-button fancybox-button--right" data-fancybox-next="" style="top:45%;right:0 !important;z-index:9999999;position:fixed;" title="Next"></button>' +
+                  '</div>',
+        onComplete: function (instance, slide) {
+           $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
+        }
       });
     });
     </script>
-
-    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.pkgd.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/isotope/isotope.js"></script>
 
     <script>
     // Collapse Innovate menu when item is clicked
@@ -152,11 +185,32 @@
     <script>
     // tabindex for gallery images
     // change first child (a) tabindex to 0
-    $(document).ready(function(){
+    $(document).ready(function() {
       $(".grid-item a:first-of-type").attr("tabindex", "0");
     });
     </script>
 
+    <script>
+    $( document ).ready(function() {
+      // bind a click event to the 'skip' link
+      $(".skip").click(function(event){
+
+        // strip the leading hash and declare
+        // the content we're skipping to
+        var skipTo="#"+this.href.split('#')[1];
+
+        // Setting 'tabindex' to -1 takes an element out of normal 
+        // tab flow but allows it to be focused via javascript
+        $(skipTo).attr('tabindex', -1).on('blur focusout', function () {
+
+            // when focus leaves this element, 
+            // remove the tabindex attribute
+            $(this).removeAttr('tabindex');
+
+        }).focus(); // focus on the content container
+      });
+    });
+    </script>
 
     {% if site.offline_cache == true %}
       <script>
@@ -170,6 +224,6 @@
       </script>
     {% endif %}
 
-    </body>
+  </body>
 </html>
 

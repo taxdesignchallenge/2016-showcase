@@ -1,175 +1,225 @@
 ---
 layout: catalog
 ---
+
+<div id="skipcontent">
+  <a href="#header" class="skip sr-only sr-only-focusable">Skip to Header Content</a>
+  <a href="#navigation-panel" class="skip sr-only sr-only-focusable">Skip to Navigation</a>
+  <a href="#main" class="skip sr-only sr-only-focusable">Skip to Main Content</a>
+  <a href="#footer" class="skip sr-only sr-only-focusable">Skip to Footer</a>
+</div>
+
 <div class="wrap wrapmain catalog-wrapper">
 
   <div class="container">
-    <div class="row catalog-header-container" role="banner">
+    <div id="header" class="row catalog-header-container" role="banner">
       <div class="header-bg"></div>
       <div class="content-container">
         <h1 class="title">Ideas Catalog</h1>
         <div class="col-lg-7 col-sm-12 col-xs-12 main">
-            <h2>Get Inspired by Past Submissions</h2>
-            <p>One big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. What’s your idea?</p>
-            <!--<h2>One idea. Big impact.</h2>
-            <p>That's all it takes. Just one big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. Check out the ideas catalog below. You can search by submission or design element.</p>-->
+          <h2>Get Inspired by Past Submissions</h2>
+          <p>One big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. What's your idea?</p>
         </div>
       </div>
     </div>
   </div>
 
+
+
   <div class="container">
     <div class="row">
-
-
       <!-- Nav Menu -->
-      <div class="innovate-menu col-md-3 col-sm-3">
-          <nav class="navbar navbar-inverse" id="top-menu">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                  </button>
-              </div>
+      <div id="navigation-panel" class="innovate-menu col-md-3 col-sm-3">
+        <nav class="navbar navbar-inverse" id="top-menu">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
 
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="nopadding-left">
-                    <div class="simplefilter nav nav-gallery filters" id="accordion">
+            <div class="nopadding-left nopadding-right">
+              <div class="nav nav-gallery filters" id="accordion" role="tablist">
+                <div class="panel-group">
 
-                      <div class="panel-group" role="tablist">
-
-                        <div class="panel panel-default">
-                          <div class="panel-heading active">
-                            <h4 class="panel-title">
-                              <button id="tab-1" class="accordion-toggle" type="button" role="tab" aria-selected="true" data-toggle="collapse" data-target="#collapseAll" aria-expanded="true" aria-controls="collapseAll">All Submissions</button>
-                            </h4>
-                          </div>
-                          <div class="panel-collapse collapse in" id="collapseAll" role="tabpanel" aria-labelledby="tab-1">
-                            <div class="panel-body">
-                              <ul>
-                                <li class="iso-btn active" data-filter=".winners_2016"><a href="#">2016 Winners</a></li>
-                                <li class="iso-btn" data-filter=".submissions_2016"><a href="#">2016 Submissions</a></li>
-                              </ul>
-                            </div>
-                          </div>
-  
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <button id="tab-2" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Display</button>
-                            </h4>
-                          </div>
-                          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-2">
-                            <div class="panel-body">
-                              <ul>
-                                  <li class="iso-btn" data-filter=".desktop"><a href="#">Desktop</a></li>
-                                  <li class="iso-btn" data-filter=".mobile"><a href="#">Mobile</a></li>
-                              </ul>
-                            </div>
-                          </div>
-
-
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <button id="tab-3" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Forms</button>
-                            </h4>
-                          </div>
-                          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-3">
-                            <div class="panel-body">
-                              <ul>
-                                  <li class="iso-btn" data-filter=".form_fields"><a href="#">Form Fields</a></li>
-                                  <li class="iso-btn" data-filter=".irs_forms"><a href="#">IRS Forms</a></li>
-                              </ul>
-                            </div>
-                          </div>
-
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <button id="tab-4" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Layout</button>
-                            </h4>
-                          </div>
-                          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-4">
-                            <div class="panel-body">
-                              <ul>
-                                  <li class="iso-btn" data-filter=".cards_snapshots"><a href="#">Cards/Snapshots</a></li>
-                                  <li class="iso-btn" data-filter=".footer"><a href="#">Footer</a></li>
-                                  <li class="iso-btn" data-filter=".navigation"><a href="#">Navigation</a></li>
-                                  <li class="iso-btn" data-filter=".profile_dashboard"><a href="#">Profile/Dashboard</a></li>
-                                  <li class="iso-btn" data-filter=".sidebar"><a href="#">Sidebar</a></li>
-                              </ul>
-                            </div>
-                          </div>
-
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <button id="tab-5" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Page Elements</button>
-                            </h4>
-                          </div>
-                          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-5">
-                            <div class="panel-body">
-                              <ul>
-                                  <li class="iso-btn" data-filter=".accordions"><a href="#">Accordions</a></li>
-                                  <li class="iso-btn" data-filter=".calendars_dates"><a href="#">Calendars/Dates</a></li>
-                                  <li class="iso-btn" data-filter=".diagrams"><a href="#">Diagrams/Graphs/Tables</a></li>
-                                  <li class="iso-btn" data-filter=".hero_header"><a href="#">Hero Header</a></li>
-                                  <li class="iso-btn" data-filter=".icons"><a href="#">Icons</a></li>
-                                  <li class="iso-btn" data-filter=".messengers"><a href="#">Messengers</a></li>
-                                  <li class="iso-btn" data-filter=".notifications"><a href="#">Notifications/Alerts</a></li>
-                                  <li class="iso-btn" data-filter=".pop_ups"><a href="#">Pop-Ups</a></li>
-                                  <li class="iso-btn" data-filter=".progress_bars"><a href="#">Progress Bars</a></li>
-                              </ul>
-                            </div>
-                          </div>
-
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <button id="tab-6" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Security</button>
-                            </h4>
-                          </div>
-                          <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-6">
-                            <div class="panel-body">
-                              <ul>
-                                  <li class="iso-btn" data-filter=".authorizations"><a href="#">Authorizations</a></li>
-                                  <li class="iso-btn" data-filter=".identity_security"><a href="#">Identity/Security</a></li>
-                                  <li class="iso-btn" data-filter=".sign_up_log_in"><a href="#">Sign Up/Log In</a></li>
-                              </ul>
-                            </div>
-                          </div>
-
-                          <div class="panel-heading">
-                            <h4 class="panel-title">
-                              <button id="tab-7" class="accordion-toggle" type="button" role="tab" aria-selected="false" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Self Help</button>
-                            </h4>
-                          </div>
-                          <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tab-7">
-                            <div class="panel-body">
-                              <ul>
-                                  <li class="iso-btn" data-filter=".calculator"><a href="#">Calculator</a></li>
-                                  <li class="iso-btn" data-filter=".help"><a href="#">Help</a></li>
-                                  <li class="iso-btn" data-filter=".search"><a href="#">Search</a></li>
-                                  <li class="iso-btn" data-filter=".settings"><a href="#">Settings</a></li>
-                                  <li class="iso-btn" data-filter=".tooltips"><a href="#">Tooltips</a></li>
-                              </ul>
-                            </div>
-                          </div>
-
-                      </div>
-
+                  <div class="panel panel-default">
+                    <div class="panel-heading active">
+                      <button aria-controls="collapseAll" aria-selected="true" data-target="#collapseAll" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices">All Submissions</button>
                     </div>
+                    <div class="panel-collapse collapse in" id="collapseAll">
+                      <div class="panel-body">
+                        <ul>
+                          <li class="iso-btn active" data-filter=".winners_2016">
+                            <a href="#">2016 Winners</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".submissions_2016">
+                            <a href="#">2016 Submissions</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <button aria-controls="collapseTwo" aria-selected="false" data-target="#collapseTwo" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices">Display</button>
+                    </div>
+                    <div class="panel-collapse collapse" id="collapseTwo">
+                      <div class="panel-body">
+                        <ul>
+                          <li class="iso-btn" data-filter=".desktop">
+                            <a href="#">Desktop</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".mobile">
+                            <a href="#">Mobile</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <button aria-controls="collapseThree" aria-selected="false" data-target="#collapseThree" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices">Forms</button>
+                    </div>
+                    <div class="panel-collapse collapse" id="collapseThree">
+                      <div class="panel-body">
+                        <ul>
+                          <li class="iso-btn" data-filter=".form_fields">
+                            <a href="#">Form Fields</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".irs_forms">
+                            <a href="#">IRS Forms</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <button aria-controls="collapseFour" aria-selected="false" data-target="#collapseFour" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices">Layout</button>
+                    </div>
+                    <div class="panel-collapse collapse" id="collapseFour">
+                      <div class="panel-body">
+                        <ul>
+                          <li class="iso-btn" data-filter=".cards_snapshots">
+                            <a href="#">Cards/Snapshots</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".footer">
+                            <a href="#">Footer</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".navigation">
+                            <a href="#">Navigation</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".profile_dashboard">
+                            <a href="#">Profile/Dashboard</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".sidebar">
+                            <a href="#">Sidebar</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <button aria-controls="collapseFive" aria-selected="false" data-target="#collapseFive" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices">Page Elements</button>
+                    </div>
+                    <div class="panel-collapse collapse" id="collapseFive">
+                      <div class="panel-body">
+                        <ul>
+                          <li class="iso-btn" data-filter=".accordions">
+                            <a href="#">Accordions</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".calendars_dates">
+                            <a href="#">Calendars/Dates</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".diagrams">
+                            <a href="#">Diagrams/Graphs/Tables</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".hero_header">
+                            <a href="#">Hero Header</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".icons">
+                            <a href="#">Icons</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".messengers">
+                            <a href="#">Messengers</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".notifications">
+                            <a href="#">Notifications/Alerts</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".pop_ups">
+                            <a href="#">Pop-Ups</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".progress_bars">
+                            <a href="#">Progress Bars</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <button aria-controls="collapseSix" aria-selected="false" data-target="#collapseSix" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices">Security</button>
+                    </div>
+                    <div class="panel-collapse collapse" id="collapseSix">
+                      <div class="panel-body">
+                        <ul>
+                          <li class="iso-btn" data-filter=".authorizations">
+                            <a href="#">Authorizations</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".identity_security">
+                            <a href="#">Identity/Security</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".sign_up_log_in">
+                            <a href="#">Sign Up/Log In</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <button aria-controls="collapseSeven" aria-selected="false" data-target="#collapseSeven" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices">Self Help</button>
+                    </div>
+                    <div class="panel-collapse collapse" id="collapseSeven">
+                      <div class="panel-body">
+                        <ul>
+                          <li class="iso-btn" data-filter=".calculator">
+                            <a href="#">Calculator</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".help">
+                            <a href="#">Help</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".search">
+                            <a href="#">Search</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".settings">
+                            <a href="#">Settings</a>
+                          </li>
+                          <li class="iso-btn" data-filter=".tooltips">
+                            <a href="#">Tooltips</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
+              </div>
             </div>
+          </div>
         </nav>
-    </div>
+      </div>
 
-
-      
-        <div class="container-fluid col-sm-9 col-md-9 col-lg-9">
-          <main class="grid">
-            {% include catalog-2016.html %}
-          </main>
-        </div>
-      
+      <div class="container-fluid col-sm-9 col-md-9 col-lg-9">
+        <main id="main" class="grid">
+          {% include catalog-2016.html %}
+        </main>
+      </div>
 
     </div>
   </div>

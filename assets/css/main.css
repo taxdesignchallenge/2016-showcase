@@ -1611,9 +1611,18 @@ a.btn-ghost.hero-sticky {
     background-size: 123px;
 }
 
-
-
 /* Gallery Thumbnails */
+
+@media screen and (max-width: 480px) {
+    .submissions-other-container a.thumbnail .thumbnail-wrapper .caption p {
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .thumbnail-wrapper img {
     background-size: 100% auto !important;
 }
@@ -1670,7 +1679,7 @@ a.btn-ghost.hero-sticky {
 }
 @media (max-width : 768px) {
     .thumbnail-wrapper .caption {
-        color: red;
+        
     }
 }
 

@@ -18,18 +18,23 @@
                 {{ project.category_full }}</span><br />
                 <span class='caption-blurb'>
                 {% case project.name  %}
-                  {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
-                     <span>2016 Winner &mdash; 
+                  {% when 'IRS MyService' %}<span>2016 Winner &mdash;
+                  {% when 'IRS 365' %}<span>2016 Winner &mdash;
+                  {% when 'Taxez' %}<span>2016 Winner &mdash;
+                  {% when 'MyTaxOnline' %}<span>2016 Winner &mdash;
+
                   {% when 'IRS MyService' %}
                      First Place, Best Overall Design and Taxpayer Usefulness
                   {% when 'IRS 365' %}
                     Second Place, Best Taxpayer Usefulness
-                  {% when 'taxez' %}
+                  {% when 'Taxez' %}
                     First Place, Best Financial Capability
                   {% when 'MyTaxOnline' %}
                     Second Place, Best Financial Capability
-                  {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
-                    </span><br />
+                  {% when 'IRS MyService' %}<span></span><br />
+                  {% when 'IRS 365' %}<span></span><br />
+                  {% when 'Taxez' %}<span></span><br />
+                  {% when 'MyTaxOnline' %}<span></span><br />
                   {% else %}
                 {% endcase %}
                 This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png" aria-label="{{ data[2] | strip }}">
@@ -64,18 +69,23 @@
                 {{ data[3] | strip }}</span><br />
                 <span class='caption-blurb'>
                 {% case project.name  %}
-                  {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
-                     <span>2016 Winner &mdash; 
+                  {% when 'IRS MyService' %}<span>2016 Winner &mdash;
+                  {% when 'IRS 365' %}<span>2016 Winner &mdash;
+                  {% when 'Taxez' %}<span>2016 Winner &mdash;
+                  {% when 'MyTaxOnline' %}<span>2016 Winner &mdash;
+
                   {% when 'IRS MyService' %}
                      First Place, Best Overall Design and Taxpayer Usefulness
                   {% when 'IRS 365' %}
                     Second Place, Best Taxpayer Usefulness
-                  {% when 'taxez' %}
+                  {% when 'Taxez' %}
                     First Place, Best Financial Capability
                   {% when 'MyTaxOnline' %}
                     Second Place, Best Financial Capability
-                  {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
-                    </span><br />
+                  {% when 'IRS MyService' %}<span></span><br />
+                  {% when 'IRS 365' %}<span></span><br />
+                  {% when 'Taxez' %}<span></span><br />
+                  {% when 'MyTaxOnline' %}<span></span><br />
                   {% else %}
                 {% endcase %}
                 This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png" aria-label="{{ data[4] | strip }}">
@@ -110,18 +120,23 @@
                 {{ data[3] | strip }}</span><br />
                 <span class='caption-blurb'>
                 {% case project.name  %}
-                  {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
-                     <span>2016 Winner &mdash; 
+                  {% when 'IRS MyService' %}<span>2016 Winner &mdash;
+                  {% when 'IRS 365' %}<span>2016 Winner &mdash;
+                  {% when 'Taxez' %}<span>2016 Winner &mdash;
+                  {% when 'MyTaxOnline' %}<span>2016 Winner &mdash;
+
                   {% when 'IRS MyService' %}
                      First Place, Best Overall Design and Taxpayer Usefulness
                   {% when 'IRS 365' %}
                     Second Place, Best Taxpayer Usefulness
-                  {% when 'taxez' %}
+                  {% when 'Taxez' %}
                     First Place, Best Financial Capability
                   {% when 'MyTaxOnline' %}
                     Second Place, Best Financial Capability
-                  {% when 'IRS MyService' or when 'IRS 365' or when 'taxez' or when 'MyTaxOnline' %}
-                    </span><br />
+                  {% when 'IRS MyService' %}<span></span><br />
+                  {% when 'IRS 365' %}<span></span><br />
+                  {% when 'Taxez' %}<span></span><br />
+                  {% when 'MyTaxOnline' %}<span></span><br />
                   {% else %}
                 {% endcase %}
                 This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/pdf/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ data[1] }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[2] | strip }}/{{ data[0] }}.png" aria-label="{{ data[4] | strip }}">

@@ -1296,7 +1296,7 @@ a.btn-ghost.hero-sticky {
     display: inline-block;
 }
 
-.caption-blurb::before {
+.caption-blurb > span:before {
     content: " | ";
     font-weight: 600;
     color: #B74D1C;

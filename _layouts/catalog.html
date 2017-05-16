@@ -136,9 +136,14 @@
 
     <script>
     // Collapse Innovate menu when item is clicked
-    $('.nav.nav-gallery .panel .panel-collapse.collapse .panel-body ul li').on('click', function(){
+    /*$('.nav.nav-gallery .panel .panel-collapse.collapse .panel-body ul li').on('click', function(){
         $('.btn-navbar').click(); //bootstrap 2.x
         $('.navbar-toggle').click() //bootstrap 3.x by Richard
+    });*/
+    $('.nav.nav-gallery .panel .panel-collapse.collapse .panel-body ul li').on('click', function(){
+        $('html, body').animate({
+            scrollTop: $("#main").offset().top
+        }, 400);
     });
     </script>
 

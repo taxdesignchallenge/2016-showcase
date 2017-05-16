@@ -1242,6 +1242,52 @@ a.btn-ghost.hero-sticky {
 
 /* ------------ Fancybox 3 */
 
+.fancybox-placeholder {
+    top: 10px !important;
+    transition: all 800ms ease;
+}
+
+.fancybox-placeholder img {
+    padding: 5px;
+    transition: all 800ms ease;
+}
+
+    @media only screen and (max-width : 992px) {
+        .fancybox-placeholder {
+            top: 15px !important;
+        }
+    }
+
+    @media only screen and (max-width : 799px) {
+        .fancybox-placeholder {
+            top: 35px !important;
+        }
+
+        .fancybox-placeholder img {
+            padding: 35px;
+        }
+    }
+
+    @media only screen and (max-width : 768px) {
+        .fancybox-placeholder {
+            top: 50px !important;
+        }
+
+        .fancybox-placeholder img {
+            padding: 0;
+        }
+    }
+
+    @media only screen and (max-width : 480px) {
+        .fancybox-placeholder {
+            top: 10px !important;
+        }
+
+        .fancybox-placeholder img {
+            padding: 0;
+        }
+    }
+
 .fancybox-controls .fancybox-buttons button.fancybox-button:focus,
 .fancybox-container--ready.fancybox-controls--canzoomIn button.fancybox-button.fancybox-button--left:focus,
 .fancybox-container--ready.fancybox-controls--canzoomIn button.fancybox-button.fancybox-button--right:focus {
@@ -1795,3 +1841,4 @@ a:focus {
               0 3px 1px -2px rgba(0, 0, 0, .2),
               0 1px 5px 0 rgba(0, 0, 0, .12);
 }*/
+

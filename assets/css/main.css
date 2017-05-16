@@ -605,8 +605,8 @@ a, a:link, a:visited {
 
 .ratio4-3 {
     width: 100%;
-    background-image: url(../../IRSTaxDesignChallenge.png);
-    background-image: url(../../TaxDesignChallengeLogoHorizontal.svg);
+    background-image: url(../img/IRSTaxDesignChallenge.png);
+    background-image: url(../img/TaxDesignChallengeLogoHorizontal.svg);
     background-size: cover;
     height: 50px;
     width: 390px;
@@ -693,7 +693,7 @@ a, a:link, a:visited {
     background: #eee;
     color: #ff8400;
     background-size: cover;
-    background: #eee url('../../../assets/img/tax_design_challenge_hero-2.jpeg') repeat scroll right center / cover; 
+    background: #eee url('../img/tax_design_challenge_hero-2.jpeg') repeat scroll right center / cover; 
     position: relative;
 }
 

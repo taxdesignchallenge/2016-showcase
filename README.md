@@ -1,6 +1,10 @@
+# 2016 Tax Design Challenge Showcase
+
+Collection of submissions from the IRS's 2016 Tax Design Challenge.
+
 # DOCter
 
-DOCter is a [Jekyll](http://jekyllrb.com/) template for quickly building out project pages and documentation.
+Based on [DOCter](https://github.com/cfpb/DOCter), a [Jekyll](http://jekyllrb.com/) template for quickly building out project pages and documentation.
 
 ![DOCter Screenshot](https://github.com/ascott1/DOCter/blob/gh-pages/assets/img/screenshot.png?raw=true)
 

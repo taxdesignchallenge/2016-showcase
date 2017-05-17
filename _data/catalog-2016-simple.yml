@@ -1,0 +1,225 @@
+# gallery-2016.yml
+#
+# folder structure (main images): /assets/img/ideas_catalog/main/[subcategory_name]/file.png
+# folder structure (thumbnails):  /assets/img/ideas_catalog/thumbs/file.png
+# folders must all be lowercase
+# 
+# name: unformatted name of project
+# top_category: top level category, for pop-up captions
+# category_full: unformatted name of subcategory (meant for pop-up caption)
+# cat_slug: formatted name of subcategory (meant for asset path)
+# 
+
+# =================================================================== #
+# 2016 Submissions (image: image_name_1, alt text, category_name_slug, Category Name)
+# =================================================================== #
+
+- project:
+  -
+    name: IRS MyService
+    top_category: All Submissions
+    category_full: 2016 Submissions
+    cat_slug: submissions_2016
+    thumb_url: IRS_MyService_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
+    aria_label: Thumbnail for IRS My Service in 2016 Submissions
+    winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
+    main:
+      - image: IRS_MyService_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return&#44; get a refund status and pay taxes as seen being viewed on a laptop., desktop, Desktop, ariaplaceholder
+      - image: IRS_MyService_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop., desktop, Desktop, ariaplaceholder
+      - image: IRS_MyService_display_desktop_3, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a page within the taxpayer's IRS account that shows the refunds and payment amounts for each tax year., desktop, Desktop, ariaplaceholder
+
+- project:
+  -
+    name: IRS 365
+    top_category: All Submissions
+    category_full: 2016 Submissions
+    cat_slug: submissions_2016
+    thumb_url: IRS_365_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
+    aria_label: Thumbnail for IRS 365 in 2016 Submissions
+    winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
+    main:
+      - image: IRS_365_display_mobile_1, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of life event queries that might modify tax responsibilities., mobile, Mobile, ariaplaceholder
+      - image: IRS_365_display_mobile_2, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays for managing who has access to personal tax information., mobile, Mobile, ariaplaceholder
+
+
+# =================================================================== #
+# All Submissions: 2016 Winners (image: image_name_1, alt text, category_name_slug, Category Name)
+# =================================================================== #
+
+- project:
+  -
+    name: IRS MyService
+    top_category: All Submissions
+    category_full: 2016 Winners
+    cat_slug: winners_2016
+    thumb_url: IRS_MyService_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
+    aria_label: Thumbnail for IRS MyService in 2016 Winners
+    winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
+    main:
+      - image: IRS_MyService_display_desktop_1, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return&#44; get a refund status and pay taxes as seen being viewed on a laptop., desktop, Desktop, ariaplaceholder
+      - image: IRS_MyService_display_desktop_2, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop., desktop, Desktop, ariaplaceholder
+
+- project:
+  -
+    name: IRS 365
+    top_category: All Submissions
+    category_full: 2016 Winners
+    cat_slug: winners_2016
+    thumb_url: IRS_365_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
+    aria_label: Thumbnail for IRS 365 in 2016 Winners
+    winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
+    main:
+      - image: IRS_365_display_mobile_1, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of life event queries that might modify tax responsibilities., mobile, Mobile, ariaplaceholder
+      - image: IRS_365_display_mobile_2, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays for managing who has access to personal tax information., mobile, Mobile, ariaplaceholder
+      - image: IRS_365_display_mobile_3, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of time reminders&#44; receipt tracking&#44; add and update links., mobile, Mobile, ariaplaceholder
+      - image: IRS_365_display_mobile_4, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays of help information examples., mobile, Mobile, ariaplaceholder
+      - image: IRS_365_display_mobile_5, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of projected tax information based on previous year's filing., mobile, Mobile, ariaplaceholder
+      - image: IRS_365_display_mobile_6, A Tax Design Challenge design submission's use of a snapshot of splash screen for taxpayer's mobile IRS account showing a photo background of tax dollars at work in communities., mobile, Mobile, ariaplaceholder
+      - image: IRS_365_forms_form_fields_1, A Tax Design Challenge design submission's use of form fields. Here form answers are provided by answering a question per screen. Answers are selected by choosing between various buttons., form_fields, Form Fields, ariaplaceholder
+      - image: IRS_365_layout_card_snapshot_1, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's 2014 tax refund. The main body of the snapshot shows a summary of the taxpayer's joint filing&#44; dates&#44; and refund amount., cards_snapshots, Cards/Snapshots, ariaplaceholder
+      - image: IRS_365_layout_card_snapshot_2, A Tax Design Challenge design submission's use of cards to feature a taxpayer's Yearly Tax Record. Each card shows the tax year&#44; amount owed or refunded&#44; adjusted gross income&#44; and date the taxes were filed., cards_snapshots, Cards/Snapshots, ariaplaceholder
+      - image: IRS_365_layout_navigation_1, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on "Help"., navigation, Navigation, ariaplaceholder
+      - image: IRS_365_layout_navigation_2, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Save and shows an additional navigation to flip between pages., navigation, Navigation, ariaplaceholder
+      - image: IRS_365_layout_navigation_3, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Records. The user can also return to a previous screen at top., navigation, Navigation, ariaplaceholder
+      - image: IRS_365_layout_navigation_4, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current&#44; Records&#44; Save&#44; and Help. The user is on Current. , navigation, Navigation, ariaplaceholder
+      - image: IRS_365_page_elements_dates_1, A Tax Design Challenge design submission's use of dates to describe upcoming due dates. A countdown describes how many weeks are left before the due date., calendars_dates, Calendars/Dates, ariaplaceholder
+      - image: IRS_365_page_elements_icons_1, A Tax Design Challenge design submission's use of icons. Two icons are used. A hand holding a money bag is in the "Save money with new opportunities" section. A pile of cash is in the "Track receipts to make filing easy" section., icons, Icons, ariaplaceholder
+      - image: IRS_365_page_elements_icons_2, A Tax Design Challenge design submission's use of icons. Icons are used in the navigation bar. A dollar sign and house is used for "Current&#44;" a document for "records"&#44; a hand and money bag for "Save&#44;" and a question mark and speech bubble for "Help.", icons, Icons, ariaplaceholder
+      - image: IRS_365_page_elements_messengers_1, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section., messengers, Messengers, ariaplaceholder
+      - image: IRS_365_page_elements_messengers_2, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section. A user can either choose from frequently asked questions&#44; or write their own message for complex issues., messengers, Messengers, ariaplaceholder
+      - image: IRS_365_page_elements_messengers_3, A Tax Design Challenge design submission's use of a messenger. The chat bot provides answers in a familiar format&#44; similar to texting on a phone. Two questions are represented here&#58; "What can we help you with?" and "How can we help with your refund?", messengers, Messengers, ariaplaceholder
+      - image: IRS_365_page_elements_notifications_1, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions., notifications, Notifications, ariaplaceholder
+      - image: IRS_365_page_elements_notifications_2, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions. A user can view opportunities that they may have missed., notifications, Notifications, ariaplaceholder
+      - image: IRS_365_page_elements_notifications_3, A Tax Design Challenge design submission's use of notifications. A countdown is used to indicate how much time a user has before they need to file taxes. Buttons at the bottom of the screen serve as reminders to make updates and add information., notifications, Notifications, ariaplaceholder
+      - image: IRS_365_page_elements_progress_bars_1, A Tax Design Challenge design submission's use of a progress bar. A progress bar charting each step in a process appears at the bottom of the design clearly stating the user is at 1 of 20., progress_bars, Progress Bars, ariaplaceholder
+      - image: IRS_365_security_authorizations_1, A Tax Design Challenge design submission's use of authorizations. A taxpayer sees who has access to their records and what type of access. They can remove access or report possible fraud or ID theft., authorizations, Authorizations, ariaplaceholder
+      - image: IRS_365_security_identity_security_1, A Tax Design Challenge design submission's use of identity and security measures. A quick link to reporting possible fraud or ID theft is included in the phone application., identity_security, Identity/Security, ariaplaceholder
+      - image: IRS_365_self_help_help_1, A Tax Design Challenge design submission's use of a help feature. This submission has multiple features in their application&#58; quick links to return tools&#44; articles&#44; videos&#44; and an IRS call back request to help solve problems., help, Help, ariaplaceholder
+      - image: IRS_365_self_help_settings_1, A Tax Design Challenge design submission's use of settings. In this design&#44; the user can see their connections and invitations and who has access to their information., settings, Settings, ariaplaceholder
+
+# =================================================================== #
+# Desktop
+# =================================================================== #
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Display
+    category_full: Desktop
+    cat_slug: desktop
+    thumb_url: IRS_MyService_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
+    winner: winner
+    main:
+      - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return, get a refund status and pay taxes as seen being viewed on a laptop., ariaplaceholder
+      - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop., ariaplaceholder
+
+- project:
+  -
+    name: Taxez
+    top_category: Display
+    category_full: Desktop
+    cat_slug: desktop
+    thumb_url: Taxez_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
+    winner: winner
+    main:
+      - image: Taxez_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account showing a summary of tax data for one of a number of years selected with pictures and information about dependents in a row across the top., ariaplaceholder
+      - image: Taxez_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account displaying a selection of forms, links to download and related information beneath a row of pictures and information about dependents., ariaplaceholder
+
+- project:
+  -
+    name: MyTaxOnline
+    top_category: Display
+    category_full: Desktop
+    cat_slug: desktop
+    thumb_url: MyTaxOnline_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
+    winner: winner
+    main:
+      - image: MyTaxOnline_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that lists ways your tax information can be helpful for you along with links to MyRA, FAFSA, and FHA loan., ariaplaceholder
+      - image: MyTaxOnline_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows how a refund was calculated., ariaplaceholder
+
+# =================================================================== #
+# Mobile
+# =================================================================== #
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Display
+    category_full: Mobile
+    cat_slug: mobile
+    thumb_url: IRS_MyService_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
+    winner: winner
+    main:
+      - image: IRS_MyService_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a photo of a handheld mobile device displaying profile links of dependents., ariaplaceholder
+
+- project:
+  -
+    name: IRS 365
+    top_category: Display
+    category_full: Mobile
+    cat_slug: mobile
+    thumb_url: IRS_365_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
+    winner: winner
+    main:
+      - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of life event queries that might modify tax responsibilities., ariaplaceholder
+      - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays for managing who has access to personal tax information., ariaplaceholder
+      - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of time reminders, receipt tracking, add and update links., ariaplaceholder
+      - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays of help information examples., ariaplaceholder
+      - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of projected tax information based on previous year's filing., ariaplaceholder
+      - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of splash screen for taxpayer's mobile IRS account showing a photo background of tax dollars at work in communities., ariaplaceholder
+
+# =================================================================== #
+# Profile/Dashboard
+# =================================================================== #
+
+- project:
+  -
+    name: IRS MyService
+    top_category: Layout
+    category_full: Profile/Dashboard
+    cat_slug: profile_dashboard
+    thumb_url: IRS_MyService_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
+    winner: winner
+    main:
+      - image: IRS_MyService_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard and profile section. The dashboard includes cards that show a quick overview by tax year. Profile information appears on the left and includes name, contact information, spouse, and dependents., ariaplaceholder
+
+- project:
+  -
+    name: Taxez
+    top_category: Layout
+    category_full: Profile/Dashboard
+    cat_slug: profile_dashboard
+    thumb_url: Taxez_thumb.png
+    thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
+    winner: winner
+    main:
+      - image: Taxez_layout_card_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard and profile. Page navigation is on the left. The body of the page has visual of the user's tax profile, with tabbed navigation to tax return data, forms & notices, and key updates below., ariaplaceholder
+
+- project:
+  -
+    name: Ask IRS
+    top_category: Layout
+    category_full: Profile/Dashboard
+    cat_slug: profile_dashboard
+    thumb_url: Ask_IRS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    main:
+      - image: Ask_IRS_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard contains profile information, links to Tools, Forms &amp; Pubs, a Calendar, various tax links, and key links to other IRS online tools., ariaplaceholder

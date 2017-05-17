@@ -207,6 +207,7 @@
       - image: Empowered_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
       - image: Empowered_forms_form_fields_1, alt, form_fields, Form Fields, ariaplaceholder
       - image: Empowered_layout_navigation_1, alt3, navigation, Navigation, ariaplaceholder
+      - image: Empowered_page_elements_hero_header_1, alt3, hero_header, Hero Header, ariaplaceholder
       - image: Empowered_security_identity_security_1, alt3, identity_security, Identity/Security, ariaplaceholder
       - image: Empowered_security_identity_security_2, alt3, identity_security, Identity/Security, ariaplaceholder
       - image: Empowered_security_sign_up_1, alt3, sign_up_log_in, Sign Up/Log In, ariaplaceholder
@@ -607,10 +608,6 @@
       - image: Taxes_layout_card_snapshot_2, alt, cards_snapshots, Cards/Snapshots, ariaplaceholder
       - image: Taxes_layout_navigation_1, alt, navigation, Navigation, ariaplaceholder
       - image: Taxes_layout_sidebar_1, alt, sidebar, Sidebar, ariaplaceholder
-      - image: Taxes_page_elements_diagrams_1, alt1, diagrams, Diagrams, ariaplaceholder
-      - image: Taxes_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
-      - image: Taxes_page_elements_messengers_1, alt1, messengers, Messengers, ariaplaceholder
-      - image: Taxes_self_help_help_1, alt1, help, Help, ariaplaceholder
 
 - project:
   -
@@ -636,6 +633,10 @@
       - image: Taxes_Made_Simple_page_elements_progress_bars_3, alt1, progress_bars, Progress Bars, ariaplaceholder
       - image: Taxes_Made_Simple_security_identity_security_1, alt1, identity_security, Identity/Security, ariaplaceholder
       - image: Taxes_Made_Simple_security_sign_up_1, alt1, sign_up_log_in, Sign Up/Log In, ariaplaceholder
+      - image: Taxes_page_elements_diagrams_1, alt1, diagrams, Diagrams, ariaplaceholder
+      - image: Taxes_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
+      - image: Taxes_page_elements_messengers_1, alt1, messengers, Messengers, ariaplaceholder
+      - image: Taxes_self_help_help_1, alt1, help, Help, ariaplaceholder
 
 - project:
   -
@@ -950,17 +951,6 @@
       - image: IRS_efile_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring an employment information submission form within the taxpayer's personal account., ariaplaceholder
       - image: IRS_efile_display_desktop, A Tax Design Challenge design submission's use of a snapshot to feature a selection of personal information categories to use within the taxpayer's desktop account. Choices include profile, employment, assets and liabilities., ariaplaceholder
       - image: IRS_efile_display_desktop, A Tax Design Challenge design submission's use of a snapshot to feature desktop accessibility options prior to logging into the taxpayer's personal account. The options include visually impaired, hearing impaired and device impediments., ariaplaceholder
-
-- project:
-  -
-    name: IRS Filr
-    top_category: Display
-    category_full: Desktop
-    cat_slug: desktop
-    thumb_url: IRS_Filr_thumb.png
-    thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
-    main:
-      - image: IRS_Filr_display_desktop, alt, ariaplaceholder
 
 - project:
   -
@@ -1912,7 +1902,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     main:
-      - image: IRS_My_Account_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard includes a tax history by year, required actions, key activity, and next steps., ariaplaceholder
+      - image: IRS_My_Account_layout_navigation, A Tax Design Challenge design submission's use of a dashboard. The dashboard includes a tax history by year, required actions, key activity, and next steps., ariaplaceholder
 
 - project:
   -
@@ -1934,7 +1924,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     main:
-      - image: My_Federal_Tax_Account_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard includes a filing snapshot, user information, quick links, and key navigation across the top of the page., ariaplaceholder
+      - image: My_Federal_Tax_Account_layout_navigation, A Tax Design Challenge design submission's use of a dashboard. The dashboard includes a filing snapshot, user information, quick links, and key navigation across the top of the page., ariaplaceholder
 
 - project:
   -
@@ -2374,7 +2364,6 @@
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     main:
       - image: My_Federal_Tax_Account_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table shows tax returns by year. Columns include tax year, forms filed, and date filed., ariaplaceholder
-      - image: My_Federal_Tax_Account_page_elements_diagrams, A Tax Design Challenge design submission’s use of diagrams, graphs, and tables. A table shows details from a 2014 tax return., ariaplaceholder
 
 - project:
   -
@@ -2574,7 +2563,6 @@
     main:
       - image: MyIRS_page_elements_icons, A Tax Design Challenge design submission's use of icons. A folder appears next to File by Tax Return, a dollar bill next to Get My Refund Status, and a credit card next to "Pay My Tax Bill.", ariaplaceholder
       - image: MyIRS_page_elements_icons, A Tax Design Challenge design submission's use of icons. In the Forms and Publications section, a document represents Current, a Calendar&#58; the Prior Year, a Filing Box&#58; Accessible, and a book&#58; Ebooks., ariaplaceholder
-      - image: MyIRS_page_elements_icons, A Tax Design Challenge design submission’s use of icons. Icons are anchored to the right side of the layout as the main navigation. Credit and deductions is currently selected., ariaplaceholder
 
 - project:
   -

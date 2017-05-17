@@ -1842,3 +1842,13 @@ a:focus {
               0 1px 5px 0 rgba(0, 0, 0, .12);
 }*/
 
+.content-submission-container .thumbnail {
+    background-color: #fff;
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important;
+    display: block;
+    line-height: 1.42857;
+    margin-bottom: 35px !important;
+    padding: 0px !important;
+    transition: all 0.2s ease-in-out 0s;
+}

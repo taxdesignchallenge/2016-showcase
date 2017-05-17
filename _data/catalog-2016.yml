@@ -149,25 +149,25 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: All Submissions
     category_full: 2016 Submissions
     cat_slug: submissions_2016
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
-      - image: alternatives_TDC_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
-      - image: alternatives_TDC_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
-      - image: alternatives_TDC_display_mobile_2, alt, mobile, Mobile, ariaplaceholder
-      - image: alternatives_TDC_page_elements_dates_1, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
-      - image: alternatives_TDC_page_elements_diagrams_1, alt3, diagrams, Diagrams, ariaplaceholder
-      - image: alternatives_TDC_page_elements_hero_header_1, alt3, hero_header, Hero Header, ariaplaceholder
-      - image: alternatives_TDC_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
-      - image: alternatives_TDC_page_elements_icons_2, alt3, icons, Icons, ariaplaceholder
-      - image: alternatives_TDC_page_elements_icons_3, alt3, icons, Icons, ariaplaceholder
-      - image: alternatives_TDC_page_elements_notifications_1, alt3, notifications, Notifications, ariaplaceholder
-      - image: alternatives_TDC_self_help_help_1, alt3, help, Help, ariaplaceholder
+      - image: IRiS_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
+      - image: IRiS_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
+      - image: IRiS_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
+      - image: IRiS_display_mobile_2, alt, mobile, Mobile, ariaplaceholder
+      - image: IRiS_page_elements_dates_1, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
+      - image: IRiS_page_elements_diagrams_1, alt3, diagrams, Diagrams, ariaplaceholder
+      - image: IRiS_page_elements_hero_header_1, alt3, hero_header, Hero Header, ariaplaceholder
+      - image: IRiS_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
+      - image: IRiS_page_elements_icons_2, alt3, icons, Icons, ariaplaceholder
+      - image: IRiS_page_elements_icons_3, alt3, icons, Icons, ariaplaceholder
+      - image: IRiS_page_elements_notifications_1, alt3, notifications, Notifications, ariaplaceholder
+      - image: IRiS_self_help_help_1, alt3, help, Help, ariaplaceholder
 
 - project:
   -
@@ -885,15 +885,15 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: Display
     category_full: Desktop
     cat_slug: desktop
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_display_desktop, A Tax Design Challenge design submission's use of a snapshot of proposed sign up or logon page for a taxpayer's IRS account. The snapshot shows services available through account to track expenses, file tax returns and plan for financial future., ariaplaceholder
-      - image: alternatives_TDC_display_desktop, A Tax Design Challenge design submission's use of a snapshot of sign up or logon page proposal for a taxpayer's IRS account. Services shown include personal finances, tax preparation, financial forecasting and help., ariaplaceholder
+      - image: IRiS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of proposed sign up or logon page for a taxpayer's IRS account. The snapshot shows services available through account to track expenses, file tax returns and plan for financial future., ariaplaceholder
+      - image: IRiS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of sign up or logon page proposal for a taxpayer's IRS account. Services shown include personal finances, tax preparation, financial forecasting and help., ariaplaceholder
 
 - project:
   -
@@ -1122,15 +1122,15 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: Display
     category_full: Mobile
     cat_slug: mobile
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of the taxpayer's home page with small icons links to various types of personal tax information., ariaplaceholder
-      - image: alternatives_TDC_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account on a mobile display of the taxpayer's home page populated with small icon links to areas of personal tax information framed by two example link displays., ariaplaceholder
+      - image: IRiS_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of the taxpayer's home page with small icons links to various types of personal tax information., ariaplaceholder
+      - image: IRiS_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account on a mobile display of the taxpayer's home page populated with small icon links to areas of personal tax information framed by two example link displays., ariaplaceholder
 
 - project:
   -
@@ -2229,14 +2229,14 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: Page Elements
     category_full: Calendars/Dates
     cat_slug: calendars_dates
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_page_elements_dates, A Tax Design Challenge design submission's use of dates to show bills and payments. Dates are shown in a month calendar format., ariaplaceholder
+      - image: IRiS_page_elements_dates, A Tax Design Challenge design submission's use of dates to show bills and payments. Dates are shown in a month calendar format., ariaplaceholder
 
 - project:
   -
@@ -2328,14 +2328,14 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: Page Elements
     category_full: Diagrams/Charts/Elements
     cat_slug: diagrams
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. Column charts and pie graphs help show an overview of purchases and expenses., ariaplaceholder
+      - image: IRiS_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. Column charts and pie graphs help show an overview of purchases and expenses., ariaplaceholder
 
 - project:
   -
@@ -2419,14 +2419,14 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: Page Elements
     category_full: Hero Header
     cat_slug: hero_header
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. The image is cyan blue with a vector illustration of a woman. The text on the page introduces IRiS, the taxpayer assistance center., ariaplaceholder
+      - image: IRiS_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. The image is cyan blue with a vector illustration of a woman. The text on the page introduces IRiS, the taxpayer assistance center., ariaplaceholder
 
 - project:
   -
@@ -2527,16 +2527,16 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: Page Elements
     category_full: Icons
     cat_slug: icons
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_page_elements_icons, A Tax Design Challenge design submission's use of icons. There are icons for each section&#58; Ask IRiS a Question, Personal Finances, Tax Preparation, Financing Forecasting, Here to Help, User Profile, App Settings, and Search Database., ariaplaceholder
-      - image: alternatives_TDC_page_elements_icons, A Tax Design Challenge design submission's use of icons. Two icon sections are detailed&#58; a pie chart vector illustration for the Personal Finances section, and a calendar and clock vector illustration for the Tax Preparation section., ariaplaceholder
-      - image: alternatives_TDC_page_elements_icons, A Tax Design Challenge design submission's use of icons. Icons are used to visualize tax filing status as a user begins to use the online tool., ariaplaceholder
+      - image: IRiS_page_elements_icons, A Tax Design Challenge design submission's use of icons. There are icons for each section&#58; Ask IRiS a Question, Personal Finances, Tax Preparation, Financing Forecasting, Here to Help, User Profile, App Settings, and Search Database., ariaplaceholder
+      - image: IRiS_page_elements_icons, A Tax Design Challenge design submission's use of icons. Two icon sections are detailed&#58; a pie chart vector illustration for the Personal Finances section, and a calendar and clock vector illustration for the Tax Preparation section., ariaplaceholder
+      - image: IRiS_page_elements_icons, A Tax Design Challenge design submission's use of icons. Icons are used to visualize tax filing status as a user begins to use the online tool., ariaplaceholder
 
 - project:
   -
@@ -2682,14 +2682,14 @@
 
 - project:
   -
-    name: alternatives TDC
+    name: IRiS
     top_category: Page Elements
     category_full: Notifications
     cat_slug: notifications
-    thumb_url: alternatives_TDC_thumb.png
-    thumb_alt: Tax Design Challenge Submission, Alternatives, thumbnail
+    thumb_url: IRiS_thumb.png
+    thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     main:
-      - image: alternatives_TDC_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. An email is sent as a confirmation once the IRS receives the user's e-filed tax return., ariaplaceholder
+      - image: IRiS_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. An email is sent as a confirmation once the IRS receives the user's e-filed tax return., ariaplaceholder
 
 - project:
   -
@@ -3226,14 +3226,14 @@
 
 - project:
   -
-    name: Alternatives
+    name: IRiS
     top_category: Self-Help
     category_full: Help
     cat_slug: help
-    thumb_url: alternatives_TDC_thumb.png
+    thumb_url: IRiS_thumb.png
     thumb_alt: alt, ariaplaceholder
     main:
-      - image: alternatives_TDC_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has a "Here to Help" link in the site's top navigation as well as an app "IRiS&#58; Here to Help" which features the ability to search tax tips, videos and other resources., ariaplaceholder
+      - image: IRiS_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has a "Here to Help" link in the site's top navigation as well as an app "IRiS&#58; Here to Help" which features the ability to search tax tips, videos and other resources., ariaplaceholder
 
 - project:
   -

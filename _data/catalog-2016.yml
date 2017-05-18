@@ -233,6 +233,7 @@
       - image: IRS_efile_layout_navigation_4, alt, navigation, Navigation, ariaplaceholder
       - image: IRS_efile_layout_profile_dashboard_1, alt, profile_dashboard, Profile/Dashboard, ariaplaceholder
       - image: IRS_efile_layout_sidebar_1, alt, sidebar, Sidebar, ariaplaceholder
+      - image: IRS_efile_page_elements_hero_header_1, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son&#44; mother&#44; and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces., hero_header, Hero Header, ariaplaceholder
       - image: IRS_efile_page_elements_messengers_1, alt3, messengers, Messengers, ariaplaceholder
       - image: IRS_efile_security_sign_up_1, alt3, sign_up_log_in, Sign Up/Log In, ariaplaceholder
       - image: IRS_efile_self_help_help_1, alt1, help, Help, ariaplaceholder
@@ -363,6 +364,8 @@
       - image: IRS_My_Account_page_elements_dates_2, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: IRS_My_Account_page_elements_dates_3, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: IRS_My_Account_page_elements_dates_4, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
+      - image: IRS_My_Account_page_elements_hero_header_1, A Tax Design Challenge design submission's use of a hero header. This header scrolls through images. An image of notebooks&#44; pens&#44; and paper is the background for the text "Help our Future You.", hero_header, Hero Header, ariaplaceholder
+      - image: IRS_My_Account_page_elements_hero_header_2, A Tax Design Challenge design submission's use of a hero header. This header includes introductory text for "My 2016 Tax Timeline." Data is changeable within the main introduction body by text input fields., hero_header, Hero Header, ariaplaceholder
       - image: IRS_My_Account_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
       - image: IRS_My_Account_page_elements_icons_2, alt3, icons, Icons, ariaplaceholder
       - image: IRS_My_Account_page_elements_icons_3, alt3, icons, Icons, ariaplaceholder
@@ -418,6 +421,7 @@
       - image: My_Federal_Tax_Account_page_elements_dates_1, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_dates_2, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_diagrams_1, alt3, diagrams, Diagrams, ariaplaceholder
+      - image: My_Federal_Tax_Account_page_elements_diagrams_2, alt3, diagrams, Diagrams, ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_messengers_1, alt3, messengers, Messengers, ariaplaceholder
       - image: My_Federal_Tax_Account_self_help_tooltips_1, alt, tooltips, Tooltips, ariaplaceholder
       - image: My_Federal_Tax_Account_self_help_tooltips_2, alt, tooltips, Tooltips, ariaplaceholder
@@ -528,8 +532,10 @@
       - image: MyIRS_layout_navigation_3, alt, navigation, Navigation, ariaplaceholder
       - image: MyIRS_layout_navigation_4, alt, navigation, Navigation, ariaplaceholder
       - image: MyIRS_page_elements_dates_1, alt, calendars_dates, Calendars/Dates, ariaplaceholder
+      - image: MyIRS_page_elements_hero_header_1, A Tax Design Challenge design submission's use of a hero header. A dark blue background and even darker rectangles sits below the main navigation. This hero header includes a search bar&#44; a sign-up and key links to actions a user may want to take., hero_header, Hero Header, ariaplaceholder
       - image: MyIRS_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
       - image: MyIRS_page_elements_icons_2, alt3, icons, Icons, ariaplaceholder
+      - image: MyIRS_page_elements_icons_3, alt3, icons, Icons, ariaplaceholder
       - image: MyIRS_security_sign_up_1, alt3, sign_up_log_in, Sign Up/Log In, ariaplaceholder
       - image: MyIRS_security_sign_up_2, alt3, sign_up_log_in, Sign Up/Log In, ariaplaceholder
       - image: MyIRS_self_help_help_1, alt, help, Help, ariaplaceholder
@@ -628,6 +634,8 @@
       - image: Taxes_Made_Simple_forms_IRS_forms_1, alt, irs_forms, IRS Forms, ariaplaceholder
       - image: Taxes_Made_Simple_layout_navigation_1, alt, navigation, Navigation, ariaplaceholder
       - image: Taxes_Made_Simple_layout_profile_dashboard_1, alt, profile_dashboard, Profile/Dashboard, ariaplaceholder
+      - image: Taxes_Made_Simple_page_elements_hero_header_1, A Tax Design Challenge design submission’s use of a hero header. The header introduces the phone app. A hand holds a phone and to the right is bold text stating&#58; "Revolutionizing the IRS Tax Experience.", hero_header, Hero Header, ariaplaceholder
+      - image: Taxes_Made_Simple_page_elements_hero_header_2, A Tax Design Challenge design submission's use of a hero header. A header image with the user’s headshot sits at the top of the mobile app as a user looks at his profile information., hero_header, Hero Header, ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_notifications_1, alt1, notifications, Notifications, ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_notifications_2, alt1, notifications, Notifications, ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_notifications_3, alt1, notifications, Notifications, ariaplaceholder
@@ -2442,14 +2450,14 @@
 
 - project:
   -
-    name: IRS
+    name: IRS efile
     top_category: Page Elements
     category_full: Hero Header
     cat_slug: hero_header
-    thumb_url: IRS_thumb.png
+    thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     main:
-      - image: IRS_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son, mother, and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces., ariaplaceholder
+      - image: IRS_efile_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son, mother, and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces., ariaplaceholder
 
 - project:
   -

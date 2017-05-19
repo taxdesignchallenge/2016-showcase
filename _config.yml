@@ -55,6 +55,12 @@ brand_color: "#2cb34a"
 offline_cache: false
 cache_name: DOCter-v1.1
 
+# PDFs
+pdf_path_2016: assets/pdf
+
+#TDC images
+tdc_images_path: assets/img/tdc_images
+
 # Ideas Catalog
 ic_download_blurb: Download the complete design (PDF)
 ic_assets_path_main: main

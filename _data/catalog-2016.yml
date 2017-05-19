@@ -155,6 +155,8 @@
     cat_slug: submissions_2016
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: IRiS_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -177,6 +179,8 @@
     cat_slug: submissions_2016
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: Ask_IRS_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -199,6 +203,8 @@
     cat_slug: submissions_2016
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
       - image: Empowered_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: Empowered_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -220,6 +226,8 @@
     cat_slug: submissions_2016
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: IRS_efile_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -233,6 +241,7 @@
       - image: IRS_efile_layout_navigation_4, alt, navigation, Navigation, ariaplaceholder
       - image: IRS_efile_layout_profile_dashboard_1, alt, profile_dashboard, Profile/Dashboard, ariaplaceholder
       - image: IRS_efile_layout_sidebar_1, alt, sidebar, Sidebar, ariaplaceholder
+      - image: IRS_efile_page_elements_hero_header_1, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son&#44; mother&#44; and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces., hero_header, Hero Header, ariaplaceholder
       - image: IRS_efile_page_elements_messengers_1, alt3, messengers, Messengers, ariaplaceholder
       - image: IRS_efile_security_sign_up_1, alt3, sign_up_log_in, Sign Up/Log In, ariaplaceholder
       - image: IRS_efile_self_help_help_1, alt1, help, Help, ariaplaceholder
@@ -249,6 +258,8 @@
     cat_slug: submissions_2016
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
       - image: IRS_File_Friend_display_mobile_2, alt, mobile, Mobile, ariaplaceholder
@@ -280,6 +291,8 @@
     cat_slug: submissions_2016
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: IRS_Filr_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
@@ -315,6 +328,8 @@
     cat_slug: submissions_2016
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: IRS_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -342,6 +357,8 @@
     cat_slug: submissions_2016
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: IRS_My_Account_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -363,6 +380,8 @@
       - image: IRS_My_Account_page_elements_dates_2, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: IRS_My_Account_page_elements_dates_3, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: IRS_My_Account_page_elements_dates_4, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
+      - image: IRS_My_Account_page_elements_hero_header_1, A Tax Design Challenge design submission's use of a hero header. This header scrolls through images. An image of notebooks&#44; pens&#44; and paper is the background for the text "Help our Future You.", hero_header, Hero Header, ariaplaceholder
+      - image: IRS_My_Account_page_elements_hero_header_2, A Tax Design Challenge design submission's use of a hero header. This header includes introductory text for "My 2016 Tax Timeline." Data is changeable within the main introduction body by text input fields., hero_header, Hero Header, ariaplaceholder
       - image: IRS_My_Account_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
       - image: IRS_My_Account_page_elements_icons_2, alt3, icons, Icons, ariaplaceholder
       - image: IRS_My_Account_page_elements_icons_3, alt3, icons, Icons, ariaplaceholder
@@ -387,6 +406,8 @@
     cat_slug: submissions_2016
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
       - image: IRS_TDC_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
       - image: IRS_TDC_forms_IRS_forms_1, alt, irs_forms, IRS Forms, ariaplaceholder
@@ -404,6 +425,8 @@
     cat_slug: submissions_2016
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: My_Federal_Tax_Account_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -418,6 +441,7 @@
       - image: My_Federal_Tax_Account_page_elements_dates_1, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_dates_2, alt3, calendars_dates, Calendars/Dates, ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_diagrams_1, alt3, diagrams, Diagrams, ariaplaceholder
+      - image: My_Federal_Tax_Account_page_elements_diagrams_2, alt3, diagrams, Diagrams, ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_messengers_1, alt3, messengers, Messengers, ariaplaceholder
       - image: My_Federal_Tax_Account_self_help_tooltips_1, alt, tooltips, Tooltips, ariaplaceholder
       - image: My_Federal_Tax_Account_self_help_tooltips_2, alt, tooltips, Tooltips, ariaplaceholder
@@ -430,6 +454,8 @@
     cat_slug: submissions_2016
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: my_IRS_Account_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -476,6 +502,8 @@
     cat_slug: submissions_2016
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: My_Tax_Data_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -511,6 +539,8 @@
     cat_slug: submissions_2016
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: MyIRS_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -528,8 +558,10 @@
       - image: MyIRS_layout_navigation_3, alt, navigation, Navigation, ariaplaceholder
       - image: MyIRS_layout_navigation_4, alt, navigation, Navigation, ariaplaceholder
       - image: MyIRS_page_elements_dates_1, alt, calendars_dates, Calendars/Dates, ariaplaceholder
+      - image: MyIRS_page_elements_hero_header_1, A Tax Design Challenge design submission's use of a hero header. A dark blue background and even darker rectangles sits below the main navigation. This hero header includes a search bar&#44; a sign-up and key links to actions a user may want to take., hero_header, Hero Header, ariaplaceholder
       - image: MyIRS_page_elements_icons_1, alt3, icons, Icons, ariaplaceholder
       - image: MyIRS_page_elements_icons_2, alt3, icons, Icons, ariaplaceholder
+      - image: MyIRS_page_elements_icons_3, alt3, icons, Icons, ariaplaceholder
       - image: MyIRS_security_sign_up_1, alt3, sign_up_log_in, Sign Up/Log In, ariaplaceholder
       - image: MyIRS_security_sign_up_2, alt3, sign_up_log_in, Sign Up/Log In, ariaplaceholder
       - image: MyIRS_self_help_help_1, alt, help, Help, ariaplaceholder
@@ -543,6 +575,8 @@
     cat_slug: submissions_2016
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_forms_form_fields_1, alt, form_fields, Form Fields, ariaplaceholder
       - image: MyTaxProfile_forms_form_fields_2, alt, form_fields, Form Fields, ariaplaceholder
@@ -588,6 +622,8 @@
     cat_slug: submissions_2016
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
+    pdf_size: 321 KB
+    pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
       - image: Tax_Return_Transcript_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: Tax_Return_Transcript_forms_form_fields_1, alt, form_fields, Form Fields, ariaplaceholder
@@ -601,6 +637,8 @@
     cat_slug: submissions_2016
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: Taxes_layout_card_snapshot_1, alt, cards_snapshots, Cards/Snapshots, ariaplaceholder
@@ -620,6 +658,8 @@
     cat_slug: submissions_2016
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
       - image: Taxes_Made_Simple_display_mobile_2, alt, mobile, Mobile, ariaplaceholder
@@ -628,6 +668,8 @@
       - image: Taxes_Made_Simple_forms_IRS_forms_1, alt, irs_forms, IRS Forms, ariaplaceholder
       - image: Taxes_Made_Simple_layout_navigation_1, alt, navigation, Navigation, ariaplaceholder
       - image: Taxes_Made_Simple_layout_profile_dashboard_1, alt, profile_dashboard, Profile/Dashboard, ariaplaceholder
+      - image: Taxes_Made_Simple_page_elements_hero_header_1, A Tax Design Challenge design submission’s use of a hero header. The header introduces the phone app. A hand holds a phone and to the right is bold text stating&#58; "Revolutionizing the IRS Tax Experience.", hero_header, Hero Header, ariaplaceholder
+      - image: Taxes_Made_Simple_page_elements_hero_header_2, A Tax Design Challenge design submission's use of a hero header. A header image with the user’s headshot sits at the top of the mobile app as a user looks at his profile information., hero_header, Hero Header, ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_notifications_1, alt1, notifications, Notifications, ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_notifications_2, alt1, notifications, Notifications, ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_notifications_3, alt1, notifications, Notifications, ariaplaceholder
@@ -645,6 +687,8 @@
     cat_slug: submissions_2016
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: TaxReturn_display_desktop_2, alt, desktop, Desktop, ariaplaceholder
@@ -668,6 +712,8 @@
     cat_slug: submissions_2016
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
+    pdf_size: 431 KB
+    pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
       - image: Tax_Transcripts_On_Demand_display_mobile_1, alt, mobile, Mobile, ariaplaceholder
       - image: Tax_Transcripts_On_Demand_display_mobile_2, alt, mobile, Mobile, ariaplaceholder
@@ -689,6 +735,8 @@
     cat_slug: submissions_2016
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
       - image: Your_Tax_Summary_display_desktop_1, alt, desktop, Desktop, ariaplaceholder
       - image: Your_Tax_Summary_layout_profile_dashboard_1, alt, profile_dashboard, Profile/Dashboard, ariaplaceholder
@@ -846,6 +894,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return, get a refund status and pay taxes as seen being viewed on a laptop., ariaplaceholder
       - image: IRS_MyService_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop., ariaplaceholder
@@ -863,6 +913,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account showing a summary of tax data for one of a number of years selected with pictures and information about dependents in a row across the top., ariaplaceholder
       - image: Taxez_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account displaying a selection of forms, links to download and related information beneath a row of pictures and information about dependents., ariaplaceholder
@@ -877,6 +929,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that lists ways your tax information can be helpful for you along with links to MyRA, FAFSA, and FHA loan., ariaplaceholder
       - image: MyTaxOnline_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a web page that shows how a refund was calculated., ariaplaceholder
@@ -891,6 +945,8 @@
     cat_slug: desktop
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of proposed sign up or logon page for a taxpayer's IRS account. The snapshot shows services available through account to track expenses, file tax returns and plan for financial future., ariaplaceholder
       - image: IRiS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of sign up or logon page proposal for a taxpayer's IRS account. Services shown include personal finances, tax preparation, financial forecasting and help., ariaplaceholder
@@ -903,6 +959,8 @@
     cat_slug: desktop
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a proposed page of services offered by the IRS. The top line services offered are File your Tax Return, Get your Refund Status and Pay Your Tax Bill., ariaplaceholder
       - image: Ask_IRS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a proposed taxpayer top-level desktop account page with various links to general and personalized taxpayer services., ariaplaceholder
@@ -915,6 +973,8 @@
     cat_slug: desktop
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
       - image: Empowered_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a proposed sign up or logon page for a taxpayer's IRS account on the desktop. Sign-in options include Facebook, Twitter and Google., ariaplaceholder
       - image: Empowered_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a proposed taxpayer top-level desktop account page offering link options to taxpayer managed content and IRS managed content. , ariaplaceholder
@@ -929,6 +989,8 @@
     cat_slug: desktop
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a proposed taxpayer filing status along with a financial planning bar graph on the desktop., ariaplaceholder
       - image: IRS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a proposed taxpayer desktop account page showing details of a tax filing. Details like total income, gross income, refund or payment amounts and so forth, available for multiple years., ariaplaceholder
@@ -945,6 +1007,8 @@
     cat_slug: desktop
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_display_desktop, A Tax Design Challenge design submission's use of a snapshot of proposed desktop sign up or logon page for the IRS e-File page. The snapshot shows links available to chat and information. Other links include support, services and about., ariaplaceholder
       - image: IRS_efile_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring an employment information submission form within the taxpayer's personal account., ariaplaceholder
@@ -959,6 +1023,8 @@
     cat_slug: desktop
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_display_desktop, alt, ariaplaceholder
 
@@ -970,6 +1036,8 @@
     cat_slug: desktop
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a tool that uses general information provided by the taxpayer to list potential tax alerts and when to expect them., ariaplaceholder
       - image: IRS_My_Account_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a page that lists various helpful tips for future tax filings., ariaplaceholder
@@ -988,6 +1056,8 @@
     cat_slug: desktop
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page dashboard of information within a taxpayer's account with a table of annual filings information., ariaplaceholder
       - image: My_Federal_Tax_Account_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page dashboard of information within a taxpayer's account with a feature that allows the taxpayer to make changes directly to a tax document when filing., ariaplaceholder
@@ -1001,6 +1071,8 @@
     cat_slug: desktop
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a splash page to select how the taxpayer logs into their account., ariaplaceholder
       - image: my_IRS_Account_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information with links to tools and services within a taxpayers account., ariaplaceholder
@@ -1018,6 +1090,8 @@
     cat_slug: desktop
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account homepage featuring some display selections and a summary of tax information., ariaplaceholder
       - image: My_Tax_Data_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page featuring the selection and display of personal information., ariaplaceholder
@@ -1033,6 +1107,8 @@
     cat_slug: desktop
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring sign up or logon page for a taxpayer's IRS account. Links shown include information about filing, getting an extension and more., ariaplaceholder
       - image: MyIRS_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop page featuring information and links to refunds, payments and credits and deductions., ariaplaceholder
@@ -1049,6 +1125,8 @@
     cat_slug: desktop
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
+    pdf_size: 321 KB
+    pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
       - image: Tax_Return_Transcript_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer IRS account web page that shows a tax return summary of information., ariaplaceholder
 
@@ -1060,6 +1138,8 @@
     cat_slug: desktop
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's IRS account with graphically presented information about savings suggestions for finance, healthcare, childcare, retirement planning and education. , ariaplaceholder
 
@@ -1071,6 +1151,8 @@
     cat_slug: desktop
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring taxpayer's IRS account displaying notification to taxpayer that tax return has been received with date. Link to information about previous returns is also available., ariaplaceholder
       - image: TaxReturn_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring taxpayer's IRS account displaying filing status, previous returns and tax tips., ariaplaceholder
@@ -1084,6 +1166,8 @@
     cat_slug: desktop
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
       - image: Your_Tax_Summary_display_desktop, A Tax Design Challenge design submission's use of a snapshot of a desktop featuring taxpayer's IRS account showing a summary of tax information including tax year, filing status, dependents and related information., ariaplaceholder
 
@@ -1100,6 +1184,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a photo of a handheld mobile device displaying profile links of dependents., ariaplaceholder
 
@@ -1112,6 +1198,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of life event queries that might modify tax responsibilities., ariaplaceholder
       - image: IRS_365_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays for managing who has access to personal tax information., ariaplaceholder
@@ -1128,6 +1216,8 @@
     cat_slug: mobile
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of the taxpayer's home page with small icons links to various types of personal tax information., ariaplaceholder
       - image: IRiS_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account on a mobile display of the taxpayer's home page populated with small icon links to areas of personal tax information framed by two example link displays., ariaplaceholder
@@ -1140,6 +1230,8 @@
     cat_slug: mobile
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
       - image: Empowered_display_mobile, A Tax Design Challenge design submission's use of a snapshot showing a mobile display of options to login to or set up an IRS taxpayer personal account., ariaplaceholder
 
@@ -1151,6 +1243,8 @@
     cat_slug: mobile
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of an introductory page to get started with information about making sense of tax information and planning for the future., ariaplaceholder
       - image: IRS_File_Friend_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of a page that presents two choices&#58; view prior tax information or get ready to file this year., ariaplaceholder
@@ -1168,6 +1262,8 @@
     cat_slug: mobile
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of a page that offers actions on filing, transcripts and refund status., ariaplaceholder
       - image: IRS_Filr_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two examples of mobile displays for the status of pending refunds., ariaplaceholder
@@ -1180,6 +1276,8 @@
     cat_slug: mobile
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
       - image: IRS_TDC_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of tax information about the current year with an alert banner across the top for when and how much payment is due., ariaplaceholder
 
@@ -1191,6 +1289,8 @@
     cat_slug: mobile
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
+    pdf_size: 431 KB
+    pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
       - image: Tax_Transcripts_On_Demand_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays the first one is the get started link for requesting a transcript and the second is the electronic form for required information., ariaplaceholder
       - image: Tax_Transcripts_On_Demand_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing two mobile displays both of which request taxpayer information., ariaplaceholder
@@ -1204,6 +1304,8 @@
     cat_slug: mobile
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing 3 mobile displays&#58; One is a registration or login screen, two is for building one's profile and three is the dashboard for the account., ariaplaceholder
       - image: Taxes_Made_Simple_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing three mobile displays the first of which is a real-time expense tracker, the second is a W-2 importer and the third is a filing application., ariaplaceholder
@@ -1217,6 +1319,8 @@
     cat_slug: mobile
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of current tax filing showing current status with links to previous filings, tax tips, tax forms and settings., ariaplaceholder
       - image: TaxReturn_display_mobile, A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of an expanded link of  tax tips information along with links to information about tax filings, tax forms and settings., ariaplaceholder
@@ -1235,6 +1339,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Here form answers are provided by answering a question per screen. Answers are selected by choosing between various buttons., ariaplaceholder
 
@@ -1246,6 +1352,8 @@
     cat_slug: form_fields
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
       - image: Empowered_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Text input fields are used to gather user information. A checkbox is used to sign up for emails., ariaplaceholder
 
@@ -1257,6 +1365,8 @@
     cat_slug: form_fields
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Text input fields are used to gather an employer's name and address., ariaplaceholder
 
@@ -1268,6 +1378,8 @@
     cat_slug: form_fields
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Here form answers are provided by answering a question per screen. Questions reflect information found on IRS.gov but in a mobile-friendly format. , ariaplaceholder
       - image: IRS_File_Friend_forms_form_fields, A Tax Design Challenge design submission's use of form fields. A drop down menu is used to answer the question&#44; "What was your age at the end of 2016?"., ariaplaceholder
@@ -1281,6 +1393,8 @@
     cat_slug: form_fields
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Selecting various buttons affects what questions are shown in this form. Additional details are gathered using in-line text input fields., ariaplaceholder
       - image: IRS_My_Account_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Details for a user's 2016 tax timeline are gathered using in-line text input fields., ariaplaceholder
@@ -1294,6 +1408,8 @@
     cat_slug: form_fields
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Text input fields are used to gather information for a user's tax return. The previous year's answers are prepopulated., ariaplaceholder
       - image: My_Federal_Tax_Account_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Radio buttons are used to gather filing status for a tax return., ariaplaceholder
@@ -1308,6 +1424,8 @@
     cat_slug: form_fields
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_forms_form_fields, A Tax Design Challenge design submission's use of form fields. A drop-down menu for selecting who to transfer a dependent to., ariaplaceholder
       - image: my_IRS_Account_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Text input fields are used to gather details for a new dependent., ariaplaceholder
@@ -1321,6 +1439,8 @@
     cat_slug: form_fields
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Buttons are used to select items to export a custom tax data document. Selected items are from the personal information section and include a green bar to the left of the data., ariaplaceholder
       - image: MyIRS_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Buttons are used to select items to export a custom tax data document. Selected items are from the income section and include a green bar to the left of the data., ariaplaceholder
@@ -1333,6 +1453,8 @@
     cat_slug: form_fields
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_forms_form_fields, A Tax Design Challenge design submission's use of form fields. A text input field is used to answer the question&#44; "How old were you on December 31st&#44; 2016?"., ariaplaceholder
       - image: MyTaxProfile_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Two radio buttons for "yes" and "no" are used to answer the question&#44; "Are you a full-time student at an accredited college&#44; university&#44; or vocational school?"., ariaplaceholder
@@ -1349,6 +1471,8 @@
     cat_slug: form_fields
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
+    pdf_size: 321 KB
+    pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
       - image: Tax_Return_Transcript_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Text input fields are used to gather information for requesting a tax return transcript., ariaplaceholder
 
@@ -1360,6 +1484,8 @@
     cat_slug: form_fields
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_forms_form_fields, A Tax Design Challenge design submission's use of form fields. Text input fields and radio buttons are used to gather information in the profile questionnaire., ariaplaceholder
 
@@ -1376,6 +1502,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. The back of a summary tax year card gives the user quick links to print or download their tax return, amend their return, or download all forms and worksheets., ariaplaceholder
       - image: IRS_MyService_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. Within each row of tax data there is a link to the associated form that provided that data to the IRS., ariaplaceholder
@@ -1389,6 +1517,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. Links are provided to easily access each year's tax form in PDF format. Alternatively, the user can download all in one batch., ariaplaceholder
 
@@ -1400,6 +1530,8 @@
     cat_slug: irs_forms
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. This design links to forms in a Forms &amp; Pubs section, in the Tax &amp; Credits section, and in the Refund or Amount section on the dashboard., ariaplaceholder
 
@@ -1411,6 +1543,8 @@
     cat_slug: irs_forms
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. A user can use an upload feature to upload a Form W-2, and populate information in the appropriate form fields., ariaplaceholder
 
@@ -1422,6 +1556,8 @@
     cat_slug: irs_forms
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. Summaries of various forms are provided., ariaplaceholder
 
@@ -1433,6 +1569,8 @@
     cat_slug: irs_forms
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. A "View submitted tax form" button appears near the top of a specific tax year summary page., ariaplaceholder
 
@@ -1444,6 +1582,8 @@
     cat_slug: irs_forms
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
       - image: IRS_TDC_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. A quick summary of a user's tax return also includes links to the associated form that provided that data to the IRS., ariaplaceholder
       - image: IRS_TDC_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. A section for Schedules and Forms allows a user to see each or to get the full tax return transcript., ariaplaceholder
@@ -1456,6 +1596,8 @@
     cat_slug: irs_forms
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. An electronic Form 1040 is represented here. Only the last four digits of social security numbers are shown., ariaplaceholder
       - image: my_IRS_Account_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. An electronic Form W-2 is displayed., ariaplaceholder
@@ -1469,6 +1611,8 @@
     cat_slug: irs_forms
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. "Forms and Publications" is part of the main navigation on this site., ariaplaceholder
       - image: MyIRS_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. "Forms and Publications" is part of the main navigation on this site. The homepage provides additional links to current, prior year, accessible, and ebooks., ariaplaceholder
@@ -1481,6 +1625,8 @@
     cat_slug: irs_forms
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. An electronic Form W-2 is displayed. The option to view previously uploaded documents, a 1099 and expense reports, is given in a separate screen., ariaplaceholder
 
@@ -1492,6 +1638,8 @@
     cat_slug: irs_forms
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. A tax forms section lists all forms submitted to the IRS in the past. There is a link on the bottom right to "See All Tax Forms.", ariaplaceholder
       - image: TaxReturn_forms_IRS_forms, A Tax Design Challenge design submission's use of IRS forms. A mobile view of the Filing Tips and Tax Forms section. In the Tax Forms section, a user can see the tax forms they have filed in the past., ariaplaceholder
@@ -1509,6 +1657,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_layout_card_snapshot, A Tax Design Challenge design submission's use of cards to feature a taxpayer's record by year. Each card shows the tax year, amount owed or refunded, date the filed taxes were accepted, dollar totals, and a print button., ariaplaceholder
 
@@ -1521,6 +1671,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_layout_card_snapshot, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's 2014 tax refund. The main body of the snapshot shows a summary of the taxpayer's joint filing, dates, and refund amount., ariaplaceholder
       - image: IRS_365_layout_card_snapshot, A Tax Design Challenge design submission's use of cards to feature a taxpayer's Yearly Tax Record. Each card shows the tax year, amount owed or refunded, adjusted gross income, and date the taxes were filed., ariaplaceholder
@@ -1534,6 +1686,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_layout_card_snapshot, A Tax Design Challenge design submission's use of cards to feature a taxpayer's record by year. Two cards are highlighted. Each card shows the tax year, for 2014 and 2015, the date the tax file was received and the refund amount., ariaplaceholder
 
@@ -1545,6 +1699,8 @@
     cat_slug: cards_snapshots
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_layout_card_snapshot, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's 2015 tax return. The main body of the snapshot shows the taxpayer's types and total income for the year., ariaplaceholder
 
@@ -1556,6 +1712,8 @@
     cat_slug: cards_snapshots
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_layout_card_snapshot, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's filing. The snapshot shows the taxpayer's tax filings in a table with each year on its own row. Another table features the taxpayer's audits and bills., ariaplaceholder
 
@@ -1567,6 +1725,8 @@
     cat_slug: cards_snapshots
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_layout_card_snapshot, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's information. The snapshot shows tax year, filing status, age, dependents, homeowner, health insurance, sources of income, and estimated gross income., ariaplaceholder
 
@@ -1578,6 +1738,8 @@
     cat_slug: cards_snapshots
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
+    pdf_size: 321 KB
+    pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
       - image: Tax_Return_Transcript_layout_card_snapshot, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's information. The snapshot shows a summary of the taxpayer's 1040EZ Tax Return transcript highlighting annual adjusted gross and taxable income., ariaplaceholder
 
@@ -1589,6 +1751,8 @@
     cat_slug: cards_snapshots
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_layout_card_snapshot, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's information. The snapshot shows household information including a list of husband, wife, and children. It also has an overview of the progressive tax rate for the year., ariaplaceholder
       - image: Taxes_layout_card_snapshot, A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's information. The snapshot shows a timeline of events by tax year for filing taxes, dependents, tuition deductions, mortgage interest deductions, and other deductions., ariaplaceholder
@@ -1605,6 +1769,8 @@
     cat_slug: footer
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_layout_footer, A Tax Design Challenge design submission's use of a footer. The footer includes the IRS.gov logo, a site map, additional languages, and links to social media sites., ariaplaceholder
 
@@ -1616,6 +1782,8 @@
     cat_slug: footer
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_layout_footer, A Tax Design Challenge design submission's use of a footer. The footer includes a site map, additional languages, and links to related government web sites., ariaplaceholder
 
@@ -1632,6 +1800,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current, Records, Save, and Help. The user is on "Help"., ariaplaceholder
       - image: IRS_365_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site's navigation sits at the bottom of the screen and includes Current, Records, Save, and Help. The user is on Save and shows an additional navigation to flip between pages., ariaplaceholder
@@ -1647,6 +1817,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_layout_navigation, A Tax Design Challenge design submission's use of navigation. This navigation across the bottom of the design. One navigation is a progress bar during account setup. The standard navigation includes My Profile, Uploads, Financial Goals, Payments, and More., ariaplaceholder
 
@@ -1659,6 +1831,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has side navigation and a drop down for tax year. The side navigation choice Income is selected and a sub navigation appears where Investment Income is selected., ariaplaceholder
 
@@ -1670,6 +1844,8 @@
     cat_slug: navigation
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site includes a drop-down menu at the top right, a bar navigation across the top, as well as a grid of options across the entire page., ariaplaceholder
       - image: Ask_IRS_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site includes a link navigation at the top right and under the search bar. Additionally, six quick link navigation options are placed across the layout., ariaplaceholder
@@ -1683,6 +1859,8 @@
     cat_slug: navigation
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
       - image: Empowered_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site's navigation consists of a list of key links on each page., ariaplaceholder
 
@@ -1694,6 +1872,8 @@
     cat_slug: navigation
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site includes top navigation with links to Accessibility, Languages, About, Support, Services, and Login., ariaplaceholder
       - image: IRS_efile_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site includes top and side navigation. The top navigation bar includes Home, Dashboard, and Account. The side navigation includes Profile, Employment, Assets, and Liabilities., ariaplaceholder
@@ -1708,6 +1888,8 @@
     cat_slug: navigation
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site includes top navigation. In addition to a menu hamburger, the user can choose from three views for their tax transcript summary&#58; a 5-year, detailed year, and investment returns., ariaplaceholder
 
@@ -1719,6 +1901,8 @@
     cat_slug: navigation
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site includes main side navigation and a secondary top navigation bar. The side includes the main section of the site. The top allows the user to choose a specific tax year., ariaplaceholder
 
@@ -1730,6 +1914,8 @@
     cat_slug: navigation
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has top navigation. Links include Language, Information for Individuals, My Account, Filing, Payments, Refunds, and Credits & Deductions. Currently the user is on the Filing page., ariaplaceholder
       - image: IRS_My_Account_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has top and side navigation. The top includes a link to log out and edit one's profile. The side navigation is for choosing a tax year. An addition navigation brings up sections for life changes., ariaplaceholder
@@ -1742,6 +1928,8 @@
     cat_slug: navigation
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
       - image: IRS_TDC_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has top navigation. Included is a section to choose tax year, Help, and IRS home., ariaplaceholder
 
@@ -1753,6 +1941,8 @@
     cat_slug: navigation
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has top and side navigation. The top includes links to Languages, Contact Us, and Log out. The left includes links to various tax information and actions., ariaplaceholder
 
@@ -1764,6 +1954,8 @@
     cat_slug: navigation
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has top navigation. The top level is to My Home, Help Center, and Security Settings. My Home is selected and shows a sub navigation to various profile and tax pages., ariaplaceholder
       - image: my_IRS_Account_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has top navigation. The top level is to My Home, Help Center, and Security Settings. My Home is selected and the sub navigation page My Tax Information., ariaplaceholder
@@ -1777,6 +1969,8 @@
     cat_slug: navigation
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has side navigation and a top navigation field to the user's profile. The side navigation includes Home, Budget & Plan, Your Information, Income, Deductions, Payments & Credits, and Taxes., ariaplaceholder
       - image: My_Tax_Data_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has side navigation and a drop down for tax year. The side navigation choice Income is selected and a sub navigation appears where Investment Income is selected., ariaplaceholder
@@ -1789,6 +1983,8 @@
     cat_slug: navigation
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has a top bar navigation to Home, Filing, Refunds, Payments, Credits& Deductions, Forms & Publications, Help, and Account., ariaplaceholder
       - image: MyIRS_layout_navigation, A Tax Design Challenge design submission's use of navigation. In the View My Taxes Over Time section, the user can navigate which tax returns they will view by a scrolling set of tax years. , ariaplaceholder
@@ -1803,6 +1999,8 @@
     cat_slug: navigation
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has side navigation and a drop down for tax year. The side navigation is the main navigation with links to account and tax pages., ariaplaceholder
 
@@ -1814,6 +2012,8 @@
     cat_slug: navigation
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_layout_navigation, A Tax Design Challenge design submission's use of navigation. This site has top navigation. Plan, File, News, and Help span the top. A sub navigation shows various pages for improving your financial health., ariaplaceholder
 
@@ -1825,6 +2025,8 @@
     cat_slug: navigation
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_layout_navigation, A Tax Design Challenge design submission's use of navigation. This navigation across the bottom of the design. One navigation is a progress bar during account setup. The standard navigation includes My Profile, Uploads, Financial Goals, Payments, and More., ariaplaceholder
 
@@ -1841,6 +2043,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard and profile section. The dashboard includes cards that show a quick overview by tax year. Profile information appears on the left and includes name, contact information, spouse, and dependents., ariaplaceholder
 
@@ -1853,6 +2057,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_layout_card_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard and profile. Page navigation is on the left. The body of the page has visual of the user's tax profile, with tabbed navigation to tax return data, forms & notices, and key updates below., ariaplaceholder
 
@@ -1864,6 +2070,8 @@
     cat_slug: profile_dashboard
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard contains profile information, links to Tools, Forms &amp; Pubs, a Calendar, various tax links, and key links to other IRS online tools., ariaplaceholder
 
@@ -1875,6 +2083,8 @@
     cat_slug: profile_dashboard
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. This dashboard includes links to Profile, Employment, Assets, and Liabilities. A column next to these sections indicates how complete each of these sections are., ariaplaceholder
 
@@ -1886,6 +2096,8 @@
     cat_slug: profile_dashboard
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. This dashboard includes links to viewing tax information by year., ariaplaceholder
       - image: IRS_File_Friend_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. This dashboard includes to submitted previously submitted tax forms., ariaplaceholder
@@ -1899,6 +2111,8 @@
     cat_slug: profile_dashboard
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard and profile page. Everything is provided at a glance&#58; the user's tax summary, profile, and information by tax year. , ariaplaceholder
       - image: IRS_Filr_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard and profile page. A detailed view of the profile section of the dashboard. The profile includes the Tax ID number, address, exemptions, and filing status of the user., ariaplaceholder
@@ -1911,6 +2125,8 @@
     cat_slug: profile_dashboard
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard includes a tax history by year, required actions, key activity, and next steps., ariaplaceholder
 
@@ -1922,6 +2138,8 @@
     cat_slug: profile_dashboard
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
       - image: IRS_TDC_layout_profile_dashboard, A Tax Design Challenge design submission's use of a profile page. In the About You section, the name, spouse, filing status, dependents, and other information is listed for the account user., ariaplaceholder
 
@@ -1933,6 +2151,8 @@
     cat_slug: profile_dashboard
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard includes a filing snapshot, user information, quick links, and key navigation across the top of the page., ariaplaceholder
 
@@ -1944,6 +2164,8 @@
     cat_slug: profile_dashboard
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard large images and links to actions that a taxpayer can take such as viewing their account, profile, and tax information., ariaplaceholder
       - image: my_IRS_Account_layout_profile_dashboard, A Tax Design Challenge design submission's use of a profile page. The profile page has three sub navigation sections&#58; personal information, my relationships & dependents, and insurance information. The personal information section is showing., ariaplaceholder
@@ -1957,6 +2179,8 @@
     cat_slug: profile_dashboard
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. The dashboard welcomes back the user and displays the newest information available to them. In this case, tax data for 2015 is shown., ariaplaceholder
       - image: My_Tax_Data_layout_profile_dashboard, A Tax Design Challenge design submission's use of a profile. Entitled "Your Information," the profile is organizes by tax year and includes all relevant information&#58; names, SSN, spouse SSN, address, filing status, exemptions, and dependent name and SSN., ariaplaceholder
@@ -1969,6 +2193,8 @@
     cat_slug: profile_dashboard
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_layout_profile_dashboard, A Tax Design Challenge design submission's use of a profile. Entitled "MyTaxProfile," the profile page clearly displays tax information, summary information personalized to the user's account, and the latest news from the IRS., ariaplaceholder
 
@@ -1980,6 +2206,8 @@
     cat_slug: profile_dashboard
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_layout_profile_dashboard, A Tax Design Challenge design submission's use of a profile. Pictured is the questionnaire submitted in order to build the profile. Also pictured is the completed profile with photograph, goals, tax history, and activity., ariaplaceholder
 
@@ -1991,6 +2219,8 @@
     cat_slug: profile_dashboard
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard that links the user to sections required to help determine their current financial situation and what deductions, credits, and/or payment they may need to make., ariaplaceholder
 
@@ -2002,6 +2232,8 @@
     cat_slug: profile_dashboard
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
       - image: Your_Tax_Summary_layout_profile_dashboard, A Tax Design Challenge design submission's use of a dashboard. There is a 2015 Tax Summary and well as a view of the user's tax return transcript. Each section of the transcript is an accordion that can be opened for more information., ariaplaceholder
 
@@ -2018,6 +2250,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar contains the user's profile and tax information. The bottoms also has a taxpayer tools section with links to each IRS tool., ariaplaceholder
 
@@ -2030,6 +2264,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. Each section has an icon and label. The active page has a pink background and white text., ariaplaceholder
 
@@ -2042,6 +2278,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. It includes links to My Account, Summary, Personal Information, and other tax related sections., ariaplaceholder
 
@@ -2053,6 +2291,8 @@
     cat_slug: sidebar
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also a form of navigation between one's profile, employment, assets, and liabilities. Percentages show how complete each section is., ariaplaceholder
 
@@ -2064,6 +2304,8 @@
     cat_slug: sidebar
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also a form of navigation between various tax years. Currently the years span from 2015 to 2016. 2016 is currently selected., ariaplaceholder
 
@@ -2075,6 +2317,8 @@
     cat_slug: sidebar
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also a form of navigation to each section of the My Federal Tax Information account., ariaplaceholder
 
@@ -2086,6 +2330,8 @@
     cat_slug: sidebar
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is on the right side of the layout and includes links to more information on each type of transcript., ariaplaceholder
       - image: my_IRS_Account_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is on the right side of the layout and has several sections with information and links regarding payments and payment options., ariaplaceholder
@@ -2098,6 +2344,8 @@
     cat_slug: sidebar
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. It has links to Home, Budget & Plan, Your Information, Income, Deductions, Payments & Credits, and Taxes., ariaplaceholder
       - image: My_Tax_Data_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. Income is currently selected revealing a sub navigation to different types of income., ariaplaceholder
@@ -2110,6 +2358,8 @@
     cat_slug: sidebar
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is on the left of the layout. It contains the user's tax information such as filing status, age, and dependents., ariaplaceholder
 
@@ -2121,6 +2371,8 @@
     cat_slug: sidebar
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_layout_sidebar, A Tax Design Challenge design submission's use of a sidebar. This sidebar is on the left of the layout. It contains informational graphics showing basic profile information and a visual of the progressive tax bracket., ariaplaceholder
 
@@ -2137,6 +2389,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. Tax returns are shown by year. Here, Earned Income is expanded to show various itemized details. Wages, Salaries, Tips, etc. are expanded to show a histogram comparing tax years., ariaplaceholder
 
@@ -2148,6 +2402,8 @@
     cat_slug: accordions
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. Tax information is presented in a summarized format with the ability to see more detailed information by use of an accordion. Here, Taxable Interest is expanded to show the 1099 form., ariaplaceholder
 
@@ -2159,6 +2415,8 @@
     cat_slug: accordions
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. Total Income for the year 2015 is shown with a breakdown of each type of income. The accordion feature is expanded with a "Show Less" button at the bottom. , ariaplaceholder
       - image: IRS_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. Each section of this page, Credits, Payments, Profit or Loss from Business, Self-Employment Tax, Earned Income Credit, Education Credits, Form 8962 can each be expanded to show more., ariaplaceholder
@@ -2171,6 +2429,8 @@
     cat_slug: accordions
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. Each tax year expands to show all account actions such as relevant dates, payments, credits and withholding to the user., ariaplaceholder
 
@@ -2182,6 +2442,8 @@
     cat_slug: accordions
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. Investment Income is expanded to show the line items&#58; interest, dividends, and capital gains. The accordion can be collapsed by clicking the minus symbol on the top right., ariaplaceholder
       - image: My_Tax_Data_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. The deductions page for calendar year 2015 is showing. Standard Deduction is expanded to show the line item&#58; Married Filing Jointly. The accordion can be collapsed by clicking the minus symbol on the top right., ariaplaceholder
@@ -2195,6 +2457,8 @@
     cat_slug: accordions
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. Each section of the Tax Returns for Individuals is expandable&#58; Status, Previous Returns Filing Tips, and Tax Forms. Currently, Filing Tips and Tax Forms are expanded to show more detail., ariaplaceholder
       - image: TaxReturn_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. In this mobile design, the Filing Tips section has been expanded and gives possible credits and deductions the user may qualify for based on past tax returns., ariaplaceholder
@@ -2207,6 +2471,8 @@
     cat_slug: accordions
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
       - image: Your_Tax_Summary_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. The Exemptions section of the Tax Return Transcript is expanded and shows three exemptions taken. Income, Adjusted Gross Income, Itemized Deductions, and Earned Income Credit can also expand., ariaplaceholder
       - image: Your_Tax_Summary_page_elements_accordions, A Tax Design Challenge design submission's use of an accordion. The Earned Income Credit section of the Tax Return Transcript is expanded and shows two children, Johnny Doe, Jr. and Lily Doe., ariaplaceholder
@@ -2224,6 +2490,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_page_elements_dates, A Tax Design Challenge design submission's use of dates to describe upcoming due dates. A countdown describes how many weeks are left before the due date., ariaplaceholder
 
@@ -2235,6 +2503,8 @@
     cat_slug: calendars_dates
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_page_elements_dates, A Tax Design Challenge design submission's use of dates to show bills and payments. Dates are shown in a month calendar format., ariaplaceholder
 
@@ -2246,6 +2516,8 @@
     cat_slug: calendars_dates
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_page_elements_dates, A Tax Design Challenge design submission's use of dates to reflect request and responses. A calendar is also featured., ariaplaceholder
 
@@ -2257,6 +2529,8 @@
     cat_slug: calendars_dates
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_page_elements_dates, A Tax Design Challenge design submission's use of dates to provide a tax timeline for a specific tax year. The schedule of dates shows the user what they need to do and by when., ariaplaceholder
       - image: IRS_My_Account_page_elements_dates, A Tax Design Challenge design submission's use of dates to provide a tailored schedule for filing taxes. Dates included relate to checking W-4 withholdings, retirement planning and contribution, watching for W-2s and 1099s, and filing tax returns. , ariaplaceholder
@@ -2271,6 +2545,8 @@
     cat_slug: calendars_dates
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_page_elements_dates, A Tax Design Challenge design submission's use of dates to show all filed tax returns. Each tax year is labeled, which forms were filed, and the specific date those forms were filed., ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_dates, A Tax Design Challenge design submission's use of dates to provide a history of statements received from various entities. The year, form, and entity are listed., ariaplaceholder
@@ -2283,6 +2559,8 @@
     cat_slug: calendars_dates
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_page_elements_dates, A Tax Design Challenge design submission's use of dates to provide tax calendar and a tax history timeline. The calendar can be downloaded or printed by tax year. The timeline includes personalized statistics on refunds, credits, deductions, and payments., ariaplaceholder
 
@@ -2299,6 +2577,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables to show details by tax year. A table shows all the information for each qualifying dependent for an earned income credits. A histogram illustrates income trends by year., ariaplaceholder
 
@@ -2311,6 +2591,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table shows tax return data by year. Line items include income, adjustments, AGI, deductions, exemption amount, taxable income, tax, payments and credits, and refund., ariaplaceholder
 
@@ -2323,6 +2605,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables to show how the tax refund for 2015 was calculated. Dollar amounts and a five-year trend column chart are shown in each row., ariaplaceholder
 
@@ -2334,6 +2618,8 @@
     cat_slug: diagrams
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. Column charts and pie graphs help show an overview of purchases and expenses., ariaplaceholder
 
@@ -2345,6 +2631,8 @@
     cat_slug: diagrams
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A column chart shows year-to-year taxes for the past 5 years., ariaplaceholder
       - image: IRS_Filr_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A detailed view of a column chart shows year-to-year taxes. Each tax year is broken down into total income, taxable income, deductions, exemptions, and total taxes., ariaplaceholder
@@ -2361,6 +2649,8 @@
     cat_slug: diagrams
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A column chart displays potential retirement savings over 30 years., ariaplaceholder
 
@@ -2372,6 +2662,8 @@
     cat_slug: diagrams
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table shows tax returns by year. Columns include tax year, forms filed, and date filed., ariaplaceholder
       - image: My_Federal_Tax_Account_page_elements_diagrams, A Tax Design Challenge design submission’s use of diagrams, graphs, and tables. A table shows details from a 2014 tax return., ariaplaceholder
@@ -2384,6 +2676,8 @@
     cat_slug: diagrams
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table shows a wage and income summary. The left column has the line item detail while the right has the dollar amount., ariaplaceholder
       - image: my_IRS_Account_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table shows account transactions. Columns include date, description, total, principle, interest, penalty, debit, credit, and balance., ariaplaceholder
@@ -2398,6 +2692,8 @@
     cat_slug: diagrams
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table details a summary of 2015 tax data. By row, dollar amounts are shown for gross income, deductions, total tax, payments and credits, tax due, and refund., ariaplaceholder
       - image: My_Tax_Data_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table details investment income. It shows interest, dividends, and capital gains by row., ariaplaceholder
@@ -2410,6 +2706,8 @@
     cat_slug: diagrams
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_page_elements_diagrams, A Tax Design Challenge design submission's use of diagrams, graphs, and tables. Diagrams show the progressive tax rate for an individual as well as a tax year timeline. The timeline includes a breakdown by tax year., ariaplaceholder
 
@@ -2425,6 +2723,8 @@
     cat_slug: hero_header
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. The image is cyan blue with a vector illustration of a woman. The text on the page introduces IRiS, the taxpayer assistance center., ariaplaceholder
 
@@ -2436,20 +2736,24 @@
     cat_slug: hero_header
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. This header scrolls through images. An image of notebooks, pens, and paper is the background for the text "Help our Future You.", ariaplaceholder
       - image: IRS_My_Account_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. This header includes introductory text for "My 2016 Tax Timeline." Data is changeable within the main introduction body by text input fields., ariaplaceholder
 
 - project:
   -
-    name: IRS
+    name: IRS efile
     top_category: Page Elements
     category_full: Hero Header
     cat_slug: hero_header
-    thumb_url: IRS_thumb.png
+    thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
-      - image: IRS_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son, mother, and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces., ariaplaceholder
+      - image: IRS_efile_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son, mother, and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces., ariaplaceholder
 
 - project:
   -
@@ -2459,6 +2763,8 @@
     cat_slug: hero_header
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. This header includes three images of current users and a quote from each. Additional text gives a quick summary of the My Tax Data online tool., ariaplaceholder
 
@@ -2470,6 +2776,8 @@
     cat_slug: hero_header
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A dark blue background and even darker rectangles sits below the main navigation. This hero header includes a search bar, a sign-up and key links to actions a user may want to take., ariaplaceholder
 
@@ -2481,6 +2789,8 @@
     cat_slug: hero_header
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. The header congratulates the user on setting up their MyTaxProfile. It includes rotating images to provide a tour of the features found within this online tool., ariaplaceholder
 
@@ -2492,6 +2802,8 @@
     cat_slug: hero_header
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_page_elements_hero_header, A Tax Design Challenge design submission’s use of a hero header. The header introduces the phone app. A hand holds a phone and to the right is bold text stating&#58; "Revolutionizing the IRS Tax Experience.", ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A header image with the user’s headshot sits at the top of the mobile app as a user looks at his profile information., ariaplaceholder
@@ -2509,6 +2821,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_page_elements_icons, A Tax Design Challenge design submission's use of icons. Two icons are used. A hand holding a money bag is in the "Save money with new opportunities" section. A pile of cash is in the "Track receipts to make filing easy" section., ariaplaceholder
       - image: IRS_365_page_elements_icons, A Tax Design Challenge design submission's use of icons. Icons are used in the navigation bar. A dollar sign and house is used for "Current&#44;" a document for "records"&#44; a hand and money bag for "Save&#44;" and a question mark and speech bubble for "Help.", ariaplaceholder
@@ -2522,6 +2836,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_page_elements_icons, A Tax Design Challenge design submission's use of icons. Icons are used to align with the left-hand navigation as well as navigation found within the body of the webpage. , ariaplaceholder
 
@@ -2533,6 +2849,8 @@
     cat_slug: icons
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_page_elements_icons, A Tax Design Challenge design submission's use of icons. There are icons for each section&#58; Ask IRiS a Question, Personal Finances, Tax Preparation, Financing Forecasting, Here to Help, User Profile, App Settings, and Search Database., ariaplaceholder
       - image: IRiS_page_elements_icons, A Tax Design Challenge design submission's use of icons. Two icon sections are detailed&#58; a pie chart vector illustration for the Personal Finances section, and a calendar and clock vector illustration for the Tax Preparation section., ariaplaceholder
@@ -2546,6 +2864,8 @@
     cat_slug: icons
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_page_elements_icons, A Tax Design Challenge design submission's use of icons. Icons are used to accompany every navigation section on the homepage screen. They are in a grid format across the entire breadth of the page., ariaplaceholder
 
@@ -2557,6 +2877,8 @@
     cat_slug: icons
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_page_elements_icons, A Tax Design Challenge design submission's use of icons. Icons represent life events that impact taxes. Rings represent getting married, a briefcase&#58; a career change, a house&#58; buying a house, a baby carriage&#58; having kids, and a magnifying glass&#58; other., ariaplaceholder
       - image: IRS_My_Account_page_elements_icons, A Tax Design Challenge design submission's use of icons. The rings representing a change in marital status and a briefcase representing a change in careers are selected for life events in the near future. A light bulb icon sits next to a "Tax Tip.", ariaplaceholder
@@ -2571,6 +2893,8 @@
     cat_slug: icons
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_page_elements_icons, A Tax Design Challenge design submission's use of icons. A folder appears next to File by Tax Return, a dollar bill next to Get My Refund Status, and a credit card next to "Pay My Tax Bill.", ariaplaceholder
       - image: MyIRS_page_elements_icons, A Tax Design Challenge design submission's use of icons. In the Forms and Publications section, a document represents Current, a Calendar&#58; the Prior Year, a Filing Box&#58; Accessible, and a book&#58; Ebooks., ariaplaceholder
@@ -2584,6 +2908,8 @@
     cat_slug: icons
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_page_elements_icons, A Tax Design Challenge design submission's use of icons. A piggy bank appears next to "Improve your financial health." A human shape represents people. Also, a building aligns with taxes, a graduation cap to tuition and fees, and a house to mortgage interest deductions., ariaplaceholder
 
@@ -2600,6 +2926,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_page_elements_messengers, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section., ariaplaceholder
       - image: IRS_365_page_elements_messengers, A Tax Design Challenge design submission's use of a messenger. A chat bot provides best answers to a user's questions in the help section. A user can either choose from frequently asked questions, or write their own message for complex issues., ariaplaceholder
@@ -2613,6 +2941,8 @@
     cat_slug: messengers
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_page_elements_messengers, A Tax Design Challenge design submission's use of a messenger. A link to a chat function appears on the bottom right of the web page design., ariaplaceholder
 
@@ -2624,6 +2954,8 @@
     cat_slug: messengers
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_page_elements_messengers, A Tax Design Challenge design submission's use of a messenger. This design provides an in-application messaging function. A user enters the tax year, question or comment, can attach a file, and then send the IRS an email., ariaplaceholder
 
@@ -2635,6 +2967,8 @@
     cat_slug: messengers
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_page_elements_messengers, A Tax Design Challenge design submission's use of a messenger. An interactive tax assistance helps answer questions., ariaplaceholder
 
@@ -2646,6 +2980,8 @@
     cat_slug: messengers
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_page_elements_messengers, A Tax Design Challenge design submission's use of a messenger. A pop-up box with a link to a chat function appears on the bottom right of the web page design. The text states, "Questions? Let's chat.", ariaplaceholder
 
@@ -2662,6 +2998,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. Orange circles with numbers inside indicate notifications in layout and a total number in the top navigation. Profile information triggers notifications and calls to action., ariaplaceholder
       - image: IRS_MyService_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. A detailed view of the notifications page on a mobile screen. Each notification also includes a call to action button., ariaplaceholder
@@ -2675,6 +3013,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions., ariaplaceholder
       - image: IRS_365_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. Bright colored in-copy text links are used to alert users to recommended actions. A user can view opportunities that they may have missed., ariaplaceholder
@@ -2688,6 +3028,8 @@
     cat_slug: notifications
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. An email is sent as a confirmation once the IRS receives the user's e-filed tax return., ariaplaceholder
 
@@ -2699,6 +3041,8 @@
     cat_slug: notifications
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. Easy to find dates track when account actions were received, processed, or issued. Red alerts highlight upcoming deadlines, when items are available to view, and account changes., ariaplaceholder
       - image: IRS_Filr_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. A green alert notifies the user that their refund is complete. Red alerts highlight current status that text messaging is enabled and email is enabled., ariaplaceholder
@@ -2712,6 +3056,8 @@
     cat_slug: notifications
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. The color orange is used to communicate required action. An exclamation icon also appears per tax period to indicate an action is required., ariaplaceholder
       - image: IRS_My_Account_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. In the upper right corner, a user can sign up for email notifications. A blue bell icon accompanies this text., ariaplaceholder
@@ -2724,6 +3070,8 @@
     cat_slug: notifications
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
       - image: IRS_TDC_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. A red alert bar appears across the top of the screen. This alert states the user owes $305.67 for their federal income tax along with the due date of June 15, 2016., ariaplaceholder
 
@@ -2735,6 +3083,8 @@
     cat_slug: notifications
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. The dashboard shows the status of filing activities needed to complete a return. Needed activities are red, complete are green. Return stages are also tracked to show the full timeline., ariaplaceholder
 
@@ -2746,6 +3096,8 @@
     cat_slug: notifications
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
+    pdf_size: 431 KB
+    pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
       - image: Tax_Transcripts_On_Demand_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. A completion screen stating, "Thank you! The requested info will be sent to [Recipient Name] shortly." There is the option to request a copy or to close the screen., ariaplaceholder
 
@@ -2757,6 +3109,8 @@
     cat_slug: notifications
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_page_elements_notifications, A Tax Design Challenge design submission's use of notifications to show current activity. A summary of new goals, badges and percent complete of tax filing status is shown., ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_notifications, A Tax Design Challenge design submission's use of notifications. Check boxes indicate which reports have been uploaded for tax filing., ariaplaceholder
@@ -2775,6 +3129,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The contribute to myRA pop-up allows a user to specify an amount to be taken from their refund. An "X" in the top right closes the window. A "Submit" and "Cancel" button appear bottom center., ariaplaceholder
       - image: IRS_MyService_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The start a new FAFSA pop-up allows a user to begin a new application. An "X" in the top right closes the window. A "Submit" and "Cancel" button appear bottom center., ariaplaceholder
@@ -2788,6 +3144,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. One of four windows in a series of scrolling pop-ups introducing taxez. Here taxez is described as "One home for all your taxpayer needs.", ariaplaceholder
       - image: Taxez_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. Two of four windows in a series of scrolling pop-ups introducing taxez. "Painlessly view and share your tax return data" is the key description provided., ariaplaceholder
@@ -2802,6 +3160,8 @@
     cat_slug: pop_ups
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The pop-up shows Total Exemptions with the option to modify. There is an "X" in the top right to close the window. A "Save" and "Close" button appear in the bottom right., ariaplaceholder
       - image: IRS_Filr_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The pop-up shows Total Deductions with the option to modify. There is an "X" in the top right to close the window. A "Save" and "Close" button appear in the bottom right., ariaplaceholder
@@ -2816,6 +3176,8 @@
     cat_slug: pop_ups
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The small pop-up on the right of the screen offers the opportunity to sign up for email notifications to keep up with important deadlines. An "X" in the top right closes the window., ariaplaceholder
       - image: IRS_My_Account_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The pop-up shows a summary of a Plan for 2016 with key life events and what to expect. An "X" in the top right closes the window and a "Update My Timeline" button is centered at the bottom., ariaplaceholder
@@ -2828,6 +3190,8 @@
     cat_slug: pop_ups
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The pop-up shows the user's filing status and exemptions. Options to "Review&#44;" "Start Over&#44;" and "Return" appear as links in the top right. A button to "Update My Filing Status and Exemptions" appears bottom center., ariaplaceholder
       - image: my_IRS_Account_page_elements_popups, A Tax Design Challenge design submission's use of pop-ups. The pop-up shows the user's filing status and exemptions. Options to "Review&#44;" "Start Over&#44;" and "Return" appear as links in the top right. A button to "Update My Filing Status and Exemptions" appears bottom center., ariaplaceholder
@@ -2847,6 +3211,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_page_elements_progress_bars, A Tax Design Challenge design submission's use of a progress bar. A progress bar charting each step in a process appears at the bottom of the design clearly stating the user is at 1 of 20., ariaplaceholder
 
@@ -2858,6 +3224,8 @@
     cat_slug: progress_bars
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_page_elements_progress_bars, A Tax Design Challenge design submission's use of a progress bar. A progress bar charts in a spectrum from red to green whether a section needs work. A small triangle points to the red section and red text appears stating "Needs work.", ariaplaceholder
       - image: IRS_Filr_page_elements_progress_bars, A Tax Design Challenge design submission's use of a progress bar. A progress bar charts in a spectrum from red to green whether a section needs work. A small triangle points to the red section and red text appears stating "Needs work.", ariaplaceholder
@@ -2871,6 +3239,8 @@
     cat_slug: progress_bars
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_page_elements_progress_bars, A Tax Design Challenge design submission's use of a progress bar. A progress bar shows a timeline for filing 2016 taxes. A checkbox indicates completed steps. A red circle indicates the current step&#58; Prepare for 2016 Taxes., ariaplaceholder
 
@@ -2882,6 +3252,8 @@
     cat_slug: progress_bars
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_page_elements_progress_bars, A Tax Design Challenge design submission's use of a progress bar. A progress bar charting each step in a profile questionnaire appears at the bottom of the design clearly stating the user is at 1 of 6. A button "Next" appears directly to the right., ariaplaceholder
       - image: Taxes_Made_Simple_page_elements_progress_bars, A Tax Design Challenge design submission's use of a progress bar. A progress bar shows how close a user is to filing their taxes. Currently the user is 10% complete., ariaplaceholder
@@ -2900,6 +3272,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_security_authorizations, A Tax Design Challenge design submission's use of authorizations. A taxpayer sees who has access to their records and what type of access. They can remove access or report possible fraud or ID theft., ariaplaceholder
 
@@ -2911,6 +3285,8 @@
     cat_slug: authorizations
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
+    pdf_size: 3 MB
+    pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
       - image: my_IRS_Account_security_authorizations, A Tax Design Challenge design submission's use of authorizations. A taxpayer can provide access to their tax information to registered users of e-services. This authorization requires recipient's email address, type of transcript, and tax year., ariaplaceholder
       - image: my_IRS_Account_security_authorizations, A Tax Design Challenge design submission's use of authorizations. After a taxpayer provides access, a tax professional receives an email link to the IRS secure email service., ariaplaceholder
@@ -2925,6 +3301,8 @@
     cat_slug: authorizations
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
+    pdf_size: 431 KB
+    pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
       - image: Tax_Transcripts_On_Demand_security_authorizations, A Tax Design Challenge design submission's use of authorizations. Featured here is a taxpayer signing a form for their registered agent. Along with a name, a profile picture is included of each party to increase security., ariaplaceholder
       - image: Tax_Transcripts_On_Demand_security_authorizations, A Tax Design Challenge design submission's use of authorizations. A transcript is sent to an authorized person through a phone application., ariaplaceholder
@@ -2942,6 +3320,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. A quick link to reporting possible fraud or ID theft is included in the phone application., ariaplaceholder
 
@@ -2953,6 +3333,8 @@
     cat_slug: identity_security
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
       - image: Empowered_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. A complex password is required to setup an account with TDD API authentication., ariaplaceholder
       - image: Empowered_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. A graphic shows how APIs and secure servers will be used to protect the web application's data., ariaplaceholder
@@ -2965,6 +3347,8 @@
     cat_slug: identity_security
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. In order to access this design's account, a user needs to provide their SSN or ITN, address, refund amount, and certain tax information from IRS forms., ariaplaceholder
 
@@ -2976,6 +3360,8 @@
     cat_slug: identity_security
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. An email address and password is required to access the website. , ariaplaceholder
       - image: MyTaxProfile_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. In order to set up an account, a user needs to provide their SSN, birthday, address, and phone number within a set time period., ariaplaceholder
@@ -2988,6 +3374,8 @@
     cat_slug: identity_security
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
+    pdf_size: 431 KB
+    pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
       - image: Tax_Transcripts_On_Demand_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. To validate your identity you provide a scan of your driver's license or passport., ariaplaceholder
       - image: Tax_Transcripts_On_Demand_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. To confirm a taxpayer and tax professional's identity, a video stream is shown of each user during the signature/approval process., ariaplaceholder
@@ -3000,6 +3388,8 @@
     cat_slug: identity_security
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_security_identity_security, A Tax Design Challenge design submission's use of identity and security measures. A username and password is required for registration and login for the phone application., ariaplaceholder
 
@@ -3016,6 +3406,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_security_sign_up, A Tax Design Challenge design submission's sign up or log in. Taxpayers can sign up from a redesigned IRS homepage., ariaplaceholder
 
@@ -3027,6 +3419,8 @@
     cat_slug: sign_up_log_in
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
       - image: Empowered_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A user can setup an account or login if they already have an account (Facebook, Twitter, or Google account can also be used to login). , ariaplaceholder
       - image: Empowered_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A new user must provide a user name and complex password. If the information provided does not match the information the IRS has on file, they cannot finish the account setup process., ariaplaceholder
@@ -3039,6 +3433,8 @@
     cat_slug: sign_up_log_in
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_security_sign_up, A Tax Design Challenge design submission's sign up or log in. If already registered, a user can click "Login" in the upper right corner. If they are new to the site a large "Let's Get Started!" appears across the bottom of the page., ariaplaceholder
 
@@ -3050,6 +3446,8 @@
     cat_slug: sign_up_log_in
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_security_sign_up, A Tax Design Challenge design submission's sign up or log in. In this phone application, a user registers or logs in. An account allows the user to verify their identity and view personal tax information., ariaplaceholder
 
@@ -3061,6 +3459,8 @@
     cat_slug: sign_up_log_in
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A login button is at the top right of this design. A pop-up window also allows the user to sign up for email notifications in order to be alerted to upcoming deadlines., ariaplaceholder
 
@@ -3072,6 +3472,8 @@
     cat_slug: sign_up_log_in
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A button to sign in is located on the top right of the page. To sign in a user must provide their username or email address and password., ariaplaceholder
       - image: My_Tax_Data_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A user is in the process of signing in. Their email and hidden password are filled in., ariaplaceholder
@@ -3084,6 +3486,8 @@
     cat_slug: sign_up_log_in
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A user can sign up for myIRS.gov and chooses between two buttons, "Sign up" and "Log in." Three listed benefits of the site are filing tax returns, refund status, and paying tax bills., ariaplaceholder
       - image: MyIRS_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A user signs up for an account. User and password are listed as required fields with the option to "remember me"., ariaplaceholder
@@ -3096,6 +3500,8 @@
     cat_slug: sign_up_log_in
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
+    pdf_size: 692 KB
+    pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
       - image: MyTaxProfile_security_sign_up, A Tax Design Challenge design submission's multi-screen sign up. This initial screen shows the option for a returning user to sign in or to register., ariaplaceholder
       - image: MyTaxProfile_security_sign_up, A Tax Design Challenge design submission's multi-screen sign up. Here a user begins the registration process by providing an email address and password., ariaplaceholder
@@ -3127,6 +3533,8 @@
     cat_slug: sign_up_log_in
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
+    pdf_size: 431 KB
+    pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
       - image: Tax_Transcripts_On_Demand_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A button to "Get Started" on the Tax Transcript On Demand screen directs the user to a screen on which they select what tax return data they would like to share., ariaplaceholder
       - image: Tax_Transcripts_On_Demand_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A user enters a recipient's email and a password for that recipient., ariaplaceholder
@@ -3140,6 +3548,8 @@
     cat_slug: sign_up_log_in
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
+    pdf_size: 1.5 MB
+    pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
       - image: Taxes_Made_Simple_security_sign_up, A Tax Design Challenge design submission's sign up or log in. A user signs in with a username and password in the first screen. A second screen includes form fields for name, birthday, SSN, and dependent, marital, and homeowner status., ariaplaceholder
 
@@ -3156,6 +3566,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_self_help_calculator, A Tax Design Challenge design submission's use of a calculator to help determine the monthly payments on a loan. This screen shows a loan amount of $90,000, a term of 360 months, at a 4.5% interest rate and a calculated monthly payment of $456.02., ariaplaceholder
 
@@ -3167,6 +3579,8 @@
     cat_slug: calculator
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_self_help_calculator, A Tax Design Challenge design submission's use of a calculator to help users understand how taxes are calculated. This calculator shows the breakdown of adjusted gross income, taxable income, and remaining balance., ariaplaceholder
 
@@ -3178,6 +3592,8 @@
     cat_slug: calculator
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_self_help_calculator, A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the user chooses what they want to do. In this case "borrow" is selected., ariaplaceholder
       - image: My_Tax_Data_self_help_calculator, A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the user has filled out form fields to borrow money for a house such as total cost, down payment, and length of loan., ariaplaceholder
@@ -3196,6 +3612,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has multiple features in their application&#58; quick links to return tools, articles, videos, and an IRS call back request to help solve problems., ariaplaceholder
 
@@ -3208,6 +3626,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_self_help_help, A Tax Design Challenge design submission's use of a help feature. The feature is a search bar in which the user is encouraged to type in order to find something or ask a question., ariaplaceholder
 
@@ -3220,6 +3640,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top right, there is a help drop down., ariaplaceholder
       - image: Taxez_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top right, the help drop down is clicked and links to a Tour, FAQs &amp; Mythbusters, Taxpayer Dictionary, Forum and a Live Chat., ariaplaceholder
@@ -3232,6 +3654,8 @@
     cat_slug: help
     thumb_url: IRiS_thumb.png
     thumb_alt: alt, ariaplaceholder
+    pdf_size: 1.6 MB
+    pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
       - image: IRiS_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has a "Here to Help" link in the site's top navigation as well as an app "IRiS&#58; Here to Help" which features the ability to search tax tips, videos and other resources., ariaplaceholder
 
@@ -3243,6 +3667,8 @@
     cat_slug: help
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has a "Frequently Asked Questions" link directly below the main search bar., ariaplaceholder
 
@@ -3254,6 +3680,8 @@
     cat_slug: help
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission links to a chat feature and an informational section in the bottom right section of the site., ariaplaceholder
 
@@ -3265,6 +3693,8 @@
     cat_slug: help
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_self_help_help, A Tax Design Challenge design submission's use of a help feature. This submission has a frequently asked questions section related to filing in a specific or current tax year., ariaplaceholder
 
@@ -3276,6 +3706,8 @@
     cat_slug: help
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
+    pdf_size: 2.6 MB
+    pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_self_help_help, A Tax Design Challenge design submission's use of a help feature. A help link is featured prominently in the lower right corner of the phone app design., ariaplaceholder
       - image: IRS_Filr_self_help_help, A Tax Design Challenge design submission's use of a help feature. Within a pop-up window, a "Need Help?" section directs users to the irs.gov site for full details., ariaplaceholder
@@ -3288,6 +3720,8 @@
     cat_slug: help
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top navigation, a question mark icon links to a questions page., ariaplaceholder
       - image: IRS_My_Account_self_help_help, A Tax Design Challenge design submission's use of a help feature. Within a section detailing plans for the 2016 tax year, there is an information section with quick facts to help the user understand the content., ariaplaceholder
@@ -3300,6 +3734,8 @@
     cat_slug: help
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
       - image: IRS_TDC_self_help_help, A Tax Design Challenge design submission's use of a help feature. In the top navigation, a "Help" link is included alongside a navigation to various tax years and a link to the IRS home page., ariaplaceholder
 
@@ -3311,6 +3747,8 @@
     cat_slug: help
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_self_help_help, A Tax Design Challenge design submission's use of a help feature. An entire section is devoted to "Help &amp; Resources. Within this section are two buttons to a "Contact Us" page and a "Frequently Asked Questions"., ariaplaceholder
 
@@ -3322,6 +3760,8 @@
     cat_slug: help
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
+    pdf_size: 661 KB
+    pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
       - image: Taxes_self_help_help, A Tax Design Challenge design submission's use of a help feature. There are four main navigation sections across the top of this design&#58; plan, file, news and help., ariaplaceholder
 
@@ -3338,6 +3778,8 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     winner: winner
+    pdf_size: 2.2 MB
+    pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_self_help_search, A Tax Design Challenge design submission's use of a search feature. The search bar is featured in the top right. Within the bar is a magnifying glass icon and the tool tip, "Search for documents, definition, etc..."., ariaplaceholder
       - image: IRS_MyService_self_help_search, A Tax Design Challenge design submission's use of a search feature. The search bar also includes a smart search that helps define tax terminology in plain language. The current smart search features a definition of tax deductions and similar terms., ariaplaceholder
@@ -3351,6 +3793,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top center with a magnifying glass to the right. The bar contains the tool tip "Search"., ariaplaceholder
 
@@ -3363,6 +3807,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is in the top center with a "Go" button that activates the search. The bar contains the tool tip "Find something or ask a question"., ariaplaceholder
 
@@ -3374,6 +3820,8 @@
     cat_slug: search
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
+    pdf_size: 2.8 MB
+    pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
       - image: Ask_IRS_self_help_search, A Tax Design Challenge design submission's use of a search feature. Center in this design is a search bar featuring the tooltip "Ask IRS...", ariaplaceholder
       - image: Ask_IRS_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top right with a magnifying glass icon as the activate button., ariaplaceholder
@@ -3386,6 +3834,8 @@
     cat_slug: search
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_self_help_search, A Tax Design Challenge design submission's use of a search feature. Here the search bar allows the user to search for their employer by name. A "search" button is used to activate the search., ariaplaceholder
 
@@ -3397,6 +3847,8 @@
     cat_slug: search
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
+    pdf_size: 557 KB
+    pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
       - image: MyIRS_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar is featured in the top center with a magnifying glass icon as the activate button., ariaplaceholder
 
@@ -3408,6 +3860,8 @@
     cat_slug: search
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_self_help_search, A Tax Design Challenge design submission's use of a search feature. A search bar sits in the tax return section and asks whether the user is searching for something specific. A Google search bar sits at the top right of the mobile app design., ariaplaceholder
 
@@ -3424,6 +3878,8 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
+    pdf_size: 7.7 MB
+    pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
       - image: IRS_365_self_help_settings, A Tax Design Challenge design submission's use of settings. In this design, the user can see their connections and invitations and who has access to their information., ariaplaceholder
 
@@ -3436,6 +3892,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_self_help_settings, A Tax Design Challenge design submission's use of settings. Here the user can see in their current profile their filing status and dependents (their relationship, SSN, date of birth, and age of each) as well as their address and tax exemptions., ariaplaceholder
 
@@ -3447,6 +3905,8 @@
     cat_slug: settings
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_self_help_settings, A Tax Design Challenge design submission's use of settings. In this design, the user can set their preferred accessibility settings based on their need&#58; visual, hearing, text, mouse/keyboard, or speech., ariaplaceholder
 
@@ -3458,6 +3918,8 @@
     cat_slug: settings
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
+    pdf_size: 248 KB
+    pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
       - image: TaxReturn_self_help_settings, A Tax Design Challenge design submission's use of settings. A link to settings and the users profile are shown. , ariaplaceholder
 
@@ -3474,6 +3936,8 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     winner: winner
+    pdf_size: 1.7 MB
+    pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
       - image: Taxez_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. Things to Consider and a Taxpayer Tip of the Day are featured content. These tips educate and prompt the user to action. In this case, to save for retirement., ariaplaceholder
 
@@ -3486,6 +3950,8 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
     winner: winner
+    pdf_size: 260 KB
+    pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
       - image: MyTaxOnline_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A "Did you know?" section appears before specific tax year information. For example, included here are links to help save for retirement, pay for college, get a mortgage. , ariaplaceholder
       - image: MyTaxOnline_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A user has hovered over linked text "Total IRA Distributions." A pop-up appears defining the tax advantages and pointing out where this item is found on Form 1040., ariaplaceholder
@@ -3499,6 +3965,8 @@
     cat_slug: tooltips
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
+    pdf_size: 604 KB
+    pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
       - image: IRS_efile_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. As a user hovers over the "Upload" button, a "What's this?" tooltip appears describing the action as "upload W-2 to automatically import data in appropriate fields.", ariaplaceholder
       - image: IRS_efile_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. By hovering over a question mark icon next to the word Assets, a "What's this?" tooltip appears describing the term as a "resource of value that an individual or business owns, such as a cash, property or equipment.", ariaplaceholder
@@ -3511,6 +3979,8 @@
     cat_slug: tooltips
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
+    pdf_size: 401 KB
+    pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
       - image: IRS_File_Friend_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A "Tell me More" button at the bottom of the 2015 tax return page directs a user to pages win in-depth information such as information on types of income., ariaplaceholder
       - image: IRS_File_Friend_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A "What's This?" button sits below "Head of Household" on a page describing how the user filed on their last year's return., ariaplaceholder
@@ -3526,6 +3996,8 @@
     cat_slug: tooltips
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
+    pdf_size: 2.1 MB
+    pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
       - image: IRS_My_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A Tax Tip button is featured next to "Check your W-4 withholdings" and "Plan your retirement contributions.", ariaplaceholder
       - image: IRS_My_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A Tax Tip button is featured next to "Quarterly taxes due" for January 15, 2016. , ariaplaceholder
@@ -3540,6 +4012,8 @@
     cat_slug: tooltips
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
+    pdf_size: 825 KB
+    pdf_link: IRS_2016_TDC_PDF.pdf
     main:
       - image: IRS_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. This site includes a "Tax Tips" section within the navigation. The page also includes a breakdown of total income and a button to see more information on how tax is calculated., ariaplaceholder
       - image: IRS_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. As a user hovers over each timeline item, tooltips appear to give more information. For example, when hovering on "File 2015 Taxes" a tooltip states when taxes were filed and the receipt number., ariaplaceholder
@@ -3554,6 +4028,8 @@
     cat_slug: tooltips
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
+    pdf_size: 1.9 MB
+    pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
       - image: My_Federal_Tax_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. The site provides tips on how a tax return can help a user with various types of aid, loans, health insurance, buying a home, and state and local tax. , ariaplaceholder
       - image: My_Federal_Tax_Account_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. The site provides a helpful graph of tips based on tax year and residency status to help a user determine if they have a filing obligation for a specific state., ariaplaceholder
@@ -3566,6 +4042,8 @@
     cat_slug: tooltips
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
+    pdf_size: 1.4 MB
+    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
       - image: My_Tax_Data_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A question mark icon for more information appears next to Investment Income for the 2015 tax year. , ariaplaceholder
       - image: My_Tax_Data_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. A question mark icon for more information appears next to Married Filing Jointly for the 2015 tax year., ariaplaceholder
@@ -3579,6 +4057,8 @@
     cat_slug: tooltips
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
+    pdf_size: 1.6 MB
+    pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
       - image: Your_Tax_Summary_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. By clicking "What's this?" next to exemptions, a definition appears. A link is also included to an Interactive Tax Assistant to help determine eligible dependents., ariaplaceholder
       - image: Your_Tax_Summary_self_help_tooltips, A Tax Design Challenge design submission's use of tooltips. By clicking "What's this?" next to Earned Income Credit, a definition appears. Clicking "Did you know?" next to Child 2 explains qualifications and possible refund credits. , ariaplaceholder

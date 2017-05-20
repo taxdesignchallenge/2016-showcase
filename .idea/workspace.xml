@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ee7ced-9b57-48bf-887a-47153f589585" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bburgess7.html" afterPath="$PROJECT_DIR$/Taxes_Made_Simple.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/andrea-angquist.html" afterPath="$PROJECT_DIR$/andrea-angquist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dante-vono.html" afterPath="$PROJECT_DIR$/dante-vono.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sam-nguyen-vikhika-bansal.html" afterPath="$PROJECT_DIR$/sam-nguyen-vikhika-bansal.html" />
     </list>
     <ignored path="2016-showcase.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -166,7 +168,7 @@
     <option name="totallyTimeSpent" value="571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="40" width="1286" height="698" extended-state="1" />
+    <frame x="42" y="40" width="1286" height="698" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

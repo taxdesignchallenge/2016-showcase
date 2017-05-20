@@ -663,6 +663,17 @@ a, a:link, a:visited {
     text-decoration: underline;
 }
 
+.content-container .gallery-nav h1.title {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    color: #00599c;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
 .thumbnail {
     border-radius: 0;
     overflow: hidden;

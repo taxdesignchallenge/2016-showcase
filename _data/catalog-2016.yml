@@ -22,32 +22,32 @@
     cat_slug: submissions_2016
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
-    aria_label: Thumbnail link
+    aria_label: IRS MyService – 2016
     winner: winner
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
       - image: IRS_MyService_display_desktop_1, desktop, Desktop
         dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a home page design that highlights three of the most common reasons to come to IRS.gov&#58; File a return, get a refund status and pay taxes as seen being viewed on a laptop.
-        arialabel: ariaplaceholder
+        arialabel: IRS My Service desktop display image sample 1
       - image: IRS_MyService_display_desktop_2, desktop, Desktop
         dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account as seen being viewed on a laptop.
-        arialabel: ariaplaceholder
+        arialabel: IRS My Service desktop display image sample 2
       - image: IRS_MyService_display_desktop_3, desktop, Desktop
         dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a page within the taxpayer's IRS account that shows the refunds and payment amounts for each tax year.
-        arialabel: ariaplaceholder
+        arialabel: IRS My Service desktop display image sample 3
       - image: IRS_MyService_display_desktop_4, desktop, Desktop
         dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account.
-        arialabel: ariaplaceholder
+        arialabel: IRS My Service desktop display image sample 4
       - image: IRS_MyService_display_desktop_5, desktop, Desktop
         dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights a link to download an earned income credit form.
-        arialabel: ariaplaceholder
+        arialabel: IRS My Service desktop display image sample 5
       - image: IRS_MyService_display_desktop_6, desktop, Desktop
         dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information within a taxpayer's account that highlights annual incomes in a graphics display.
-        arialabel: ariaplaceholder
+        arialabel: IRS My Service desktop display image sample 6
       - image: IRS_MyService_display_mobile_1, mobile, Mobile
         dataalt: A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a photo of a handheld mobile device displaying profile links of dependents.
-        arialabel: ariaplaceholder
+        arialabel: IRS My Service mobile display image sample 1
       - image: IRS_MyService_forms_IRS_forms_1, irs_forms, IRS Forms
         dataalt: A Tax Design Challenge design submission's use of IRS forms. The back of a summary tax year card gives the user quick links to print or download their tax return, amend their return, or download all forms and worksheets.
         arialabel: ariaplaceholder

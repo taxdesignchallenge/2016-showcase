@@ -721,6 +721,13 @@ a, a:link, a:visited {
     z-index: 2;
 }
 
+@media only screen and (max-width : 992px) {
+    .banner-full .hero-unit .hero-inset {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 .hero-unit .inset-bg {
     background: transparent;
     position: absolute;
@@ -735,9 +742,8 @@ a, a:link, a:visited {
     z-index: -1;
 }
 
-.banner-full .hero-unit .hero-inset a.btn{
+.banner-full .hero-unit .hero-inset a.btn {
     margin-right: 1.5em;
-    margin-bottom: 1em;
 }
 
 .hero-inset .headline {
@@ -1863,10 +1869,12 @@ caption {
     text-transform: uppercase;
 }
 
-.ghost-btn:hover {
+.ghost-btn:hover,
+.ghost-btn:active {
     background-color: #00599c !important;
     color: #fff !important;
 }
+
 
 
 /* 508 */

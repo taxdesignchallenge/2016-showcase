@@ -269,6 +269,15 @@ Layout
     padding-right: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 header {
     width: 100%;
     background-color: #fff;
@@ -1740,9 +1749,9 @@ a.btn-ghost.hero-sticky {
     top: 0%;
     opacity: 0.85;
 }
-@media (max-width : 768px) {
-    .thumbnail-wrapper .caption {
-        
+@media (max-width : 480px) {
+    .thumbnail-wrapper .caption p {
+        font-size: 1em;
     }
 }
 

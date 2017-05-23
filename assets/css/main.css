@@ -723,8 +723,7 @@ a, a:link, a:visited {
 
 @media only screen and (max-width : 992px) {
     .banner-full .hero-unit .hero-inset {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px 10px;
     }
 }
 
@@ -743,7 +742,8 @@ a, a:link, a:visited {
 }
 
 .banner-full .hero-unit .hero-inset a.btn {
-    margin-right: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .hero-inset .headline {
@@ -1453,12 +1453,21 @@ a.btn-ghost.hero-sticky {
     }
 }
 
+#accordion .panel-group {
+    border-bottom: 0;
+}
+
 #accordion .panel-group .panel {
     margin: 0px 0px -1px 0px;
     border-radius: 0px;
     border-right: 0px;
     border-left: 0px;
     border-color: #5c5c5c;
+    border-bottom: 0;
+}
+
+#accordion .panel-group .panel + .panel {
+    margin-top: 0;
 }
 
 #accordion .panel-group > .panel:first-of-type {
@@ -1482,7 +1491,17 @@ a.btn-ghost.hero-sticky {
     color: #5c5c5c;
 }
 
-#accordion .panel-group .panel .panel-heading.active button {
+#accordion .panel-group .panel,
+#accordion .panel-body {
+    box-shadow: none !important;
+}
+
+#accordion .panel-group .panel-heading + .panel-collapse .panel-body {
+    border-top: none !important;
+}
+
+#accordion .panel-group .panel .panel-heading.active button,
+#accordion .panel-group .panel .panel-heading button {
     border-bottom: 1px solid #5c5c5c !important;
 }
 
@@ -1493,7 +1512,6 @@ a.btn-ghost.hero-sticky {
     text-align: left;
     height: 100%;
     width: 100%;
-
     -webkit-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
     -moz-box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
     box-shadow: inset 8px 0px 0px -3px rgba(92,92,92,1);
@@ -1503,6 +1521,10 @@ a.btn-ghost.hero-sticky {
     list-style: outside none none;
     margin: 0;
     padding-left: 0;
+}
+
+#accordion .panel:last-of-type .panel-collapse .panel-body ul {
+    border-bottom: 0;
 }
 
 #accordion ul li {
@@ -1551,9 +1573,6 @@ a.btn-ghost.hero-sticky {
     color: #5c5c5c;
     border-color: #fff;
 }
-
-
-
 
 /* ------------ Header */
 .catalog-header-container {

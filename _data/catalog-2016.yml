@@ -2138,7 +2138,7 @@
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_display_desktop
-        dataalt: TEMPORARY
+        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop. The layout includes multiple tables and diagrams that visualize investment returns for tax year 2015.
         arialabel: ariaplaceholder
 
 - project:

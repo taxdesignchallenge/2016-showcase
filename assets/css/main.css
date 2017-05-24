@@ -1676,6 +1676,13 @@ a.btn-ghost.hero-sticky {
 }
 
 /* Winner thumbs */
+
+.winner-focus-container {
+    width: 83.33333%;
+    margin: auto;
+    float: none;
+}
+
 .main-winner-wrapper {
     position: relative;
     display: inline-block;

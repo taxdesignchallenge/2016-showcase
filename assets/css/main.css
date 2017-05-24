@@ -1687,6 +1687,7 @@ a.btn-ghost.hero-sticky {
     position: relative;
     display: inline-block;
     overflow: hidden;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {

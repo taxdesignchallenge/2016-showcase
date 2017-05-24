@@ -607,7 +607,7 @@
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
       - image: IRS_Filr_display_desktop_1, desktop, Desktop
-        dataalt: TEMPORARY
+        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop. The layout includes multiple tables and diagrams that visualize investment returns for tax year 2015.
         arialabel: ariaplaceholder
       - image: IRS_Filr_display_mobile_1, mobile, Mobile
         dataalt: A Tax Design Challenge design submission's use of a snapshot of taxpayer's IRS account showing a mobile display of a page that offers actions on filing, transcripts and refund status.
@@ -1289,9 +1289,6 @@
         arialabel: ariaplaceholder
       - image: MyTaxProfile_forms_form_fields_6, form_fields, Form Fields
         dataalt: A Tax Design Challenge design submission's use of form fields. Radio buttons are used to answer whether a user was insured through the marketplace. Another window uses checkmarks to indicate each month a user had coverage.
-        arialabel: ariaplaceholder
-      - image: MyTaxProfile_forms_form_fields_7, form_fields, Form Fields
-        dataalt: TEMPORARY
         arialabel: ariaplaceholder
       - image: MyTaxProfile_layout_card_snapshot_1, cards_snapshots, Cards/Snapshots
         dataalt: A Tax Design Challenge design submission's use of a snapshot to feature a taxpayer's information. The snapshot shows tax year, filing status, age, dependents, homeowner, health insurance, sources of income, and estimated gross income.
@@ -2750,9 +2747,6 @@
         arialabel: ariaplaceholder
       - image: MyTaxProfile_forms_form_fields
         dataalt: A Tax Design Challenge design submission's use of form fields. Radio buttons are used to answer whether a user was insured through the marketplace. Another window uses checkmarks to indicate each month a user had coverage.
-        arialabel: ariaplaceholder
-      - image: MyTaxProfile_forms_form_fields
-        dataalt: TEMPORARY
         arialabel: ariaplaceholder
 
 - project:

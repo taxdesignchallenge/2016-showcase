@@ -1859,6 +1859,7 @@ caption {
     height: 290px;
     padding-top: 55px;
     width: 100%;
+    max-width: 1200px;
     height: 293px;
     background: transparent url(../img/Tax_Design_Challenge_Center_Image.svg) no-repeat scroll 50% 0 / 100% auto;
     background-size: cover;

@@ -5,7 +5,7 @@
 
         {% if project.cat_slug != 'submissions_2016' and project.cat_slug != 'winners_2016' %}
             <div class="grid-sizer"></div>
-            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.cat_slug }}" data-sort="{{ project.name }} - {{ project.category_full }}">
+            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.cat_slug }}" data-sort="{{ project.name }} - {{ project.category_full }}" role="dialog">
 
             {% for main in project.main %}
 
@@ -42,10 +42,6 @@
                 {% endcase %}
                 This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png" aria-hidden="true">
 
-                <span class="sr-only">
-                Category: {{ project.top_category }} &mdash; Test
-                </span>
-
                 <div class="thumbnail-wrapper">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
                     <div class="caption">
@@ -74,7 +70,7 @@
 
         {% if project.cat_slug == 'submissions_2016' %}
             <div class="grid-sizer"></div>
-            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
+            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}" role="dialog">
 
             {% for main in project.main %}
 
@@ -146,7 +142,7 @@
 
         {% if project.cat_slug == 'winners_2016' %}
             <div class="grid-sizer"></div>
-            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
+            <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}" role="dialog">
 
             {% for main in project.main %}
 

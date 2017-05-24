@@ -1500,6 +1500,10 @@ a.btn-ghost.hero-sticky {
     border-top: none !important;
 }
 
+/*#accordion .panel-group .panel-heading {
+    border-bottom: 1px solid #5c5c5c !important;
+}*/
+
 #accordion .panel-group .panel .panel-heading.active button,
 #accordion .panel-group .panel .panel-heading button {
     border-bottom: 1px solid #5c5c5c !important;
@@ -1673,6 +1677,14 @@ a.btn-ghost.hero-sticky {
 
 .content-container .main h6 {
     font-size: 1.1em;
+}
+
+.content-container p:first-of-type {
+    margin-bottom: 0.5em;
+}
+
+.content-container p {
+    margin-bottom: 1.5em;
 }
 
 /* Winner thumbs */

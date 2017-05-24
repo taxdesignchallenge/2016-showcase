@@ -22,7 +22,7 @@
     cat_slug: submissions_2016
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
-    thumbarialabel: THUMBARIALABEL TEST - IRS MyService
+    aria_label: IRS MyService – 2016
     winner: winner
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
@@ -99,7 +99,6 @@
     cat_slug: submissions_2016
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
-    thumbarialabel: THUMBARIALABEL TEST - IRS 365
     winner: winner
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
@@ -194,7 +193,6 @@
     cat_slug: submissions_2016
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
-    thumbarialabel: THUMBARIALABEL TEST - Taxez
     winner: winner
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
@@ -265,7 +263,6 @@
     cat_slug: submissions_2016
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono), thumbnail
-    thumbarialabel: THUMBARIALABEL TEST - MyTaxOnline
     winner: winner
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
@@ -1645,6 +1642,7 @@
     cat_slug: winners_2016
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
+    aria_label: Thumbnail link
     winner: winner
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf

@@ -1504,9 +1504,12 @@ a.btn-ghost.hero-sticky {
     border-bottom: 1px solid #5c5c5c !important;
 }*/
 
-#accordion .panel-group .panel .panel-heading.active button,
 #accordion .panel-group .panel .panel-heading button {
     border-bottom: 1px solid #5c5c5c !important;
+}
+
+#accordion .panel-group .panel .panel-heading.active button {
+    border-bottom: 0 !important;
 }
 
 #accordion .panel-group .panel .panel-heading.active button,

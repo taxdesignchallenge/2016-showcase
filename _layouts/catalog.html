@@ -50,100 +50,19 @@
 
     </div>
 
+
     {% include scripts.html %}
 
     <script>
-    jQuery(document).ready(function() {
-      $("[data-fancybox]").fancybox({
-        margin : [110, 0],
-        baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
-                    '<div class="fancybox-bg"></div>' +
-                    '<div class="fancybox-caption-wrap" style="top:0;padding-top:15px;background:none;">' +
-                      '<div class="fancybox-caption" style="border:0;"></div>' +
-                    '</div><button class="fancybox-button fancybox-button--left" data-fancybox-previous="" style="top:45%;left:0 !important;z-index:9999999;" title="Previous"></button>' +
-                    '<div class="fancybox-controls" style="bottom:0;top:auto;">' +
-                      '<div class="fancybox-infobar" style="width:100%;">' +
-                        '<div class="fancybox-infobar__body" style="background:transparent;">' +
-                          '<span class="js-fancybox-index"></span>&nbsp;/&nbsp;<span class="js-fancybox-count"></span>' +
-                        '</div>' +
-                      '</div>' +
-                    '</div>' +
-                    '<div class="fancybox-controls">' +
-                      '<div class="fancybox-buttons">' +
-                        '<button class="fancybox-button fancybox-button--close" data-fancybox-close="" title="Close (Esc)"></button>' +
-                      '</div>' +
-                    '</div>' +
-                    '<div class="fancybox-slider-wrap">' +
-                      '<div class="fancybox-slider"></div>' +
-                    '</div><button class="fancybox-button fancybox-button--right" data-fancybox-next="" style="top:45%;right:0 !important;z-index:9999999;position:fixed;" title="Next"></button>' +
-                  '</div>',
-        onComplete: function (instance, slide) {
-           $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
-        }
-      });
-      $(".fancybox-winners").fancybox({
-        margin : [110, 0],
-        baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
-                    '<div class="fancybox-bg"></div>' +
-                    '<div class="fancybox-caption-wrap" style="top:0;padding-top:15px;background:none;">' +
-                      '<div class="fancybox-caption" style="border:0;"></div>' +
-                    '</div><button class="fancybox-button fancybox-button--left" data-fancybox-previous="" style="top:45%;left:0 !important;z-index:9999999;" title="Previous"></button>' +
-                    '<div class="fancybox-controls" style="bottom:0;top:auto;">' +
-                      '<div class="fancybox-infobar" style="width:100%;">' +
-                        '<div class="fancybox-infobar__body" style="background:transparent;">' +
-                          '<span class="js-fancybox-index"></span>&nbsp;/&nbsp;<span class="js-fancybox-count"></span>' +
-                        '</div>' +
-                      '</div>' +
-                    '</div>' +
-                    '<div class="fancybox-controls">' +
-                      '<div class="fancybox-buttons">' +
-                        '<button class="fancybox-button fancybox-button--close" data-fancybox-close="" title="Close (Esc)"></button>' +
-                      '</div>' +
-                    '</div>' +
-                    '<div class="fancybox-slider-wrap">' +
-                      '<div class="fancybox-slider"></div>' +
-                    '</div><button class="fancybox-button fancybox-button--right" data-fancybox-next="" style="top:45%;right:0 !important;z-index:9999999;position:fixed;" title="Next"></button>' +
-                  '</div>',
-        onComplete: function (instance, slide) {
-           $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
-        }
-      });
-      $(".fancybox-submissions").fancybox({
-        margin : [110, 0],
-        baseTpl : '<div class="fancybox-container" role="dialog" tabindex="-1">' +
-                    '<div class="fancybox-bg"></div>' +
-                    '<div class="fancybox-caption-wrap" style="top:0;padding-top:15px;background:none;">' +
-                      '<div class="fancybox-caption" style="border:0;"></div>' +
-                    '</div><button class="fancybox-button fancybox-button--left" data-fancybox-previous="" style="top:45%;left:0 !important;z-index:9999999;" title="Previous"></button>' +
-                    '<div class="fancybox-controls" style="bottom:0;top:auto;">' +
-                      '<div class="fancybox-infobar" style="width:100%;">' +
-                        '<div class="fancybox-infobar__body" style="background:transparent;">' +
-                          '<span class="js-fancybox-index"></span>&nbsp;/&nbsp;<span class="js-fancybox-count"></span>' +
-                        '</div>' +
-                      '</div>' +
-                    '</div>' +
-                    '<div class="fancybox-controls">' +
-                      '<div class="fancybox-buttons">' +
-                        '<button class="fancybox-button fancybox-button--close" data-fancybox-close="" title="Close (Esc)"></button>' +
-                      '</div>' +
-                    '</div>' +
-                    '<div class="fancybox-slider-wrap">' +
-                      '<div class="fancybox-slider"></div>' +
-                    '</div><button class="fancybox-button fancybox-button--right" data-fancybox-next="" style="top:45%;right:0 !important;z-index:9999999;position:fixed;" title="Next"></button>' +
-                  '</div>',
-        onComplete: function (instance, slide) {
-           $(".fancybox-image").attr("alt", slide.opts.$orig.data('alt'));
-        }
+    $(document).ready(function() {
+      $(".fancybox-placeholder img").attr("title", function(t) {
+          return t.replace(/(['"])/g, "\\$1");
       });
     });
     </script>
 
     <script>
     // Collapse Innovate menu when item is clicked
-    /*$('.nav.nav-gallery .panel .panel-collapse.collapse .panel-body ul li').on('click', function(){
-        $('.btn-navbar').click(); //bootstrap 2.x
-        $('.navbar-toggle').click() //bootstrap 3.x by Richard
-    });*/
     $(document).ready(function() {
       if ($(window).width() < 767) {
         $('.nav.nav-gallery .panel .panel-collapse.collapse .panel-body ul li').on('click', function(){
@@ -187,7 +106,6 @@
         $(e.target)
             .prev('.panel-heading')
             .find('i.indicator')
-            //.toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
             .toggleClass('glyphicon-minus glyphicon-plus');
     }
     $('#accessibility-accordion, #accessibility-accordion2').on('hidden.bs.collapse', toggleChevron);
@@ -196,10 +114,9 @@
     </script>
 
     <script>
-    // tabindex for gallery images
-    // change first child (a) tabindex to 0
+    // tabindex for gallery images - change first child (a) tabindex to 0
     $(document).ready(function() {
-      $(".grid-item a:first-of-type").attr("tabindex", "0");
+      $(".grid").find(".grid-item > a:first-of-type").attr("tabindex", "0").css("display","block");
     });
     </script>
 
@@ -224,18 +141,6 @@
       });
     });
     </script>
-
-    {% if site.offline_cache == true %}
-      <script>
-        if( 'serviceWorker' in navigator ) {
-          navigator.serviceWorker
-           .register( '{{ site.baseurl }}/sw.js' )
-           .catch(function( err ) {
-             console.log( 'ServiceWorker registration failed: ', err );
-           });
-         }
-      </script>
-    {% endif %}
 
   </body>
 </html>

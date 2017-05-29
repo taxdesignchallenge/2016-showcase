@@ -68,7 +68,7 @@
               {% assign datada = main.dataalt %}
               {% assign dataal = main.arialabel %}
 
-                <a tabindex="-1" aria-hidden="true" class="fancybox fancybox-submissions" data-fancybox="{{ project.name }}" href="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] | append: '.png' }}"
+                <a tabindex="-1" aria-hidden="true" title="{{ datada }}" class="fancybox fancybox-submissions" data-fancybox="{{ project.name }}" href="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] | append: '.png' }}"
                 data-caption="<span class='fancybox-caption-title'>
                 Category: {{ project.top_category }} &mdash; 
                 {{ data[2] | strip }}</span><br />
@@ -99,7 +99,7 @@
                     <div class="caption">
                         <p aria-hidden="true" role="presentation">View Design Samples</p>
                     </div>
-                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="" role="presentation" aria-label="{{ project.name }}" />
+                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}"           alt="{{ datada }}" role="presentation" aria-label="{{ project.name }}" />
                 {% if project.winner == 'winner' %}</div>{% endif %}
                 </div>
 

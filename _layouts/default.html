@@ -29,30 +29,24 @@
   </head>
 
   <body>
-<div id="skipcontent">
-  <a href="#main" class="skip sr-only sr-only-focusable">Skip to Main Content</a>
-</div>
+    <div id="skipcontent">
+      <a href="#main" class="skip sr-only sr-only-focusable">Skip to Main Content</a>
+    </div>
 
     <div class="container-fluid">
-      <div class="row">
-
-        <div class="col-md-12">
-          {% include top-header.html %}
-        </div>
-
-      </div>
+      {% include top-header.html %}
 
       {{ content }}
 
       {% include footer.html %}
-
     </div>
+
+
 
     {% include scripts.html %}
 
-
     {% if site.offline_cache == true %}
-      <script>
+      <!--<script>
         if( 'serviceWorker' in navigator ) {
           navigator.serviceWorker
            .register( '{{ site.baseurl }}/sw.js' )
@@ -60,7 +54,7 @@
              console.log( 'ServiceWorker registration failed: ', err );
            });
          }
-      </script>
+      </script>-->
     {% endif %}
 
   </body>

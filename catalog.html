@@ -2,24 +2,23 @@
 layout: catalog
 ---
 
-<div class="wrap wrapmain catalog-wrapper">
+<div class="wrap catalog-wrapper">
 
   <div class="container">
-    <main class="row catalog-header-container" id="main">
+    <section role="contentinfo" class="row catalog-header-container">
       <div class="header-bg"></div>
       <div class="content-container">
-        <h1 class="title">Ideas Catalog</h1>
+        <h1 class="title" tabindex="0">Ideas Catalog</h1>
         <div class="col-lg-7 col-sm-12 col-xs-12 main">
-          <h2>Get Inspired by Past Submissions</h2>
-          <p>One big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. What's your idea?</p>
+          <h2 tabindex="0">Get Inspired by Past Submissions</h2>
+          <p tabindex="0">One big idea can impact every taxpayer in the United States. In 2016, the IRS welcomed submissions from around the country to improve the taxpayer experience. What's your idea?</p>
         </div>
       </div>
-    </main>
+    </section>
   </div>
 
   <div class="container">
-    <div class="row">
-      <!-- Nav Menu -->
+    <section class="row">
       <div class="innovate-menu col-md-3 col-sm-3">
         <nav class="navbar navbar-inverse" id="top-menu">
           <div class="navbar-header">
@@ -33,7 +32,7 @@ layout: catalog
 
                   <div class="panel panel-default">
                     <div class="panel-heading active">
-                      <button aria-controls="collapseAll" aria-expanded="true" data-target="#collapseAll" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="All Submissions">All Submissions</button>
+                      <button aria-controls="collapseAll" aria-expanded="true" data-target="#collapseAll" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="All Submissions" tabindex="0">All Submissions</button>
                     </div>
                     <div class="panel-collapse collapse in" id="collapseAll">
                       <div class="panel-body">
@@ -51,7 +50,7 @@ layout: catalog
 
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <button aria-controls="collapseTwo" aria-expanded="true" data-target="#collapseTwo" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="Display">Display</button>
+                      <button aria-controls="collapseTwo" aria-expanded="true" data-target="#collapseTwo" data-toggle="collapse" tabindex="0" role="tab" aria-label="Display" tabindex="0">Display</button>
                     </div>
                     <div class="panel-collapse collapse" id="collapseTwo">
                       <div class="panel-body">
@@ -69,7 +68,7 @@ layout: catalog
 
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <button aria-controls="collapseThree" aria-expanded="false" data-target="#collapseThree" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="Forms">Forms</button>
+                      <button aria-controls="collapseThree" aria-expanded="false" data-target="#collapseThree" data-toggle="collapse" role="tab" aria-label="Forms" tabindex="0">Forms</button>
                     </div>
                     <div class="panel-collapse collapse" id="collapseThree">
                       <div class="panel-body">
@@ -87,7 +86,7 @@ layout: catalog
 
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <button aria-controls="collapseFour" aria-expanded="false" data-target="#collapseFour" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="Layout">Layout</button>
+                      <button aria-controls="collapseFour" aria-expanded="false" data-target="#collapseFour" data-toggle="collapse" role="tab" aria-label="Layout" tabindex="0">Layout</button>
                     </div>
                     <div class="panel-collapse collapse" id="collapseFour">
                       <div class="panel-body">
@@ -114,7 +113,7 @@ layout: catalog
 
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <button aria-controls="collapseFive" aria-expanded="false" data-target="#collapseFive" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="Page Elements">Page Elements</button>
+                      <button aria-controls="collapseFive" aria-expanded="false" data-target="#collapseFive" data-toggle="collapse" role="tab" aria-label="Page Elements">Page Elements</button>
                     </div>
                     <div class="panel-collapse collapse" id="collapseFive">
                       <div class="panel-body">
@@ -153,7 +152,7 @@ layout: catalog
 
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <button aria-controls="collapseSix" aria-expanded="false" data-target="#collapseSix" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="Security">Security</button>
+                      <button aria-controls="collapseSix" aria-expanded="false" data-target="#collapseSix" data-toggle="collapse" role="tab" aria-label="Security">Security</button>
                     </div>
                     <div class="panel-collapse collapse" id="collapseSix">
                       <div class="panel-body">
@@ -174,7 +173,7 @@ layout: catalog
 
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <button aria-controls="collapseSeven" aria-expanded="false" data-target="#collapseSeven" data-toggle="collapse" role="tab" title="Toggle to expand or collapse for more menu choices" aria-label="Self Help">Self Help</button>
+                      <button aria-controls="collapseSeven" aria-expanded="false" data-target="#collapseSeven" data-toggle="collapse" role="tab" aria-label="Self Help">Self Help</button>
                     </div>
                     <div class="panel-collapse collapse" id="collapseSeven">
                       <div class="panel-body">
@@ -208,11 +207,13 @@ layout: catalog
 
       <div class="container-fluid col-sm-9 col-md-9 col-lg-9">
         <div class="grid">
-          {% include catalog-2016.html %}
+
+            {% include catalog-2016.html %}
+
         </div>
       </div>
 
-    </div>
+    </section>
   </div>
 
 </div>

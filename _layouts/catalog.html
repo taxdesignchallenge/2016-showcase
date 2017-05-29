@@ -116,6 +116,7 @@
     // tabindex for gallery images - change first child (a) tabindex to 0
     $(document).ready(function() {
       $(".grid").find(".grid-item > a:first-of-type").attr("tabindex", "0").css("display","block");
+      $(".grid").find(".grid-item > a:first-of-type").attr("aria-hidden", "false");
     });
     </script>
 

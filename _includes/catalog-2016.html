@@ -25,7 +25,6 @@
                   {% when 'IRS 365' %}<span>2016 Winner &mdash;
                   {% when 'Taxez' %}<span>2016 Winner &mdash;
                   {% when 'MyTaxOnline' %}<span>2016 Winner &mdash;
-
                   {% when 'IRS MyService' %}
                      First Place, Best Overall Design and Taxpayer Usefulness
                   {% when 'IRS 365' %}
@@ -40,14 +39,14 @@
                   {% when 'MyTaxOnline' %}<span></span><br />
                   {% else %}
                 {% endcase %}
-                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png" aria-hidden="true">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-title="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png">
 
-                <div class="thumbnail-wrapper">
+                <div class="thumbnail-wrapper" title="{{ project.name }}" aria-label="{{ project.name }}">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
                     <div class="caption">
-                        <p aria-hidden="true">View Design Samples</p>
+                        <p aria-hidden="true" role="presentation">View Design Samples</p>
                     </div>
-                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" aria-label="{{ thumbarialabel }}" />
+                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="" role="presentation" />
                 {% if project.winner == 'winner' %}</div>{% endif %}
                 </div>
 
@@ -56,17 +55,6 @@
                 <span class="item-desc">{{ project.name }} &mdash; {{ project.category_full }}</span>
             </div>
         {% endif %}
-
-
-
-
-
-
-
-
-
-
-
 
         {% if project.cat_slug == 'submissions_2016' %}
             <div class="grid-sizer"></div>
@@ -90,7 +78,6 @@
                   {% when 'IRS 365' %}<span>2016 Winner &mdash;
                   {% when 'Taxez' %}<span>2016 Winner &mdash;
                   {% when 'MyTaxOnline' %}<span>2016 Winner &mdash;
-
                   {% when 'IRS MyService' %}
                      First Place, Best Overall Design and Taxpayer Usefulness
                   {% when 'IRS 365' %}
@@ -105,14 +92,14 @@
                   {% when 'MyTaxOnline' %}<span></span><br />
                   {% else %}
                 {% endcase %}
-                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] }}.png" aria-hidden="true">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-title="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] }}.png">
 
-                <div class="thumbnail-wrapper">
+                <div class="thumbnail-wrapper" title="{{ project.name }}" aria-label="{{ project.name }}">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
                     <div class="caption">
-                        <p aria-hidden="true">View Design Samples</p>
+                        <p aria-hidden="true" role="presentation">View Design Samples</p>
                     </div>
-                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" aria-label="test" />
+                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="" role="presentation" />
                 {% if project.winner == 'winner' %}</div>{% endif %}
                 </div>
 
@@ -122,24 +109,6 @@
             </div>
         {% endif %}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {% if project.cat_slug == 'winners_2016' %}
             <div class="grid-sizer"></div>
             <div class="grid-item element-item {{ project.cat_slug }} col-lg-3 col-md-4 col-sm-4 col-xs-6" data-category="{{ project.name }}" data-sort="{{ project.name }} - {{ project.category_full }}">
@@ -148,6 +117,9 @@
 
               {% assign main = site.data.catalog-2016[0].project[0].main[0] %}
               {% assign data = main.image|split:"," %}
+
+              {% assign datada = main.dataalt %}
+              {% assign dataal = main.arialabel %}
 
                 <a tabindex="-1" class="fancybox fancybox-winners" data-fancybox="{{ project.name }}" href="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] | append: '.png' }}"
                 data-caption="<span class='fancybox-caption-title'>
@@ -159,7 +131,6 @@
                   {% when 'IRS 365' %}<span>2016 Winner &mdash;
                   {% when 'Taxez' %}<span>2016 Winner &mdash;
                   {% when 'MyTaxOnline' %}<span>2016 Winner &mdash;
-
                   {% when 'IRS MyService' %}
                      First Place, Best Overall Design and Taxpayer Usefulness
                   {% when 'IRS 365' %}
@@ -174,14 +145,14 @@
                   {% when 'MyTaxOnline' %}<span></span><br />
                   {% else %}
                 {% endcase %}
-                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] }}.png" aria-hidden="true">
+                This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-title="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] }}.png">
 
-                <div class="thumbnail-wrapper">
+                <div class="thumbnail-wrapper" title="{{ project.name }}" aria-label="{{ project.name }}">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
                     <div class="caption">
-                        <p aria-hidden="true">View Design Samples</p>
+                        <p aria-hidden="true" role="presentation">View Design Samples</p>
                     </div>
-                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="{{ project.thumb_alt }}" aria-label="test" />
+                    <img class="img-responsive" src="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_thumbs }}/{{ project.thumb_url }}" alt="" role="presentation" />
                 {% if project.winner == 'winner' %}</div>{% endif %}
                 </div>
 
@@ -194,5 +165,3 @@
     {% endfor %}
     
 {% endfor %}
-
-

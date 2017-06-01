@@ -599,7 +599,7 @@ a, a:link, a:visited {
     color: #00599C !important;
 }
 
-.row.border {
+.border {
      border-top: 1px solid #d2d6db;
 }
 
@@ -1035,7 +1035,7 @@ a.btn-ghost.hero-sticky {
 }
 
 .showcase-header-container {
-
+    margin-bottom: 15px;
 }
 
 .showcase-header-container p:first-child {
@@ -1051,8 +1051,14 @@ a.btn-ghost.hero-sticky {
 
 .showcase-header-container a {
     text-decoration: underline;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     display: inline-block;
+}
+
+@media screen and (min-width: 767px) {
+    .showcase-header-container a {
+        margin-bottom: 25px;
+    }
 }
 
 .winners-group-container {
@@ -1066,6 +1072,7 @@ a.btn-ghost.hero-sticky {
     text-transform: uppercase;
 }
 
+.showcase-header-container .attrib,
 .winners-group-container .attrib {
     margin-bottom: 1em;
 }
@@ -1715,11 +1722,10 @@ Footer
 */
 
 footer {
-    padding: 30px 0;
+    padding: 10px 0 30px 0;
 }
 
 .footer .container {
-    padding: 0 0 25px 0;
     text-align: center;
     /*border-top: 1px solid #eee;*/
 }
@@ -1943,8 +1949,9 @@ caption {
 
 .subsection-feature-container {
     text-align: center;
-    height: 290px;
+    height: 300px;
     padding-top: 55px;
+    margin-bottom: 10px;
     width: 100%;
     max-width: 1200px;
     height: 293px;
@@ -1987,10 +1994,4 @@ caption {
     background-color: #00599c !important;
     color: #fff !important;
 }
-
-
-
-
-
-
 

@@ -1035,7 +1035,7 @@ a.btn-ghost.hero-sticky {
 }
 
 .showcase-header-container {
-
+    margin-bottom: 15px;
 }
 
 .showcase-header-container p:first-child {
@@ -1051,8 +1051,14 @@ a.btn-ghost.hero-sticky {
 
 .showcase-header-container a {
     text-decoration: underline;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     display: inline-block;
+}
+
+@media screen and (min-width: 767px) {
+    .showcase-header-container a {
+        margin-bottom: 25px;
+    }
 }
 
 .winners-group-container {
@@ -1066,6 +1072,7 @@ a.btn-ghost.hero-sticky {
     text-transform: uppercase;
 }
 
+.showcase-header-container .attrib,
 .winners-group-container .attrib {
     margin-bottom: 1em;
 }

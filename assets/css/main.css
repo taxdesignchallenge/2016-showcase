@@ -167,40 +167,9 @@ a.title-link:focus {
     border-bottom: none;
 }
 
-a.skip-link {
-    color: #0072ce;
-    border-bottom: none;
-    padding: .25em;
-}
-
-a.skip-link:hover,
-a.skip-link:active,
-a.skip-link:focus {
-    background-color: #0072ce;
-    color: #fff;
-    border-bottom: none;
-}
-
-.skip {
-    position: absolute;
-    top: -1000px;
-    left: -1000px;
-    height: 1px;
-    width: 1px;
-    text-align: left;
-    overflow: hidden;
-}
-
-a.skip:active, 
-a.skip:focus, 
-a.skip:hover {
-    left: 0; 
-    top: 0;
-    width: auto; 
-    height: auto; 
-    overflow: visible; 
-}
-
+.skipnav { text-align: left; }
+.skipnav a { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.skipnav a:focus, .skipnav a:active { position: static; left: 0; width: auto; height: auto; overflow: visible; text-decoration: underline; } 
 
 /*
 Navigation

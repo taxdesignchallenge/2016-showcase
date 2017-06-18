@@ -7,7 +7,6 @@ $(window).load(function(){
 		masonry: {
 			gutter: 0,
 			columnWidth: '.grid-sizer',
-			gutter: 0,
 			percentPosition: true
 		},
 		filter: '.submissions_2016',

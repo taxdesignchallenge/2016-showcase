@@ -841,7 +841,6 @@ a.btn-ghost.hero-sticky {
 .sidebar-container {
     margin-top: 1.5em;
     background: #eeeeee;
-    background: red;
     position: relative;;
 }
 
@@ -1148,9 +1147,16 @@ a.btn-ghost.hero-sticky {
     margin-bottom: 1em;
 }
 
+
 .innovate-menu.row.nav1 #navbarCollapse {
-    height: 215px !important;
+    /*height: 215px !important;*/
+    overflow: hidden;
+    height: auto;
 }
+
+
+
+
 
 .innovate-menu .navbar-inverse .navbar-toggle:hover,
 .innovate-menu .navbar-inverse .navbar-toggle:focus {

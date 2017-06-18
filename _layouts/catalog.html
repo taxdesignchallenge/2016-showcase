@@ -63,15 +63,20 @@
 
     <script>
     // Collapse Innovate menu when item is clicked
-    $(document).ready(function() {
+    //$(document).ready(function() {
       if ($(window).width() < 767) {
         $('.nav.nav-gallery .panel .panel-collapse.collapse .panel-body ul li').on('click', function(){
             $('html, body').animate({
-                scrollTop: $("#main").offset().top
+                scrollTop: $(".grid").offset().top
             }, 400);
         });
       }
-    });
+    //});
+    if ($(window).width() > 767) {
+        $('.iso-btn > a').click(function(e) {
+            e.preventDefault();
+        });
+    }
     </script>
 
     <script>

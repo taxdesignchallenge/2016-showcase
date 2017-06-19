@@ -41,7 +41,7 @@
                 {% endcase %}
                 This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-title="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ project.cat_slug }}/{{ data[0] }}_{{ forloop.index }}.png">
 
-                <div class="thumbnail-wrapper" title="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ dataal }}" aria-label="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ project.name }}">
+                <div class="thumbnail-wrapper" title="{{ project.descrip }}" aria-label="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ project.name }}">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
                     <div class="caption">
                         <p aria-hidden="true" role="presentation">View Design Samples</p>
@@ -94,7 +94,7 @@
                 {% endcase %}
                 This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-title="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] }}.png">
 
-                <div class="thumbnail-wrapper" title="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ dataal }}" aria-label="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ project.name }}">
+                <div class="thumbnail-wrapper" title="{{ project.descrip }}" aria-label="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ project.name }}">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
                     <div class="caption">
                         <p aria-hidden="true" role="presentation">View Design Samples</p>
@@ -147,7 +147,7 @@
                 {% endcase %}
                 This is sample {{ forloop.index }} of {{ forloop.length }} of this submission. <a href='{{ site.baseurl }}/{{ site.pdf_path_2016 }}/{{ project.pdf_link }}'>Download Submission (PDF, {{ project.pdf_size }})<a></span>" data-alt="{{ datada }}" data-title="{{ datada }}" data-thumb="{{ site.baseurl }}/{{ site.ic_assets_path_2016 }}/{{ site.ic_assets_path_main }}/{{ data[1] | strip }}/{{ data[0] }}.png">
 
-                <div class="thumbnail-wrapper" title="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ dataal }}" aria-label="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ project.name }}">
+                <div class="thumbnail-wrapper" title="{{ project.descrip }}" aria-label="{% if project.winner == 'winner' %}2016 Winner{% endif %} {{ project.name }}">
                  {% if project.winner == 'winner' %}<div class="winner-wrapper"><div class="winner"></div>{% endif %}
                     <div class="caption">
                         <p aria-hidden="true" role="presentation">View Design Samples</p>

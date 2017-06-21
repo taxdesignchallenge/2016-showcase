@@ -23,6 +23,7 @@
     thumb_url: IRS_MyService_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService image gallery
+    descrip_alt: IRS MyService design by Andrew Miller
     winner: winner
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
@@ -100,6 +101,7 @@
     thumb_url: IRS_365_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 image gallery
+    descrip_alt: IRS 365 design by Andrea Angquist
     winner: winner
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
@@ -195,6 +197,7 @@
     thumb_url: Taxez_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez image gallery
+    descrip_alt: Taxez design by Vikhika Bansal and Sam Nguyen
     winner: winner
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
@@ -266,6 +269,7 @@
     thumb_url: MyTaxOnline_thumb.png
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline image gallery
+    descrip_alt: MyTaxOnline design by Dante Vono
     winner: winner
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
@@ -319,6 +323,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -368,6 +373,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -417,6 +423,7 @@
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
     descrip: Empowered image gallery
+    descrip_alt: Empowered.gov design
     pdf_size: 1.5 MB
     pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
@@ -463,6 +470,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS efile image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -536,6 +544,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend image gallery
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -612,6 +621,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -700,6 +710,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -764,6 +775,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -891,6 +903,7 @@
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
     descrip: IRS TDC image gallery
+    descrip_alt: IRS Tax Design Challenge design
     pdf_size: 2.1 MB
     pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
@@ -925,6 +938,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -992,6 +1006,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -1113,6 +1128,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -1201,6 +1217,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -1286,6 +1303,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -1404,6 +1422,7 @@
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
     descrip: Tax Return Transcript image gallery
+    descrip_alt: Tax Return Transcript design
     pdf_size: 321 KB
     pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
@@ -1426,6 +1445,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -1466,6 +1486,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -1530,6 +1551,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -1582,6 +1604,7 @@
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
     descrip: Tax Transcripts On Demand image gallery
+    descrip_alt: Tax Transcripts On Demand design
     pdf_size: 431 KB
     pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
@@ -1628,6 +1651,7 @@
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
     descrip: Your Tax Summary image gallery
+    descrip_alt: Your Tax Summary design
     pdf_size: 1.6 MB
     pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
@@ -1664,6 +1688,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -1741,6 +1766,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -1836,6 +1862,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -1907,6 +1934,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline image gallery
     winner: winner
+    descrip_alt: MyTaxOnline design by Dante Vono
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -1964,6 +1992,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: IRiS sample - desktop image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -1996,6 +2025,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: Taxez sample - desktop image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -2019,6 +2049,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: MyTaxOnline sample - desktop image gallery
     winner: winner
+    descrip_alt: MyTaxOnline design
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -2044,6 +2075,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS sample - desktop image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -2063,6 +2095,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - desktop image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -2082,6 +2115,7 @@
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
     descrip: Empowered.gov sample - desktop image gallery
+    descrip_alt: Empowered.gov design
     pdf_size: 1.5 MB
     pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
@@ -2107,6 +2141,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample - desktop image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -2138,6 +2173,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS efile sample - desktop image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -2163,6 +2199,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - desktop image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -2179,6 +2216,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample- desktop image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -2216,6 +2254,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - desktop image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -2238,6 +2277,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - desktop image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -2272,6 +2312,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - desktop image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -2300,6 +2341,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - desktop image gallery
+    descrip_alt: MyIRS design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -2331,6 +2373,7 @@
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
     descrip: Tax Return Transcript sample - desktop image gallery
+    descrip_alt: Tax Return Transcript design
     pdf_size: 321 KB
     pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
@@ -2347,6 +2390,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - desktop image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -2363,6 +2407,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov sample - desktop image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -2385,6 +2430,7 @@
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
     descrip: Your Tax Summary sample - desktop image gallery
+    descrip_alt: Your Tax Summary design
     pdf_size: 1.6 MB
     pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
@@ -2406,6 +2452,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - mobile image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -2423,6 +2470,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - mobile image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -2454,6 +2502,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS sample - mobile image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -2473,6 +2522,7 @@
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
     descrip: Empowered.gov sample - mobile image gallery
+    descrip_alt: Empowered.gov design
     pdf_size: 1.5 MB
     pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
@@ -2489,6 +2539,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend sample - mobile image gallery
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -2523,6 +2574,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - mobile image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -2542,6 +2594,7 @@
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
     descrip: IRS Tax Design Challenge sample - mobile image gallery
+    descrip_alt: IRS Tax Design Challenge design
     pdf_size: 2.1 MB
     pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
@@ -2558,6 +2611,7 @@
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
     descrip: Tax Transcripts On Demand sample - mobile image gallery
+    descrip_alt: Tax Transcripts On Demand design
     pdf_size: 431 KB
     pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
@@ -2580,6 +2634,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - mobile image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -2602,6 +2657,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov sample - mobile image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -2629,6 +2685,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - form fields image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -2645,6 +2702,7 @@
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
     descrip: Empowered.gov sample - form fields image gallery
+    descrip_alt: Empowered.gov design
     pdf_size: 1.5 MB
     pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
@@ -2661,6 +2719,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - form fields image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -2677,6 +2736,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend sample - form fields image gallery
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -2699,6 +2759,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - form fields image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -2721,6 +2782,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - form fields image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -2746,6 +2808,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - form fields image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -2768,6 +2831,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - form fields image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -2787,6 +2851,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - form fields image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -2818,6 +2883,7 @@
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
     descrip: Tax Return Transcript sample - form fields image gallery
+    descrip_alt: Tax Return Transcript design
     pdf_size: 321 KB
     pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
@@ -2834,6 +2900,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - form fields image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -2855,6 +2922,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - IRS forms image gallery
     winner: winner
+    descrip_alt:  IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -2875,6 +2943,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - IRS forms image gallery
     winner: winner
+    descrip_alt:  taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -2891,6 +2960,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - IRS forms image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -2907,6 +2977,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - IRS forms image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -2923,6 +2994,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample - IRS forms image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -2939,6 +3011,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - IRS forms image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -2955,6 +3028,7 @@
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
     descrip: IRS Tax Design Challenge sample - IRS forms image gallery
+    descrip_alt: IRS Tax Design Challenge design
     pdf_size: 2.1 MB
     pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
@@ -2974,6 +3048,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - IRS forms image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -2996,6 +3071,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - IRS forms image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -3015,6 +3091,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - IRS forms image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -3031,6 +3108,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov sample - IRS forms image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -3055,6 +3133,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - cards/snapshots image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -3072,6 +3151,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - cards/snapshots image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -3092,6 +3172,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline sample - cards/snapshots image gallery
     winner: winner
+    descrip_alt: MyTaxOnline design by Dante Vono
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -3108,6 +3189,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend sample - cards/snapshots image gallery
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -3124,6 +3206,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - cards/snapshots image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -3140,6 +3223,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - cards/snapshots image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -3156,6 +3240,7 @@
     thumb_url: Tax_Return_Transcript_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Return Transcript, thumbnail
     descrip: Tax Return Transcript sample - cards/snapshots image gallery
+    descrip_alt: Tax Return Transcript design
     pdf_size: 321 KB
     pdf_link: Tax_Return_Transcript_2016_TDC_PDF.pdf
     main:
@@ -3172,6 +3257,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - cards/snapshots image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -3195,6 +3281,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - footer image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -3211,6 +3298,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - footer image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -3232,6 +3320,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - navigation image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -3258,6 +3347,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - navigation image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -3275,6 +3365,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline sample - navigation image gallery
     winner: winner
+    descrip_alt: MyTaxOnline design by Dante Vono
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -3291,6 +3382,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - navigation image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -3313,6 +3405,7 @@
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
     descrip: Empowered.gov sample - navigation image gallery
+    descrip_alt: Empowered.gov design
     pdf_size: 1.5 MB
     pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
@@ -3329,6 +3422,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - navigation image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -3354,6 +3448,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - navigation image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -3370,6 +3465,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample - navigation image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -3386,6 +3482,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - navigation image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -3405,6 +3502,7 @@
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
     descrip: IRS Tax Design Challenge sample - navigation image gallery
+    descrip_alt: IRS Tax Design Challenge design
     pdf_size: 2.1 MB
     pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
@@ -3421,6 +3519,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - navigation image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -3437,6 +3536,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - navigation image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -3459,6 +3559,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - navigation image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -3478,6 +3579,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - navigation image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -3503,6 +3605,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - navigation image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -3519,6 +3622,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - navigation image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -3535,6 +3639,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - navigation image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -3556,6 +3661,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - profile/dashboard image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -3573,6 +3679,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - profile/dashboard image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -3589,6 +3696,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - profile/dashboard image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -3605,6 +3713,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - profile/dashboard image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -3621,6 +3730,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend sample - profile/dashboard image gallery
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -3643,6 +3753,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - profile/dashboard image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -3663,6 +3774,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - profile/dashboard image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -3679,6 +3791,7 @@
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
     descrip: IRS Tax Design Challenge sample - profile/dashboard image gallery
+    descrip_alt: IRS Tax Design Challenge design
     pdf_size: 2.1 MB
     pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
@@ -3695,6 +3808,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - profile/dashboard image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -3711,6 +3825,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - profile/dashboard image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -3733,6 +3848,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - profile/dashboard image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -3752,6 +3868,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - profile/dashboard image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -3768,6 +3885,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - profile/dashboard image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -3784,6 +3902,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov sample - profile/dashboard image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -3800,6 +3919,7 @@
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
     descrip: Your Tax Summary sample - profile/dashboard image gallery
+    descrip_alt: Your Tax Summary design
     pdf_size: 1.6 MB
     pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
@@ -3821,6 +3941,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - sidebar image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -3838,6 +3959,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - sidebar image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -3855,6 +3977,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline sample - sidebar image gallery
     winner: winner
+    descrip_alt: MyTaxOnline design by Dante Vono
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -3871,6 +3994,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - sidebar image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -3887,6 +4011,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - sidebar image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -3903,6 +4028,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - sidebar image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -3919,6 +4045,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - sidebar image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -3938,6 +4065,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - sidebar image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -3957,6 +4085,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - sidebar image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -3973,6 +4102,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - sidebar image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -3994,6 +4124,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - accordions image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller design
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -4010,6 +4141,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - accordions image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -4026,6 +4158,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample - accordions image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -4045,6 +4178,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - accordions image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -4061,6 +4195,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - accordions image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -4083,6 +4218,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov sample - accordions image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -4102,6 +4238,7 @@
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
     descrip: Your Tax Summary sample - accordions image gallery
+    descrip_alt: Your Tax Summary design
     pdf_size: 1.6 MB
     pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:
@@ -4126,6 +4263,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - calendars/dates image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -4142,6 +4280,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS sample - calendars/dates image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -4158,6 +4297,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - calendars/dates image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -4174,6 +4314,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - calendars/dates image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -4199,6 +4340,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - calendars/dates image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -4218,6 +4360,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - calendars/dates image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -4239,6 +4382,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - diagrams/graphs/tables image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -4256,6 +4400,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - diagrams/graphs/tables image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -4273,6 +4418,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline sample - diagrams/graphs/tables image gallery
     winner: winner
+    descrip_alt: MyTaxOnline by Dante Vono design
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -4289,6 +4435,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS sample - diagrams/graphs/tables image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -4305,6 +4452,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - diagrams/graphs/tables image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -4336,6 +4484,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample - diagrams/graphs/tables image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -4352,6 +4501,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - diagrams/graphs/tables image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -4371,6 +4521,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - diagrams/graphs/tables image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -4396,6 +4547,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - diagrams/graphs/tables image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -4415,6 +4567,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - diagrams/graphs/tables image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -4435,6 +4588,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS sample - hero header image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -4451,6 +4605,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - hero header image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -4470,6 +4625,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS e-file sample - hero header image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -4487,6 +4643,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - hero header image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -4503,6 +4660,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - hero header image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -4519,6 +4677,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - hero header image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -4535,6 +4694,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - hero header image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -4559,6 +4719,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - icons image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -4579,6 +4740,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - icons image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -4595,6 +4757,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS sample - icons image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -4617,6 +4780,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - icons image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -4633,6 +4797,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - icons image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -4658,6 +4823,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - icons image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -4680,6 +4846,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - icons image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -4701,6 +4868,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     winner: winner
     descrip: 2016 Winner, IRS 365 sample - messengers image gallery
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -4723,6 +4891,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - messengers image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -4739,6 +4908,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - messengers image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -4755,6 +4925,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - messengers image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -4771,6 +4942,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - messengers image gallery
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -4792,6 +4964,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - notifications/alerts image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -4812,6 +4985,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - notifications/alerts image gallery
     winner: winner
+    descrip_alt:  IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -4834,6 +5008,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRiS, thumbnail
     descrip: IRiS sample - notifications/alerts image gallery
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -4850,6 +5025,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - notifications/alerts image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -4872,6 +5048,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - notifications/alerts image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -4891,6 +5068,7 @@
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
     descrip: IRS Tax Design Challenge sample - notifications/alerts image gallery
+    descrip_alt: IRS Tax Design Challenge design
     pdf_size: 2.1 MB
     pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
@@ -4907,6 +5085,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - notifications/alerts image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -4923,6 +5102,7 @@
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
     descrip: Tax Transcripts On Demand sample - notifications/alerts image gallery
+    descrip_alt: Tax Transcripts On Demand design
     pdf_size: 431 KB
     pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
@@ -4939,6 +5119,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - notifications/alerts image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -4966,6 +5147,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - pop-ups image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -4986,6 +5168,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - pop-ups image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -5011,6 +5194,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - pop-ups image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -5036,6 +5220,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - pop-ups image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -5055,6 +5240,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - pop-ups image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -5085,6 +5271,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample – progress bars image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -5101,6 +5288,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample – progress bars image gallery
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -5123,6 +5311,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample – progress bars image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -5139,6 +5328,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample – progress bars image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -5166,6 +5356,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - authorizations image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -5182,6 +5373,7 @@
     thumb_url: my_IRS_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, my IRS Account, thumbnail
     descrip: my IRS Account sample - authorizations image gallery
+    descrip_alt: my IRS Account design
     pdf_size: 3 MB
     pdf_link: my_IRS_Account_2016_TDC_PDF.pdf
     main:
@@ -5207,6 +5399,7 @@
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
     descrip: Tax Transcripts On Demand sample - authorizations image gallery
+    descrip_alt: Tax Transcripts On Demand design
     pdf_size: 431 KB
     pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
@@ -5231,6 +5424,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample identity/security image gallery 
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -5247,6 +5441,7 @@
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
     descrip: Empowered.gov sample identity/security image gallery 
+    descrip_alt: Empowered.gov design
     pdf_size: 1.5 MB
     pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
@@ -5266,6 +5461,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample identity/security image gallery 
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -5282,6 +5478,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample identity/security image gallery 
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -5301,6 +5498,7 @@
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
     descrip: Tax Transcripts On Demand sample identity/security image gallery 
+    descrip_alt: Tax Transcripts On Demand design
     pdf_size: 431 KB
     pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
@@ -5320,6 +5518,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample identity/security image gallery 
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -5341,6 +5540,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - sign up/log - image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -5357,6 +5557,7 @@
     thumb_url: Empowered_thumb.png
     thumb_alt: Tax Design Challenge Submission, Empowered.gov, thumbnail
     descrip: Empowered.gov sample - sign up/log - image gallery
+    descrip_alt: Empowered.gov design
     pdf_size: 1.5 MB
     pdf_link: Empowered_2016_TDC_PDF.pdf
     main:
@@ -5376,6 +5577,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - sign up/log - image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -5392,6 +5594,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend sample - sign up/log - image gallery
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -5408,6 +5611,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - sign up/log - image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -5424,6 +5628,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - sign up/log - image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -5443,6 +5648,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - sign up/log - image gallery
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -5462,6 +5668,7 @@
     thumb_url: MyTaxProfile_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyTaxProfile, thumbnail
     descrip: MyTaxProfile sample - sign up/log - image gallery
+    descrip_alt: MyTaxProfile design
     pdf_size: 692 KB
     pdf_link: MyTaxProfile_2016_TDC_PDF.pdf
     main:
@@ -5538,6 +5745,7 @@
     thumb_url: Tax_Transcripts_On_Demand_thumb.png
     thumb_alt: Tax Design Challenge Submission, Tax Transcripts On Demand, thumbnail
     descrip: Tax Transcripts On Demand sample - sign up/log - image gallery
+    descrip_alt: Tax Transcripts On Demand design
     pdf_size: 431 KB
     pdf_link: Tax_Transcripts_On_Demand_2016_TDC_PDF.pdf
     main:
@@ -5560,6 +5768,7 @@
     thumb_url: Taxes_Made_Simple_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes Made Simple, thumbnail
     descrip: Taxes Made Simple sample - sign up/log - image gallery
+    descrip_alt: Taxes Made Simple design
     pdf_size: 1.5 MB
     pdf_link: Taxes_Made_Simple_2016_TDC_PDF.pdf
     main:
@@ -5581,6 +5790,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - calculator image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -5597,6 +5807,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample - calculator image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -5613,6 +5824,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - calculator image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -5640,6 +5852,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - help image gallery 
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -5657,6 +5870,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline sample - help image gallery 
     winner: winner
+    descrip_alt: MyTaxOnline design by Dante Vono
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -5674,6 +5888,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - help image gallery 
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -5693,6 +5908,7 @@
     thumb_url: IRiS_thumb.png
     thumb_alt: alt, ariaplaceholder
     descrip: IRiS sample - help image gallery 
+    descrip_alt: IRiS design
     pdf_size: 1.6 MB
     pdf_link: IRiS_2016_TDC_PDF.pdf
     main:
@@ -5709,6 +5925,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - help image gallery 
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -5725,6 +5942,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - help image gallery 
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -5741,6 +5959,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend sample - help image gallery 
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -5757,6 +5976,7 @@
     thumb_url: IRS_Filr_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Filr, thumbnail
     descrip: IRS Filr sample - help image gallery 
+    descrip_alt: IRS Filr design
     pdf_size: 2.6 MB
     pdf_link: IRS_Filr_2016_TDC_PDF.pdf
     main:
@@ -5776,6 +5996,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - help image gallery 
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -5795,6 +6016,7 @@
     thumb_url: IRS_TDC_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS Tax Design Challenge, thumbnail
     descrip: IRS Tax Design Challenge sample - help image gallery 
+    descrip_alt: IRS Tax Design Challenge design
     pdf_size: 2.1 MB
     pdf_link: IRS_TDC_2016_TDC_PDF.pdf
     main:
@@ -5811,6 +6033,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - help image gallery 
+    descrip_alt: MyIRS.gov design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -5827,6 +6050,7 @@
     thumb_url: Taxes_thumb.png
     thumb_alt: Tax Design Challenge Submission, Taxes.gov, thumbnail
     descrip: Taxes.gov sample - help image gallery 
+    descrip_alt: Taxes.gov design
     pdf_size: 661 KB
     pdf_link: Taxes_2016_TDC_PDF.pdf
     main:
@@ -5848,6 +6072,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS MyService by Andrew Miller, thumbnail
     descrip: 2016 Winner, IRS MyService sample - search image gallery
     winner: winner
+    descrip_alt: IRS MyService design by Andrew Miller
     pdf_size: 2.2 MB
     pdf_link: IRS_MyService_2016_TDC_PDF.pdf
     main:
@@ -5868,6 +6093,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - search image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -5885,6 +6111,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline sample - search image gallery
     winner: winner
+    descrip_alt: MyTaxOnline design by Dante Vono
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -5901,6 +6128,7 @@
     thumb_url: Ask_IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, Ask IRS, thumbnail
     descrip: Ask IRS sample - search image gallery
+    descrip_alt: Ask IRS design
     pdf_size: 2.8 MB
     pdf_link: Ask_IRS_2016_TDC_PDF.pdf
     main:
@@ -5920,6 +6148,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - search image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -5936,6 +6165,7 @@
     thumb_url: MyIRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, MyIRS.gov, thumbnail
     descrip: MyIRS.gov sample - search image gallery
+    descrip_alt: MyIRS design
     pdf_size: 557 KB
     pdf_link: MyIRS_2016_TDC_PDF.pdf
     main:
@@ -5952,6 +6182,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov sample - search image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -5973,6 +6204,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, IRS 365 by Andrea Angquist, thumbnail
     descrip: 2016 Winner, IRS 365 sample - settings image gallery
     winner: winner
+    descrip_alt: IRS 365 design by Andrea Angquist
     pdf_size: 7.7 MB
     pdf_link: IRS_365_2016_TDC_PDF.pdf
     main:
@@ -5990,6 +6222,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - settings image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -6006,6 +6239,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - settings image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -6022,6 +6256,7 @@
     thumb_url: TaxReturn_thumb.png
     thumb_alt: Tax Design Challenge Submission, TaxReturn.gov, thumbnail
     descrip: TaxReturn.gov sample - settings image gallery
+    descrip_alt: TaxReturn.gov design
     pdf_size: 248 KB
     pdf_link: TaxReturn_2016_TDC_PDF.pdf
     main:
@@ -6043,6 +6278,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, taxez by Vikhika Bansal and Sam Nguyen, thumbnail
     descrip: 2016 Winner, Taxez sample - tooltips image gallery
     winner: winner
+    descrip_alt: taxez design by Vikhika Bansal and Sam Nguyen
     pdf_size: 1.7 MB
     pdf_link: Taxez_2016_TDC_PDF.pdf
     main:
@@ -6060,6 +6296,7 @@
     thumb_alt: Tax Design Challenge 2016 Winning Submission, MyTaxOnline by Dante Vono, thumbnail
     descrip: 2016 Winner, MyTaxOnline sample - tooltips image gallery
     winner: winner
+    descrip_alt: MyTaxOnline design by Dante Vono
     pdf_size: 260 KB
     pdf_link: MyTaxOnline_2016_TDC_PDF.pdf
     main:
@@ -6082,6 +6319,7 @@
     thumb_url: IRS_efile_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS e-file, thumbnail
     descrip: IRS e-file sample - tooltips image gallery
+    descrip_alt: IRS efile design
     pdf_size: 604 KB
     pdf_link: IRS_efile_2016_TDC_PDF.pdf
     main:
@@ -6101,6 +6339,7 @@
     thumb_url: IRS_File_Friend_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS File Friend, thumbnail
     descrip: IRS File Friend sample - tooltips image gallery
+    descrip_alt: IRS File Friend design
     pdf_size: 401 KB
     pdf_link: IRS_File_Friend_2016_TDC_PDF.pdf
     main:
@@ -6129,6 +6368,7 @@
     thumb_url: IRS_My_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS My Account, thumbnail
     descrip: IRS My Account sample - tooltips image gallery
+    descrip_alt: IRS My Account design
     pdf_size: 2.1 MB
     pdf_link: IRS_My_Account_2016_TDC_PDF.pdf
     main:
@@ -6154,6 +6394,7 @@
     thumb_url: IRS_thumb.png
     thumb_alt: Tax Design Challenge Submission, IRS.gov, thumbnail
     descrip: IRS.gov sample - tooltips image gallery
+    descrip_alt: IRS.gov design
     pdf_size: 825 KB
     pdf_link: IRS_2016_TDC_PDF.pdf
     main:
@@ -6179,6 +6420,7 @@
     thumb_url: My_Federal_Tax_Account_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Federal Tax Account, thumbnail
     descrip: My Federal Tax Account sample - tooltips image gallery
+    descrip_alt: My Federal Tax Account design
     pdf_size: 1.9 MB
     pdf_link: My_Federal_Tax_Account_2016_TDC_PDF.pdf
     main:
@@ -6198,6 +6440,7 @@
     thumb_url: My_Tax_Data_thumb.png
     thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
     descrip: My Tax Data sample - tooltips image gallery
+    descrip_alt: My Tax Data design
     pdf_size: 1.4 MB
     pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
     main:
@@ -6220,6 +6463,7 @@
     thumb_url: Your_Tax_Summary_thumb.png
     thumb_alt: Tax Design Challenge Submission, Your Tax Summary, thumbnail
     descrip: Your Tax Summary sample - tooltips image gallery
+    descrip_alt: Your Tax Summary design
     pdf_size: 1.6 MB
     pdf_link: Your_Tax_Summary_2016_TDC_PDF.pdf
     main:

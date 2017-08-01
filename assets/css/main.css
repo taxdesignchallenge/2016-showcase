@@ -1327,8 +1327,15 @@ a.btn-ghost.hero-sticky {
     display: block;
 }
 
+.fancybox-caption-wrap .fancybox-caption {
+    position: relative;
+    z-index: 999999 !important;
+}
+
 .fancybox-caption-wrap .fancybox-caption a {
     color: #fff !important;
+    position: relative;
+    z-index: 999999 !important;
 }
 
 .fancybox-enabled .fancybox-button::before,

@@ -1121,95 +1121,6 @@
 
 - project:
   -
-    name: My Tax Data
-    top_category: All Submissions
-    category_full: 2016 Submissions
-    cat_slug: submissions_2016
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_display_desktop_1, desktop, Desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account homepage featuring some display selections and a summary of tax information.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop_2, desktop, Desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page featuring the selection and display of personal information.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop_3, desktop, Desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page featuring the selection and display of options for income information.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop_4, desktop, Desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page showing the selection and display of options for income information and an example of further selections nested therein.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop_5, desktop, Desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page showing the selection and display of options for deductions.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_navigation_1, navigation, Navigation
-        dataalt: A Tax Design Challenge design submission's use of navigation. This site has side navigation and a top navigation field to the user's profile. The side navigation includes Home, Budget & Plan, Your Information, Income, Deductions, Payments & Credits, and Taxes.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_navigation_2, navigation, Navigation
-        dataalt: A Tax Design Challenge design submission's use of navigation. This site has side navigation and a drop down for tax year. The side navigation choice Income is selected and a sub navigation appears where Investment Income is selected.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_profile_dashboard_1, profile_dashboard, Profile/Dashboard
-        dataalt: A Tax Design Challenge design submission's use of a dashboard. The dashboard welcomes back the user and displays the newest information available to them. In this case, tax data for 2015 is shown.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_profile_dashboard_2, profile_dashboard, Profile/Dashboard
-        dataalt: A Tax Design Challenge design submission's use of a profile. Entitled "Your Information," the profile is organizes by tax year and includes all relevant information&#58; names, SSN, spouse SSN, address, filing status, exemptions, and dependent name and SSN.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_sidebar_1, sidebar, Sidebar
-        dataalt: A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. It has links to Home, Budget & Plan, Your Information, Income, Deductions, Payments & Credits, and Taxes.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_sidebar_2, sidebar, Sidebar
-        dataalt: A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. Income is currently selected revealing a sub navigation to different types of income.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_accordions_1, accordions, Accordions
-        dataalt: A Tax Design Challenge design submission's use of an accordion. Investment Income is expanded to show the line items&#58; interest, dividends, and capital gains. The accordion can be collapsed by clicking the minus symbol on the top right.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_accordions_2, accordions, Accordions
-        dataalt: A Tax Design Challenge design submission's use of an accordion. The deductions page for calendar year 2015 is showing. Standard Deduction is expanded to show the line item&#58; Married Filing Jointly. The accordion can be collapsed by clicking the minus symbol on the top right.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_accordions_3, accordions, Accordions
-        dataalt: A Tax Design Challenge design submission's use of an accordion. The deductions page for calendar year 2015 is showing. Standard Deduction is expanded to show the line item&#58; Married Filing Jointly. Exemptions is also expanded showing a line item of $12,000.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_diagrams_1, diagrams, Diagrams
-        dataalt: A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table details a summary of 2015 tax data. By row, dollar amounts are shown for gross income, deductions, total tax, payments and credits, tax due, and refund.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_diagrams_2, diagrams, Diagrams
-        dataalt: A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table details investment income. It shows interest, dividends, and capital gains by row.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_hero_header_1, hero_header, Hero Header
-        dataalt: A Tax Design Challenge design submission's use of a hero header. This header includes three images of current users and a quote from each. Additional text gives a quick summary of the My Tax Data online tool.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_security_sign_up_1, sign_up_log_in, Sign Up/Log In
-        dataalt: A Tax Design Challenge design submission's sign up or log in. A button to sign in is located on the top right of the page. To sign in a user must provide their username or email address and password.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_security_sign_up_2, sign_up_log_in, Sign Up/Log In
-        dataalt: A Tax Design Challenge design submission's sign up or log in. A user is in the process of signing in. Their email and hidden password are filled in.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_calculator_1, calculator, Calculator
-        dataalt: A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the user chooses what they want to do. In this case "borrow" is selected.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_calculator_2, calculator, Calculator
-        dataalt: A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the user has filled out form fields to borrow money for a house such as total cost, down payment, and length of loan.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_calculator_3, calculator, Calculator
-        dataalt: A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the calculator estimates the user could pay $754 per month at a 4.5% interest.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_tooltips_1, tooltips, Tooltips
-        dataalt: A Tax Design Challenge design submission's use of tooltips. A question mark icon for more information appears next to Investment Income for the 2015 tax year. 
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_tooltips_2, tooltips, Tooltips
-        dataalt: A Tax Design Challenge design submission's use of tooltips. A question mark icon for more information appears next to Married Filing Jointly for the 2015 tax year.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_tooltips_3, tooltips, Tooltips
-        dataalt: A Tax Design Challenge design submission's use of tooltips. A question mark icon is selected next to Married Filing Jointly for the 2015 tax year. A dropdown appears explaining the standard deduction associated with this filing status.
-        arialabel: ariaplaceholder
-
-- project:
-  -
     name: MyIRS
     top_category: All Submissions
     category_full: 2016 Submissions
@@ -2301,35 +2212,6 @@
         arialabel: ariaplaceholder
       - image: my_IRS_Account_display_desktop
         dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a dashboard of information with links to tools and services within a taxpayers account.
-        arialabel: ariaplaceholder
-
-- project:
-  -
-    name: My Tax Data
-    top_category: Display
-    category_full: Desktop
-    cat_slug: desktop
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - desktop image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_display_desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account homepage featuring some display selections and a summary of tax information.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page featuring the selection and display of personal information.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page featuring the selection and display of options for income information.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page showing the selection and display of options for income information and an example of further selections nested therein.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_display_desktop
-        dataalt: A Tax Design Challenge design submission's use of a snapshot of a desktop featuring a taxpayer's account page showing the selection and display of options for deductions.
         arialabel: ariaplaceholder
 
 - project:
@@ -3552,26 +3434,6 @@
 
 - project:
   -
-    name: My Tax Data
-    top_category: Layout
-    category_full: Navigation
-    cat_slug: navigation
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - navigation image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_layout_navigation
-        dataalt: A Tax Design Challenge design submission's use of navigation. This site has side navigation and a top navigation field to the user's profile. The side navigation includes Home, Budget & Plan, Your Information, Income, Deductions, Payments & Credits, and Taxes.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_navigation
-        dataalt: A Tax Design Challenge design submission's use of navigation. This site has side navigation and a drop down for tax year. The side navigation choice Income is selected and a sub navigation appears where Investment Income is selected.
-        arialabel: ariaplaceholder
-
-- project:
-  -
     name: MyIRS
     top_category: Layout
     category_full: Navigation
@@ -3841,26 +3703,6 @@
 
 - project:
   -
-    name: My Tax Data
-    top_category: Layout
-    category_full: Profile/Dashboard
-    cat_slug: profile_dashboard
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - profile/dashboard image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_layout_profile_dashboard
-        dataalt: A Tax Design Challenge design submission's use of a dashboard. The dashboard welcomes back the user and displays the newest information available to them. In this case, tax data for 2015 is shown.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_profile_dashboard
-        dataalt: A Tax Design Challenge design submission's use of a profile. Entitled "Your Information," the profile is organizes by tax year and includes all relevant information&#58; names, SSN, spouse SSN, address, filing status, exemptions, and dependent name and SSN.
-        arialabel: ariaplaceholder
-
-- project:
-  -
     name: MyTaxProfile
     top_category: Layout
     category_full: Profile/Dashboard
@@ -4058,26 +3900,6 @@
 
 - project:
   -
-    name: My Tax Data
-    top_category: Layout
-    category_full: Sidebar
-    cat_slug: sidebar
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - sidebar image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_layout_sidebar
-        dataalt: A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. It has links to Home, Budget & Plan, Your Information, Income, Deductions, Payments & Credits, and Taxes.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_layout_sidebar
-        dataalt: A Tax Design Challenge design submission's use of a sidebar. This sidebar is also the site's navigation. Income is currently selected revealing a sub navigation to different types of income.
-        arialabel: ariaplaceholder
-
-- project:
-  -
     name: MyTaxProfile
     top_category: Layout
     category_full: Sidebar
@@ -4184,29 +4006,6 @@
     main:
       - image: my_IRS_Account_page_elements_accordions
         dataalt: A Tax Design Challenge design submission's use of an accordion. Each tax year expands to show all account actions such as relevant dates, payments, credits and withholding to the user.
-        arialabel: ariaplaceholder
-
-- project:
-  -
-    name: My Tax Data
-    top_category: Page Elements
-    category_full: Accordions
-    cat_slug: accordions
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - accordions image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_page_elements_accordions
-        dataalt: A Tax Design Challenge design submission's use of an accordion. Investment Income is expanded to show the line items&#58; interest, dividends, and capital gains. The accordion can be collapsed by clicking the minus symbol on the top right.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_accordions
-        dataalt: A Tax Design Challenge design submission's use of an accordion. The deductions page for calendar year 2015 is showing. Standard Deduction is expanded to show the line item&#58; Married Filing Jointly. The accordion can be collapsed by clicking the minus symbol on the top right.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_accordions
-        dataalt: A Tax Design Challenge design submission's use of an accordion. The deductions page for calendar year 2015 is showing. Standard Deduction is expanded to show the line item&#58; Married Filing Jointly. Exemptions is also expanded showing a line item of $12,000.
         arialabel: ariaplaceholder
 
 - project:
@@ -4540,26 +4339,6 @@
 
 - project:
   -
-    name: My Tax Data
-    top_category: Page Elements
-    category_full: Diagrams/Charts/Elements
-    cat_slug: diagrams
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - diagrams/graphs/tables image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_page_elements_diagrams
-        dataalt: A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table details a summary of 2015 tax data. By row, dollar amounts are shown for gross income, deductions, total tax, payments and credits, tax due, and refund.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_page_elements_diagrams
-        dataalt: A Tax Design Challenge design submission's use of diagrams, graphs, and tables. A table details investment income. It shows interest, dividends, and capital gains by row.
-        arialabel: ariaplaceholder
-
-- project:
-  -
     name: Taxes
     top_category: Page Elements
     category_full: Diagrams/Charts/Elements
@@ -4631,24 +4410,6 @@
     main:
       - image: IRS_efile_page_elements_hero_header, A Tax Design Challenge design submission's use of a hero header. A smiling family with a son, mother, and father has a white background. The IRS logo and IRS e-file hovers to the left of their faces.
         dataalt: 
-        arialabel: ariaplaceholder
-      
-
-- project:
-  -
-    name: My Tax Data
-    top_category: Page Elements
-    category_full: Hero Header
-    cat_slug: hero_header
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - hero header image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_page_elements_hero_header
-        dataalt: A Tax Design Challenge design submission's use of a hero header. This header includes three images of current users and a quote from each. Additional text gives a quick summary of the My Tax Data online tool.
         arialabel: ariaplaceholder
 
 - project:
@@ -5621,26 +5382,6 @@
 
 - project:
   -
-    name: My Tax Data
-    top_category: Security
-    category_full: Sign Up/Log In
-    cat_slug: sign_up_log_in
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - sign up/log - image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_security_sign_up
-        dataalt: A Tax Design Challenge design submission's sign up or log in. A button to sign in is located on the top right of the page. To sign in a user must provide their username or email address and password.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_security_sign_up
-        dataalt: A Tax Design Challenge design submission's sign up or log in. A user is in the process of signing in. Their email and hidden password are filled in.
-        arialabel: ariaplaceholder
-
-- project:
-  -
     name: MyIRS
     top_category: Security
     category_full: Sign Up/Log In
@@ -5813,29 +5554,6 @@
     main:
       - image: IRS_self_help_calculator
         dataalt: A Tax Design Challenge design submission's use of a calculator to help users understand how taxes are calculated. This calculator shows the breakdown of adjusted gross income, taxable income, and remaining balance.
-        arialabel: ariaplaceholder
-
-- project:
-  -
-    name: My Tax Data
-    top_category: Self-Help
-    category_full: Calculator
-    cat_slug: calculator
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - calculator image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_self_help_calculator
-        dataalt: A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the user chooses what they want to do. In this case "borrow" is selected.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_calculator
-        dataalt: A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the user has filled out form fields to borrow money for a house such as total cost, down payment, and length of loan.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_calculator
-        dataalt: A Tax Design Challenge design submission's use of a calculator to help a user budget and plan for financial goals. On this screen, the calculator estimates the user could pay $754 per month at a 4.5% interest.
         arialabel: ariaplaceholder
 
 # =================================================================== #
@@ -6429,29 +6147,6 @@
         arialabel: ariaplaceholder
       - image: My_Federal_Tax_Account_self_help_tooltips
         dataalt: A Tax Design Challenge design submission's use of tooltips. The site provides a helpful graph of tips based on tax year and residency status to help a user determine if they have a filing obligation for a specific state.
-        arialabel: ariaplaceholder
-
-- project:
-  -
-    name: My Tax Data
-    top_category: Self-Help
-    category_full: Tooltips
-    cat_slug: tooltips
-    thumb_url: My_Tax_Data_thumb.png
-    thumb_alt: Tax Design Challenge Submission, My Tax Data, thumbnail
-    descrip: My Tax Data sample - tooltips image gallery
-    descrip_alt: My Tax Data design
-    pdf_size: 1.4 MB
-    pdf_link: My_Tax_Data_2016_TDC_PDF.pdf
-    main:
-      - image: My_Tax_Data_self_help_tooltips
-        dataalt: A Tax Design Challenge design submission's use of tooltips. A question mark icon for more information appears next to Investment Income for the 2015 tax year. 
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_tooltips
-        dataalt: A Tax Design Challenge design submission's use of tooltips. A question mark icon for more information appears next to Married Filing Jointly for the 2015 tax year.
-        arialabel: ariaplaceholder
-      - image: My_Tax_Data_self_help_tooltips
-        dataalt: A Tax Design Challenge design submission's use of tooltips. A question mark icon is selected next to Married Filing Jointly for the 2015 tax year. A dropdown appears explaining the standard deduction associated with this filing status.
         arialabel: ariaplaceholder
 
 - project:
